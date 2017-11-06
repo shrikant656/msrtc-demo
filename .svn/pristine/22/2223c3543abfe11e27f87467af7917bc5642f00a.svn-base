@@ -1,0 +1,221 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>MSRTC</title>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/sb.css" rel="stylesheet" />
+<link href="css/rs_styles.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+  
+  
+    <!--header section-->
+    
+<div class="container-fluid" id="headerblk">
+  <header class="row header">
+    <div class="logo_header hidden-xs hidden-sm">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                    <a href="index.html" class="logo"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                   <img src="images/emblem.png" class="img-responsive emblem hidden-xs hidden-sm" alt="Emblem" title="Emblem" />
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="menu_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hidden-xs hidden-sm" id="main_nav">              
+                      <nav>
+                          <a href="dashboard.html" title="Home" class="home_icon"> <img src="images/home_btn.png" class="img-responsive" alt="Home" title="Home"></a>
+                        <ul class="nav navbar-nav">
+                          <li><a href="user-profile.html" title="Personal Info">Personal Info</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard.html" title="Leave Mgmt">Leave Mgmt</a></li>
+                          <li><a href="javascript:;" title="Investors Zone">TADA Mgmt</a></li>                                       
+                                         
+                        </ul>
+                          <div class="dropdown">
+                          <a href="login.html" class="login_btn" title="Login" data-toggle="dropdown">Welcome [FirstName] <i class="fa fa-user" aria-hidden="true"></i> <span class="caret"></span></a>
+                          <ul class="dropdown-menu" style="display:none;">
+                            <li><a href="#" title="Profile">Profile</a></li>
+                            <li><a href="index.html" title="Logout">Logout</a></li>
+                          </ul>
+                          </div>
+                      </nav>
+                    </div>
+
+                      <div class="pull-right visible-xs visible-sm" id="main_nav">
+                          <a href="index.html" class="mob_log"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                        <a href="#menu" class="mob_menu"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+                      <nav id="menu">
+                        <ul>
+                          <li><a href="user-profile.html" title="Personal Info">Personal Info</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard" title="Leave Mgmt">Leave Mgmt</a></li>
+                          <li><a href="javascript:;" title="Investors Zone">TADA Mgmt</a></li>                                       
+                          <li><a href="login.html" class="login_btn" title="Login">Login</a></li>               
+                        </ul>
+                      </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+</div>  
+  
+  <div class="container">
+      <div class="payslip">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="main_head">User Profile</h3>
+        <form class="form-horizontal">
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Basic Details</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee name :</label>
+                <div class="col-sm-8 form-control-static">
+                  Anil Sanap
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Date of Birth :</label>
+                <div class="col-sm-8 form-control-static">
+                  02-March-1969
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Marital Status :</label>
+                <div class="col-sm-8 form-control-static">
+                  Married
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Mobile Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  +91 98876 54432
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Blood Group :</label>
+                <div class="col-sm-8 form-control-static">
+                  A +ve
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">PAN Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  ASPBE13774
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Aadhar Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  3042 4091 6607
+                </div>
+              </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="payslip-card" style="height:424px;">
+              <h4 class="sub_heads">Address</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Current Address :</label>
+                <div class="col-sm-8 form-control-static">
+                  Room number 307,<br />Atmaram Niwas,<br />Maljipada lane,<br />Marol-Dondoshi Road, Andheri,<br />Mumbai, Maharashtra
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Main Address :</label>
+                <div class="col-sm-8 form-control-static">
+                  2/409, Sneh Sadan,<br />Gokhivare-Shirsad Phata,<br />Dhondoji Path, Satara,<br />Maharashtra
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Professional Details</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee ID :</label>
+                <div class="col-sm-8 form-control-static">
+                  MS1006871
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Location :</label>
+                <div class="col-sm-8 form-control-static">
+                  Marol Aagar
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">License Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  MH04 19920467981
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">License expiry date :</label>
+                <div class="col-sm-8 form-control-static">
+                  15-July-2022
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Emergency Contacts</h4>
+              <table class="table table-bordered table-condensed">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Relationship</th>
+                  <th>Contact Number</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Suman Sanap</td>
+                  <td>Spouse</td>
+                  <td>+91 88914 00724</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+        <!--start of footer-->
+<div class="container-fluid">
+  <div class="row site_footer">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <span>Content owned by Maharashtra State Road Transport Corporation</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

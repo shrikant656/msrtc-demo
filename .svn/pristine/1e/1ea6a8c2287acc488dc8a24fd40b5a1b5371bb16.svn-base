@@ -1,0 +1,179 @@
+/* Code added by Shreyas B */
+html, body { font-family: "Roboto",sans-serif; }
+.menuWrap{ position:fixed; height:100%; width:34px !important; overflow:hidden; z-index:10; opacity:0.92; }
+.menuWrap.collapsed { opacity:1.0; }
+
+.bg_left_menu {
+    background-color: #b71c1c !important;
+    color: #ffffff;
+    height: 100%;
+    width: 34px;
+    padding:0 !important;
+}
+.bg_left_menu > .row { margin:0; }
+
+.left_nav li {
+    border-bottom: 1px solid #cf3232;
+    border-top: 1px solid #ad1d1d;
+    position: relative;
+}
+
+.left_nav li a {
+    color: #ffffff;
+    display: block;
+    padding: 9px 0;
+    text-align:center;
+    text-decoration: none;
+    background-color:transparent;
+    background-position: center 9px;
+}
+
+.left_nav li a .menuItem {
+    padding-left:0;
+    display:inline-block;
+    text-indent:-9999px;
+}
+
+.left_nav li.active {
+    background-color: transparent;
+}
+
+.ca_padd {
+  padding-left:0px;
+  padding-top:0px;
+  padding-bottom:10px;
+}
+
+.dashboard-title {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #b4b4b4;
+    padding:6px 15px 6px 15px !important;
+    box-shadow: 0 3px 4px #d5d5d5;
+    margin-bottom: 15px;
+}
+
+
+.grid_title_sml {
+    border-bottom: 1px solid #e6e7e8;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 23px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.grid_desc {
+    font-size: 13px !important; font-weight: normal !important;
+    padding-left: 80px;
+}
+
+.descCont {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 0 solid #38b7ed;
+    clear: both;
+    display: block;
+    margin: 0;
+    min-height: 110px;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.full_grid_col .col-sm-3 {
+    padding: 0 5px 0 4px;
+    border-right:0;
+}
+
+.demo ul.actions a, .feed_list li a {
+    color: #337ab7;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.demo ul.actions a:hover, .feed_list li a:hover { color:#23527c; text-decoration:none; }
+.demo ul.actions a .fa, .demo ul.actions a:hover .fa { color:#183883 !important; }
+
+.card_blk_admin .capitalize.bld, .card_blk .capitalize.bld, .sect_title {
+    border-bottom: 1px solid #e6e9ee;
+    color: #183883;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 35px;
+    margin: 0 0 10px;
+    padding: 0;
+    display:block;
+}
+
+.feed_link, .feed_link:hover, .sect_link, .sect_link:hover {
+    float: right;
+    font-weight: normal;
+    line-height: 20px;
+    padding-right: 3px;
+    padding-top: 0px;
+    text-decoration:none;
+}
+
+.table > thead > tr > th {
+    background: #fff !important;
+    border-bottom-width: 2px;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+.table-bordered > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+.ht_340 {
+    height:390px !important; 
+}
+.grid_col .col-sm-12 .table {
+    margin: 0 0 15px !important;
+}
+
+.word_ico, .xls_ico, .pdf_ico {
+  display:inline-block; width:16px; height:16px; margin:0 3px; padding:0;
+}
+.word_ico { background:url('../images/word-ico.png') no-repeat 0 0; }
+.xls_ico { background:url('../images/cvs-ico.png') no-repeat 0 0; }
+.pdf_ico { background:url('../images/pdf-ico.png') no-repeat 0 0; }
+
+.word_ico .fa, .xls_ico .fa, .pdf_ico .fa { display:none; }
+
+.footer { border:0 none; box-shadow:0 0 0 0 transparent; bottom:0; position:fixed; }
+
+.graph2 { margin:0; }
+.image, .imgslider, .map_img { height:660px; }
+.ht_175 { height:173px; }
+
+.op_ex {
+    background:url("../images/OE.png") no-repeat 0 0;
+    height: 640px;
+    position: relative;
+    width: 640px;
+    margin:0 auto;
+}
+.fin_per {
+    border: 0 solid #000;
+    height: 145px;
+    left: 234px;
+    position: absolute;
+    top: 26px;
+    transform: rotate(-17deg);
+    width: 45px;
+}
+
+.grid_ico {
+    float: left;
+    margin: 0 auto;
+    padding:0 10px 0 0;
+    width: auto;
+    height:80px;
+}
+.panel_wrap {
+    padding: 0 0 0 90px;
+}
+
+.view_more_btn{ float: right;margin: 5px 0;display: block;padding: 5px 10px;text-decoration: none !important;}
+.ht_120{height:120px;}
+.op_exl{border: 0 solid #000;height: 157px;left: 476px;position: absolute;top: 90px;transform: rotate(45deg);width: 44px;}
+.view_more_btn i{font-size:14px !important;}

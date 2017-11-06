@@ -1,0 +1,140 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+            <div class="row multistep">
+                <div class="col-xs-4 multistep-step complete">                    
+                    <div class="progress"><div class="progress-bar"></div></div>                    
+                    <a href="#" class="multistep-dot"></a>
+                    <div class="text-center multistep-stepname">General Information</div>
+                </div>
+
+                <div class="col-xs-4 multistep-step current">                    
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="multistep-dot"></a>
+                    <div class="text-center multistep-stepname">Cash and Other Expenses</div>
+                </div>
+
+                <div class="col-xs-4 multistep-step next">                    
+                    <div class="progress"><div class="progress-bar"></div></div>
+                    <a href="#" class="multistep-dot"></a>
+                    <div class="text-center multistep-stepname">Review</div>
+                </div>
+            </div>
+      </div>
+    </div>
+    <div class="payslip-card">
+      <div class="row_wrap gap">
+        <h5 class="sub_heads">Cash and Other Expenses: Details for Line 1
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                <a href="javascript:;" target="_blank" title="Itemize" class="applybtn">Itemize</a>
+                <a href="javascript:;" title="Duplicate" class="applybtn">Duplicate</a>
+                <a href="javascript:;" title="New" class="applybtn">New</a>
+                <a href="javascript:;" title="Remove" class="applybtn">Remove</a>
+                <a ui-sref="create-expense-report-cash-other-expenses" title="Return" class="applybtn">Return</a>
+            </form>
+        </h5>
+        <p>* indicates required field</p>
+        <form class="form-horizontal clearfix">
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Expense type</label>
+              <div class="col-sm-8">
+                <select class="form-control input-sm">
+                  <option value="">-- Select --</option>
+                  <option value="Accommodation" selected="selected">Accommodation</option>
+                  <option value="Air Fare (Old)">Air Fare (Old)</option>
+                  <option value="Air Fare (Active)">Air Fare (Active)</option>
+                  <option value="Car Hire 1">Car Hire 1</option>
+                  <option value="Composite DA">Composite DA</option>
+                  <option value="Lodging (Active)">Lodging (Active)</option>
+                  <option value="Rail (Active)">Rail (Active)</option>
+                  <option value="Road (Active)">Road (Active)</option>
+                  <option value="Ship Travel">Ship Travel</option>
+                  <option value="Tran Conv-One Car/Motorcycle/Scooter">Tran Conv-One Car/Motorcycle/Scooter</option>
+                  <option value="Vehicle Reimbursement">Vehicle Reimbursement</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Start Date</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm datepickers" value="24/10/2017" /><br />
+                (example: 24/10/2017)
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Daily Rate</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm" value="1000.00" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Number of Days</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm" value="1" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Receipt Amount</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm" value="1000.00" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Receipt Currency</label>
+              <div class="col-sm-8">
+                <select class="form-control input-sm">
+                  <option value="INR">INR - Indian Rupee</option>
+                  <option value="GBP">GBP - Great Britian Pound</option>
+                  <option value="USD">USD - US Dollar</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Exchange Rate</label>
+              <div class="col-sm-8">
+                <p class="form-control-static">1</p>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Reimbursable Amount</label>
+              <div class="col-sm-8">
+                <p class="form-control-static">1000.00 INR</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Justification</label>
+              <div class="col-sm-8">
+                <textarea class="form-control input-sm" rows="5" cols="50">Hotel Stay</textarea>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Expense Location</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm" value="" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4 control-label">Merchant Name</label>
+              <div class="col-sm-8">
+                <input type="text" class="form-control input-sm" value="" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-sm-4">&nbsp;</label>
+              <div class="col-sm-8 checkbox">
+                <label>
+                  <input type="checkbox" name="as" class="checkbox1" /> Original Receipt Missing
+                </label><br /><br />
+                <a href="javascript:;" class="btn btn-primary btn-sm">Add</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

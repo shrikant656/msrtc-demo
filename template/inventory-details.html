@@ -1,0 +1,136 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+
+      <div class="payslip-card">
+      <div class="row_wrap">                            
+          <h5 class="sub_heads">Inventory Details</h5>
+          <div class="row">
+                                  <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Request Id</th>
+                                            <th>Requested By</th>
+                                            <th>Requested On</th>
+                                            <th>Vehicle Commisioning</th>
+                                            <th>Depot Name</th>                                                                                        
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr ui-sref="inventory-details" style="cursor:pointer">
+                                            <td>1234466</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+          </div>
+          <h5 class="sub_heads mg-tp">Item Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Part Number</th>
+                                          <th>Description</th>
+                                          <th>Unit Cost</th>
+                                          <th>Unit of Measures</th>
+                                          <th>Quantity</th>
+                                          <th>Reorder Level</th>
+                                          <th>Quantity Inhand</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>110-1235</td>
+                                          <td>Clutch Bearing</td>
+                                          <td>1.5</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>6</td>
+                                          <td>60</td>
+                                          <td>15.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>109-1241</td>
+                                          <td>Ignition Coils</td>
+                                          <td>10</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>40</td>
+                                          <td>200</td>
+                                          <td>1000.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row_wrap">
+                                <h5 class="sub_heads mg-tp">Request Approved By Divisional Head on 19th October</h5>
+                                    <div class="row">
+                                        <form class="form-horizontal">
+                                            <div class="col-sm-12">                
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Status </label>
+                                                    <div class="col-sm-3">
+                                                      <select name="absenceTyp" id="absenceTyp" readonly class="form-control input-sm">
+                                                                <option value="">Approved</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                        <div class="col-md-4 col-xs-7 gap"> 
+                                            <textarea class="form-control" rows="5" readonly id="comment">Approved</textarea>
+                                        </div>                                
+                                    </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Vendor Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">EveryRoad GPS</option>
+                                                    <option value="">FlexotroMSRTCs</option>
+                                                    <option value="">Sage Packaging</option>
+                                                    <option value="">DIGIKEY</option>
+                                                    <option value="">Qualcomm</option>
+                                                    <option value="">Zip Link</option>
+                                                    <option value="">Edge ElectroMSRTCs</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Email</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Phone</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Address</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <input type="text" class="form-control input-sm" value="" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a ng-click="ivmsreqSubmit()" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

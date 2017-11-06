@@ -1,0 +1,305 @@
+<div>
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Create Absence: Enter Absence Details 
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Cancel" class="applybtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Save" class="applybtn" > Save For Later</a>
+                            <a ui-sref="leave-review" title="Next" class="applybtn" > Next</a>
+            </form>
+        </h5>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Employee Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Sangare, Rohit</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Employee Number</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>LC002</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Organization Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>MSRTC</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Grade</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>W5</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Designation</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Deputy Accountant</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Department</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Finance</strong></div>
+        </div>
+      </div>
+    </div>
+      <!--start of form-->
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Leave Summary</h5>
+        <div class="row">
+          <div class="col-md-12 gap">
+            <p><strong>*Indicates required field</strong></p>
+            <p><i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>TIP</strong> Earned Leave more than 10 days should be applied 30 Days in Advance.</p>
+          </div>
+        </div>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+             <div class="form-group">
+                <label class="col-sm-4 control-label">* Absence Status  </label>
+                <label class="col-sm-4 control-label"><strong>Confirmed</strong>  </label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Absence Type </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Casual Leave(CL)</option>
+                    <option value="">Child Adoption Leave</option>
+                    <option value="">Child Care Leave(CCL)</option>
+                    <option value="">Commuted Leave - Certificate</option>
+                    <option value="">Commuted Leave -No Certificate</option>
+                    <option value="">Earned Leave(EL)</option>
+                    <option value="">Extraordinary Leave(EOL)</option>
+                    <option value="">Half Day Casual Leave</option>
+                    <option value="">Half Pay Leave(HPL)</option>
+                    <option value="">Leave Not Due(LND)</option>
+                    <option value="">Maternity Leave-Abortion</option>
+                    <option value="">Maternity Leave-Miscarriage</option>
+                    <option value="">Maternity Leave-Pregnancy</option>
+                    <option value="">Paternity Leave</option>
+                    <option value="">Special Casual Leave</option>
+                    <option value="">Special Disability Leave</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-group">
+                <label class="col-sm-4 control-label">Absence Reason </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                            <option value="">Bereavement in family</option>
+                            <option value="">Ex-traordinary Leave taken in Previous Half Year</option>
+                            <option value="">Family - illness</option>
+                            <option value="">Family Occasion</option>
+                            <option value="">Going out of Town</option>
+                            <option value="">Marriage - Self</option>
+                            <option value="">Marriage in Family</option>
+                            <option value="">Self - illness</option>
+                  </select>
+                </div>
+              </div>
+                
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Duration  </label>
+                <div class="col-sm-4">
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Start Date </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">End Date </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>                    
+                </div>                
+              </div>
+                
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Duration</label>
+                <div class="col-sm-4">
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Days </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Hours </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>                    
+                    <div class="row gap">
+                        <div class="col-sm-offset-4 col-sm-8">
+                          <a href="javascript:;" class="btn btn-primary">Calculate</a>
+                        </div>
+                    </div>                    
+                </div>
+                  
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Charge Handed Over To </label>
+                <div class="col-sm-4">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Prefix From Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Prefix To Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Suffix From Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Suffix To Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Date of reporting back on duty  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Whether LTC to be claimed for Home Town/All India   </label>
+                <div class="col-sm-4">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">All India</option>
+                    <option value="">Home Town</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Address during leave period </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Due Date(In case of Maternity Leave) </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Total Absence Days </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+            </div>            
+            <div class="col-sm-12 gap text-right">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <a href="javascript:;" class="btn btn-primary">Go</a>
+                    <a href="javascript:;" class="btn btn-default">Clear</a>
+                </div>              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of form-->
+      <!--start of comments-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Comments</h5>
+        <div class="row">
+            <div class="col-md-12 gap">
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of comments-->
+      <!--supporting documents-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Supporting Documents</h5>
+        <div class="row">
+          <div class="col-md-12 gap">Optionally, attach supporting documents that justify the absence. You can attach document or image file, or specify a URL.</div>
+          <div class="col-md-12 gap">Enter the date for which you wish to view Leave accruals.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap form-control-static">Add attachment </div>
+          <div class="col-md-2 gap">
+            <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+          </div>
+          <div class="col-md-2 gap">
+            <button class="btn btn-primary btn-sm">Go</button>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Attachment Category</th>
+                      <th>Last Modified By</th>
+                      <th>Last Modified Date</th>
+                      <th>Repository</th>
+                      <th>Details</th>
+                      <th>Detach</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>No Data Exist</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--end of supporting documents-->
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right hidden-xs hidden-sm mg-bt">
+                                <a href="javascript:;" title="Cancel" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                                <a href="javascript:;" target="_blank" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                                <a ui-sref="leave-review" title="Next" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>
+                            </form>
+        </div>
+    </div>
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

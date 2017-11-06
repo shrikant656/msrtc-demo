@@ -1,0 +1,187 @@
+<div class="container">
+  <div class="payslip">
+
+
+
+         
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Create Service Request</h5>
+
+          <div class="row">
+              <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Line No</th>
+                    <th>Item Description</th>
+                    <th>Line Type</th>
+                    <th>Quantity</th>
+                    <th>Item Unit Price</th>
+                    <th>Item Qty</th>
+                    <th>Avl Item Qty</th>
+                    <th>Delivery Loc Id</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                    <td><input type="text" class="form-control input-sm"  value=""></td>
+                     <td><input type="text" class="form-control input-sm" value=""></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+              <div class="col-md-12">
+                  <form class="form-inline pull-right hidden-xs hidden-sm">
+                    <span class="fr">
+                    <a href="javascript:;" title="Create Request" class="applybtn">Create Request</a>
+                    </span>
+                  </form>
+              </div>
+            </div>
+   
+        </div>
+      </div>
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Service Request List</h5>
+          <div class="col-sm-12 col-xs-12 dma_application_filters">
+                    	<form class="form-inline pull-left">
+                              <div class="form-group dtpkr">
+                                <input type="text" class="form-control" id="dob" placeholder="Line No">
+                                <span class="gail-sprite dob-img"></span>
+                              </div>
+                              
+                              <a href="javascript:;" title="Filter" class="btn btn-primary whiteTxt guppercase filterbtn"><i class="fa fa-filter"></i></a>
+                        </form>
+                        <form class="form-inline pull-right">
+                            <div class="form-group adminsrchblk">
+                                <input name="searchKeyword" placeholder="search" id="searchKeyword" type="text" class="form-control"><i class="fa fa-search search_icon"></i>
+                            </div>
+                        </form>
+        </div>
+          <div class="row">
+              <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Line No</th>
+                    <th>Item Description</th>
+                    <th>Line Type</th>
+                    <th>Quantity</th>
+                    <th>Item Unit Price</th>
+                    <th>Item Qty</th>
+                    <th>Avl Item Qty</th>
+                    <th>Delivery Loc Id</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>243179</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>MSRTC-PNV</td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+            </div>
+          <div class="row">
+          <div class="col-sm-12 col-xs-12">
+              <ul class="pagination pull-left">
+                <li class="active"><a href="#">1</a></li>
+                <li ><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+              </ul>
+          </div>
+        </div>
+   
+        </div>
+      </div>
+
+  </div>
+</div>
+</body>
+</html>

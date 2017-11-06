@@ -1,0 +1,90 @@
+<style>
+    .loginhdrhide,.loginftrhide{display: none;}
+    .logo_header{background: transparent;}
+    .login_main_cont .sub_head {color: #ffd700;font-size: 36px;line-height: 30px;}
+    .big_txt span {font-weight: 400;    font-size: 20px;}
+</style>
+
+<div class="login_banner">
+  <div class="container-fluid" id="headerblk">
+    <header class="row">
+      <div class="logo_header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="login_logo"> <a href="javascript:;"><img src="images/login_logo.png" alt="" title="" class="img-responsive" /></a> </div>
+              <img src="images/emblem_ico.png" class="img-responsive emblem hidden-xs hidden-sm" alt="Emblem" title="Emblem" /> </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="row log_row">
+      <div class="col-md-4 col-sm-12">
+        <div class="loginbox11">
+          <div class="login_card">
+            <form name="form" id="frm_login" ng-submit="vm.login()" role="form">
+              <div class="form-group"></div>
+              <div class="input-container" ng-class="{ 'has-error': form.username.$dirty && form.username.$error.required }">
+                <input type="text" id="username" name="username" ng-model="vm.username" required/>
+                <label for="username">Username</label>
+                <div class="bar"></div>
+                <span ng-show="form.username.$dirty && form.username.$error.required" class="help-block">Username is required</span>
+              </div>
+              <div class="input-container" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+                <input type="password" id="password" name="password" required ng-model="vm.password"/>
+                <label for="password">Password</label>
+                <div class="bar"></div>
+                <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
+              </div>
+              <div class="input-container"><a href="javascript:;" title="Forgot Password?" class="fgt_txt">Forgot Password?</a></div>
+              <!-- <div class="input-container">Not a register user? <a ui-sref="register" title="Register Now" class="fgt_txt">Register Now</a></div> -->
+
+              <div class="form-actions">
+                <input type="submit" ng-disabled="form.$invalid || vm.dataLoading" class="btn btn-primary loginbt" id="btn_login" style="width:100px;" value="Login" />
+                <img ng-if="vm.dataLoading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+                <!-- <a ui-sref="register" class="btn btn-link">Register</a> -->
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <div class="login_main_cont">
+          <div class="sub_head">
+            'Jithe rasta, tithe ST'
+            <p class="big_txt"><span>(where there's a road, there's a ST bus)!</span></p>
+          </div>
+          <p>No matter what, the ST reaches every village that is connected by road, however bad it may be, truly living up to its motto</p>
+          <!--<p>'Jithe rasta, tithe ST'<br>(where there's a road, there's a ST bus)!</p>-->
+        </div>
+      </div>
+    </div>
+    <div class="row" style="position: absolute; bottom: 51px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="login_footer_links">
+              <li><a href="javascript:;" title="Overview">About Us</a></li>
+              <li><a href="javascript:;" title="Services">Services</a></li>
+              <li class="no_bdr"><a href="javascript:;" title="Contacts">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+  <div class="row site_footer loginfooter">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <span>Content owned by Maharashtra State Road Transport Corporation</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

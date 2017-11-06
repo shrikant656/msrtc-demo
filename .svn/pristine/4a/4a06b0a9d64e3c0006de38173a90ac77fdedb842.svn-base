@@ -1,0 +1,206 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--start of form Tender Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">GRN Details
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+              <a href="javascript:;" title="Print" class="applybtn">Print</a>   
+              <a ui-sref="fu-create-po" title="Generate Proforma Invoice" class="applybtn">Generate Proforma Invoice</a>   
+            </form>
+          </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Invoice Number   </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="82056-70847-DRAFT-HW" readonly="readonly" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label"> </label>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Project No </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="99999" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*PO No </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="MSRTC-DDR-50125" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Receipt No </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="2017/JUN/14528" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Receipt Date </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly value="30-JUN-2017" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Supplier Invoice No </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly value="OCT/1010/01" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Supplier Invoice Date </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly value="30-JUN-2017" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Status </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly value="DRAFT" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">  </label>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Tender Details form -->
+
+          
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">PO LINES NEW </h5>
+
+          <div class="row">
+              <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Line No</th>
+                    <th>Item Description</th>
+                    <th>Line Type</th>
+                    <th>Quantity</th>
+                    <th>Item Unit Price</th>
+                    <th>Item Qty</th>
+                    <th>Avl Item Qty</th>
+                    <th>Delivery Loc Id</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>4(TECHMSRTCAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>1</td>
+                    <td>16000</td>
+                    <td><input type="text" class="form-control input-sm" readonly="readonly" value=""></td>
+                    <td><input type="text" class="form-control input-sm" readonly="readonly" value="0"></td>
+                     <td><input type="text" class="form-control input-sm" readonly="readonly" value="Dadar"></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+            </div>
+   
+        </div>
+      </div>
+
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Received Lines</h5>
+
+          <div class="row">
+              <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Select</th>
+                    <th>SR. NO</th>
+                    <th>Item Description</th>
+                    <th>Line Type</th>
+                    <th>Unit Price</th>
+                    <th>Total Without Tax</th>
+                    <th>Qty</th>
+                    <th>SGST)%) Amt.</th>
+                    <th>CGST(%) Amount</th>
+                    <th>IGST(%)Amount</th>
+                    <th>Total GST Tax</th>
+                    <th>Line Total</th>
+                    <th>Delivery Location</th>
+                    <th>HSN Code</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input value="1" checked readonly type="checkbox"></td>
+                    <td><input type="text" readonly class="form-control input-sm" value="1"></td>
+                    <td>4(TECHMSRTCAL (I): PEDESTAL SERVER-2P) - Server having two nos...</td>
+                    <td>Services</td>
+                    <td>2,43,179.00 </td>
+                    <td>2,43,179.00 </td>
+                    <td>1 </td>
+                    <td>1440(9%)</td>
+                    <td>1440(9%)</td>
+                    <td>0(0%)</td>
+                    <td>2880 </td>
+                    <td>2,86,951.22 </td>
+                    <td>Dadar, </td>
+                    <td>998421 </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td><strong>Total</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>2,43,179.00</strong></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>2,86,951.22</strong></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+              </div>
+            </div>
+   
+        </div>
+      </div>
+   
+      
+
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

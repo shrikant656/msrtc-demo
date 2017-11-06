@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maharashtra State Road Transport Corporation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!--<link rel="icon" type="image/png" href="images/favicon.png" />-->
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div class="login_banner">
+  <div class="container-fluid" id="headerblk">
+    <header class="row">
+      <div class="logo_header">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="login_logo"> <a href="index.html"><img src="images/login_logo.png" alt="" title="" class="img-responsive" /></a> </div>
+              <img src="images/emblem_ico.png" class="img-responsive emblem hidden-xs hidden-sm" alt="Emblem" title="Emblem" /> </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="row log_row">
+      <div class="col-md-4 col-sm-12">
+        <div class="loginbox1">
+          <div class="login_card">
+            <form id="frm_login">
+              <div class="form-group"></div>
+              <div class="input-container">
+                <input type="text" id="uname" required/>
+                <label for="uname">Username</label>
+                <div class="bar"></div>
+              </div>
+              <div class="input-container">
+                <input type="password" id="upwd" required/>
+                <label for="upwd">Password</label>
+                <div class="bar"></div>
+              </div>
+              <div class="input-container"><a href="javascript:;" title="Forgot Password?" class="fgt_txt">Forgot Password?</a></div>
+              <!--<div class="input-container">Not a register user? <a href="javascript:;" title="Register Now" class="fgt_txt">Register Now</a></div>-->
+              <div class="form-group">
+                <input type="submit" class="btn btn-primary loginbt" id="btn_login" style="width:100px;" value="Login" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-7 col-sm-12">
+        <div class="login_main_cont">
+          <!--<div class="sub_head">
+            Single Window Clearance System
+            <p class="big_txt"><span>SWCS for industries is a concept to provide all entry level services to entrepreneurs,</span></p>
+          </div>-->
+          <p>No matter what, the ST reaches every village that is connected by road, however bad it may be, truly living up to its motto of</p>
+          <p>'Jithe rasta, tithe ST'<br>(where there's a road, there's a ST bus)!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="position: absolute; bottom: 51px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="login_footer_links">
+              <li><a href="javascript:;" title="Overview">About Us</a></li>
+              <li><a href="javascript:;" title="Services">Services</a></li>
+              <li class="no_bdr"><a href="javascript:;" title="Contacts">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--start of footer-->
+<div class="container-fluid">
+  <div class="row site_footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center"><span>Content owned by Maharashtra State Road Transport Corporation</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end of footer--> 
+<!-- JAVASCRIPTS --> 
+
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/script.js"></script> 
+</body>
+</html>

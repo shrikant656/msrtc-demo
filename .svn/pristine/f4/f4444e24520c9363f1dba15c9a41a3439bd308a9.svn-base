@@ -1,0 +1,357 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Absence Management: Summary</h5>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Employee Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Sangare, Rohit</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Employee Number</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>LC002</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Organization Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Mumbai Metro Rail Corporation Limited</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Grade</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>W5</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Designation</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Deputy Accountant</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Department</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Finance</strong></div>
+        </div>
+      </div>
+    </div>
+
+      
+    <div class="payslip-card">
+      <div class="row_wrap">
+          
+          
+          <div ng-controller="tabController as tabCntrl">
+            <div class="ent-tabs">             
+              <span ng-class="{active:tabCntrl.isSelected(1)}" ng-click="tabCntrl.selectedTab(1)">Leave Summary</span>
+              <span ng-class="{active:tabCntrl.isSelected(2)}" ng-click="tabCntrl.selectedTab(2)">Entitlement Balances</span>
+            </div>
+            <div class="ent-tab-content">
+                <div ng-show="tabCntrl.isSelected(2)">
+                    <h5 class="sub_heads">Entitlement Balances</h5>
+                    <div class="row">
+                      <div class="col-md-12 gap">The accrual balances are as of: 24-Oct-2017.</div>
+                      <div class="col-md-12 gap">Enter the date for which you wish to view Leave accruals.</div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 gap form-control-static">Effective Date (example: 24-Oct-2017)</div>
+                      <div class="col-md-2 gap">
+                        <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                      </div>
+                      <div class="col-md-2 gap">
+                        <button class="btn btn-primary btn-sm">Go</button>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 gap">Casual Leave Plan - <strong>8</strong></div>
+                      <div class="col-md-3 gap">Earned Leave Plan - <strong>115</strong></div>
+                      <div class="col-md-3 gap">Half Pay Leave Plan - <strong>76</strong></div>
+                    </div>
+                    
+                </div>
+                <div ng-show="tabCntrl.isSelected(1)">
+                    
+                    <div class="row_wrap">
+                        <h5 class="sub_heads">Leave Summary</h5>
+                        <div class="row">
+                          <div class="col-md-12 gap">
+                            <strong>Search </strong><br />
+                            Note that the search is case insensitive.
+                          </div>
+                        </div>
+                        <div class="row">
+                          <form class="form-horizontal">
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <label class="col-sm-4 control-label">Leave Type </label>
+                                <div class="col-sm-8">
+                                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Casual Leave(CL)</option>
+                                    <option value="">Child Adoption Leave</option>
+                                    <option value="">Child Care Leave(CCL)</option>
+                                    <option value="">Commuted Leave - Certificate</option>
+                                    <option value="">Commuted Leave -No Certificate</option>
+                                    <option value="">Earned Leave(EL)</option>
+                                    <option value="">Extraordinary Leave(EOL)</option>
+                                    <option value="">Half Day Casual Leave</option>
+                                    <option value="">Half Pay Leave(HPL)</option>
+                                    <option value="">Leave Not Due(LND)</option>
+                                    <option value="">Maternity Leave-Abortion</option>
+                                    <option value="">Maternity Leave-Miscarriage</option>
+                                    <option value="">Maternity Leave-Pregnancy</option>
+                                    <option value="">Paternity Leave</option>
+                                    <option value="">Special Casual Leave</option>
+                                    <option value="">Special Disability Leave</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-sm-4 control-label">Approval Status </label>
+                                <div class="col-sm-8">
+                                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Approved</option>
+                                    <option value="">Pending Approval</option>
+                                    <option value="">Return For Correction</option>
+                                    <option value="">Saved For Later</option>
+                                    <option value="">Work in Progress</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-sm-4 control-label">Start Date  </label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control input-sm datepickers" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="form-group">
+                                <label class="col-sm-4 control-label">Leave Status </label>
+                                <div class="col-sm-8">
+                                  <select name="absenceStat" id="absenceStat" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Confirmed</option>
+                                    <option value="">Planned</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <label class="col-sm-4 control-label">End Date </label>
+                                <div class="col-sm-8">
+                                  <input type="text" class="form-control input-sm datepickers" />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-sm-12 text-right mg-bt">
+                              <a href="javascript:;" class="btn btn-primary">Go</a>
+                              <a href="javascript:;" class="btn btn-default">Clear</a>
+                            </div>
+                          </form>
+                        </div>
+                      </div> 
+                    
+                    
+                        <h5 class="sub_heads">Leave Details <span class="fr"><a ui-sref="create-leave" title="Create Leave" class="applybtn">Create Leave</a> <a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></span></h5>                        
+                        <div class="row">
+                          <div class="col-md-12">
+                            <table class="table table-bordered table-condensed1">
+                            <thead>
+                              <tr>
+                                <th rowspan="2">Start Date</th>
+                                <th rowspan="2">End Date</th>
+                                <th rowspan="2">Absence Type</th>
+                                <th colspan="2" class="text-center">Duration</th>
+                                <th rowspan="2">Approval Status</th>
+                                <th rowspan="2">Absence Status</th>
+                                <th rowspan="2">Supporting Documents</th>
+                                <th rowspan="2">Details</th>
+                                <th rowspan="2">Actions</th>
+                              </tr>
+                              <tr>
+                                <th class="text-center">Days</th>
+                                <th class="text-center">Hours</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>18-Oct-2017</td>
+                                <td>18-Oct-2017</td>
+                                <td>Earned Leave (EL)</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>&nbsp;</td>
+                                <td>Pending Approval</td>
+                                <td>Confirmed</td>
+                                <td><a href="javascript:;" class="fa fa-clip"></a></td>
+                                <td>
+                                  <a href="javascript:;" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                                  <a href="javascript:;" class="fa fa-trash" title="Delete"></a>
+                                </td>
+                              </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    
+                    
+                </div>
+                
+
+            </div>
+          </div>
+      </div>
+    </div>
+      
+      
+      
+ <!--      
+
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Entitlement Balances</h5>
+        <div class="row">
+          <div class="col-md-12 gap">The accrual balances are as of: 24-Oct-2017.</div>
+          <div class="col-md-12 gap">Enter the date for which you wish to view Leave accruals.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap form-control-static">Effective Date (example: 24-Oct-2017)</div>
+          <div class="col-md-2 gap">
+            <input type="text" class="form-control input-sm" id='leavedate'>
+          </div>
+          <div class="col-md-2 gap">
+            <button class="btn btn-primary btn-sm">Go</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap">Casual Leave Plan - <strong>8</strong></div>
+          <div class="col-md-3 gap">Earned Leave Plan - <strong>115</strong></div>
+          <div class="col-md-3 gap">Half Pay Leave Plan - <strong>76</strong></div>
+        </div>
+      </div>
+    </div>
+    
+   
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Leave Summary</h5>
+        <div class="row">
+          <div class="col-md-12 gap">
+            <strong>Search :</strong><br />
+            Note that the search is case insensitive.
+          </div>
+        </div>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Type :</label>
+                <div class="col-sm-8">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Casual Leave(CL)</option>
+                    <option value="">Child Adoption Leave</option>
+                    <option value="">Child Care Leave(CCL)</option>
+                    <option value="">Commuted Leave - Certificate</option>
+                    <option value="">Commuted Leave -No Certificate</option>
+                    <option value="">Earned Leave(EL)</option>
+                    <option value="">Extraordinary Leave(EOL)</option>
+                    <option value="">Half Day Casual Leave</option>
+                    <option value="">Half Pay Leave(HPL)</option>
+                    <option value="">Leave Not Due(LND)</option>
+                    <option value="">Maternity Leave-Abortion</option>
+                    <option value="">Maternity Leave-Miscarriage</option>
+                    <option value="">Maternity Leave-Pregnancy</option>
+                    <option value="">Paternity Leave</option>
+                    <option value="">Special Casual Leave</option>
+                    <option value="">Special Disability Leave</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Approval Status :</label>
+                <div class="col-sm-8">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Start Date (example: 24-Oct-2017) :</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control input-sm" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Status :</label>
+                <div class="col-sm-8">
+                  <select name="absenceStat" id="absenceStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Confirmed</option>
+                    <option value="">Planned</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">End Date :</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control input-sm" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 gap text-right">
+              <a href="javascript:;" class="btn btn-primary">Go</a>
+              <a href="javascript:;" class="btn btn-default">Clear</a>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table table-bordered table-condensed1">
+            <thead>
+              <tr>
+                <th rowspan="2">Start Date</th>
+                <th rowspan="2">End Date</th>
+                <th rowspan="2">Absence Type</th>
+                <th colspan="2" class="text-center">Duration</th>
+                <th rowspan="2">Approval Status</th>
+                <th rowspan="2">Absence Status</th>
+                <th rowspan="2">Supporting Documents</th>
+                <th rowspan="2">Details</th>
+                <th rowspan="2">Actions</th>
+              </tr>
+              <tr>
+                <th class="text-center">Days</th>
+                <th class="text-center">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>18-Oct-2017</td>
+                <td>18-Oct-2017</td>
+                <td>Earned Leave (EL)</td>
+                <td>0</td>
+                <td>1</td>
+                <td>&nbsp;</td>
+                <td>Pending Approval</td>
+                <td>Confirmed</td>
+                <td><a href="javascript:;" class="fa fa-clip"></a></td>
+                <td>
+                  <a href="javascript:;" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                  <a href="javascript:;" class="fa fa-trash" title="Delete"></a>
+                </td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>-->
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<div class="container">
+  <div class="payslip"> 
+    
+    <!--3nd form-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Purchase Orders
+          <form class="form-inline pull-right">
+            <a ui-sref="create-po" title="Create Purchase Order" class="applybtn" >Create Purchase Order</a>
+          </form>
+        </h5>
+          <div class="col-sm-12 col-xs-12 dma_application_filters">
+                    	<form class="form-inline pull-left">
+                              <div class="form-group dtpkr">
+                                <input type="text" class="form-control" id="dob" placeholder="Project No">
+                                <span class="gail-sprite dob-img"></span>
+                              </div>
+                              <div class="form-group">
+                                <select class="form-control">
+                                	<option value="" selected="" disabled="">Select Status</option>
+                                	<option>Draft</option>
+                                        <option>Completed</option>
+                                </select>
+                              </div>
+                              <a href="javascript:;" title="Filter" class="btn btn-primary whiteTxt guppercase filterbtn"><i class="fa fa-filter"></i></a>
+                        </form>
+                        <form class="form-inline pull-right">
+                            <div class="form-group adminsrchblk">
+                                <input name="searchKeyword" placeholder="search" id="searchKeyword" type="text" class="form-control"><i class="fa fa-search search_icon"></i>
+                            </div>
+                        </form>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table table-bordered table-condensed1">
+              <thead>
+                <tr>
+                  <th>Project No</th>
+                  <th>PO No</th>
+                  <th>Approval No</th>
+                  <th>Empanelment Number</th>
+                  <th>Vendor Name</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>99999</td>
+                  <td>PO-HW-59864</td>
+                  <td>App-HW1</td>
+                  <td>MSRTC-EMPVEN-CLUTCH-1010</td>
+                  <td>Clutch Auto Limited</td>
+                  <td>Draft</td>
+                </tr>
+                <tr>
+                  <td>1064779</td>
+                  <td>PO-HW-56442</td>
+                  <td>App-NC823</td>
+                  <td>10(134)/2014-MCES-Eqv-Rev</td>
+                  <td>Micro Controllers Equipment Systems</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>57118</td>
+                  <td>PO-HW-791338</td>
+                  <td>App-MRF-2541204</td>
+                  <td>24(11)/2013-MRF-Tyres</td>
+                  <td>MRF Tyres</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>37461</td>
+                  <td>PO-HW-990342</td>
+                  <td>App-SZ-99592231</td>
+                  <td>10(11)/2016-Sengzon-Industries</td>
+                  <td>Sengzon Industries Ltd.</td>
+                  <td>Draft</td>
+                </tr>
+                <tr>
+                  <td>0068743</td>
+                  <td>PO-HW-338146</td>
+                  <td>App-PH-0067106</td>
+                  <td>98(47)/2012-Philips</td>
+                  <td>Philips-Group</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>054603540</td>
+                  <td>PO-HW-981687</td>
+                  <td>App-GE-84001061</td>
+                  <td>10(11)/2013-General-Electrics-Rev</td>
+                  <td>General Electrics</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>1064779</td>
+                  <td>PO-HW-56442</td>
+                  <td>App-NC823</td>
+                  <td>10(134)/2014-MCES-Eqv-Rev</td>
+                  <td>Micro Controllers Equipment Systems</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>57118</td>
+                  <td>PO-HW-791338</td>
+                  <td>App-MRF-2541204</td>
+                  <td>24(11)/2013-MRF-Tyres</td>
+                  <td>MRF Tyres</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>37461</td>
+                  <td>PO-HW-990342</td>
+                  <td>App-SZ-99592231</td>
+                  <td>10(11)/2016-Sengzon-Industries</td>
+                  <td>Sengzon Industries Ltd.</td>
+                  <td>Draft</td>
+                </tr>
+                <tr>
+                  <td>613355</td>
+                  <td>PO-DC-8911</td>
+                  <td>App-DC-151103546</td>
+                  <td>MSRTC-EMPVEN-CLUTCH-1010</td>
+                  <td>Clutch Auto Limited</td>
+                  <td>Draft</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-xs-12">
+              <ul class="pagination pull-left">
+                <li><a href="#">1</a></li>
+                <li class="active"><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+              </ul>
+            <form class="form-inline pull-right mg-bt">
+              <a ui-sref="create-po" title="Add Case" class="applybtn" >Create Purchase Order</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of 3nd form--> 
+  </div>
+</div>

@@ -1,0 +1,403 @@
+<div class="container">
+  <div class="payslip">
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approval Note Sheet(Hardware / Software / Network) 
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Cancel" class="applybtn"> Print Preview</a>
+            </form>
+        </h5>
+         <form class="form-horizontal">
+             <div class="col-sm-12">
+                  <div class="form-group">
+                   <label class="col-sm-4 control-label">*Project No  </label>
+                   <label class="col-sm-4 control-label"><strong>99999</strong>  </label>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">Prefix From Date  </label>
+                   <div class="col-sm-4">
+                     <input type="text" class="form-control input-sm" value="App-HW-1" />
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">Initiated Date  </label>
+                   <div class="col-sm-4">
+                     <input type="text" class="form-control input-sm datepickers" value="" />
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">Show Tenders Upto given Days Old  </label>
+                   <div class="col-sm-4">
+                     <input type="checkbox" class="form-control input-sm" value="" />
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">Tender Upto Old Days  </label>
+                   <div class="col-sm-4">
+                     <input type="checkbox" class="form-control input-sm" value="" />
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">ANS Status  </label>
+                   <div class="col-sm-4">
+                     <input type="checkbox" class="form-control input-sm" value="DRAFT" />
+                   </div>
+                 </div>
+                 <div class="form-group">
+                   <label class="col-sm-4 control-label">*Reason to choose vendor(s)  </label>
+                   <div class="col-sm-4">
+                     <textarea class="form-control" rows="5" id="comment"></textarea>
+                   </div>
+                 </div>
+             </div>
+         </form>
+      </div>
+    </div>
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approval Note Sheet Details 
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Cancel ANS" class="applybtn"> Cancel ANS</a>
+                            <a href="javascript:;" title="Save" class="applybtn"> Save </a>
+                            <a href="javascript:;" title="Approved" class="applybtn"> Approved</a>
+                            <a href="javascript:;" title="Final Approve" class="applybtn"> Final Approve</a>
+                            <a href="javascript:;" title="Back" class="applybtn"> Back</a>
+            </form>
+        </h5>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Funds Checked</div>
+                <div class="col-md-4 col-xs-7 gap"> <input type="checkbox" checked class="form-control input-sm" value="" /></div>
+                <div class="col-md-2 col-xs-5 gap">Total Approved Amount for header(Exclusive of Current)</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="0" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Operating Margin(%)</div>
+                <div class="col-md-4 col-xs-7 gap">  <input type="text" class="form-control input-sm" readonly value="7" ></div>
+                <div class="col-md-2 col-xs-5 gap">Total Cost</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="73836436" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Entry Tax(%)</div>
+                <div class="col-md-4 col-xs-7 gap">  <input type="text" class="form-control input-sm"  value="" ></div>
+                <div class="col-md-2 col-xs-5 gap">FTS No.</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="" >
+                </div>
+        </div>
+          <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Customer Name</div>
+                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm"  value="NICSI, New Delhi" ></div>
+                <div class="col-md-2 col-xs-5 gap">User Ref No.</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm"  value="Test Project" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Expenditure to be Booked Under</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                            <option value="2050">Network</option>
+                            <option value="2053">Workstation</option>
+                            <option value="2047">Tour</option>
+                            <option value="2051">Web Site Design</option>
+                            <option value="2039" selected="selected">Hardware</option>
+                            <option value="2048">Training</option>
+                            <option value="2052">Rollout</option>
+                            <option value="2040">Manpower</option>
+                            <option value="2041">Misc Others</option>
+                            <option value="2038">Facility Management</option>
+                            <option value="2042">Miscellaneous Services</option>
+                            <option value="2044">Software</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">User Ref No.</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*No. of Delivery Locations</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <input type="text" class="form-control input-sm" readonly value="1" >
+                </div>
+        </div>
+          <div class="row">
+                <div class="col-md-2 col-xs-5 gap">User Ref. Comments</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <input type="text" class="form-control input-sm" readonly value="1" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Note Sheet Bottom Comments</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-5 gap">
+                <p><strong>Note Sheet Top Comments</strong></p>
+                <p>As per above reference, NICSI, New Delhi has requested to procure the following items. The expenditure is to be booked under Hardware of the Project No. 99999. The shortlisted vendor(s) will raise their bills in the name of National Informatics Center Services Incorporated (NICSI), Hall No:2 & 3, 6-th Floor, NBCC Tower,15-Bhikaji Cama Place, New Delhi-66.
+The product/services are to be delivered/provided at 1 location(s).</p>
+            </div>                
+        </div>
+      </div>
+    </div>
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Item Configuration </h5>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Search Type</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value="1" selected="selected">Item Configuration</option>
+                        <option value="2">Proforma Invoice</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Item List</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value="01" selected="selected">Hardware Items</option>
+                        <option value="02">Hardware Peripherals</option>
+                        <option value="04">Power/UPS Equipments</option>
+                        <option value="20">GPS/ETS/Scanner</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Category List</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value=""></option>
+                        <option value="001">Desktops/Clients</option>
+                        <option value="002">Laptops &amp; Mini/Ultra-Protable Note-books</option>
+                        <option value="003" selected="selected">Servers</option>
+                        <option value="004">Storage/SAN Items</option>
+                        <option value="005">Thin Clients</option>
+                        <option value="006">Tablets</option>
+                        <option value="007">High-end Rack/Blade Servers</option>
+                        <option value="008">Kiosks</option>
+                        <option value="009">Teaching Aid Equipments</option>
+                        <option value="010">Digital Signature</option>
+                        <option value="011">ATM Machines</option>
+                        <option value="012">Wi-Fi (Category A)</option>
+                        <option value="013">Wi-Fi (Category B)</option>
+                        <option value="014">Wi-Fi (Category C)</option>
+                        <option value="015">Wi-Fi (Category D)</option>
+                        <option value="050">Storage/SAN Items-NIC</option>
+                        <option value="097">Rack/KVM Switch</option>
+                        <option value="099">Miscellaneous Items</option>
+                        <option value="100">IRIS Devices</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Sub-Category List</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="73836436" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Part Number</div>
+                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" readonly value="7" ></div>
+                <div class="col-md-2 col-xs-5 gap">Search On Description</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="73836436" >
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-5 gap text-right mg-tp">
+                <a href="javascript:;" title="Cancel" class="applybtn"> Go</a>
+            </div>
+        </div>        
+      </div>
+    </div>
+      
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Item List  
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Add" class="applybtn"> Add</a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Item Description</th>
+                      <th>Price Type</th>
+                      <th>Item Unit Rate</th>
+                      <th>Empanellment No</th>
+                      <th>Quantity</th>
+                      <th>Add Sub Config</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>24,051.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approval Line Details  
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Recalculate" class="applybtn"> Recalculate</a>
+                            <a href="javascript:;" title="Delete" class="applybtn"> Delete</a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Item Description</th>
+                      <th>Price Type</th>
+                      <th>Item Unit Rate</th>
+                      <th>Empanellment No</th>
+                      <th>Quantity</th>
+                      <th>Add Sub Config</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>24,051.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>36,368.00</td>
+                      <td>
+                          <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option value="4468" selected>10(11)/2013-NICSI-HCL(HP)-Rev</option>
+                            <option value="4469">10(11)/2013-NICSI-Hitachi(Dell)-Rev</option>
+                          </select>
+                      </td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--start of form-->      
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Cancel" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                                <a href="javascript:;" target="_blank" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                                <a ui-sref="leave-review" title="Next" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>
+                            </form>
+        </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

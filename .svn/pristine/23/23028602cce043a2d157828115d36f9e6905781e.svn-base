@@ -1,0 +1,625 @@
+
+<div class="container">
+
+  <div class="payslip"> 
+  <div class="row">
+      <div class="col-sm-3">
+        <div class="payslip-card">
+        <div class="row_wrap">
+          
+
+<ul>
+<li class="widget widget-btn">
+<div class="profile" align="center">
+		
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<!--<img src="imageview/generalImages/approver.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">-->
+					<img src="images/creator.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Approver
+					</div>
+					<div class="profile-usertitle-job" >
+						Head of Department
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+			
+				<div class="profile-userbuttons" style="margin-top: 5%;">
+					<a ui-sref="km-document-upload"><button type="button" class="btn btn-success btn-sm">Upload</button></a>
+					<a href="javascript:;"><button type="button" class="btn btn-danger btn-sm">Repository</button></a>
+				</div>
+				
+				
+			<!--	<div class="profile-userbuttons" style="margin-top: 0%;">
+					<a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal1" data-whatever="@"><button type="button" class="btn btn-success btn-sm">Sign In</button></a>
+					<a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal" data-whatever="@"><button type="button" class="btn btn-danger btn-sm">Sign Up</button></a>
+				</div>
+				-->
+			</div>
+		
+	</div>
+</li> 
+</ul>
+<div class="panel-group" id="accordion" style="margin: 10px -21px 0 -21px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href=""><span class="fa fa-folder">
+                            </span>&nbsp;Content</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table" style="margin-bottom:0px;">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-home text-primary" style="color:#333; font-size:20px;"></span><a ui-sref="km-home">&nbsp;&nbsp;Home</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-envelope text-primary" style="color:#333;"></span><a ui-sref="km-user-inbox">&nbsp;&nbsp;Inbox</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-briefcase text-success" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Hold Up Area</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-bell text-info" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Submitted Item Status</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-file-photo-o text-success" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Image Gallery</a>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                        <span class="fa fa-search text-success" style="color:#333;"></span><a ui-sref="km-search">&nbsp;&nbsp;Advance Search</a>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default" style="margin-top: -1px; color: #333;">
+                 
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-tachometer text-primary" style="color: #333;"></span><a ui-sref="km-dashboard"><strong style="font-size: 16px;">&nbsp;&nbsp;Dashboard</strong></a>
+                           
+                        </h4>
+                    </div>
+                </div>
+				<div class="panel panel-default" style="margin-top: -1px; color: #333;">
+              
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-comments text-primary" style="color: #333;"></span><a ui-sref="km-discussion-board"><strong style="font-size: 16px;">&nbsp;&nbsp;Discussion Forum</strong></a>
+                           </h4>
+                        </div>
+                    
+                </div>
+            </div>
+<div class="clearfix"></div>
+<div class="copyright" style="display:none;">
+©2016 <br>
+<a href="">Terms &amp; Privacy</a></div>
+
+
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="payslip-card" style=" padding-bottom:0px;">
+        <div class="row_wrap">   
+        
+        <div class="row">
+         <div class="panel-body minimal">
+   		<ol class="breadcrumb">
+    <li><a href="javascript:;">Content</a></li>
+    <li class="active"><strong>Inbox</strong></li>
+  </ol>
+                       <!-- <div class="mail-option">
+                            
+
+                            <div class="btn-group">
+                                <a data-original-title="Refresh" data-placement="top" data-toggle="dropdown" href="javascript:void(0)" class="btn mini tooltips">
+                                    <i class=" fa fa-refresh"></i>
+                                </a>
+                            </div>
+                            <div class="btn-group hidden-phone">
+                                
+								<a data-toggle="dropdown" href="javascript:void(0)" class="btn mini blue">
+                                    Actions
+                                    <i class="fa fa-angle-down "></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)"><i class="fa fa-check-circle"></i> Accept</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-ban"></i> Reject</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group">
+                                <a data-toggle="dropdown" href="javascript:void(0)" class="btn mini blue">
+                                    Send To
+                                    <i class="fa fa-angle-down "></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:void(0)"><i class="fa fa-ban"></i> Email Link</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="javascript:void(0)"><i class="fa fa-trash-o"></i> Delete Folder</a></li>
+                                </ul>
+								
+                            </div>
+ <div class="btn-group">
+ 
+                            <ul class="unstyled inbox-pagination">
+                                <li><span>1-8 of 8</span></li>
+                               
+                            </ul>
+							
+							</div>
+                        </div> -->
+						<br>
+                        <div class="table-inbox-wrap ">
+					
+						
+						
+						
+                            <table class="table table-inbox table-hover" style="border:none;">
+							<thead>
+						
+							<tr><th>Name</th>
+							<!--<th>Description</th>-->
+							<!--<th>Category</th>-->
+							<th>Sent From</th>
+							<th>Comments</th>
+							<th>Date</th>
+							<!--<th style="width:15%;">Sent From</th>-->
+							</tr></thead>
+                        <tbody>
+							
+						
+		
+                        <tr>
+                         <!--   <td class="inbox-small-cells">
+                                <input type="checkbox" class="mail-checkbox">
+                            </td>
+                           -->
+                            <td class="view-message  dont-show"><a href="" onclick="firstLookDocView1(&#39;15&#39;)">DPR Report</a></td>
+                           <!-- <td class="view-message ">DPR report for the infrastructure of state wide enterprise platform across the nation.</td>-->
+                          <!--  <td class="view-message  inbox-small-cells">Computer Science</td>-->
+						  <td class="view-message  inbox-small-cells">Supervisor</td>
+						  <td class="view-message  inbox-small-cells">Under Processing</td>
+                            <td class="view-message  " style="width: 100px;">07 Aug 2017</td>
+							 
+                        </tr>
+						<tr> <td colspan="4" style="border:none;">DPR report for the infrastructure of state wide enterprise platform across the nation.</td></tr>
+						
+                        
+                        
+                        
+                        </tbody>
+                        </table>
+
+                        </div>
+                    </div>
+        </div>       
+        </div>
+    </div>
+    
+    </div>
+    <div class="col-sm-3 ">
+        <div class="payslip-card">
+        <div class="row_wrap">
+                    
+<!--<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>18</span>
+</p></li>
+<li class="members-count">
+<p>CONTRIBUTORS</p><p>
+<span>9</span>
+</p></li>
+</ul>
+</li> 
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">TOP CONTRIBUTORS</h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="javascript:void(0)">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="javascript:void(0)">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="javascript:void(0)">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="javascript:void(0)">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+
+<li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">NEW USERS </h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="javascript:void(0)">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="javascript:void(0)">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="javascript:void(0)">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="javascript:void(0)">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+</ul>-->
+	 
+
+
+<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>9</span>
+</p></li>
+<li class="members-count">
+<p>Contributors</p><p>
+  		
+<span>11</span>
+</p></li>
+</ul>
+</li> 
+<!--
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">Top Contributors</h3>
+<div class="hot-user-question">
+
+<ul>
+  
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">content_developer</a></span>
+
+<span style="margin-left: -25%;">7</span></span></li>
+
+<li><span class="number">2</span>
+<span class="username ">
+<a href="javascript:void(0)">Author</a></span>
+
+<span style="margin-left: -25%;">2</span></span></li>
+
+
+</ul>
+
+
+
+</div>
+</li>
+-->
+<li class="widget user-widget" >
+<h3 class="widgettitle">Categories</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker1" style="width: 130%; height: 120px; overflow: hidden;">
+  
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="">Polices</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="">Forms</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="">Acts and Regulations</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="">Circulars</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="">Guidelines</a></span>
+</li><li style="margin-top: 0px;"><span class="number">5</span>
+<span class="username ">
+<a href="">Standards and Manuals</a></span>
+</li></ul>
+</div>
+</li>
+
+
+
+
+<li class="widget user-widget">
+<h3 class="widgettitle">Document Resources</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker4" style="width: 130%; height: 180px; overflow: hidden;">
+  
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="javascript:;">Detailed Project Report</a></span>
+</li><li style="margin-top: 0px;"><span class="number">8</span>
+<span class="username ">
+<a href="javascript:;">Time Tables</a></span>
+</li><li style="margin-top: 0px;"><span class="number">9</span>
+<span class="username ">
+<a href="javascript:;">Operational Manuals</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="javascript:;">Contracts</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="javascript:;">Drawings</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="">Proposals</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="">Technical Manuals</a></span>
+</li></ul>
+</div>
+</li>
+
+
+</ul>
+ 
+</div>
+        </div>
+    </div>
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

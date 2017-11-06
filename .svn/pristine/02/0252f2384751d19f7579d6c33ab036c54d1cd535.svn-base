@@ -1,0 +1,162 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--3nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">Inventory Requests</h5>
+                                <div class="col-sm-12 col-xs-12 dma_application_filters">
+                                <form class="form-inline pull-left">
+                                                      <div class="form-group dtpkr">
+                                                        <input type="text" class="form-control" id="dob" placeholder="Request Id">
+                                                        <span class="gail-sprite dob-img"></span>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                            <option>-- Select --</option>
+                                                                <option value="">Ordinary</option>
+                                                                <option value="">Parivartan</option>
+                                                                <option value="">Asiad</option>
+                                                                <option value="">Shivneri</option>
+                                                                <option value="">Sheetal</option>
+                                                                <option value="">City Bus</option>
+                                                      </select>
+                                                      </div>
+                                                      <a href="javascript:;" title="Filter" class="btn btn-primary whiteTxt guppercase filterbtn"><i class="fa fa-filter"></i></a>
+                                                </form>
+                                                <form class="form-inline pull-right">
+                                                    <div class="form-group adminsrchblk">
+                                                        <input name="searchKeyword" placeholder="search" id="searchKeyword" type="text" class="form-control"><i class="fa fa-search search_icon"></i>
+                                                    </div>
+                                                </form>
+                                </div>                              
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Request Id</th>
+                                            <th>Requested By</th>
+                                            <th>Requested On</th>
+                                            <th>Vehicle Commisioning</th>
+                                            <th>Depot Name</th>                                                                                        
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr ui-sref="fu-inventory-details" style="cursor:pointer">
+                                            <td>1234466</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234466</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Elphinstone</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Kashinath Gaikwad</td>
+                                            <td>2017-10-17</td>
+                                            <td>Bus</td>
+                                            <td>Borivali</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+                              <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+        </div>
+    </div>
+      <!--end of 3nd form-->
+  </div>
+</div>
+
+</body>
+</html>

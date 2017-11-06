@@ -1,0 +1,748 @@
+<div class="container">
+  <div class="payslip">
+      <div class="payslip-card">
+      <div class="row_wrap">
+          
+          <div ng-controller="tabController as tabCntrl">
+            <div class="ent-tabs tab-2">             
+              <span ng-class="{active:tabCntrl.isSelected(1)}" ng-click="tabCntrl.selectedTab(1)">Bill Desk</span>
+              <span ng-class="{active:tabCntrl.isSelected(2)}" ng-click="tabCntrl.selectedTab(2)">Send For FTS</span>
+              <span ng-class="{active:tabCntrl.isSelected(3)}" ng-click="tabCntrl.selectedTab(3)">Non Deployment Certificate</span>
+              <span ng-class="{active:tabCntrl.isSelected(4)}" ng-click="tabCntrl.selectedTab(4)">Manpower Objection Clear</span>
+              <span ng-class="{active:tabCntrl.isSelected(5)}" ng-click="tabCntrl.selectedTab(5)">Manpower Partial Entry</span>
+            </div>
+          
+          
+          
+          
+                <div class="ent-tab-content">
+                  <div ng-show="tabCntrl.isSelected(1)">
+                      
+                             <h5 class="sub_heads">Manpower Work Order Execution Plan</h5>
+                            <div class="col-sm-12 col-xs-12 dma_application_filters">
+                                            <form class="form-inline pull-left">
+                                                <div class="form-group adminsrchblk">
+                                                    <label>WO Number</label>
+                                                    <input name="searchKeyword" placeholder="M1731122" id="searchKeyword" type="text" class="form-control">
+                                                    <a href="javascript:;" title="Go" class="btn btn-primary">Go</a>
+                                                    <a href="javascript:;" title="Reset" class="btn btn-primary">Reset</a>
+                                                </div>
+                                            </form>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>WO Number</th>
+                                            <th>Project No</th>
+                                            <th>Invoice No</th>
+                                            <th>Month</th>
+                                            <th>SNo</th>                                                                                                                                                                               
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>M1731122</td>
+                                            <td>S153102MPBR</td>
+                                            <td>EC/D/17-18/19</td>
+                                            <td>Apr-2017</td>
+                                            <td>1</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>EC/D/17-18/101</td>
+                                            <td>May-2017</td>
+                                            <td>2</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>EC/D/17-18/19</td>
+                                            <td>June-2017</td>
+                                            <td>3</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Jul-2017</td>
+                                            <td>4</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Aug-2017</td>
+                                            <td>5</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                            </div>
+                            </div>
+                             
+                             
+                             <h5 class="sub_heads mg-tp">WO Wise Invoice Details </h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Sr.No.</th>
+                                            <th>Project No</th>
+                                            <th>PO Number</th>                                            
+                                            <th>Vendor Name</th>                                                                                                                                                                               
+                                            <th>Bill Start Date</th>                                                                                                                                                                               
+                                            <th>Bill End Date</th>                                                                                                                                                                               
+                                            <th>Bill Month</th> 
+                                            <th>Receiving Date</th> 
+                                            <th>Invoice No</th>                                                                                                                                                                               
+                                            <th>Invoice Date</th>                                                                                                                                                                                                                                                                      
+                                            <th>Invoice Amount</th>                                                                                                                                                                               
+                                            <th>Status</th>                                                                                                                                                                               
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>S153102MPBR</td>
+                                            <td>M1731122</td>                                            
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>01-APR-2017</td>
+                                            <td>30-APR-2017</td>
+                                            <td>Apr-2017</td>
+                                            <td>07-SEP-2017</td>                                                                                                                                    
+                                            <td>EC/D/17-18/19</td>
+                                            <td>07-SEP-2017</td>
+                                            <td>590</td>
+                                            <td>Received</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2</td>
+                                            <td>S153102MPBR</td>
+                                            <td>M1731122</td>                                            
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>01-APR-2017</td>
+                                            <td>30-APR-2017</td>
+                                            <td>Apr-2017</td>
+                                            <td>07-SEP-2017</td>                                                                                                                                    
+                                            <td>EC/D/17-18/19</td>
+                                            <td>07-SEP-2017</td>
+                                            <td>590</td>
+                                            <td>Received</td>
+                                          </tr>
+                                          <tr>
+                                            <td>3</td>
+                                            <td>S153102MPBR</td>
+                                            <td>M1731122</td>                                            
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>01-APR-2017</td>
+                                            <td>30-APR-2017</td>
+                                            <td>Apr-2017</td>
+                                            <td>07-SEP-2017</td>                                                                                                                                    
+                                            <td>EC/D/17-18/19</td>
+                                            <td>07-SEP-2017</td>
+                                            <td>590</td>
+                                            <td>Received</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                             
+                             
+                             
+                             
+                      
+                            <h5 class="sub_heads mg-tp">Manpower Billdesk</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Number</label></div>
+                                <div class="col-md-4 col-xs-7 gap">M1731122</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Project No.</label></div>
+                                <div class="col-md-4 col-xs-7 gap">S153102MPBR</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap">01-JUN-2017</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Type</label></div>
+                                <div class="col-md-4 col-xs-7 gap">MP</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Value</label></div>
+                                <div class="col-md-4 col-xs-7 gap">202802</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Vendor Name</label></div>
+                                <div class="col-md-4 col-xs-7 gap">E Centric Solutions P Ltd.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">*Invoice Number</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                   <input type="text" class="form-control input-sm" value="EC/D/17-18/21" >
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">*Billing Type </div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <label class="radio-inline"><input type="radio" name="optradio">GST	</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">Non-GST</label>
+                                </div>
+                            </div>
+                             <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*Vendor Invoice Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="24-Oct-2017" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Bill Month</label></div>
+                                <div class="col-md-4 col-xs-7 gap">Jul-2017</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*Bill Month Start Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap">01-JUL-2017</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Bill Month End Date	</label></div>
+                                <div class="col-md-4 col-xs-7 gap">31-JUL-2017</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*Bill Received Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="24-Oct-2017" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>Invoice Base Amount	</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="5000" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*IGST Tax(%)</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" readonly value="18" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*IGST Amount</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="900" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*CGST Tax(%)</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" readonly value="0" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*CGST Amount</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="0" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*SGST Tax(%)</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" readonly value="0" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*SGST Amount</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="0" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>Milestone</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" readonly value="0" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Invoice Total Amount	</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="5900" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>Remarks</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><textarea class="form-control" rows="5"  id="comment"></textarea></div>
+                            </div>
+                            <form class="form-inline pull-right hidden-xs hidden-sm ng-pristine mg-bt">
+                                    <span class="fr">
+                                    <a href="javascript:;" title="Add" class="applybtn">Add</a>
+                                    <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                                    </span>
+                            </form> 
+                            <h5 class="sub_heads mg-tp">Manpower Billdesk</h5>
+                            <div class="col-sm-12 col-xs-12 dma_application_filters">
+                                <form class="form-inline pull-left">
+                                                      <div class="form-group dtpkr">
+                                                        <input type="text" class="form-control" id="dob" placeholder="Date From">
+                                                        <span class="gail-sprite dob-img"></span>
+                                                      </div>
+                                                      <div class="form-group dtpkr">
+                                                        <input type="text" class="form-control" id="dob" placeholder="Date To">
+                                                        <span class="gail-sprite dob-img"></span>
+                                                      </div>
+                                                      <a href="javascript:;" title="Filter" class="btn btn-primary whiteTxt guppercase filterbtn"><i class="fa fa-filter"></i></a>
+                                                </form>
+                                                <form class="form-inline pull-right">
+                                                    <div class="form-group adminsrchblk">
+                                                        <label>WO Number</label>
+                                                        <input name="searchKeyword" placeholder="search" id="searchKeyword" type="text" class="form-control">
+                                                        <a href="javascript:;" title="Go" class="btn btn-primary">Go</a>
+                                                        <a href="javascript:;" title="Clear" class="btn btn-primary">Clear</a>
+                                                    </div>
+                                                </form>
+                            </div>
+                            <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Sr.No.</th>
+                                            <th>Project No</th>
+                                            <th>WO Number</th>                                            
+                                            <th>Vendor Name</th>
+                                            <th>Bill Month</th>
+                                            <th>Invoice Number</th>                                                                                                                                                                              
+                                            <th>Invoice Date</th>                                                                                                                                                                               
+                                            <th>Base Amount</th>                                                                                                                                                                                
+                                            <th>IGST Amount</th>                                                                                        
+                                            <th>CGST Amount</th>                                                                                        
+                                            <th>SGST Amount</th>                                                                                        
+                                            <th>Invoice Amount</th>                                                                                        
+                                            <th>Received Date</th>                                                                                        
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>S153102MPBR </td>
+                                            <td>M1731122</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>Jun-2017</td>
+                                            <td>EC/D/17-18/20</td>                                            
+                                            <td>24-OCT-2017</td>                                            
+                                            <td>5,000.00</td>
+                                            <td>900</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>5,900.00</td>
+                                            <td>24-OCT-2017</td>
+                                          </tr>
+                                          <tr>
+                                            <td>2</td>
+                                            <td>S153102MPBR </td>
+                                            <td>M1731122</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>Jun-2017</td>
+                                            <td>EC/D/17-18/20</td>                                            
+                                            <td>24-OCT-2017</td>                                            
+                                            <td>5,000.00</td>
+                                            <td>900</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>5,900.00</td>
+                                            <td>24-OCT-2017</td>
+                                          </tr>
+                                          <tr>
+                                            <td>3</td>
+                                            <td>S153102MPBR </td>
+                                            <td>M1731122</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td>Jun-2017</td>
+                                            <td>EC/D/17-18/20</td>                                            
+                                            <td>24-OCT-2017</td>                                            
+                                            <td>5,000.00</td>
+                                            <td>900</td>
+                                            <td>0</td>
+                                            <td>0</td>
+                                            <td>5,900.00</td>
+                                            <td>24-OCT-2017</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                      <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                            
+                            
+                  </div><!--end of 1st tab-->
+                  <div ng-show="tabCntrl.isSelected(2)">
+                            <h5 class="sub_heads">Received Bill Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">From Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">To Date </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">PO Number</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Invoice Number </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Name</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Status</div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <label class="radio-inline"><input type="radio" name="optradio">Received</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">For FTS</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">No.of Received Bills</div>
+                                <div class="col-md-4 col-xs-7 gap"><strong>2</strong></div>
+                                <div class="col-md-2 col-xs-5 gap">No.of Sending Bills </div>
+                                <div class="col-md-4 col-xs-7 gap">0</div>
+                            </div>                            
+                                <form class="form-inline pull-right hidden-xs hidden-sm ng-pristine mg-bt">
+                                    <span class="fr">
+                                    <a href="javascript:;" title="Search" class="applybtn">Search</a>
+                                    <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                                    <a href="javascript:;" title="Send" class="applybtn">Send</a>
+                                    </span>
+                                  </form>
+                            <h5 class="sub_heads mg-tp">FTS Manpower</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Sr.No.</th>
+                                            <th>WO Number</th>
+                                            <th>Project No</th>
+                                            <th>Vendor Name</th>
+                                            <th>Invoice Amount</th>                                                                                        
+                                            <th>Invoice Number</th>                                                                                        
+                                            <th>Invoice Date</th>                                                                                        
+                                            <th>WO Amount</th>                                                                                        
+                                            <th>Bill Month</th>                                                                                        
+                                            <th>Invoice Status</th>                                                                                        
+                                            <th>Send</th>                                                                                        
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>M1731122</td>
+                                            <td>S153102MPBR</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td class="text-right">5900</td>
+                                            <td>EC/D/17-18/20</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>202802</td>
+                                            <td>Jun-2017</td>
+                                            <td>Pending</td>
+                                            <td><input type="checkbox" checked class=""></td>
+                                          </tr>
+                                          <tr>
+                                            <td>2</td>
+                                            <td>M1731122</td>
+                                            <td>S153102MPBR</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td class="text-right">5900</td>
+                                            <td>EC/D/17-18/20</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>202802</td>
+                                            <td>May-2017</td>
+                                            <td>Pending</td>
+                                            <td><input type="checkbox" checked class=""></td>
+                                          </tr>
+                                          <tr>
+                                            <td>3</td>
+                                            <td>M1731122</td>
+                                            <td>S153102MPBR</td>
+                                            <td>E Centric Solutions P Ltd</td>
+                                            <td class="text-right">5900</td>
+                                            <td>EC/D/17-18/20</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>202802</td>
+                                            <td>Apr-2017</td>
+                                            <td>Pending</td>
+                                            <td><input type="checkbox" checked class=""></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                  </div><!--end of 2st tab-->
+                  <div ng-show="tabCntrl.isSelected(3)">
+                            <h5 class="sub_heads">Manpower Work Order Execution Plan</h5>
+                            <div class="col-sm-12 col-xs-12 dma_application_filters">
+                                            <form class="form-inline pull-left">
+                                                <div class="form-group adminsrchblk">
+                                                    <label>WO Number</label>
+                                                    <input name="searchKeyword" placeholder="M1731122" id="searchKeyword" type="text" class="form-control">
+                                                    <a href="javascript:;" title="Go" class="btn btn-primary">Go</a>
+                                                    <a href="javascript:;" title="Reset" class="btn btn-primary">Reset</a>
+                                                </div>
+                                            </form>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>WO Number</th>
+                                            <th>Project No</th>
+                                            <th>Invoice No</th>
+                                            <th>Month</th>
+                                            <th>SNo</th>                                                                                                                                                                               
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>M1731122</td>
+                                            <td>S153102MPBR</td>
+                                            <td>EC/D/17-18/19</td>
+                                            <td>Apr-2017</td>
+                                            <td>1</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>EC/D/17-18/101</td>
+                                            <td>May-2017</td>
+                                            <td>2</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>EC/D/17-18/19</td>
+                                            <td>June-2017</td>
+                                            <td>3</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Jul-2017</td>
+                                            <td>4</td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>Aug-2017</td>
+                                            <td>5</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                            </div>
+                            </div>
+                            
+                            <h5 class="sub_heads mg-tp">Manpower Non-Deployment Bill Entry</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Number</label></div>
+                                <div class="col-md-4 col-xs-7 gap"> M1731122</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Project No </label></div>
+                                <div class="col-md-4 col-xs-7 gap">S153102MPBR</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap"> 01-JUN-2017</div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Type</label></div>
+                                <div class="col-md-4 col-xs-7 gap">MP</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="01-Jul-2017" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*WO Type</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="31-Jul-2017" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>Bill Received Date</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>*Bill Month</label></div>
+                                <div class="col-md-4 col-xs-7 gap">Jul-2017</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>Remarks</label></div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <textarea class="form-control" rows="5" readonly id="comment">Non Deployment</textarea>
+                                </div>
+                            </div>
+                            <form class="form-inline pull-right hidden-xs hidden-sm ng-pristine mg-bt">
+                                    <span class="fr">
+                                    <a href="javascript:;" title="Search" class="applybtn">Save</a>
+                                    <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                                    </span>
+                            </form>
+                            <h5 class="sub_heads mg-tp">Non Deployment</h5>
+                            <div class="row">
+                                <div class="col-md-12 col-xs-5 gap">No Data Found</div>
+                            </div>
+                            
+                  </div><!--end of 3st tab--> 
+                  <div ng-show="tabCntrl.isSelected(4)">
+                            <h5 class="sub_heads mg-tp">Bill Objection Clear</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>*Objection Date From</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="01-Jul-2017" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>Objection Date To</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="31-Jul-2017" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>PO Number</label></div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap"><label>Objection Type</label></div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <label class="radio-inline"><input type="radio" name="optradio">FTS</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">Scrutiny</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">Co-Ordinator</label>
+                                    <label class="radio-inline"><input type="radio" name="optradio">Provision</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap"><label>Vendor Name</label></div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <input type="text" class="form-control input-sm" value="" >
+                                </div>
+                            </div>
+                            <form class="form-inline pull-right hidden-xs hidden-sm ng-pristine mg-bt">
+                                    <span class="fr">
+                                    <a href="javascript:;" title="Search" class="applybtn">Save</a>
+                                    <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                                    </span>
+                            </form>
+                      
+                            <h5 class="sub_heads mg-tp">Objection Summary</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Sno.</th>
+                                            <th>Vendor Name</th>
+                                            <th>Count</th>                                                                                                                                                                             
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1</td>
+                                            <td>Dev Information Technology Pvt. Ltd.</td>
+                                            <td>3</td>
+                                          </tr>
+                                          <tr>
+                                            <td><strong>Total</strong></td>
+                                            <td></td>
+                                            <td><strong>3</strong></td>
+                                          </tr>                                                                                    
+                                        </tbody>
+                                      </table>
+                                    <ul class="pagination pull-left">
+                                      <li class="active"><a href="#">1</a></li>
+                                      <li ><a href="#">2</a></li>
+                                      <li><a href="#">3</a></li>
+                                      <li><a href="#">4</a></li>
+                                      <li><a href="#">5</a></li>
+                                    </ul>
+                            </div>
+                            </div>
+                            
+                            
+                            <h5 class="sub_heads mg-tp">Objection Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Edit</th>
+                                            <th>Sno.</th>
+                                            <th>Send Mail</th>                                                                                                                                                                             
+                                            <th>PO No</th>                                                                                                                                                                             
+                                            <th>Vendor Name</th>                                                                                                                                                                             
+                                            <th>Invoice No</th>                                                                                                                                                                             
+                                            <th>Invoice Date</th>                                                                                                                                                                             
+                                            <th>Project No</th>                                                                                                                                                                             
+                                            <th>Status</th>                                                                                                                                                                             
+                                            <th>Invoice Amount</th>                                                                                                                                                                             
+                                            <th>PO Amount</th>                                                                                                                                                                             
+                                            <th>Bill Month</th>                                                                                                                                                                                                                                                                                                                                                         
+                                            <th>Updated On</th>                                                                                                                                                                             
+                                            <th>Last Modifed On</th>                                                                                                                                                                             
+                                            <th>Mail Status</th>                                                                                                                                                                             
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td><i class="fa fa-pencil" aria-hidden="true"></i></td>
+                                            <td>1</td>
+                                            <td class="text-center"><input type="checkbox" checked class=""></td>
+                                            <td>M1634911</td>
+                                            <td>Dev Information Technology Pvt. Ltd.</td>
+                                            <td>E/17-18/0153</td>
+                                            <td>01-JUN-2017</td>
+                                            <td>S162135GNHP</td>
+                                            <td>Objection By FTS</td>
+                                            <td>31802</td>
+                                            <td>763261</td>
+                                            <td>May-2017</td>
+                                            <td>02-JUN-2017</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>Mail Not Send</td>
+                                          </tr>                                          
+                                          <tr>
+                                            <td><i class="fa fa-pencil" aria-hidden="true"></i></td>
+                                            <td>2</td>
+                                            <td class="text-center"><input type="checkbox" checked class=""></td>
+                                            <td>M1634911</td>
+                                            <td>Dev Information Technology Pvt. Ltd.</td>
+                                            <td>E/17-18/0153</td>
+                                            <td>01-JUN-2017</td>
+                                            <td>S162135GNHP</td>
+                                            <td>Objection By FTS</td>
+                                            <td>31802</td>
+                                            <td>763261</td>
+                                            <td>May-2017</td>
+                                            <td>02-JUN-2017</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>Mail Not Send</td>
+                                          </tr> 
+                                          <tr>
+                                            <td><i class="fa fa-pencil" aria-hidden="true"></i></td>
+                                            <td>3</td>
+                                            <td class="text-center"><input type="checkbox" checked class=""></td>
+                                            <td>M1634911</td>
+                                            <td>Dev Information Technology Pvt. Ltd.</td>
+                                            <td>E/17-18/0153</td>
+                                            <td>01-JUN-2017</td>
+                                            <td>S162135GNHP</td>
+                                            <td>Objection By FTS</td>
+                                            <td>31802</td>
+                                            <td>763261</td>
+                                            <td>May-2017</td>
+                                            <td>02-JUN-2017</td>
+                                            <td>24-OCT-2017</td>
+                                            <td>Mail Not Send</td>
+                                          </tr> 
+                                        </tbody>
+                                      </table>
+                            </div>
+                            
+                  </div>
+                  </div><!--end of 4st tab--> 
+                  <div ng-show="tabCntrl.isSelected(5)">
+                            <h5 class="sub_heads">Manpower Partial Entry</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Yearly Registration Fees</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Monthly Insurance Premium</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Yearly Taxes</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 4th tab--> 
+                </div><!--end of tabwrap-->
+          </div> <!--end of controller-->
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

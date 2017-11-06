@@ -1,0 +1,387 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div ng-controller="tabController as tabCntrl">
+        <div class="ent-tabs">
+          <span ng-class="{active:tabCntrl.isSelected(1)}" ng-click="tabCntrl.selectedTab(1)">Expenses Home</span>
+          <span ng-class="{active:tabCntrl.isSelected(2)}" ng-click="tabCntrl.selectedTab(2)">Expense Reports</span>
+          <span ng-class="{active:tabCntrl.isSelected(3)}" ng-click="tabCntrl.selectedTab(3)">Access Authorizations</span>
+          <span ng-class="{active:tabCntrl.isSelected(4)}" ng-click="tabCntrl.selectedTab(4)">Projects and Tasks</span>
+          <span ng-class="{active:tabCntrl.isSelected(5)}" ng-click="tabCntrl.selectedTab(5)">Payments Search</span>
+        </div>
+        <div class="ent-tab-content">
+          <div ng-show="tabCntrl.isSelected(1)">
+            <h5 class="sub_heads">&nbsp;
+              <span class="fr">
+                <a href="javascript:;" title="Create Expense Report" class="applybtn">Create Expense Report</a>
+                <a href="javascript:;" title="Import Spreadsheet" class="applybtn">Import Spreadsheet</a>
+                <a href="javascript:;" title="Export Spreadsheet" class="applybtn">Export Spreadsheet</a>
+              </span>
+            </h5>
+            <div class="row">
+              <div class="col-md-12">
+                <h5 class="sub_heads">
+                  Track Submitted Expense Reports
+                  <span class="fr">
+                    <a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></span></h5>
+                <p>The following expense reports are either outstanding or have been paid in the last 30 days.</p>
+                <table class="table table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Report Number</th>
+                    <th>Report Submit Date</th>
+                    <th>Report Status</th>
+                    <th class="text-right">Last Report Status Activity (Days)</th>
+                    <th>Current Approver</th>
+                    <th>Original Receipts Status</th>
+                    <th class="text-right">Report Total (INR)</th>
+                    <th>Purpose</th>
+                    <th class="text-center">Duplicate</th>
+                    <th class="text-center">Withdraw</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>27009</td>
+                    <td>24-Oct-2017</td>
+                    <td>Pending Manager Approval</td>
+                    <td class="text-right">2</td>
+                    <td>Mrs. Pratibha Yerkuntwar</td>
+                    <td>Required</td>
+                    <td class="text-right">2500.00</td>
+                    <td>Accomdation test 24/...</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>27011</td>
+                    <td>24-Oct-2017</td>
+                    <td>Pending Manager Approval</td>
+                    <td class="text-right">2</td>
+                    <td>Ms. Svapnali Wadekar</td>
+                    <td>Required</td>
+                    <td class="text-right">3000.00</td>
+                    <td>Accomdation test 24/...</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>27012</td>
+                    <td>24-Oct-2017</td>
+                    <td>Pending Manager Approval</td>
+                    <td class="text-right">2</td>
+                    <td>Mrs. Pratibha Yerkuntwar</td>
+                    <td>Required</td>
+                    <td class="text-right">4500.00</td>
+                    <td>Accomdation test 24/...</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>27008</td>
+                    <td>24-Oct-2017</td>
+                    <td>Pending Manager Approval</td>
+                    <td class="text-right">2</td>
+                    <td>Ms. Svapnali Wadekar</td>
+                    <td>Required</td>
+                    <td class="text-right">1000.00</td>
+                    <td>Travel for Training ...</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26018</td>
+                    <td>07-Oct-2017</td>
+                    <td>Pending System Administrator Action</td>
+                    <td class="text-right">1</td>
+                    <td>Expenses Administrator</td>
+                    <td>Required</td>
+                    <td class="text-right">10000.00</td>
+                    <td>Transport of vehicle...</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26014</td>
+                    <td>06-Oct-2017</td>
+                    <td>Pending System Administrator Action</td>
+                    <td class="text-right">2</td>
+                    <td>Expenses Administrator</td>
+                    <td>Not Required</td>
+                    <td class="text-right">10000.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26015</td>
+                    <td>06-Oct-2017</td>
+                    <td>Pending System Administrator Action</td>
+                    <td class="text-right">2</td>
+                    <td>Expenses Administrator</td>
+                    <td>Not Required</td>
+                    <td class="text-right">66767.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Duplicate"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Withdraw"></a></td>
+                  </tr>
+                </tbody>
+                </table>
+                <p>
+                  <span class="fa fa-info-circle"></span>&nbsp; <strong>If the status is Pending Your Resolution, you were sent a notification explaining the required action.</strong>
+                </p>
+                <p class="gap">&nbsp;</p>
+                <h5 class="sub_heads">Update Expense Reports<span class="fr">
+                    <a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></span></h5>
+                <p>Click an Update icon to make changes to a saved, rejected, or returned expense report.</p>
+                <table class="table table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th>Report Number</th>
+                    <th>Report Date</th>
+                    <th>Status</th>
+                    <th class="text-right">Report Total (INR)</th>
+                    <th>Purpose</th>
+                    <th class="text-center">Update</th>
+                    <th class="text-center">Duplicate</th>
+                    <th class="text-center">Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>26009</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">0.00</td>
+                    <td>test</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26016</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">4444.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26017</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">60000.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26009</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">0.00</td>
+                    <td>test</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26016</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">4444.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26017</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">60000.00</td>
+                    <td></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                  <tr>
+                    <td>26009</td>
+                    <td>06-Oct-2017</td>
+                    <td>In Progress</td>
+                    <td class="text-right">0.00</td>
+                    <td>test</td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-edit" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-copy" title="Update"></a></td>
+                    <td class="text-center"><a href="javascript:;" class="fa fa-trash" title="Update"></a></td>
+                  </tr>
+                </tbody>
+                </table>
+                
+                <p class="gap">&nbsp;</p>
+                
+                <h5 class="sub_heads">Notifications</h5>
+                <div class="form-inline gap">
+                  <div class="form-group">
+                    <label>View</label>
+                    <select class="form-control input-sm">
+                      <option>All Notifications</option>
+                      <option value="">FYI Notifications</option>
+                      <option value="">Notifications From Me</option>
+                      <option value="" selected="selected">Open Notifications</option>
+                      <option value="">To Do Notifications</option>
+                    </select>
+                    <a href="javascript:;" class="applybtn">Go</a>
+                  </div>
+                </div>
+                <div class="clearfix gap">
+                  <span class="fr">
+                    Select notifications: 
+                    <a href="javascript:;" class="applybtn">Open</a>&nbsp;&nbsp;<a href="javascript:;" class="applybtn">Reassign</a>&nbsp;&nbsp;<a href="javascript:;" class="applybtn">Close</a>&nbsp;&nbsp;
+                    <a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></span>
+                </div>
+                <table class="table table-bordered table-condensed1">
+                <thead>
+                  <tr>
+                    <th class="text-center">Select</th>
+                    <th>From</th>
+                    <th>Subject</th>
+                    <th>Sent</th>
+                    <th>Due</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td>SYSADMIN</td>
+                    <td>Expense 12001 (15.00 INR)</td>
+                    <td>24-Oct-2017</td>
+                    <td>31-Oct-2017</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td>SYSADMIN</td>
+                    <td>Expense 12000 (10.00 INR)</td>
+                    <td>24-Oct-2017</td>
+                    <td>31-Oct-2017</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td></td>
+                    <td>Expense report 21018 adjusted to 2000.00 INR</td>
+                    <td>27-Jun-2017</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td>Yerkuntwar, Pratibha</td>
+                    <td>Expense 21015 (6050.00 INR) has been approved</td>
+                    <td>27-Jun-2017</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td>SYSADMIN</td>
+                    <td>Expense 12000 (10.00 INR)</td>
+                    <td>24-Oct-2017</td>
+                    <td>31-Oct-2017</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center"><input type="checkbox" name="chk1" /></td>
+                    <td>Yerkuntwar, Pratibha</td>
+                    <td>Expense report 21018 adjusted to 2000.00 INR</td>
+                    <td>27-Jun-2017</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+                </table>
+                <p>
+                  <span class="fa fa-info-circle"></span>&nbsp; <strong>Vacation Rules - Redirect or auto-respond to notifications.</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div ng-show="tabCntrl.isSelected(2)">
+            <div class="payslip-card">
+              <div class="row_wrap">
+                    <div class="row multistep">
+                        <div class="col-xs-4 multistep-step current">                    
+                            <div class="progress"><div class="progress-bar"></div></div>                    
+                            <a href="#" class="multistep-dot"></a>
+                            <div class="text-center multistep-stepname">General Information</div>
+                        </div>
+        
+                        <div class="col-xs-4 multistep-step">                    
+                            <div class="progress"><div class="progress-bar"></div></div>
+                            <a href="#" class="multistep-dot"></a>
+                            <div class="text-center multistep-stepname">Cash and Other Expenses</div>
+                        </div>
+        
+                        <div class="col-xs-4 multistep-step next">                    
+                            <div class="progress"><div class="progress-bar"></div></div>
+                            <a href="#" class="multistep-dot"></a>
+                            <div class="text-center multistep-stepname">Review</div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div class="payslip-card">
+              <div class="row_wrap">
+                <h5 class="sub_heads">Create Expense Report: General Information
+                    <form class="form-inline pull-right hidden-xs hidden-sm">
+                        <a href="javascript:;" target="_blank" title="Save" class="applybtn">Save</a>
+                        <a href="javascript:;" title="Cancel" class="applybtn">Cancel</a>
+                        <span class="steps">Step 1 of 3</span>            
+                        <a ui-sref="create-expense-report-cash-other-expenses" title="Next" class="applybtn">Next</a>
+                    </form>
+                </h5>
+                <div class="row">
+                  <div class="col-md-12 gap">
+                    <p><strong>*Indicates required field</strong></p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2 col-xs-5 gap">Name</div>
+                  <div class="col-md-4 col-xs-7 gap"><strong>Mrs. Preeta Nair (LC022)</strong></div>
+                  <div class="col-md-2 col-xs-5 gap">Type of Expenditure</div>
+                  <div class="col-md-4 col-xs-7 gap"><strong>MSRTC Reimbursement Temp.</strong></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2 col-xs-5 gap">Department</div>
+                  <div class="col-md-4 col-xs-7 gap"><strong>1040</strong></div>
+                  <div class="col-md-2 col-xs-5 gap">Purpose</div>
+                  <div class="col-md-4 col-xs-7 "><input type="text" class="form-control input-sm" /></div>
+                </div>
+                <div class="row">
+                  <div class="col-md-2 col-xs-5 gap">Reimbursement Currency</div>
+                  <div class="col-md-4 col-xs-7 gap"><strong>Indian Rupee</strong></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                  <form class="form-inline pull-right mg-bt">
+                    <a href="javascript:;" target="_blank" title="Save" class="applybtn">Save</a>
+                    <a href="javascript:;" title="Cancel" class="applybtn">Cancel</a>
+                    <a ui-sref="create-expense-report-cash-other-expenses" title="Next" class="applybtn">Next</a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div ng-show="tabCntrl.isSelected(3)">
+            
+          </div>
+          <div ng-show="tabCntrl.isSelected(4)">
+            
+          </div>
+          <div ng-show="tabCntrl.isSelected(5)">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

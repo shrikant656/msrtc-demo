@@ -1,0 +1,137 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+
+        <h5 class="sub_heads">Service Request Search
+          <form class="form-inline pull-right hidden-xs hidden-sm">
+            <a ui-sref="service-creation" title="Create Service Request" class="applybtn">Create Service Request</a>
+              
+            </form>
+        </h5>
+        <div class="row">
+          <div class="col-md-12 gap">Specify parameters and values to filter the data that is displayed in your results set.</div>
+        </div>
+        
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Request Number </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm" id='leavedate'>
+                </div>
+                <label class="col-sm-2 control-label">Requester Name </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm" id='leavedate'>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">SR Start Date </label>
+                <div class="col-sm-4">
+                   <input type="text" class="form-control input-sm datepickers" id='leavedate'>                
+                </div> 
+                <label class="col-sm-2 control-label">SR End Date </label>
+                <div class="col-sm-4">
+                     <input type="text" class="form-control input-sm datepickers" id='leavedate'>              
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label"></label>
+                <div class="col-sm-4">
+                  <a href="javascript:;" class="btn btn-primary">Go</a>
+                  <a href="javascript:;" class="btn btn-default">Clear</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <!--end of form-->
+    
+    <div class="payslip-card">
+      <div class="row_wrap">
+
+      <h5 class="sub_heads">Service Requests
+      <form class="form-inline pull-right hidden-xs hidden-sm">
+        <span class="fr">
+        <a href="javascript:;" title="Go" class="applybtn">Go</a>
+        <a href="javascript:;" title="Actions" class="applybtn">Actions</a>
+        </span>
+      </form>
+      </h5>
+
+            <div class="row">
+                <div class="col-md-12">
+                  <table class="table tender-tba table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>SR Number</th>
+                      <th>Type</th>
+                      <th>Requester Name</th>
+                      <th>Contact Person</th>
+                      <th>Requester Email</th>
+                      <th>Manager</th>
+                      <th>Creation Date</th>
+                      <th>Status</th>
+                      <th>Request Summary</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a ui-sref="approval" class="hl"><u>82056</u></a></td>
+                      <td>H/W</td>
+                      <td>MSRTC, Maharashtra</td>
+                      <td>-</td>
+                      <td><a href="javascript:;">asm-efar@nic.in</a></td>
+                      <td>Vinod Gawai</td>
+                      <td>25-Oct-2017</td>
+                      <td>DRAFT</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td><a ui-sref="approval" class="hl"><u>82057</u></a></td>
+                      <td>H/W</td>
+                      <td>MSRTC, Maharashtra</td>
+                      <td>-</td>
+                      <td><a href="javascript:;">asm-efar@nic.in</a></td>
+                      <td>Vinod Gawai</td>
+                      <td>25-Oct-2017</td>
+                      <td>DRAFT</td>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <td><a ui-sref="approval" class="hl"><u>82058</u></a></td>
+                      <td>H/W</td>
+                      <td>MSRTC, Maharashtra</td>
+                      <td>-</td>
+                      <td><a href="javascript:;">asm-efar@nic.in</a></td>
+                      <td>Vinod Gawai</td>
+                      <td>25-Oct-2017</td>
+                      <td>DRAFT</td>
+                      <td>-</td>
+                    </tr>
+                  </tbody>
+                  </table>
+                </div>
+              </div>
+   
+        </div>
+      </div>
+   
+      
+
+
+  </div>
+</div>
+<script>
+    jQuery('javascript:;leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

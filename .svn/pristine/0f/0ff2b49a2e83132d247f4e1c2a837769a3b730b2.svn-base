@@ -1,0 +1,372 @@
+'use strict';
+
+(function(){
+
+    var routerApp = angular.module('routerApp', ['ngAnimate','ui.select', 'ngSanitize', 'ui.bootstrap','ui.router','ngCookies','pascalprecht.translate','oitozero.ngSweetAlert']);
+
+    routerApp.config(function($stateProvider, $urlRouterProvider,$translateProvider) {
+
+    $urlRouterProvider.otherwise('/login');
+
+    $stateProvider
+
+        // HOME STATES AND NESTED VIEWS ========================================
+        .state('login', {
+                url: '/login',
+                controller: 'LoginController',
+                templateUrl: 'login/login.view.html',
+                controllerAs: 'vm'
+            })
+	
+            .state('register', {
+                url: '/register',
+                controller: 'RegisterController',
+                templateUrl: 'register/register.view.html',
+                controllerAs: 'vm'
+            })
+            
+        .state('home', {
+            url: '/home',
+            templateUrl: 'template/joining.html'
+            //controller: 'HomeController'
+        })
+        .state('dashboard', {
+            url: '/dashboard',
+            templateUrl: 'template/dashboard.html'
+        })
+        .state('leave-dashboard', {
+            url: '/leave-dashboard',
+            templateUrl: 'template/leave-dashboard.html'
+        })
+        .state('payslip', {
+            url: '/payslip',
+            templateUrl: 'template/payslip.html'
+        })
+        .state('user-profile', {
+            url: '/user-profile',
+            templateUrl: 'template/user-profile.html'
+        })
+        .state('create-leave', {
+            url: '/create-leave',
+            templateUrl: 'template/create-leave.html'
+        })
+        .state('leave-review', {
+            url: '/leave-review',
+            templateUrl: 'template/leave-review.html'
+        })
+        .state('leave-notification', {
+            url: '/leave-notification',
+            templateUrl: 'template/leave-notification.html'
+        })
+        .state('resignation', {
+            url: '/resignation',
+            templateUrl: 'template/resignation.html'
+        })
+        .state('create-expense-report-general-information', {
+            url: '/create-expense-report-general-information',
+            templateUrl: 'template/create-expense-report-general-information.html'
+        })
+        .state('fu-dashboard', {
+            url: '/fu-dashboard',
+            templateUrl: 'template/fu-dashboard.html'
+        })
+        .state('tender', {
+            url: '/tender',
+            templateUrl: 'template/tender.html'
+        })
+        .state('ivms-general', {
+            url: '/ivms-general',
+            templateUrl: 'template/ivms-general.html'
+        })
+        .state('list-empanellment', {
+            url: '/list-empanellment',
+            templateUrl: 'template/list-empanellment.html'
+        })
+        .state('maintain-empanellment', {
+            url: '/maintain-empanellment',
+            templateUrl: 'template/maintain-empanellment.html'
+        })
+        .state('rate-contract', {
+            url: '/rate-contract',
+            templateUrl: 'template/rate-contract.html'
+        })
+        .state('sr-request', {
+            url: '/sr-request',
+            templateUrl: 'template/sr-request.html'
+        })
+        .state('proforma-invoice-dashboard', {
+            url: '/proforma-invoice-dashboard',
+            templateUrl: 'template/proforma-invoice-dashboard.html'
+        })
+        .state('inventory-management', {
+            url: '/inventory-management',
+            templateUrl: 'template/inventory-management.html'
+        })
+        .state('update-proforma-invoice-status', {
+            url: '/update-proforma-invoice-status',
+            templateUrl: 'template/update-proforma-invoice-status.html'
+        })
+        .state('update-proforma-invoice-status2', {
+            url: '/update-proforma-invoice-status2',
+            templateUrl: 'template/update-proforma-invoice-status2.html'
+        })
+        .state('grn-list', {
+            url: '/grn-list',
+            templateUrl: 'template/grn-list.html'
+        })
+        .state('create-new-grn', {
+            url: '/create-new-grn',
+            templateUrl: 'template/create-new-grn.html'
+        })
+        .state('service-creation', {
+            url: '/service-creation',
+            templateUrl: 'template/service-creation.html'
+        })
+        .state('approval', {
+            url: '/approval',
+            templateUrl: 'template/approval.html'
+        })
+        .state('create-po', {
+            url: '/create-po',
+            templateUrl: 'template/create-po.html'
+        })
+        .state('legal-case-listing', {
+            url: '/legal-case-listing',
+            templateUrl: 'template/legal-case-listing.html'
+        })
+        .state('legal-case-details', {
+            url: '/legal-case-details',
+            templateUrl: 'template/legal-case-details.html'
+        })
+        .state('proforma-invoice-configuration', {
+            url: '/proforma-invoice-configuration',
+            templateUrl: 'template/proforma-invoice-configuration.html'
+        })
+        .state('md-dashboard', {
+            url: '/md-dashboard',
+            templateUrl: 'template/md-dashboard.html'
+        })
+       /*.state('form', {
+            url: '/form',
+            templateUrl: 'template/form/form.html',
+            controller: 'formController'
+        })*/
+
+        /*.state('home-en', {
+            url: '/home-en',
+            templateUrl: 'template/home/home-en.html',
+            controller: 'LangCtrl'
+        })
+        .state('home-hn', {
+            url: '/home-hn',
+            templateUrl: 'template/home/home-hn.html',
+            controller: 'LangCtrl'
+        })*/
+        // nested list with custom controller
+        /*.state('home.list', {
+            url: '/list',
+            templateUrl: 'template/home/home-list.html',
+            controller: function($scope) {
+                $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
+            }
+        })
+        .state('home.accordion', {
+            url: '/accordion',
+            templateUrl: 'template/accordion/accordion.html',
+            controller: 'AccordionDemoCtrl'
+        })
+        // nested list with just some random string data
+        .state('home.carousel', {
+            url: '/carousel',
+            templateUrl: 'template/carousel/carousel.html',
+        })
+
+        .state('home.others', {
+            url: '/others',
+            templateUrl: 'template/others/others.html',
+        })
+
+        .state('home.pagination', {
+            url: '/pagination',
+            templateUrl: 'template/pagination/pagination.html',
+        })*/
+
+        // ABOUT PAGE AND MULTIPLE NAMED VIEWS =================================
+        .state('about', {
+            url: '/about',
+            views: {
+                    // the main template will be placed here (relatively named)
+                    '': { templateUrl: 'template/about/about.html' },
+
+                    // the child views will be defined here (absolutely named)
+                    'columnOne@about': { template: 'Look I am a column!' },
+
+                    // for column two, we'll define a separate controller 
+                    'columnTwo@about': { 
+                        templateUrl: 'template/table-data.html',
+                        controller: 'scotchController'
+                    }
+                }
+        });
+
+
+        // add translation tables
+        $translateProvider.translations('English', translationsEN);
+        $translateProvider.translations('Hindi', translationsHN);
+        $translateProvider.registerAvailableLanguageKeys(['English', 'Hindi'], {
+          'en_US': 'English',
+          'en_UK': 'English',
+          'en_*': 'English'
+        });
+        
+        $translateProvider.determinePreferredLanguage();
+        //$translateProvider.preferredLanguage('en');
+        $translateProvider.fallbackLanguage('English');
+        
+        // remember language
+        $translateProvider.useCookieStorage();
+
+        $translateProvider.useSanitizeValueStrategy('sanitize');
+    });
+
+    routerApp.run(function($rootScope, $cookieStore, $http,$state) {
+      // keep user logged in after page refresh
+        $rootScope.globals = $cookieStore.get('globals') || {};
+        if ($rootScope.globals.currentUser) {
+            $http.defaults.headers.common['Authorization'] = 'Basic ' + $rootScope.globals.currentUser.authdata; // jshint ignore:line
+        }
+
+        $rootScope.$on('$stateChangeStart', function (event, next, current) {
+            // redirect to login page if not logged in and trying to access a restricted page
+            var restrictedPage = $.inArray($state.go(), ['login', 'register']) === -1;
+            var loggedIn = $rootScope.globals.currentUser;
+            if (restrictedPage && !loggedIn) {
+                $state.go('login');
+            }
+        });
+    })
+
+    routerApp.controller('LangCtrl', ['$translate', '$scope','$state', function ($translate, $scope, $state) {
+
+        $scope.products = [{
+          lang: 'English'
+        }, {
+          lang: 'Hindi'
+        }]
+
+        var currentLang = $translate.proposedLanguage() || $translate.use();
+        $scope.sellang = currentLang;
+        console.log(currentLang + ' currentLang');
+        /*var mainUrl = window.location.href;
+          
+          var match = mainUrl.substr(mainUrl.lastIndexOf('/')+1).split('-').pop();
+          console.log(match + ' match');
+          var replacedUrlEN = mainUrl.replace('hn','en');
+          var replacedUrlHN = mainUrl.replace('en','hn');
+           
+          if((match !== '') && (match !== 'hn') && (match !== 'en')){
+              var replacedUrl = (currentLang == 'Hindi') ? (window.location.href + '-hn') : (window.location.href + '-en');
+              window.location.href = replacedUrl;
+            }else if(match == 'hn' && currentLang == 'English'){
+            window.location.href = replacedUrlEN;
+          } else if(match == 'en' && currentLang == 'Hindi'){
+            window.location.href = replacedUrlHN;
+          } */
+          console.log($scope.demo)
+      $scope.selectLanguage = function(langKey){
+      if (langKey === 'English') {
+          $translate.fallbackLanguage('English');
+        } else if (langKey == 'Hindi') {
+          $translate.fallbackLanguage('Hindi');
+        }
+        $translate.use(langKey);
+        location.reload();
+      };
+
+      $scope.leaveSubmit = function(){
+        swal({
+          //title:'Deleted!',
+          title:'Your leave request has been submitted successfully.',
+          type: 'success'
+        },function(){
+            $state.go('dashboard');
+        })
+      }
+      
+      $scope.legalSubmit = function(){
+        swal({
+          //title:'Deleted!',
+          title:'Your request has been submitted successfully.',
+          type: 'success'
+        },function(){
+            $state.go('legal-case-listing');
+        })
+      }
+
+      
+    }]);
+
+
+    routerApp.controller('tabController', function($scope) {
+
+        this.tab = 1;
+        this.subTab = 6;
+        this.showDiv = 1;
+        this.showSubDiv = 6;
+        
+        this.selectedTab = function(selected){
+          this.tab = selected;
+          this.showDiv = 1;
+        };
+        this.isSelected = function(newVal){
+          return this.tab === newVal;
+        };
+        
+        this.selectedSubTab = function(selected){
+          this.subTab = selected;
+        };
+        this.isSubSelected = function(newVal){
+          return this.subTab === newVal;
+        };
+        
+        this.toggleDiv = function(divId, subDivId){
+          this.showDiv = divId;
+          this.selectedSubTab(subDivId);
+          this.isSubSelected(subDivId);
+        };
+        this.isDivDisplayed = function(val){
+          return this.showDiv === val;
+        };
+        this.isSubDivDisplayed = function(val){
+          return this.showSubDiv === val;
+        };
+
+        this.toggleDiv(this.showDiv, this.showSubDiv);
+        
+        
+
+      $scope.expReportSubmit = function(){
+        swal({
+          //title:'Deleted!',
+          title:'Your expense report has been created successfully.',
+          type: 'success'
+        },function(){
+            
+            //$state.go('create-expense-report-general-information');
+        });
+      }
+        
+    });
+
+    routerApp.directive('dtpicker',function(){
+      return {
+        link: function(scope, element, attrs){
+          $('.datepickers').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+        }
+      }
+    })
+
+})()

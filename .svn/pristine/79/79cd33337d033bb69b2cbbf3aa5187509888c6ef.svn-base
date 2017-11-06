@@ -1,0 +1,321 @@
+<div class="container">
+  <div class="payslip">
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Purchase Order(Hardware / Software / Network)
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Print Preview" class="applybtn"> Print Preview</a>
+                            <a ng-click="fuSubmit()" title="Cancel PO" class="applybtn"> Cancel PO</a>
+                            <a ng-click="fuSubmit()" title="Save" class="applybtn"> Save</a>
+                            <a ng-click="fuSubmit()" title="Apply" class="applybtn"> Apply</a>
+                            <a ng-click="fuSubmit()" title="Back" class="applybtn"> Back</a>
+            </form>
+        </h5>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Project No</div>
+                <div class="col-md-4 col-xs-7 gap"><strong>99999</strong></div>
+                <div class="col-md-2 col-xs-5 gap">PO No</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                   <input type="text" class="form-control input-sm" readonly  value="PO-HW-59864" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Use Old Amendments</div>
+                <div class="col-md-4 col-xs-7 gap"> <input type="checkbox" checked class="approval-checkbox" value="" /></div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Approval No</div>
+                <div class="col-md-4 col-xs-7 gap"><strong>App-HW1</strong></div>
+                <div class="col-md-2 col-xs-5 gap">*Empanelment Number</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <strong>10(11)/2013-NICSI-Hitachi(Dell)-Rev</strong>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Vendor Name</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option value="2050">Hitachi Systems Micro Clinic Pvt.</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">*Vendor Site Name</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option value="2050">New Delhi</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Vendor Contact Person</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option value="2050">Sanjay Sharma</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Work Order Date</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm datepickers"  value="25-Oct-2017" >
+                </div>
+        </div>
+        <div class="row">
+                
+                <div class="col-md-2 col-xs-5 gap">Delivery Due Date</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm datepickers" readonly value="25-Oct-2017" >
+                </div>
+                <div class="col-md-2 col-xs-5 gap">BG in Favor of</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option value="2050">NIC</option>
+                        <option value="2050">NICSI</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Task Name</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                            <option value="2050">Network</option>
+                            <option value="2053">Opertaional Expenses</option>
+                            <option value="2047">Software Procurement</option>
+                            <option value="2051">Miscellaneous</option>
+                            <option value="2039" selected="selected">Hardware</option>
+                            <option value="2052">Rollout</option>
+                            <option value="2040">Manpower</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">*Bill To</div>
+                <div class="col-md-4 col-xs-7 gap"><strong>New Delhi</strong></div>
+                <div class="col-md-2 col-xs-5 gap">Budget Head/Expenditure Type</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="Hardware" >
+                </div>
+        </div>
+          <div class="row">
+              <div class="col-md-2 col-xs-5 gap">Currency Code</div>
+                <div class="col-md-4 col-xs-7 gap"><strong>INR</strong></div>
+                <div class="col-md-2 col-xs-5 gap">User Ref. Comments</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <input type="text" class="form-control input-sm" readonly value="1" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Status</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <input type="text" class="form-control input-sm" readonly value="Draft" >
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Approval Date</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <input type="text" class="form-control input-sm" readonly value="" >
+                </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Delivery Locations </h5>
+        <div class="form-inline gap mg-tp">
+                  <div class="form-group">                    
+                    <input type="checkbox" class="approval-checkbox" value="">
+                    <label style="vertical-align: 5px;padding:0 10px">Show Address</label>
+                  </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Select</th>
+                      <th>Loaction Name</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NIC HP State, 6th Floor, Armsdale Building</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>Development Centre, 2nd Floor</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NICSI</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>National Informatics Centre</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NICSI-HQ, 1st Floor, NBCC Building, Tower - 15</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>National Informatics Centre Services Inc., Block no. 13, 2nd floor</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>National Informatics Centre Services Inc., 1st Floor</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NICSI Chairman Office</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>National Informatics Centre Services Inc</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NIC-HQ</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>NICSI NIC- UP State Unit</td>                      
+                    </tr>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value=""></td>
+                      <td>National Informatics Centre Services Inc.</td>                      
+                    </tr>
+                    
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approval Notesheet Line Details  
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Load Partial Items For Location" class="applybtn"> Load Partial Items For Location</a>
+                            <a href="javascript:;" title="Load Full Items" class="applybtn"> Load Full Items </a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Select</th>
+                      <th>S no</th>
+                      <th>Item Description</th>
+                      <th>Approved Quantity</th>
+                      <th>Available Quantity</th>
+                      <th>Item Unit Price</th>
+                      <th>Inst. Unit Price</th>
+                      <th>SGST(%) Amount</th>
+                      <th>CGST(%) Amount</th>
+                      <th>IGST(%) Amount</th>
+                      <th>Total GST Tax</th>
+                      <th>PO Quantity</th>
+                      <th>V Line Tot Amt</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value="" /></td>
+                      <td class="text-center">1</td>
+                      <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos. of x86 64-bit processor (Intel Xeon E5-2620 v); 64 GB DDRIII expandable to 256 GB; Integrated Graphics Controller; SAS RAID Controller supporting RAID 0, 1; </td>
+                      <td>1</td>
+                      <td>0</td>
+                      <td>243179</td>
+                      <td>0</td>
+                      <td>21886.11(9%)</td>
+                      <td>21886.11(9%)</td>
+                      <td>0(0%)</td>
+                      <td>43772.22</td>
+                      <td><input type="text" class="form-control input-sm" value="0" /></td>
+                      <td>286951.22</td>
+                    </tr>                    
+                  </tbody>
+                </table>
+            </div>
+                <div class="col-md-12">
+                    <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Load Partial Items For Location" class="applybtn"> Load Partial Items For Location</a>
+                            <a href="javascript:;" title="Load Full Items" class="applybtn"> Load Full Items </a>
+                    </form> 
+                </div>
+        </div>
+      </div>
+    </div>
+      <!--selected products-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Selected Products/Services for Location 
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Recalculate" class="applybtn"> Recalculate</a>
+                            <a href="javascript:;" title="Delete" class="applybtn"> Delete</a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Select</th>
+                      <th>S No</th>
+                      <th>Line No</th>
+                      <th>Description</th>
+                      <th>Item Unit Price</th>
+                      <th>Inst. Unit Price</th>
+                      <th>Quantity</th>
+                      <th>SGST(%) Amount</th>
+                      <th>CGST(%) Amount</th>
+                      <th>IGST(%) Amount</th>
+                      <th>Total</th>
+                      <th>Deliver Location</th>
+                      <th>Total Tax</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="text-center"><input type="checkbox" class="approval-checkbox" value="" /></td>
+                      <td class="text-center">1</td>
+                      <td class="text-center">1</td>
+                      <td>4(TECHNICAL (I): PEDESTAL SERVER-2P) - Server having two nos. of x86 64-bit processor (Intel Xeon E5-2620 v); 64 GB DDRIII expandable to 256 GB; Integrated Graphics Controller; SAS RAID Controller supporting RAID 0, 1; </td>
+                      <td>0</td>
+                      <td>243179</td>
+                      <td><input type="text" class="form-control input-sm" value="1" /></td>
+                      <td>21886.11(9%)</td>
+                      <td>21886.11(9%)</td>
+                      <td>0(0%)</td>
+                      <td>2,86,951.22</td>
+                      <td>NIC HP State, 6th Floor, Armsdale Building,</td>
+                      <td>43772.22</td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+            </div>
+                <div class="col-md-12">
+                    <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Recalculate" class="applybtn"> Recalculate</a>
+                            <a href="javascript:;" title="Delete" class="applybtn"> Delete</a>
+                    </form> 
+                </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--start of form-->      
+<!--    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Cancel" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                                <a href="javascript:;" target="_blank" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                                <a ui-sref="leave-review" title="Next" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>
+                            </form>
+        </div>
+    </div>-->
+  </div>
+</div>
+</body>
+</html>

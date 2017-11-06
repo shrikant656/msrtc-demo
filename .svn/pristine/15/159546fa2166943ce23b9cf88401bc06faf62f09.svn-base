@@ -1,0 +1,912 @@
+
+<div class="container">
+
+  <div class="payslip"> 
+  <div class="row">
+      <div class="col-sm-3">
+        <div class="payslip-card">
+        <div class="row_wrap">
+          
+
+<ul>
+<li class="widget widget-btn">
+<div class="profile" align="center">
+		
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<!--<img src="imageview/generalImages/approver.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">-->
+					<img src="images/creator.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Approver
+					</div>
+					<div class="profile-usertitle-job" >
+						Head of Department
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+			
+				<div class="profile-userbuttons" style="margin-top: 5%;">
+					<a ui-sref="km-document-upload"><button type="button" class="btn btn-success btn-sm">Upload</button></a>
+					<a href="javascript:;"><button type="button" class="btn btn-danger btn-sm">Repository</button></a>
+				</div>
+				
+				
+			<!--	<div class="profile-userbuttons" style="margin-top: 0%;">
+					<a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal1" data-whatever="@"><button type="button" class="btn btn-success btn-sm">Sign In</button></a>
+					<a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModal" data-whatever="@"><button type="button" class="btn btn-danger btn-sm">Sign Up</button></a>
+				</div>
+				-->
+			</div>
+		
+	</div>
+</li> 
+</ul>
+<div class="panel-group" id="accordion" style="margin: 10px -21px 0 -21px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href=""><span class="fa fa-folder">
+                            </span>&nbsp;Content</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table" style="margin-bottom:0px;">
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-home text-primary" style="color:#333; font-size:20px;"></span><a ui-sref="km-home">&nbsp;&nbsp;Home</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-envelope text-primary" style="color:#333;"></span><a ui-sref="km-user-inbox">&nbsp;&nbsp;Inbox</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-briefcase text-success" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Hold Up Area</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-bell text-info" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Submitted Item Status</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-file-photo-o text-success" style="color:#333;"></span><a href="javascript:;">&nbsp;&nbsp;Image Gallery</a>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                        <span class="fa fa-search text-success" style="color:#333;"></span><a ui-sref="km-search">&nbsp;&nbsp;Advance Search</a>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default" style="margin-top: -1px; color: #333;">
+                 
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-tachometer text-primary" style="color: #333;"></span><a ui-sref="km-dashboard"><strong style="font-size: 16px;">&nbsp;&nbsp;Dashboard</strong></a>
+                           
+                        </h4>
+                    </div>
+                </div>
+				<div class="panel panel-default" style="margin-top: -1px; color: #333;">
+              
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-comments text-primary" style="color: #333;"></span><a ui-sref="km-discussion-board"><strong style="font-size: 16px;">&nbsp;&nbsp;Discussion Forum</strong></a>
+                           </h4>
+                        </div>
+                    
+                </div>
+            </div>
+<div class="clearfix"></div>
+<div class="copyright" style="display:none;">
+©2016 <br>
+<a href="">Terms &amp; Privacy</a></div>
+
+
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="payslip-card" style=" padding-bottom:0px;">
+        <div class="row_wrap">   
+        
+        <div class="row">
+         <div class="main-questions-list scrollbar" id="ex3" style="width: 100%;">
+<ul id="main_questions_list">
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name" style="font-size:20px;">
+<a itemprop="url" href="" onclick="firstLookDocView1(&#39;14&#39;)" class="question-title">Launching the first point-to-point AC bus service between Kandivli and BKC</a>
+</h2>
+
+<span>
+<br>
+<div class="btn-group btn-group-xs">
+<button type="button" class="btn btn-info" onclick="openComments(&#39;14&#39;,&#39;MOD Resolution Letter&#39;);">Comments</button>
+</div>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+
+
+
+</span>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text" style="margin-top:10px;">
+<p>After launching the first point-to-point AC bus service for corporates between Kandivli and BKC on Thursday, the Maharashtra State 
+Road Transport Corporation (MSRTC) plans to introduce more such buses for office-goers in Nariman Point, Dadar and Lower Parel. 
+The buses have CCTVs, LCD screens, Wi-Fi and laptop chargers.</p>
+</div>
+<div class="question-cat">
+
+<!--<ul class="question-tags">
+
+<li><a class="q-tag" href="javascript:void(0)"> demo </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketers </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketing </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> media </a></li>
+</ul>-->
+<div class="clearfix"></div>
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="javascript:;"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="javascript:;">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">Author  </span>
+<span class="question-time"> Posted on 03 Jul 2017  </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+8 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" onclick="shareFB(&#39;https://plus.google.com/share?url=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=14&#39;);"></a>
+</li>
+<li>
+<a class="fb" onclick="shareFB(&#39;https://twitter.com/home?status=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=14&#39;);"></a>
+</li>
+<li>
+<a class="chec" onclick="shareFB(&#39;https://www.facebook.com/sharer/sharer.php?u=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=14&#39;);"></a>
+</li>
+<li style="vertical-align: top;">
+<a href="javascript:;"></a>
+</li>
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name" style="font-size:20px;">
+<a itemprop="url" href="javascript:;" onclick="firstLookDocView1(&#39;8&#39;)" class="question-title">Arrival of new Volvos and Scania into MSRTC fleet</a>
+</h2>
+
+<span>
+<br>
+<div class="btn-group btn-group-xs">
+<button type="button" class="btn btn-info" onclick="openComments(&#39;8&#39;,&#39;Equipment Design and Cost Estimation&#39;);">Comments</button>
+</div>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+
+
+
+</span>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text" style="margin-top:10px;">
+<p>With the arrival of new Volvos and Scania into MSRTC fleet, the frequency between Pune and Mumbai has been increased to a 
+massive 158 schedules by the day, each and everyday (158 in just one direction i. e Pune to Mumbai and an equal number from 
+Mumbai to Pune) </p>
+</div>
+<div class="question-cat">
+
+<!--<ul class="question-tags">
+
+<li><a class="q-tag" href="javascript:void(0)"> demo </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketers </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketing </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> media </a></li>
+</ul>-->
+<div class="clearfix"></div>
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="javascript:;"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="javascript:;">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">Author  </span>
+<span class="question-time"> Posted on 05 May 2017  </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+13 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" onclick="shareFB(&#39;https://plus.google.com/share?url=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=8&#39;);"></a>
+</li>
+<li>
+<a class="fb" onclick="shareFB(&#39;https://twitter.com/home?status=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=8&#39;);"></a>
+</li>
+<li>
+<a class="chec" onclick="shareFB(&#39;https://www.facebook.com/sharer/sharer.php?u=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=8&#39;);"></a>
+</li>
+<li style="vertical-align: top;">
+<a href="javascript:;"></a>
+</li>
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="javascript:;" onclick="firstLookDocView1(&#39;12&#39;)" class="question-title">Eight new buses on the Borivli route</a>
+</h2>
+
+<span>
+<br>
+<div class="btn-group btn-group-xs">
+<button type="button" class="btn btn-info" onclick="openComments(&#39;12&#39;,&#39;Modular Refineries&#39;);">Comments</button>
+</div>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+
+
+
+</span>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text" style="margin-top:10px;">
+<p>MSRTC has recently introduced eight new buses on the Borivli route with advanced features,powerful AC and more comfortable seats.</p>
+</div>
+<div class="question-cat">
+
+<!--<ul class="question-tags">
+
+<li><a class="q-tag" href="javascript:void(0)"> demo </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketers </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketing </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> media </a></li>
+</ul>-->
+<div class="clearfix"></div>
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="javascript:;"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="javascript:;">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">Author  </span>
+<span class="question-time"> Posted on 05 May 2017  </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+6 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" onclick="shareFB(&#39;https://plus.google.com/share?url=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=12&#39;);"></a>
+</li>
+<li>
+<a class="fb" onclick="shareFB(&#39;https://twitter.com/home?status=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=12&#39;);"></a>
+</li>
+<li>
+<a class="chec" onclick="shareFB(&#39;https://www.facebook.com/sharer/sharer.php?u=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=12&#39;);"></a>
+</li>
+<li style="vertical-align: top;">
+<a href="javascript:;"></a>
+</li>
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name" style="font-size:20px;">
+<a itemprop="url" href="javascript:;" onclick="firstLookDocView1(&#39;7&#39;)" class="question-title">
+Meeting of MSRTC officers to discuss on transport service in Nashik </a>
+</h2>
+
+<span>
+<br>
+<div class="btn-group btn-group-xs">
+<button type="button" class="btn btn-info" onclick="openComments(&#39;7&#39;,&#39;Diesel Refinery_&#39;);">Comments</button>
+</div>
+&nbsp; &nbsp; &nbsp; &nbsp; 
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+<i class="fa fa-star" style="color: rgba(249, 187, 3, 0.77);" aria-hidden="true"></i>
+
+
+
+
+</span>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text" style="margin-top:20px;">
+<p>A meeting of senior Maharashtra State Road Transport Corporation (MSRTC) officers will be held in Mumbai on Monday 
+to discuss the its transport service in Nashik.The division has already intensified its services in rural areas and 
+has cut down numbers of tours on non-profit routes in the city areas"The MSRTC is facing losses of Rs 10 per km in the city and of
+ Rs 2 per km in the rural areas. We have therefore been asking the Nashik Municipal Corporation (NMC) to share the losses or profits,
+ but there is no response from the civic body. As a result we are unable to invest in buying new buses and putting them into service 
+in the city," a senior officer from MSRTC said.</p>
+</div>
+<div class="question-cat">
+
+<!--<ul class="question-tags">
+
+<li><a class="q-tag" href="javascript:void(0)"> demo </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketers </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> marketing </a></li>
+<li><a class="q-tag" href="javascript:void(0)"> media </a></li>
+</ul>-->
+<div class="clearfix"></div>
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="javascript:;"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="javascript:;">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">Author  </span>
+<span class="question-time"> Posted on 05 May 2017  </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+6 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" onclick="shareFB(&#39;https://plus.google.com/share?url=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=7&#39;);"></a>
+</li>
+<li>
+<a class="fb" onclick="shareFB(&#39;https://twitter.com/home?status=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=7&#39;);"></a>
+</li>
+<li>
+<a class="chec" onclick="shareFB(&#39;https://www.facebook.com/sharer/sharer.php?u=http%3A//52.172.183.108%3A8080/km/firstlook/firstLookDocView.jsp?folderType=Inbox%26onlyReview=yes1%26documentIndex=7&#39;);"></a>
+</li>
+<li style="vertical-align: top;">
+<a href="mailto:?Subject=KM_Document&amp;Body=http%3A//52.172.183.108%3A8080/km/documentAuth.jsp%3FdocumentIndex%3D7"></a>
+</li>
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+</ul>
+
+
+</div>
+        </div>       
+        </div>
+    </div>
+    
+    </div>
+    <div class="col-sm-3 ">
+        <div class="payslip-card">
+        <div class="row_wrap">
+                    
+<!--<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>18</span>
+</p></li>
+<li class="members-count">
+<p>CONTRIBUTORS</p><p>
+<span>9</span>
+</p></li>
+</ul>
+</li> 
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">TOP CONTRIBUTORS</h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="javascript:void(0)">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="javascript:void(0)">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="javascript:void(0)">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="javascript:void(0)">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+
+<li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">NEW USERS </h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="javascript:void(0)">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="javascript:void(0)">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="javascript:void(0)">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="javascript:void(0)">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+</ul>-->
+	 
+
+
+<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>9</span>
+</p></li>
+<li class="members-count">
+<p>Contributors</p><p>
+  		
+<span>11</span>
+</p></li>
+</ul>
+</li> 
+<!--
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">Top Contributors</h3>
+<div class="hot-user-question">
+
+<ul>
+  
+<li><span class="number">1</span>
+<span class="username ">
+<a href="javascript:void(0)">content_developer</a></span>
+
+<span style="margin-left: -25%;">7</span></span></li>
+
+<li><span class="number">2</span>
+<span class="username ">
+<a href="javascript:void(0)">Author</a></span>
+
+<span style="margin-left: -25%;">2</span></span></li>
+
+
+</ul>
+
+
+
+</div>
+</li>
+-->
+<li class="widget user-widget" >
+<h3 class="widgettitle">Categories</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker1" style="width: 130%; height: 120px; overflow: hidden;">
+  
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="">Polices</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="">Forms</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="">Acts and Regulations</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="">Circulars</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="">Guidelines</a></span>
+</li><li style="margin-top: 0px;"><span class="number">5</span>
+<span class="username ">
+<a href="">Standards and Manuals</a></span>
+</li></ul>
+</div>
+</li>
+
+
+
+
+<li class="widget user-widget">
+<h3 class="widgettitle">Document Resources</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker4" style="width: 130%; height: 180px; overflow: hidden;">
+  
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="javascript:;">Detailed Project Report</a></span>
+</li><li style="margin-top: 0px;"><span class="number">8</span>
+<span class="username ">
+<a href="javascript:;">Time Tables</a></span>
+</li><li style="margin-top: 0px;"><span class="number">9</span>
+<span class="username ">
+<a href="javascript:;">Operational Manuals</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="javascript:;">Contracts</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="javascript:;">Drawings</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="javascript:;">Proposals</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="javascript:;">Technical Manuals</a></span>
+</li></ul>
+</div>
+</li>
+
+
+</ul>
+ 
+</div>
+        </div>
+    </div>
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

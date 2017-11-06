@@ -1,0 +1,160 @@
+<div class="container">
+  <div class="payslip">
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">New Case Details</h5>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">CCRequest No</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                  <div class="col-md-2 col-xs-5 gap">Case No</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>                                  
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Applicant Name</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                  <div class="col-md-2 col-xs-5 gap">Central Govt. Council</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>                                  
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Date of Filing</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                  <div class="col-md-2 col-xs-5 gap">Case Type</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                      <option value="">--Select--</option>
+                                                      <option value="">Legals</option>
+                                                      <option value="">Others</option>
+                                      </select>
+                                  </div>
+                                  
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Case Details</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                  <div class="col-md-2 col-xs-5 gap">Court</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                      <option value="">--Select--</option>
+                                                      <option value="">High Court</option>
+                                                      <option value="">Supreme Court</option>
+                                      </select>
+                                  </div>
+                              </div>
+         </div>
+    </div>
+      <!--2nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">Connected Case Details</h5>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Hearing Date</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                  <div class="col-md-2 col-xs-5 gap">Action</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                      <option value="">--Select--</option>
+                                                      <option value="">Opened</option>
+                                                      <option value="">Implemented</option>
+                                                      <option value="">Closed</option>
+                                      </select>
+                                  </div>
+                                  
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Order Details</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                  <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                                  </div>
+                              </div>
+         </div>
+      </div>
+      <!--end of 2nd form-->
+      <!--3nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">Previous Orders</h5>                              
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Order Date</th>
+                                            <th>Action</th>
+                                            <th>Hearing Date</th>
+                                            <th>Order Details</th>
+                                            <th>Remarks</th>
+                                            <th>Update</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td><input type="text" class="form-control input-sm datepickers" value="" ></td>
+                                            <td>
+                                                <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                      <option value="">--Select--</option>
+                                                      <option value="">Opened</option>
+                                                      <option value="">Implemented</option>
+                                                      <option value="">Closed</option>
+                                                </select>
+                                            </td>
+                                            <td><input type="text" class="form-control input-sm datepickers" value="" ></td>
+                                            <td><input type="text" class="form-control input-sm" value="" ></td>
+                                            <td><input type="text" class="form-control input-sm" value="" ></td>
+                                            <td><a href="javascript:;" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Update</a></td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+        </div>
+    </div>
+      <!--end of 3nd form-->
+      <!--4nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">New Order Details</h5>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Hearing Date</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                  <div class="col-md-2 col-xs-5 gap">Action</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                      <option value="">--Select--</option>
+                                                      <option value="">Opened</option>
+                                                      <option value="">Implemented</option>
+                                                      <option value="">Closed</option>
+                                      </select>
+                                  </div>
+                                  
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Order Details</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                  <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                  <div class="col-md-4 col-xs-7 gap"> 
+                                      <textarea class="form-control" rows="5" id="comment"></textarea>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col-md-2 col-xs-5 gap">Order Date</div>
+                                  <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>                                
+                              </div>                            
+        </div>
+    </div>
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                <form class="form-inline pull-right mg-bt">
+                            <a ui-sref="legal-case-listing" title="Back" class="applybtn" > Back</a>
+                            <a ng-click="legalSubmit()" title="Add Case" class="applybtn" > Submit</a>
+                            <a ui-sref="legal-case-listing" title="Cancel" class="applybtn" > Cancel</a>
+                </form>
+        </div>
+    </div>
+      <!--end of 4nd form-->
+  </div>
+</div>
+
+</body>
+</html>

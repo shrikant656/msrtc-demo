@@ -1,0 +1,69 @@
+
+<div class="container">
+
+  <div class="payslip" style="border:0px"> 
+  <div class="row">
+      <div class="col-sm-12">
+        <div class="payslip-card">
+        <div class="row_wrap">
+          
+          <div id="ToolbarDiv" style="position:absolute;top:0;left:0;width:100%;margin:0;height:10%">
+
+<iframe src="./Correspondence Desk_files/activitydesk_toolbar.html" scrolling="NO" width="1366" height="100%" name="Toolbar" onload="this.width=screen.width" frameborder="0"></iframe> 
+</div>
+
+<div id="anchordocview" style="position: absolute; visibility:visible;  top: 7%; left: 34%; width: 65%; height: 92%">
+<script>
+
+if(documentProp.docExt != 'htm')
+{
+document.write("<IFRAME SRC='docview/docview.jsp?ObjectId=486&ObjectType=D&workitem=dakregister&Lock=&ConfigXML=%3CDocviewTool%3E%3CServletZone%3Eservlet%3C%2FServletZone%3E%3CDocumentServlet%3Egetdocstream%3C%2FDocumentServlet%3E%3CAnnotationServlet%3Eviewimageannotation%3C%2FAnnotationServlet%3E%3CStampServlet%3Eviewimagestamp%3C%2FStampServlet%3E%3CWriteServlet%3Eimageannotation%3C%2FWriteServlet%3E%3CSecureAnnotServlet%3E%2Fdoccab%2Fsecureannotations.jsp%3C%2FSecureAnnotServlet%3E%3CNotesServlet%3Edoccab%2Fdocview_notesmain.jsp%3C%2FNotesServlet%3E%3CEditAnnotationOption%3Etrue%3C%2FEditAnnotationOption%3E%3C%2FDocviewTool%3E%3COperations%3E%3CDownload%3Efalse%3C%2FDownload%3E%3CForward%3Efalse%3C%2FForward%3E%3CPrint%3Efalse%3C%2FPrint%3E%3CFullView%3Etrue%3C%2FFullView%3E%3C%2FOperations%3E' WIDTH='100%' HEIGHT='100%' name='docview' FRAMEBORDER=0 CLASS='EWdocview' ></IFRAME>");
+}else
+{
+//alert('412#1#');
+//alert("<IFRAME SRC='../lic/notesEditor.jsp?ATTDocID=486&ATTVerNo=&ATTExt=htm&ATTName=Companies Regulation - 2&AIFolderIndex=&AIDocIndex=&ATTVolID=1&ATTIsIndex="+encode_utf8('412#1#')+"&ATTFolderId=&Modify=Y' WIDTH='574' HEIGHT='665' name='docview' FRAMEBORDER=0 CLASS='EWdocview' style='border-right: 1px solid rgb(192,192,192)' style='border-left: 1px solid rgb(192,192,192)' style='border-top: 1px solid rgb(192,192,192)' style='border-bottom: 1px solid rgb(192,192,192)'></IFRAME>");
+//document.write("<IFRAME SRC='../lic/notesEditor_activitydesk.jsp?ATTDocID=486&ATTVerNo=&ATTExt=htm&ATTName=Companies Regulation - 2&AIFolderIndex=&AIDocIndex=&ATTVolID=1&ATTIsIndex="+encode_utf8('412#1#')+"&ATTFolderId=&Modify=Y' WIDTH='574' HEIGHT='665' name='docview' FRAMEBORDER=0 CLASS='EWdocview' style='border-right: 1px solid rgb(192,192,192)' style='border-left: 1px solid rgb(192,192,192)' style='border-top: 1px solid rgb(192,192,192)' scrolling=no style='border-bottom: 1px solid rgb(192,192,192)'></IFRAME>");
+}
+</script><iframe src="./Correspondence Desk_files/docview.html" width="100%" height="100%" name="docview" frameborder="0" class="EWdocview"></iframe>
+</div>
+<!--
+<div style="position: absolute; top: 65; left: 10; width: 415; height: 50">
+<input type="checkbox" name="showDakProperties" id="showDakProperties" value="close" onclick="showHideDakProperties();"/>
+Click To Show Correspondence Properties
+</div>
+-->
+<div id="dakProperties" style="position: absolute; top: 8%; left: 10; width: 32%; height: 53%;visibilty:visible;display:inline"> 
+<iframe src="./Correspondence Desk_files/formtool.html" scrolling="no" width="100%" height="100%" name="formtool" frameborder="1" class="EWformtool"></iframe>
+</div>
+
+<div id="anchornotes" style="position: absolute; visibility:visible;  top: 64%; left: 10; width: 32%; height:35%">
+<!--changes by atish to remove optins while opening dak from dakregister -->
+
+<iframe src="./Correspondence Desk_files/notes.html" width="100%" height="100%" name="notes" frameborder="0" class="EWnotes"></iframe></div>
+
+
+<!--
+<div id="anchordestfoldertool" style="position: absolute; visibility:visible;  top: 660; left: 0; width: 427; height: 80">
+<IFRAME SRC="../odam/destfoldertool/destfoldertool.jsp?ObjectId=486&ObjectType=D&Lock=&ConfigXML=%3Cdestfoldertool%3E%3Clabel%3EDestination%20Folder%3C%2Flabel%3E%3C%2Fdestfoldertool%3E" WIDTH="428" HEIGHT="80" name="destfoldertool" FRAMEBORDER=0 CLASS="EWdestfoldertool"></IFRAME></div>
+-->
+
+<div id="ActionProcessDiv" style="position: absolute; visibility:visible;  top: 0; left: 10; width: 10; height: 10">
+<iframe id="ActionProcess" name="ActionProcess" src="" width="0" height="0" frameborder="0" class="EWnotes">  
+</iframe>
+<iframe id="Secure" name="Secure" src="" width="0" height="0" frameborder="0">  </iframe>
+</div>
+          
+      </div>
+      
+      
+    </div>
+    
+    
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,363 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form Tender Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Request Form
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+              <a href="javascript:;" title="Save" class="applybtn">Save</a>
+              <a href="javascript:;" title="Submit" class="applybtn">Submit</a>
+              <a href="javascript:;" title="Cancel SR" class="applybtn">Cancel SR</a>
+              
+            </form>
+          </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request(SR) Number </label>
+                  <label class="col-sm-2 control-label"><strong>82056</strong> </label>
+
+                  <label class="col-sm-2 control-label">Notify Requester </label>
+                  <div class="col-sm-2">
+                    <input value="1" checked="checked" type="checkbox" class="input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label"><strong>GSTIN NO.</strong>  </label>
+                  <div class="col-sm-2">
+                    
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Requester Name </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Priority  </label>
+                  <div class="col-sm-2">
+                    <select class="form-control input-sm">
+                      <option value="1" selected="selected">Normal</option>
+                      <option value="2">Urgent</option>
+                      <option value="3">Most Immediate</option>
+                      </select>
+                  </div>
+
+
+
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Requester Number </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="134916">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Designation </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Manager </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Requester Division </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="New Delhi">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Phone </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Coordinator  </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Requestor Location </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" >
+                  </div>
+
+                  <label class="col-sm-2 control-label">Email </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Old SR Reference   </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Customer Site Address  </label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm" readonly="readonly">New Delhi,Delhi</textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Alternate Requestor Name </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Approval Required   </label>
+                  <div class="col-sm-2">
+                    <input type="checkbox" class="input-sm">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request Summary  </label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Alternate Requestor Email </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Approver </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                   <label class="col-sm-2 control-label">Request Type </label>
+                  <div class="col-sm-2">
+                    
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-10">
+                    <div class="col-sm-2">
+                      <input id="SEL_0" value="1" checked="checked" type="checkbox">
+                      <label for="SEL_0">Tubes</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_1" value="2" type="checkbox">
+                      <label for="SEL_1">Tyres</label>
+                    </div>
+                    
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Lubricants</label>
+                    </div>
+                    
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Batteries</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Brake Disc</label>
+                    </div>
+
+                   
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Seat Arm Rest</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_0" value="1" checked="checked" type="checkbox">
+                      <label for="SEL_0">Window Frame</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_1" value="2" type="checkbox">
+                      <label for="SEL_1">Gear Part</label>
+                    </div>
+                    
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Cooling System</label>
+                    </div>
+                    
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Break System</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Hubs & Wheels</label>
+                    </div>
+
+                   
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Seat Arm Rest</label>
+                    </div>
+
+                     <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Steering</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Suspension</label>
+                    </div>
+
+                    <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Electrical System</label>
+                    </div>
+
+                     <div class="col-sm-2">
+                      <input id="SEL_2" value="3" type="checkbox">
+                      <label for="SEL_2">Spare Parts</label>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label"></label>
+                  <div class="col-sm-2">
+                    
+                  </div>
+
+                  <label class="col-sm-2 control-label"></label>
+                  <div class="col-sm-2">
+                    
+                  </div>
+
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request Mode  </label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Mode of Dispatch </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Approver Notes</label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm" readonly="readonly"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Project Number  </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Project </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Amount</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">HOF's / HOD's</label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm" readonly="readonly"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">TESA Notes </label>
+                  <div class="col-sm-2">
+                    <textarea class="form-control input-sm"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Hold SR</label>
+                  <div class="col-sm-2">
+                    <input type="checkbox" class="input-sm">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Hold Comments</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Request Date </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" value="25-Oct-2017" readonly="readonly">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Request Time</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" value="15:55:32" readonly="readonly">
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request Status</label>
+                  <label class="col-sm-2 control-label"><strong>DRAFT</strong></label>
+
+                  <label class="col-sm-2 control-label">Cancellation Comments </label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control input-sm" value="">
+                  </div>
+
+                  
+                </div>
+
+
+
+
+              </div>
+       
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Tender Details form -->
+ 
+
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+        <form class="form-inline pull-right mg-bt">
+            <a href="javascript:;" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn">Save</a>
+            <a href="javascript:;" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn">Submit</a>
+            <a href="javascript:;" title="Cancel SR" class="btn btn-primary whiteTxt guppercase filterbtn">Cancel SR</a>
+        </form>
+        </div>
+    </div>
+
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

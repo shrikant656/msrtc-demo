@@ -1,0 +1,1121 @@
+
+<div class="container">
+
+  <div class="payslip"> 
+  <div class="row">
+      <div class="col-sm-3">
+        <div class="payslip-card">
+        <div class="row_wrap">
+        
+        <ul style="    margin-left: -8px;">
+<li class="widget widget-btn1">
+<div class="profile" style="margin-left:5%;">
+		
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+				<div class="profile-userbuttons" style="margin-top: 0%;">
+					<a href="http://52.172.183.108:8080/km/#" data-toggle="modal" data-target="#exampleModal1" data-whatever="@"><button type="button" class="btn btn-success btn-sm">Sign In</button></a>
+					<a href="http://52.172.183.108:8080/km/#" data-toggle="modal" data-target="#exampleModal" data-whatever="@"><button type="button" class="btn btn-danger btn-sm">Sign Up</button></a>
+				</div>
+				
+			</div>
+		
+	</div>
+</li> 
+</ul>
+        
+         <div class="panel-group " id="ex3" style="margin:10px -21px 0 -21px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading" >
+                        <h4 class="panel-title">
+                            <a href="#"><span class="fa fa-folder">
+                            </span>&nbsp;Bulletin Board</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in" >
+                        <div class="panel-body">
+                          <!--  <table class="table">
+                                <tr>
+                                    <td>
+                                        Scheme for Exposure of Consultants & Client's to International Consulting Practices through Seminars and Conferences Venue: Davos, Switzerland 10/2/2017 to 10/5/2017.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        V World Aqua Congress 2017, Exhibition & Conference Venue: India Habitat Centre, New Delhi, India 11/16/2017 to 11/18/2017. 
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                       Certificate Programme in Management Consulting Venue: CDC. New Delhi 7/10/2017 to 9/18/2017 9:30 hrs. - 14:00 hrs. 
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                      Bhim App was launched by PM Narendra Modi at the Digi Dhan Mela in Delhi. New Delhi: In keeping with his push to steer India towards a digital economy, Prime Minister Narendra Modi on Friday launched a new e-wallet app, BHIM, named after founding father Dr BR Ambedkar
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                     All Pradhan Mantri Yojana launched by Narendra Modi | Schemes |Sarkari ... focus on top famous schemes that Narendra Modi government has launched so far
+                                    </td>
+                                </tr>
+                                
+                            </table>-->
+							
+						<ul id="nticker2" style="height: 400px; overflow: hidden;">
+						
+						
+						
+						
+						
+						
+						
+						
+						<li style="margin-top: 0px;"> Certificate Programme in Management Consulting Venue: CDC. New Delhi 7/10/2017 to 9/18/2017 9:30 hrs. - 14:00 hrs.<br><br> </li><li style="margin-top: 0px;">V World Aqua Congress 2017, Exhibition &amp; Conference Venue: India Habitat Centre, New Delhi, India 11/16/2017 to 11/18/2017.<br><br> </li><li style="margin-top: 0px;">Scheme for Exposure of Consultants &amp; Client's to International Consulting Practices through Seminars and Conferences Venue: Davos, Switzerland 10/2/2017 to 10/5/2017.<br><br></li><li style="margin-top: 0px;">Bhim App was launched by PM Narendra Modi at the Digi Dhan Mela in Delhi. New Delhi: In keeping with his push to steer India towards a digital economy, Prime Minister Narendra Modi on Friday launched a new e-wallet app, BHIM, named after founding father Dr BR Ambedkar<br><br></li><li style="margin-top: 0px;"> All Pradhan Mantri Yojana launched by Narendra Modi | Schemes |Sarkari ... focus on top famous schemes that Narendra Modi government has launched so far <br><br></li></ul>	
+		
+    <script>
+    	 var nt_example2 = $('#nticker2').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+							
+							
+                        </div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="payslip-card">
+        <div class="row_wrap">
+                          
+<div class="row question-filter" id="question_filter">
+<div class="col-md-12 col-xs-12 sort-questions">
+
+
+<ul class="nav nav-tabs">
+   <li class="active"><a data-toggle="tab" href="http://52.172.183.108:8080/km/#menu1">Most Viewed</a></li>
+    <li><a data-toggle="tab" href="http://52.172.183.108:8080/km/#home">Latest</a></li>
+    <li><a data-toggle="tab" href="http://52.172.183.108:8080/km/#menu2">Most Rated</a></li>
+ 
+    <!--<li><a data-toggle="tab" href="#menu2">Most Cited</a></li>-->
+  </ul>
+  
+</div>
+
+</div> 
+<div class="main-questions-list">
+
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade">
+	
+<ul id="main_questions_list">
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">MOD Resolution Letter</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This document is related to resolution of queries.</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">  </span>
+<span class="question-time"> Posted on 03 Jul 2017</span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content" >
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+8 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Equipment Design and Cost Estimation</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This deliverable is the Final Report for Task 1, Cost Estimates of Small Modular Systems, as part of NREL Award ACO-5-44027,Equipment Design and Cost Estimation for Small Modular Biomass Systems, Synthesis Gas Cleanup and Oxygen Separation Equipment</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">  </span>
+<span class="question-time"> Posted on 05 May 2017</span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+13 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Modular Refineries</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>The petroleum refining sector has undergone significant rationalization in the last three decades. In the 1980s and 1990s surplus refining capacity globally triggered increasing competition among refiners and declining margins. Weak commercial conditions, together with tougher environmental regulations, led to closure of the majority of the less efficient, smaller refineries worldwide. The historically low returns, typically below the cost of capital, also resulted in significant under investment in the sector and industry concentration with re-investment only into the larger, more efficient complex refineries.</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;">  </span>
+<span class="question-time"> Posted on 05 May 2017</span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+6 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+
+
+
+</ul></div>
+
+
+
+    <div id="menu2" class="tab-pane fade">
+
+	
+	
+
+<ul id="main_questions_list">
+
+
+
+	
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Modular Refineries</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>The petroleum refining sector has undergone significant rationalization in the last three decades. In the 1980s and 1990s surplus refining capacity globally triggered increasing competition among refiners and declining margins. Weak commercial conditions, together with tougher environmental regulations, led to closure of the majority of the less efficient, smaller refineries worldwide. The historically low returns, typically below the cost of capital, also resulted in significant under investment in the sector and industry concentration with re-investment only into the larger, more efficient complex refineries.</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 05 May 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+6 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Equipment Design and Cost Estimation</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This deliverable is the Final Report for Task 1, Cost Estimates of Small Modular Systems, as part of NREL Award ACO-5-44027,Equipment Design and Cost Estimation for Small Modular Biomass Systems, Synthesis Gas Cleanup and Oxygen Separation Equipment</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 05 May 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+13 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">MOD Resolution Letter</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This document is related to resolution of queries.</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 03 Jul 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+8 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+
+</ul>
+
+</div>
+
+
+
+
+
+    <div id="menu1" class="tab-pane fade  in active">
+
+
+<ul id="main_questions_list">
+
+
+
+	
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Equipment Design and Cost Estimation</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This deliverable is the Final Report for Task 1, Cost Estimates of Small Modular Systems, as part of NREL Award ACO-5-44027,Equipment Design and Cost Estimation for Small Modular Biomass Systems, Synthesis Gas Cleanup and Oxygen Separation Equipment</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 05 May 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+13 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">MOD Resolution Letter</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p>This document is related to resolution of queries.</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="images/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 03 Jul 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+8 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+<li class="question-item post-2341 question type-question status-publish hentry question_category-business qa_tag-business-2 qa_tag-technology-2">
+<div>
+<div class="col-md-8 col-xs-8 q-left-content">
+<div class="q-ltop-content">
+<h2 itemprop="name">
+<a itemprop="url" href="http://52.172.183.108:8080/km/#" class="question-title" onclick="alert(&#39;Please login to continue&#39;);">Pollution</a>
+</h2>
+</div>
+<div class="q-lbtm-content">
+<div class="question-excerpt" itemprop="text">
+<p> Pollution occurs when pollutants contaminate the natural surroundings</p>
+</div>
+<div class="question-cat">
+
+
+<span class="author-avatar">
+<img class="avatar" alt="" src="./__ Knowledge Management ___files/usr1.jpg">
+</span><a href="http://52.172.183.108:8080/km/#"><span itemprop="name" class="author-name">content_developer</span></a>
+<span class="question-category"><a href="http://52.172.183.108:8080/km/#">Content Creator </a></span>&nbsp;&nbsp;&nbsp;
+<span class="user-badge" style="background-color:#0372bf;"> </span>
+<span class="question-time"> Posted on 22 Mar 2017 </span>
+</div>
+</div>
+</div> 
+<div class="col-md-4 col-xs-4 q-right-content">
+<ul class="question-statistic">
+<li>
+<span class="question-views">
+6 </span>
+views </li>
+<li class="active">
+<span itemprop="answerCount" class="question-answers">
+0 </span>
+shares </li>
+<li>
+<span itemprop="upvoteCount" class="question-votes">
+0 </span>
+votes </li>
+</ul>
+<div class="social-icons" style="margin-right:10%;">
+<ul>
+<li>
+<a class="twi" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="fb" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+<li>
+<a class="chec" href="http://52.172.183.108:8080/km/#"></a>
+</li>
+
+</ul>
+</div>
+<div class="pumping">
+</div>
+</div> 
+<div class="clearfix"></div>
+</div>
+</li>
+
+
+
+
+</ul>
+
+</div> </div></div>
+                          
+                          
+                          
+        </div>
+    </div>
+    </div>
+    <div class="col-sm-3 ">
+        <div class="payslip-card">
+        <div class="row_wrap">
+                    
+<!--<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>18</span>
+</p></li>
+<li class="members-count">
+<p>CONTRIBUTORS</p><p>
+<span>9</span>
+</p></li>
+</ul>
+</li> 
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">TOP CONTRIBUTORS</h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="#">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="#">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="#">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="#">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+
+<li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">NEW USERS </h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="#">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="#">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="#">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="#">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+</ul>-->
+	 
+
+
+<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>9</span>
+</p></li>
+<li class="members-count">
+<p>Contributors</p><p>
+  		
+<span>11</span>
+</p></li>
+</ul>
+</li> 
+<!--
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">Top Contributors</h3>
+<div class="hot-user-question">
+
+<ul>
+  
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">content_developer</a></span>
+
+<span style="margin-left: -25%;">7</span></span></li>
+
+<li><span class="number">2</span>
+<span class="username ">
+<a href="#">Author</a></span>
+
+<span style="margin-left: -25%;">2</span></span></li>
+
+
+</ul>
+
+
+
+</div>
+</li>
+-->
+<li class="widget user-widget" >
+<h3 class="widgettitle">Categories</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker1" style="width: 130%; height: 120px; overflow: hidden;">
+  
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Rural Development</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Advisory Services</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Design</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Education</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Evaluation &amp; Assessment Studies</a></span>
+</li><li style="margin-top: 0px;"><span class="number">5</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Impact Studies</a></span>
+</li></ul>
+</div>
+</li>
+
+
+
+
+<li class="widget user-widget">
+<h3 class="widgettitle">Document Resources</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker4" style="width: 130%; height: 180px; overflow: hidden;">
+  
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Diesel Refinery_</a></span>
+</li><li style="margin-top: 0px;"><span class="number">8</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Modular Refineries</a></span>
+</li><li style="margin-top: 0px;"><span class="number">9</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Administrative Structure</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Newgen-Solution-Brochure-BPM-ECM-CCM-Pharmaceutical</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Equipment Design and Cost Estimation</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">MOD Resolution Letter</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Pollution</a></span>
+</li></ul>
+</div>
+</li>
+
+
+</ul>
+ 
+</div>
+        </div>
+    </div>
+    </div>
+
+ 
+      <!--end of 2nd form-->
+      <!--3nd form-->
+      
+      <!--end of 3nd form-->
+      <!--4nd form-->
+      
+      
+      <!--end of 4nd form-->
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Maharashtra State Road Transport Corporation</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/rs_styles.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+        <!--header section-->
+    
+<div class="container-fluid" id="headerblk">
+  <header class="row header">
+    <div class="logo_header hidden-xs hidden-sm">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                    <a href="index.html" class="logo"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                   <img src="images/emblem.png" class="img-responsive emblem hidden-xs hidden-sm" alt="Emblem" title="Emblem" />
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="menu_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hidden-xs hidden-sm" id="main_nav">              
+                      <nav>
+                          <a href="dashboard.html" title="Home" class="home_icon"> <img src="images/home_btn.png" class="img-responsive" alt="Home" title="Home"></a>
+                        <ul class="nav navbar-nav">
+                          <li><a href="user-profile.html" title="Personal Info">Personal Info</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard.html" title="Leave Mgmt">Leave Mgmt</a></li>
+                          <li><a href="javascript:;" title="Investors Zone">TADA Mgmt</a></li>                                       
+                                         
+                        </ul>
+                          <div class="dropdown">
+                          <a href="login.html" class="login_btn" title="Login" data-toggle="dropdown">Welcome [FirstName] <i class="fa fa-user" aria-hidden="true"></i> <span class="caret"></span></a>
+                          <ul class="dropdown-menu" style="display:none;">
+                            <li><a href="#" title="Profile">Profile</a></li>
+                            <li><a href="index.html" title="Logout">Logout</a></li>
+                          </ul>
+                          </div>
+                      </nav>
+                    </div>
+
+                      <div class="pull-right visible-xs visible-sm" id="main_nav">
+                          <a href="index.html" class="mob_log"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                        <a href="#menu" class="mob_menu"><i class="glyphicon glyphicon-menu-hamburger"></i></a>
+                      <nav id="menu">
+                        <ul>
+                          <li><a href="user-profile.html" title="Personal Info">Personal Info</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard" title="Leave Mgmt">Leave Mgmt</a></li>
+                          <li><a href="javascript:;" title="Investors Zone">TADA Mgmt</a></li>                                       
+                          <li><a href="login.html" class="login_btn" title="Login">Login</a></li>               
+                        </ul>
+                      </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+</div>
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Absence Management: Summary</h5>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Employee Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Sangare, Rohit</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Employee Number</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>LC002</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Organization Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Mumbai Metro Rail Corporation Limited</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Grade</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>W5</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Designation</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Deputy Accountant</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Department</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Finance</strong></div>
+        </div>
+      </div>
+    </div>
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Entitlement Balances</h5>
+        <div class="row">
+          <div class="col-md-12 gap">The accrual balances are as of: 24-Oct-2017.</div>
+          <div class="col-md-12 gap">Enter the date for which you wish to view Leave accruals.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap form-control-static">Effective Date (example: 24-Oct-2017)</div>
+          <div class="col-md-2 gap">
+            <input type="text" class="form-control input-sm" id='leavedate'>
+          </div>
+          <div class="col-md-2 gap">
+            <button class="btn btn-primary btn-sm">Go</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap">Casual Leave Plan - <strong>8</strong></div>
+          <div class="col-md-3 gap">Earned Leave Plan - <strong>115</strong></div>
+          <div class="col-md-3 gap">Half Pay Leave Plan - <strong>76</strong></div>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Leave Summary</h5>
+        <div class="row">
+          <div class="col-md-12 gap">
+            <strong>Search :</strong><br />
+            Note that the search is case insensitive.
+          </div>
+        </div>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Type :</label>
+                <div class="col-sm-8">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Casual Leave(CL)</option>
+                    <option value="">Child Adoption Leave</option>
+                    <option value="">Child Care Leave(CCL)</option>
+                    <option value="">Commuted Leave - Certificate</option>
+                    <option value="">Commuted Leave -No Certificate</option>
+                    <option value="">Earned Leave(EL)</option>
+                    <option value="">Extraordinary Leave(EOL)</option>
+                    <option value="">Half Day Casual Leave</option>
+                    <option value="">Half Pay Leave(HPL)</option>
+                    <option value="">Leave Not Due(LND)</option>
+                    <option value="">Maternity Leave-Abortion</option>
+                    <option value="">Maternity Leave-Miscarriage</option>
+                    <option value="">Maternity Leave-Pregnancy</option>
+                    <option value="">Paternity Leave</option>
+                    <option value="">Special Casual Leave</option>
+                    <option value="">Special Disability Leave</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Approval Status :</label>
+                <div class="col-sm-8">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Start Date (example: 24-Oct-2017) :</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control input-sm" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Status :</label>
+                <div class="col-sm-8">
+                  <select name="absenceStat" id="absenceStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Confirmed</option>
+                    <option value="">Planned</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">End Date :</label>
+                <div class="col-sm-8">
+                  <input type="text" class="form-control input-sm" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 gap text-right">
+              <a href="javascript:;" class="btn btn-primary">Go</a>
+              <a href="javascript:;" class="btn btn-default">Clear</a>
+            </div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <table class="table table-bordered table-condensed1">
+            <thead>
+              <tr>
+                <th rowspan="2">Start Date</th>
+                <th rowspan="2">End Date</th>
+                <th rowspan="2">Absence Type</th>
+                <th colspan="2" class="text-center">Duration</th>
+                <th rowspan="2">Approval Status</th>
+                <th rowspan="2">Absence Status</th>
+                <th rowspan="2">Supporting Documents</th>
+                <th rowspan="2">Details</th>
+                <th rowspan="2">Actions</th>
+              </tr>
+              <tr>
+                <th class="text-center">Days</th>
+                <th class="text-center">Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>18-Oct-2017</td>
+                <td>18-Oct-2017</td>
+                <td>Earned Leave (EL)</td>
+                <td>0</td>
+                <td>1</td>
+                <td>&nbsp;</td>
+                <td>Pending Approval</td>
+                <td>Confirmed</td>
+                <td><a href="javascript:;" class="fa fa-clip"></a></td>
+                <td>
+                  <a href="javascript:;" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                  <a href="javascript:;" class="fa fa-trash" title="Delete"></a>
+                </td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!--end of payslip--> 
+      <!--start of footer-->
+<div class="container-fluid">
+  <div class="row site_footer">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <span>Content owned by Maharashtra State Road Transport Corporation</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

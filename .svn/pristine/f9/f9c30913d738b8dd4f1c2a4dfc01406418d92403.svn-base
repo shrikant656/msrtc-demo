@@ -1,0 +1,451 @@
+<div class="md-dash">
+  <div class="main_wrap">
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-sm-12 ca_padd no-pad">
+        <div class="row full_grid">
+          <div class="card_blk">
+            <div class="col-xs-12 col-md-3 col-sm-6 text-center dash-index card_padd">
+              <h4>Overall Operation Index</h4>
+              <div class="stats">91<span>%</span></div>
+            </div>
+            <div class="col-xs-12 col-md-9 col-sm-6 text-center card_padd">
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                <span class="progress-left">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <div class="progress-value">93%
+                <span>Safety</span> <span>Index</span>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">95%  <span>Service</span></div>
+                   
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress red">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar red"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar red"></span>
+                        </span>
+                        <div class="progress-value">35%  <span>Expenditure</span></div>
+                    
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                <span class="progress-left">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <div class="progress-value">100%
+                <span>Revenue</span>
+                </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">70%  <span>Legal</span></div>
+                    
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress red">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar red"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar red"></span>
+                        </span>
+                        <div class="progress-value">30%  <span>Inventory</span></div>
+                    </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <section class="fl box-full">
+        <section class="fl left-section customScrollbar">
+            <div class="cont-row box-full">
+                
+              	<article class="fl col-ty-1 col-icon text-center">
+                  <a href="public-transport.html">
+                  <div class="a-icon">
+                    <svg enable-background="new 0 0 46 46" version="1.1" viewBox="0 0 46 46" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(-270 -1640)">
+    <path d="m313.25 1654h-2.252v-13.502h-35.996v13.502h-2.25c-1.242 0-2.25 1.004-2.25 2.246v4.502c0 1.244 1.004 2.248 2.25 2.248h2.25v18h2.25v2.25c0 1.242 1.006 2.248 2.25 2.248h2.25c1.242 0 2.248-1.006 2.248-2.248v-2.25h18.002v2.25c0 1.242 1.002 2.248 2.246 2.248h2.252c1.242 0 2.25-1.006 2.25-2.248v-2.25h2.252v-18h2.248c1.244 0 2.252-1.004 2.252-2.248v-4.502c-4e-3 -1.242-1.01-2.246-2.252-2.246zm-26.998-11.25h13.498v4.498h-13.498v-4.498zm-4.5 33.748h-4.5v-4.502h4.5v4.502zm-2.25-11.25c-1.244 0-2.25-1.004-2.25-2.252v-11.248c0-1.242 1.006-2.252 2.25-2.252h11.25v15.75h-11.25v2e-3zm20.248 11.25h-13.498v-2.252h13.498v2.252zm0-4.504h-13.498v-2.248h13.498v2.248zm8.996 4.504h-4.498v-4.502h4.498v4.502zm0-13.502c0 1.242-1.004 2.252-2.252 2.252h-11.248v-15.75h11.248c1.248 0 2.252 1.008 2.252 2.25v11.248z" fill="#183883"/>
+</g>
+</svg>
+                  </div>
+                  <h2>SERVICE INDEX</h2>
+                  </a>
+                </article>
+
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Punctuality Rate</h3>
+                  <div class="percent padT_25 clr-999">95%</div> 
+                  <div>Good</div>
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Average Delays</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-999">11</div><div>Peak hrs</div></li>
+                      <li class="list"><div class="percent clr-red">5</div><div>Off Peak hrs</div></li>
+                      <li class="list"><div class="percent clr-999">1</div><div>Holidays</div></li>
+                    </ul>
+
+                  </div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <!-- <div class="o-b-wrap">
+                      <div class="dropdown">
+                        <button class="btn btn-flat dropdown-toggle ignorebtn" type="button" data-toggle="dropdown">
+                         <i class="fa fa-ellipsis-v"></i></button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">Comments</a></li>                  
+                            <li><a href="#">Annotate</a></li>
+                            <li><a href="#">Help</a></li>
+                          </ul>
+                      </div>
+                    </div> -->
+                  <h3 class="mar_0 clr-052">Utilization</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-red">65%</div><div>Shivneri<br></div></li>
+                      <li class="list"><div class="percent clr-999">85%</div><div>Ordinary<br></div></li>
+                      <li class="list"><div class="percent clr-999">98%</div><div>Semi Luxury</div></li>
+                    </ul>
+
+                  </div>
+
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+                <article class="fl col-ty-1 col-icon text-center">
+                <a href="#">
+                  <div class="a-icon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<g>
+  <path fill="#1F497D" d="M2.232,2.23c-2.912,2.912-2.912,7.653,0,10.564l0,0C3.688,14.271,5.616,15,7.524,15
+    s3.835-0.729,5.292-2.186c2.91-2.912,2.91-7.653,0-10.564C9.904-0.681,5.144-0.681,2.232,2.23z M9.982,5.24H8.605
+    c0.101,0.177,0.178,0.355,0.217,0.551h1.16v0.925h-1.16c-0.196,0.827-0.905,1.456-1.75,1.478H6.717l2.303,2.438L8.389,11.32
+    L4.573,7.268h2.459c0.354,0,0.669-0.217,0.826-0.552H5.065V5.791h2.793C7.702,5.457,7.387,5.24,7.033,5.24H5.065V4.316h4.938V5.24
+    H9.982z"/>
+</g>
+</svg>
+
+                  </div>
+                  <h2>FINANCE</h2>
+                </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Total Crime Reported</h3>
+                  <div class="percent padT_25 clr-red">135</div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+
+                  <!-- <div class="o-b-wrap">
+                      <div class="dropdown">
+                        <button class="btn btn-flat dropdown-toggle ignorebtn" type="button" data-toggle="dropdown">
+                          <i class="fa fa-ellipsis-v"></i></button>
+                          <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">Comments</a></li>                  
+                            <li><a href="#">Annotate</a></li>
+                            <li><a href="#">Help</a></li>
+                          </ul>
+                      </div>
+                    </div> -->
+
+                  <h3 class="mar_0 clr-052">Revenue</h3>
+                  <div class="pad_10">
+                  <div class="bars">
+                    <h4 class="text-left">Shivneri</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-a" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:89%">
+                        <span class="pbr">89<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Ordinary</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-b" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:34%">
+                         <span class="pbr">34<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Ashiad</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-c" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                        <span class="pbr">10<span>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  </div>
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+
+                  <!-- <div class="o-b-wrap">
+                      <div class="dropdown">
+                        <button class="btn btn-flat dropdown-toggle ignorebtn" type="button" data-toggle="dropdown">
+                          <i class="fa fa-ellipsis-v"></i></button>
+                          <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="#">Comments</a></li>                  
+                            <li><a href="#">Annotate</a></li>
+                            <li><a href="#">Help</a></li>
+                          </ul>
+                      </div>
+                    </div> -->
+
+                  <h3 class="mar_0 clr-052">Expenditure</h3>
+                  <div class="pad_10">
+                  <div class="bars">
+                    <h4 class="text-left">Fuel</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-a" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:89%">
+                        <span class="pbr">89<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Type</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-b" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:34%">
+                         <span class="pbr">34<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Gear Box</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-c" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                        <span class="pbr">10<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Chasis</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-d" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:2%">
+                        <span class="pbr">2<span>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+            	  <article class="fl col-ty-1 col-icon text-center">
+
+                <a href="#">
+                  <div class="a-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<path fill="#1F497D" d="M7.782,0.457c-0.156-0.155-0.408-0.155-0.563,0L0.45,7.225C0.375,7.3,0.333,7.401,0.333,7.506v6.768
+  c0,0.514,0.796,0.514,0.796,0V7.671l6.37-6.37l6.37,6.37v6.603c0,0.514,0.797,0.514,0.797,0V7.506c0-0.105-0.041-0.207-0.115-0.282
+  L7.782,0.457z"/>
+<path fill="#1F497D" d="M10.686,7.109H4.314c-0.22,0-0.398,0.178-0.398,0.397v0.796H3.519c-0.514,0-0.514,0.798,0,0.798h0.398v4.777
+  c0,0.219,0.178,0.396,0.398,0.396h1.194c0.22,0,0.398-0.178,0.398-0.396v-0.398h3.187v0.398c0,0.219,0.176,0.396,0.396,0.396h1.195
+  c0.221,0,0.398-0.178,0.398-0.396V9.101h0.396c0.514,0,0.514-0.798,0-0.798h-0.396V7.506C11.084,7.287,10.906,7.109,10.686,7.109z
+   M10.287,13.479H9.889v-0.398c0-0.221-0.178-0.398-0.398-0.398H5.509c-0.219,0-0.397,0.178-0.397,0.398v0.398H4.713V7.904h5.574
+  V13.479z"/>
+<path fill="#1F497D" d="M5.509,11.091H9.49c0.221,0,0.398-0.178,0.398-0.398V8.7c0-0.219-0.178-0.397-0.398-0.397H5.509
+  c-0.219,0-0.397,0.179-0.397,0.397v1.992C5.111,10.913,5.29,11.091,5.509,11.091z M5.907,9.101h3.187v1.193H5.907V9.101z"/>
+<path fill="#1F497D" d="M5.509,12.284h0.398c0.22,0,0.398-0.178,0.398-0.398c0-0.219-0.179-0.396-0.398-0.396H5.509
+  c-0.219,0-0.397,0.178-0.397,0.396C5.111,12.106,5.29,12.284,5.509,12.284z"/>
+<path fill="#1F497D" d="M9.49,11.489H9.094c-0.223,0-0.398,0.178-0.398,0.396c0,0.221,0.176,0.398,0.398,0.398H9.49
+  c0.221,0,0.398-0.178,0.398-0.398C9.889,11.667,9.711,11.489,9.49,11.489z"/>
+</svg>
+
+
+
+                  </div>
+                  <h2>DEPOTS</h2>
+                </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Total<br> Operational</h3>
+                  <div class="percent padT_25 clr-999">1223</div> 
+                  
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Top Performing</h3>
+                  <div class="padT_25">Motilal Nagar, Goregaon - 34<br>
+                  Marol, Andheri - 14</div>
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Low Performing</h3>
+                  <div class="padT_25">Colaba, Mumbai - 34<br>
+                    Govandi, Shivaji Nagar, Mumbai  - 34</div>
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+            	   <article class="fl col-ty-1 col-icon text-center">
+                  <a href="#">
+                  <div class="a-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<path fill="#1F497D" d="M13.472,3.487L8.26,0.474c-0.332-0.195-0.754-0.195-1.084,0L1.962,3.487
+  C1.616,3.683,1.405,4.044,1.405,4.436v6.027c0,0.391,0.211,0.752,0.542,0.934l5.212,3.013c0.166,0.091,0.346,0.15,0.543,0.15
+  c0.195,0,0.375-0.045,0.541-0.15l5.214-3.013c0.33-0.196,0.541-0.558,0.541-0.934V4.436C14.015,4.044,13.819,3.683,13.472,3.487z
+   M7.432,5.641c0-0.045,0.045-0.09,0.09-0.09h0.301C7.867,5.37,7.943,5.204,8.033,5.039L7.777,4.782
+  c-0.016-0.015-0.029-0.045-0.029-0.06s0.014-0.045,0.029-0.061l0.332-0.331c0.029-0.03,0.09-0.03,0.135,0l0.271,0.256
+  c0.137-0.091,0.303-0.151,0.469-0.181V4.09c0-0.045,0.045-0.091,0.09-0.091H9.54c0.045,0,0.092,0.045,0.092,0.091v0.316
+  c0.164,0.044,0.316,0.105,0.451,0.181l0.256-0.256c0.031-0.03,0.09-0.03,0.135,0l0.332,0.331c0.016,0.016,0.029,0.045,0.029,0.061
+  s-0.014,0.045-0.029,0.06l-0.24,0.256c0.09,0.151,0.164,0.316,0.211,0.497h0.301c0.045,0,0.09,0.045,0.09,0.09v0.467
+  c0,0.045-0.045,0.09-0.09,0.09h-0.301C10.745,6.349,10.671,6.5,10.595,6.65l0.211,0.211c0.016,0.015,0.029,0.044,0.029,0.06
+  c0,0.03-0.014,0.045-0.029,0.06l-0.332,0.332c-0.014,0.015-0.045,0.03-0.061,0.03c-0.029,0-0.043-0.016-0.059-0.03l-0.195-0.196
+  c-0.152,0.105-0.316,0.167-0.498,0.211V7.6c0,0.045-0.045,0.09-0.092,0.09H9.104c-0.047,0-0.092-0.045-0.092-0.09V7.328
+  c-0.182-0.044-0.361-0.12-0.512-0.211L8.275,7.344C8.26,7.359,8.23,7.374,8.215,7.374S8.17,7.359,8.154,7.344L7.822,7.012
+  c-0.014-0.015-0.029-0.044-0.029-0.06c0-0.03,0.016-0.045,0.029-0.06L8.064,6.65c-0.092-0.136-0.15-0.301-0.182-0.452H7.582
+  c-0.045,0-0.09-0.045-0.09-0.09V5.641H7.432z M11.228,9.559c0,0-3.39,0.963-3.405,0.963c-0.074,0.016-0.422,0.106-0.707-0.059
+  c-0.166-0.091-1.431-0.89-1.597-0.979L3.846,9.95L3.334,8.172h0.015c0.105-0.029,2.606-0.738,2.667-0.753l0,0
+  c0.332-0.091,0.572,0.06,0.572,0.075l2.32,1.296c0.15,0.075,0.227,0.256,0.197,0.421c0,0.076-0.031,0.137-0.063,0.196
+  c-0.059,0.12-0.164,0.196-0.301,0.241c-0.135,0.045-0.27,0.016-0.376-0.045L7.416,9.076l-0.09,0.166L8.275,9.77
+  c0.165,0.09,0.345,0.105,0.526,0.06C8.983,9.784,9.118,9.664,9.21,9.498c0.09-0.15,0.105-0.331,0.059-0.497V8.985l1.656-0.482
+  c0.273-0.075,0.559,0.076,0.633,0.348C11.649,9.182,11.47,9.483,11.228,9.559z"/>
+<circle fill="#1F497D" cx="9.3" cy="5.867" r="0.934"/>
+</svg>
+
+                  </div>
+                  <h2>Vendors</h2>
+                 </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Total Empanelled</h3>
+                  <div class="percent padT_25 clr-999">25</div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Top Performing</h3>
+                  <div class="padT_25">ABC corporation LTD - 34<br>
+                    JNK PVT LTD  - 34</div>
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Low Performing</h3>
+                  <div class="padT_25">ABC corporation LTD - 34<br>
+                    JNK PVT LTD  - 34</div>
+            </div>
+        </section>
+        
+                
+        <section class="fl right-section">
+        	  <div class="fl right-row box-full right-hbox">
+               <div class="traf-lbl">Traffic Congestion</div>
+            	 
+               
+              <div id="map" class="broadcast_map2">
+                <img title="Affected Area" class="img-responsive aa2" alt="Affected Area" src="images/area2.png">
+                <img title="Affected Area" class="img-responsive aa3" alt="Affected Area" src="images/area3.png">
+                
+              </div>
+               
+               
+               
+            </div>
+
+            <div class="fl right-row box-full right-hbox">
+                 
+                 <h3 class="fl clr-052 borB borClr-205">
+                  <div class="text-center">JB Nagar, Andheri</div>
+                </h3>
+                 <div class="fl cont-block pad_10"><div class="over_hide">
+                 <video width="100%" controls loop style="margin-top:5px;">
+  <source src="/msrtc-demo/media/bombay-traffic.mp4" type="video/mp4">
+  
+Your browser does not support the video tag.
+</video></div></div>
+               
+              
+            </div>
+            
+            <div class="fl right-row box-full right-hbox">
+
+                  <h3 class="clr-052 borB borClr-205">SOCIAL MEDIA INDEX - 7 DAYS</h3>
+                  <div class="pad_10" ng-controller="DoughnutCtrla">
+                     <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels" chart-colors="colors" chart-legend="true">
+                  </canvas> 
+                  </div>
+
+            </div>
+            
+            <!-- <div class="fl right-row box-full right-hbox">
+              <h3 class="clr-052 borB borClr-205">RECENT NEWS <a href="javascript:;" class="view-all">View All</a></h3>
+              
+              <div class="rn_sect borB borClr-205">
+                  <a href="#" class="e_feeds"><p class="teamcnt-title ttl_40">39 injured at Elphinstone railway station's foot over bridge.</p>
+                     <div class="time_slot"><span class="date">Just now</span></div>
+                  </a>
+              </div>
+              <div class="rn_sect borB borClr-205">
+                  <a href="#" class="e_feeds"><p class="teamcnt-title ttl_40">Two injured in a tailgating incident.</p>
+                     <div class="time_slot"><span class="date">1 hour ago</span></div>
+                  </a>
+              </div>
+              <div class="rn_sect borB borClr-205">
+                  <a href="#" class="e_feeds"><p class="teamcnt-title ttl_40">Cyclone moves towards Mumbai, rains cripple normal life.</p>
+                     <div class="time_slot"><span class="date">3 hour ago</span></div>
+                  </a>
+              </div>                                          
+              <div class="rn_sect">
+                  <a href="#" class="e_feeds"><p class="teamcnt-title ttl_40">MMRDA says Metro work will cause.</p>
+                     <div class="time_slot"><span class="date">Yesterday</span></div>
+                  </a>
+              </div>                  
+            </div> -->
+        </section>
+      
+      </section>
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHTsSYaJtD3F6J8mA28ead473Wqidit5Y&callback=initMap"></script>
+<script>
+$(document).ready(function(){
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 19.1569494, lng: 72.8560272},
+      zoom: 13,
+      mapTypeControl: false
+    });
+    var trafficLayer = new google.maps.TrafficLayer();
+    trafficLayer.setMap(map);
+  }
+  initMap();
+});
+      
+</script>
+</div>

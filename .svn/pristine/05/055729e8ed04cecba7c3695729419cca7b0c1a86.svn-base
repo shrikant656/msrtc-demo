@@ -1,0 +1,680 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Vehicle Type 
+            <form class="form-inline pull-right hidden-xs hidden-sm" style="display:none;">
+                            <a href="javascript:;" title="Cancel" class="applybtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Save" class="applybtn" > Save For Later</a>
+                            <a ui-sref="leave-review" title="Next" class="applybtn" > Next</a>
+            </form>
+        </h5>
+        <div class="row">
+            <form class="form-horizontal">
+            <div class="col-sm-12">                
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Vehicle Type </label>
+                    <div class="col-sm-3">
+                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                                <option value="">Bus</option>
+                                <option value="">Cluster Bus</option>
+                                <option value="">Water Tanker</option>
+                                <option value="">Garbage Truck</option>
+                                <option value="">Ambulance</option>
+                                <option value="">Fire Brigade</option>
+                      </select>
+                    </div>
+                  </div>
+                
+            </div>
+            </form>
+        </div>
+      </div>
+    </div>
+      <!--start of form-->
+
+      <div class="payslip-card">
+      <div class="row_wrap">
+          
+          <div ng-controller="tabController as tabCntrl">
+            <div class="ent-tabs tab-2">             
+              <span ng-class="{active:tabCntrl.isSelected(1)}" ng-click="tabCntrl.selectedTab(1)">Inventory Management</span>
+              <span ng-class="{active:tabCntrl.isSelected(2)}" ng-click="tabCntrl.selectedTab(2)">Request Approval</span>
+              <span ng-class="{active:tabCntrl.isSelected(3)}" ng-click="tabCntrl.selectedTab(3)">Vendor Details</span>
+              <span ng-class="{active:tabCntrl.isSelected(4)}" ng-click="tabCntrl.selectedTab(4)">Finance Approval</span>
+            </div>
+          
+          
+          
+          
+                <div class="ent-tab-content">
+                  <div ng-show="tabCntrl.isSelected(1)">
+                            <h5 class="sub_heads">Inventory Management</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Category</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Braking</option>
+                                                    <option value="">Clutch</option>
+                                                    <option value="">Consumable</option>
+                                                    <option value="">Cooling</option>
+                                                    <option value="">Drive Train</option>
+                                                    <option value="">Electrical</option>
+                                                    <option value="">Engine Management</option>
+                                                    <option value="">Engine Parts</option>
+                                                    <option value="">Exhaust</option>
+                                                    <option value="">Filters</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Request Id</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Request Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Part Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Ignition coils</option>
+                                                    <option value="">Ball Joints</option>
+                                                    <option value="">Wishbones</option>
+                                                    <option value="">Coil Springs</option>
+                                                    <option value="">Lowering Spring Sets</option>
+                                                    <option value="">Leaf Springs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Unit of Measures</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Unit Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity Inhand</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Total Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Description</div>
+                                <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a href="javascript:;" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Add</a>
+                                                        <a href="javascript:;" title="Modify" class="btn btn-primary whiteTxt guppercase filterbtn" > Modify</a>
+                                                        <a href="javascript:;" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Part Number</th>
+                                          <th>Description</th>
+                                          <th>Unit Cost</th>
+                                          <th>Unit of Measures</th>
+                                          <th>Quantity</th>
+                                          <th>Reorder Level</th>
+                                          <th>Quantity Inhand</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>110-1235</td>
+                                          <td>Clutch Bearing</td>
+                                          <td>1.5</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>6</td>
+                                          <td>60</td>
+                                          <td>15.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>109-1241</td>
+                                          <td>Ignition Coils</td>
+                                          <td>10</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>40</td>
+                                          <td>200</td>
+                                          <td>1000.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a ng-click="tabCntrl.selectedTab(2)" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 1th tab-->   
+                  <div ng-show="tabCntrl.isSelected(2)">
+                            <h5 class="sub_heads">Inventory Management</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Category</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Braking</option>
+                                                    <option value="">Clutch</option>
+                                                    <option value="">Consumable</option>
+                                                    <option value="">Cooling</option>
+                                                    <option value="">Drive Train</option>
+                                                    <option value="">Electrical</option>
+                                                    <option value="">Engine Management</option>
+                                                    <option value="">Engine Parts</option>
+                                                    <option value="">Exhaust</option>
+                                                    <option value="">Filters</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Request Id</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Request Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Part Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Ignition coils</option>
+                                                    <option value="">Ball Joints</option>
+                                                    <option value="">Wishbones</option>
+                                                    <option value="">Coil Springs</option>
+                                                    <option value="">Lowering Spring Sets</option>
+                                                    <option value="">Leaf Springs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Unit of Measures</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Unit Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity Inhand</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Total Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Description</div>
+                                <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a href="javascript:;" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Add</a>
+                                                        <a href="javascript:;" title="Modify" class="btn btn-primary whiteTxt guppercase filterbtn" > Modify</a>
+                                                        <a href="javascript:;" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Part Number</th>
+                                          <th>Description</th>
+                                          <th>Unit Cost</th>
+                                          <th>Unit of Measures</th>
+                                          <th>Quantity</th>
+                                          <th>Reorder Level</th>
+                                          <th>Quantity Inhand</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>110-1235</td>
+                                          <td>Clutch Bearing</td>
+                                          <td>1.5</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>6</td>
+                                          <td>60</td>
+                                          <td>15.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>109-1241</td>
+                                          <td>Ignition Coils</td>
+                                          <td>10</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>40</td>
+                                          <td>200</td>
+                                          <td>1000.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row_wrap">
+                                <h5 class="sub_heads mg-tp">Request Approval</h5>
+                                    <div class="row">
+                                        <form class="form-horizontal">
+                                            <div class="col-sm-12">                
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Status </label>
+                                                    <div class="col-sm-3">
+                                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                                <option value="">Approved</option>
+                                                                <option value="">Rejected</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                        <div class="col-md-4 col-xs-7 gap"> 
+                                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                                        </div>                                
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a ng-click="tabCntrl.selectedTab(3)" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 2nd tab--> 
+                  <div ng-show="tabCntrl.isSelected(3)">
+                            <h5 class="sub_heads">Inventory Management</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Category</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Braking</option>
+                                                    <option value="">Clutch</option>
+                                                    <option value="">Consumable</option>
+                                                    <option value="">Cooling</option>
+                                                    <option value="">Drive Train</option>
+                                                    <option value="">Electrical</option>
+                                                    <option value="">Engine Management</option>
+                                                    <option value="">Engine Parts</option>
+                                                    <option value="">Exhaust</option>
+                                                    <option value="">Filters</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Request Id</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Request Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Part Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Ignition coils</option>
+                                                    <option value="">Ball Joints</option>
+                                                    <option value="">Wishbones</option>
+                                                    <option value="">Coil Springs</option>
+                                                    <option value="">Lowering Spring Sets</option>
+                                                    <option value="">Leaf Springs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Unit of Measures</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Unit Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity Inhand</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Total Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Description</div>
+                                <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a href="javascript:;" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Add</a>
+                                                        <a href="javascript:;" title="Modify" class="btn btn-primary whiteTxt guppercase filterbtn" > Modify</a>
+                                                        <a href="javascript:;" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Part Number</th>
+                                          <th>Description</th>
+                                          <th>Unit Cost</th>
+                                          <th>Unit of Measures</th>
+                                          <th>Quantity</th>
+                                          <th>Reorder Level</th>
+                                          <th>Quantity Inhand</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>110-1235</td>
+                                          <td>Clutch Bearing</td>
+                                          <td>1.5</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>6</td>
+                                          <td>60</td>
+                                          <td>15.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>109-1241</td>
+                                          <td>Ignition Coils</td>
+                                          <td>10</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>40</td>
+                                          <td>200</td>
+                                          <td>1000.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row_wrap">
+                                <h5 class="sub_heads mg-tp">Request Approval</h5>
+                                    <div class="row">
+                                        <form class="form-horizontal">
+                                            <div class="col-sm-12">                
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Status </label>
+                                                    <div class="col-sm-3">
+                                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                                <option selected value="">Approved</option>
+                                                                <option value="">Rejected</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                        <div class="col-md-4 col-xs-7 gap"> 
+                                            <textarea class="form-control" rows="5" id="comment">Approved</textarea>
+                                        </div>                                
+                                    </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Vendor Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">EveryRoad GPS</option>
+                                                    <option value="">Flexotronics</option>
+                                                    <option value="">Sage Packaging</option>
+                                                    <option value="">DIGIKEY</option>
+                                                    <option value="">Qualcomm</option>
+                                                    <option value="">Zip Link</option>
+                                                    <option value="">Edge Electronics</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Email</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Phone</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Address</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <input type="text" class="form-control input-sm" value="" >
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a ng-click="tabCntrl.selectedTab(4)" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 3rd tab--> 
+                  <div ng-show="tabCntrl.isSelected(4)">
+                            <h5 class="sub_heads">Inventory Management</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Category</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Braking</option>
+                                                    <option value="">Clutch</option>
+                                                    <option value="">Consumable</option>
+                                                    <option value="">Cooling</option>
+                                                    <option value="">Drive Train</option>
+                                                    <option value="">Electrical</option>
+                                                    <option value="">Engine Management</option>
+                                                    <option value="">Engine Parts</option>
+                                                    <option value="">Exhaust</option>
+                                                    <option value="">Filters</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Request Id</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Request Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Part Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Ignition coils</option>
+                                                    <option value="">Ball Joints</option>
+                                                    <option value="">Wishbones</option>
+                                                    <option value="">Coil Springs</option>
+                                                    <option value="">Lowering Spring Sets</option>
+                                                    <option value="">Leaf Springs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Unit of Measures</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Unit Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Quantity Inhand</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Total Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Description</div>
+                                <div class="col-md-4 col-xs-7 gap"> <textarea class="form-control" rows="5" id="comment"></textarea></div>
+                                <div class="col-md-2 col-xs-5 gap">Reorder Level</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a href="javascript:;" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Add</a>
+                                                        <a href="javascript:;" title="Modify" class="btn btn-primary whiteTxt guppercase filterbtn" > Modify</a>
+                                                        <a href="javascript:;" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Details</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Part Number</th>
+                                          <th>Description</th>
+                                          <th>Unit Cost</th>
+                                          <th>Unit of Measures</th>
+                                          <th>Quantity</th>
+                                          <th>Reorder Level</th>
+                                          <th>Quantity Inhand</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>110-1235</td>
+                                          <td>Clutch Bearing</td>
+                                          <td>1.5</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>6</td>
+                                          <td>60</td>
+                                          <td>15.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>109-1241</td>
+                                          <td>Ignition Coils</td>
+                                          <td>10</td>
+                                          <td>PCS</td>
+                                          <td>100</td>
+                                          <td>40</td>
+                                          <td>200</td>
+                                          <td>1000.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row_wrap">
+                                <h5 class="sub_heads mg-tp">Request Approval</h5>
+                                    <div class="row">
+                                        <form class="form-horizontal">
+                                            <div class="col-sm-12">                
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Status </label>
+                                                    <div class="col-sm-3">
+                                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                                <option selected value="">Approved</option>
+                                                                <option value="">Rejected</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                        <div class="col-md-4 col-xs-7 gap"> 
+                                            <textarea class="form-control" rows="5" id="comment">Approved</textarea>
+                                        </div>                                
+                                    </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Vendor Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Name</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option selected value="">EveryRoad GPS</option>
+                                                    <option value="">Flexotronics</option>
+                                                    <option value="">Sage Packaging</option>
+                                                    <option value="">DIGIKEY</option>
+                                                    <option value="">Qualcomm</option>
+                                                    <option value="">Zip Link</option>
+                                                    <option value="">Edge Electronics</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Email</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="digvijay.singh@dimts.in" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vendor Phone</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="011 2555 7680" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Vendor Address</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <input type="text" class="form-control input-sm" value="F-18, RICO Industrial Area, Kukas, Jaipur, Rajasthan" >
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Finance Approval</h5>
+                            <div class="row">
+                                        <form class="form-horizontal">
+                                            <div class="col-sm-12">                
+                                                <div class="form-group">
+                                                    <label class="col-sm-2 control-label">Status </label>
+                                                    <div class="col-sm-3">
+                                                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                                <option selected value="">Approved</option>
+                                                                <option value="">Rejected</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                            </div>
+                                        </form>
+                                    </div>
+                            <div class="row">
+                            <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                        <div class="col-md-4 col-xs-7 gap"> 
+                                            <textarea class="form-control" rows="5" id="comment">Approved</textarea>
+                                        </div>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 col-xs-12">
+                                                    <form class="form-inline pull-right mg-bt">
+                                                        <a ui-sref="ivms-general" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                    </form>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 3rd tab--> 
+                </div><!--end of tabwrap-->
+          </div> <!--end of controller-->
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

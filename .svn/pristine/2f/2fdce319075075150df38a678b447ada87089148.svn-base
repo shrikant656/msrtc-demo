@@ -1,0 +1,281 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+
+        <h5 class="sub_heads">Empanellment Details</h5>
+        
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Tender No </label>
+                <div class="col-sm-4">
+                  <select id="" name="p_t01" class="form-control input-sm">
+                  <option value="">All</option>
+                  <option value="1747"> MSRTC/MICROSOFT-PRODUCTS/2015/39</option>
+                  <option value="1787"> MSRTC/AMC OF BAS/2016/03</option>
+                  <option value="1732"> MSRTC/FACIAL RECOGNITION SOFTWARE/2016/04</option>
+                  <option value="1003">MSRTC-CISCO-RA-revised-Jan-10</option>
+                  <option value="1772">MSRTC/ FOR IMPLIMENTING E-MAIL POLICY/2015/31</option>
+                  <option value="2179">MSRTC/ N EW Y EAR D IARIES /201 6 / 22</option>
+                  <option value="1012">MSRTC/2G-3G-Wi-Fi Dongle &amp; Broadband/2014/11</option>
+                  <option value="1807">MSRTC/AC-MAINTENANCE/2015/43</option>
+                  <option value="942">MSRTC/ACCOUNTANT AND OFFICE ASSISTANTS/2012/20</option>
+                  <option value="947">MSRTC/AEBAS Attendance System/2014/07</option>
+                  <option value="1267">MSRTC/ATM-MACHINES/2015/06</option>
+                  <option value="956">MSRTC/AVAYA/RA-2010</option>
+                  <option value="983">MSRTC/Adobe/SW/2010</option>
+                  <option value="968">MSRTC/BI/2012/37</option>
+                  <option value="953">MSRTC/Barcode printer &amp; Scanner/2013/23</option>
+                  <option value="2182">MSRTC/Basic Infra SPDC /2016/29</option>
+                  <option value="1107">MSRTC/CALLCENTRE/2014/18</option>
+                  <option value="1587">MSRTC/CDN SERVICES/2015/28</option>
+                  <option value="952">MSRTC/CGHS-Plastic Cards/2011/31</option>
+                  <option value="1687">MSRTC/COMM-NKN/2015/48</option>
+                  <option value="959">MSRTC/COMPUTERPERIPHERALS/2012/29</option>
+                  <option value="1748">MSRTC/CWC-IBMS/2015/37</option>
+                  <option value="945">MSRTC/Call Centre Services/2009/52</option>
+                  <option value="1009">MSRTC/CheckPoint/SW/2010</option>
+                  <option value="979">MSRTC/DATA CENTER/2009/01</option>
+                  <option value="976">MSRTC/DATA PREPARATION AND ROLLOUT SERVICES/2012/0</option>
+                  <option value="938">MSRTC/DC-EQUIPMENTS/2013/01</option>
+                  <option value="977">MSRTC/DEO-TECHMSRTCAL ASSISTANT/2012/31</option>
+                  <option value="1027">MSRTC/DESKTOP SYSTEMS/2014/08</option>
+                  <option value="1049">MSRTC/DESKTOP SYSTEMS/2014/08-1</option>
+                  <option value="1207">MSRTC/DESKTOP SYSTEMS/2014/21</option>
+                  <option value="950">MSRTC/DRIVER AND MESSENGER/HELPER/2012/30</option>
+                  <option value="934">MSRTC/DVB/2013/04</option>
+                  <option value="954">MSRTC/E-GOV-CONSULTANCY/2013/08</option>
+                  <option value="1667">MSRTC/E-Office/2016</option>
+                  <option value="2176">MSRTC/ENDPOINT SECURITY SOLUTION/2016/02 </option>
+                  <option value="973">MSRTC/EOI/ROLLING OUT - E-Granthalaya/2010/19</option>
+                  <option value="1187">MSRTC/External Storage &amp; Additional items /2014/16</option>
+                  <option value="1993">MSRTC/FCI-LAN/2012/13</option>
+                  <option value="1527">MSRTC/GIS MANPOWER/2015/16</option>
+                  <option value="2076">MSRTC/HAND HELD DEVICE/2016/23</option>
+                  <option value="1730">MSRTC/HOUSE-KEEPING/2015/44</option>
+                  <option value="1002">MSRTC/HPUNIX/RSA/2010</option>
+                  <option value="1908">MSRTC/ICT-INFRASTRUCTURE-LNDC/2015/41  </option>
+                  <option value="969">MSRTC/ICT-Infrastructure/2010/22</option>
+                  <option value="958">MSRTC/IMPACT-PRINTERS/2012/25</option>
+                  <option value="2014">MSRTC/INTEGRATED IRIS DEVICES/2016/19</option>
+                  <option value="2178">MSRTC/INTEGRATED IRIS DEVICES/2016/19 </option>
+                  <option value="1969">MSRTC/INTRUSION PREVENTION SYSTEM SOLUTION/2016/01</option>
+                  <option value="967">MSRTC/IT-Security-Audit/2012/15</option>
+                  <option value="981">MSRTC/Int. Project-Mauritius/2011/25</option>
+                  <option value="1387">MSRTC/Interactive Pen Display/2015/32</option>
+                  <option value="1000">MSRTC/LAPTOP/2014/06</option>
+                  <option value="927">MSRTC/LI UPS/2011/29</option>
+                  <option value="1728">MSRTC/LI-UPS/2015/46</option>
+                  <option value="2034">MSRTC/LNDC/2016/20</option>
+                  <option value="1971">MSRTC/LOCAL AREA NETWORK/2015/47</option>
+                  <option value="948">MSRTC/Laptop/2012/14</option>
+                  <option value="957">MSRTC/Local Area Network/2013/03</option>
+                  <option value="1729">MSRTC/MALWARE AND FORENSIC ANNALYISS PRODUCTS/2015/23 </option>
+                  <option value="935">MSRTC/MANPOWER-PROGRAMMERS &amp; MANAGEMENT ASSOCIATE/</option>
+                  <option value="932">MSRTC/MOEF-CONSULTANCY/2013/07</option>
+                  <option value="1001">MSRTC/McAfee/SW/2010</option>
+                  <option value="1069">MSRTC/NETWORK-IIT-DELHI/2012/18</option>
+                  <option value="1887">MSRTC/NKN-DDoS/2015/12</option>
+                  <option value="1947">MSRTC/NKN-InternetGW/2016/06</option>
+                  <option value="2096">MSRTC/NKN-PEMS/2016/26</option>
+                  <option value="1447">MSRTC/NKN-PoPs/2015/15</option>
+                  <option value="996">MSRTC/NLRMP-CELL/2011/21</option>
+                  <option value="999">MSRTC/NLRMP-TRAINING/2013/15</option>
+                  <option value="1731">MSRTC/OBSOLETE e-WASTE ITEMS/2016/05 </option>
+                  <option value="2056">MSRTC/ON-LINE-UPS/2015/30</option>
+                  <option value="1927">MSRTC/ON-LINE-UPS/2015/30</option>
+                  <option value="930">MSRTC/ONLINE-UPS/2012/04</option>
+                  <option value="2180">MSRTC/ONLINE-UPS/2016/25</option>
+                  <option value="980">MSRTC/Open Source Solution/2011/04</option>
+                  <option value="1828">MSRTC/PRINTER AND SCANNERS/2015/21</option>
+                  <option value="951">MSRTC/Quick Deployable Antenna/2013/25</option>
+                  <option value="1011">MSRTC/RHEL/SW</option>
+                  <option value="2057">MSRTC/ROLLOUT E-PROCUREMENT/2015/38</option>
+                  <option value="937">MSRTC/ROLLOUT SERVICES/2010/18</option>
+                  <option value="960">MSRTC/ROLLOUT-SERVICES/2012/36</option>
+                  <option value="940">MSRTC/SCANNING &amp; DIGITIZATION/2014/10</option>
+                  <option value="955">MSRTC/SCHOOL-AUTOMATION-APPLICATION/2013/10</option>
+                  <option value="2036">MSRTC/SECURITY SERVICES/2016/14</option>
+                  <option value="2035">MSRTC/SERVER SYSTEMS/2016/17</option>
+                  <option value="1127">MSRTC/SERVER/2014/01</option>
+                  <option value="1347">MSRTC/SERVO STABILIZERS AND ISOLATION TRANSFORMERS/2014/20</option>
+                  <option value="2037">MSRTC/SMS Gateway/2016/15</option>
+                  <option value="1867">MSRTC/SOFTWARE ROLLOUT AND MAINTENANCE/e-VIDHAN/2015/29</option>
+                  <option value="1287" selected="selected">MSRTC/SUPPORT SERVICES/2015/22</option>
+                  <option value="1994">MSRTC/SURVEILLANCE-CAMERA/2016/12</option>
+                  <option value="1070">MSRTC/SW/ORACLE/2010</option>
+                  <option value="1005">MSRTC/SW/Radware/2011</option>
+                  <option value="971">MSRTC/SW/VMware/2012</option>
+                  <option value="964">MSRTC/SYMANTEC/2010/SW-Rev</option>
+                  <option value="946">MSRTC/Smart Card Personalization/2010/24</option>
+                  <option value="985">MSRTC/Software Development Support/2011/30</option>
+                  <option value="982">MSRTC/Software Development/HP/e-Vidhan/2013/26</option>
+                  <option value="966">MSRTC/Strategic-Alliance/2010</option>
+                  <option value="988">MSRTC/TESTING TOOL-NKN/2014/04</option>
+                  <option value="978">MSRTC/TRAINING-NATIONAL/2013/24</option>
+                  <option value="939">MSRTC/TRENDMICRO/SW/2010</option>
+                  <option value="1827">MSRTC/Training and Teaching Equipments/2015/19</option>
+                  <option value="2177">MSRTC/UPGRADATION BASIC INFRA  SPDC /2016/18</option>
+                  <option value="1567">MSRTC/VHF BASE STATION/2015/26</option>
+                  <option value="1050">MSRTC/Vehicle Mounted Auto Acquire VSAT/2014/02</option>
+                  <option value="1547">MSRTC/WEBSITE DEVELOPMENT/2015/42</option>
+                  <option value="975">MSRTC/WebDev/2012/33</option>
+                  <option value="989">MSRTC/Webcasting/2013/12</option>
+                  <option value="986">MSRTC/Wi-Fi ACCESS POINT/2014/12</option>
+                  <option value="1707">MSRTC/Wi-Fi-CENTRAL UNIVERSITIES/2016/07</option>
+                  <option value="1992">MSRTC/eGOV CONSULTANCY/2016/16</option>
+                  <option value="1970">MSRTC/eSIGN CERTIFICATES/2016/21</option>
+                  <option value="928">Rev.MSRTC/EOI-Accountant/2009/06</option>
+                  <option value="962">Rev.MSRTC/SW/Microsoft/2009 w.e.f. 21.12.09</option>
+                  <option value="949">Revised-MSRTC/SW/ARCGIS</option>
+                  <option value="936">SA-10/2012-Websense</option>
+                  <option value="1010">SA-11/2012-Nuance</option>
+                  <option value="931">SA-12/2012-SAS Software</option>
+                  <option value="1004">SA-13/2012-Sanovi</option>
+                  <option value="929">SA-14/2012/EMC</option>
+                  <option value="963">SA-6/2012-Array Network</option>
+                  <option value="984">SA-7/2012-Cyberoam</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label">Empanellment Status </label>
+                <div class="col-sm-8">
+                  <input id="P117_EMPANELLMENT_SEL_0" name="p_t02" value="1" checked="checked" type="radio">
+                  <label for="P117_EMPANELLMENT_SEL_0">Active Empanellments</label>
+
+                  <input id="P117_EMPANELLMENT_SEL_1" name="p_t02" value="2" type="radio">
+                  <label for="P117_EMPANELLMENT_SEL_1">Deactive Empanellments</label>
+
+                  <input id="P117_EMPANELLMENT_SEL_2" name="p_t02" value="3" type="radio">
+                  <label for="P117_EMPANELLMENT_SEL_2">All</label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="col-sm-2 control-label">  </label>
+                <div class="col-sm-4">
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Days To Expire </label>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control input-sm">
+                        </div>
+                    </div>
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">As On Date </label>
+                        <div class="col-sm-4">
+                          <input type="text" class="form-control input-sm datepickers">
+                        </div>
+                    </div>                    
+                </div>                
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label"></label>
+                <div class="col-sm-4">
+                  <a href="javascript:;" class="btn btn-primary">Go</a>
+                  <a href="javascript:;" class="btn btn-default">Clear</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <!--end of form-->
+    
+    <div class="payslip-card">
+      <div class="row_wrap">
+      <h5 class="sub_heads">List of Empanellment <span class="fr"><a ui-sref="maintain-empanellment" title="New Empanellment" class="applybtn">New Empanellment</a> <a href="javascript:void(0)" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="javascript:void(0)" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="javascript:void(0)" class="fa fa-caret-square-o-down" title=""></a></span></h5>                        
+                        <div class="row">
+                          <div class="col-md-12">
+                            <table class="table tender-tba table-bordered table-condensed1">
+                            <thead>
+                              <tr>
+                                <th>Empanellment No</th>
+                                <th>Tender No</th>
+                                <th>Description</th>
+                                <th>Created Date</th>
+                                <th>Valid From</th>
+                                <th>Intial Valid To</th>
+                                <th>Valid Upto</th>
+                                <th>No Of Days</th>
+                                <th>Actions</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>10(35)/2015-MSRTC-D</td>
+                                <td>MSRTC/SUPPORT</td>
+                                <td>Open tender for empanelment...</td>
+                                <td>02-Feb-2017</td>
+                                <td>08-Jan-2016</td>
+                                <td>07-Jan-2018</td>
+                                <td>07-Jan-2018</td>
+                                <td>73</td>
+                                <td align="center">
+                                  <a ui-sref="maintain-empanellment" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>10(35)/2015-MSRTC-D</td>
+                                <td>MSRTC/SUPPORT</td>
+                                <td>Open tender for empanelment...</td>
+                                <td>02-Feb-2017</td>
+                                <td>08-Jan-2016</td>
+                                <td>07-Jan-2018</td>
+                                <td>07-Jan-2018</td>
+                                <td>73</td>
+                                <td align="center">
+                                  <a ui-sref="maintain-empanellment" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                                </td>
+                              </tr>
+                              <tr>
+                                <td>10(35)/2015-MSRTC-D</td>
+                                <td>MSRTC/SUPPORT</td>
+                                <td>Open tender for empanelment...</td>
+                                <td>02-Feb-2017</td>
+                                <td>08-Jan-2016</td>
+                                <td>07-Jan-2018</td>
+                                <td>07-Jan-2018</td>
+                                <td>73</td>
+                                <td align="center">
+                                  <a ui-sref="maintain-empanellment" class="fa fa-edit" title="Edit / Update"></a>&nbsp;
+                                </td>
+                              </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                        </div>
+   
+        </div>
+      </div>
+   
+      
+
+    <!-- <div class="row">
+        <div class="col-sm-12 col-xs-12">
+
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Back" class="btn btn-primary whiteTxt guppercase filterbtn"> Back</a>
+                                <a href="javascript:;" target="_blank" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                <a href="javascript:;" title="Apply Changes" class="btn btn-primary whiteTxt guppercase filterbtn" > Apply Changes</a>
+                                <a href="javascript:;" title="Attachment" class="applybtn" > Attachment</a>
+                            </form>
+        </div>
+    </div> -->
+
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

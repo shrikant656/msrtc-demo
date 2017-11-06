@@ -1,0 +1,92 @@
+(function () {
+    'use strict';
+
+    angular
+        .module('routerApp')
+        .controller('LoginController', LoginController);
+
+    LoginController.$inject = ['$state', 'AuthenticationService', 'FlashService','$scope'];
+    function LoginController( $state, AuthenticationService, FlashService,$scope) {
+        var vm = this;
+
+        vm.login = login;
+
+        (function initController() {
+            // reset login status
+            AuthenticationService.ClearCredentials();
+        })();
+
+        function login() {
+            vm.dataLoading = true;
+            console.log(vm.username);
+            switch (vm.username) {
+                        case 'admin':
+                        $state.go('home');
+                        $('.mddoc-menu').show();
+                        break;
+                        //finance user
+                        case 'fu':
+                        $state.go('fu-dashboard');
+                        $('.welcomename').hide();
+                        $('.welcomename.finance').show();
+                        break;
+                        //MD 
+                        case 'md':
+                        $state.go('md-dashboard');
+                        $('.welcomename').hide();
+                        $('.welcomename.md').show();
+                        break;
+                        //depot incharge
+                        case 'di': 
+                        $state.go('di-dashboard');
+                        $('.welcomename').hide();
+                        $('.welcomename.depot').show();
+                        break;
+                        //divisional_head                       
+                        case 'dh':
+                        $state.go('home');
+                        $('.welcomename').hide();
+                        $('.welcomename.div_head').show();
+                        break;
+                        //Store incharge                         
+                        case 'si':
+                        $state.go('si-dashboard');
+                        $('.welcomename').hide();
+                        $('.welcomename.store').show();
+                        break;
+                        //Driver                       
+                        case 'driver':
+                        $state.go('home');
+                        $('.welcomename').hide();
+                        $('.welcomename.driver').show();
+                        break;
+
+                        
+                    }
+
+
+
+
+
+            /*AuthenticationService.Login(vm.username, vm.password, function (response) {
+                if (response.success) {
+                    AuthenticationService.SetCredentials(vm.username, vm.password);
+                    switch (vm.username) {
+                        case 'admin':
+                        $state.go('home');
+                        break;
+
+                        case 'about':
+                        $state.go('about');
+                        break;
+                    }
+                    //$state.go('home');
+                } else {
+                    FlashService.Error(response.message);
+                    vm.dataLoading = false;
+                }
+            });*/
+        };
+    }
+
+})();

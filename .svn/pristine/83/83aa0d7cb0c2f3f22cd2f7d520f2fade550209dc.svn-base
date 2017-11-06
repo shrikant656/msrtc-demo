@@ -1,0 +1,189 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+                        <h5 class="sub_heads">Maintain Empanellment
+                          <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Save" class="applybtn">Save</a>
+                            <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                            <a ui-sref="rate-contract" title="Rate Contract Items" class="applybtn">Rate Contract Items</a>
+                            
+                          </form>
+                        </h5>
+                        
+                        <div class="row">
+                          <form class="form-horizontal">
+                            <div class="col-sm-12">
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Tender No </label>
+                                <div class="col-sm-4">
+                                  <select id="P118_TENDER_ID" name="p_t02" class="form-control input-sm">
+                                  <option value=""></option>
+                                  <option value="1027" selected="selected">MSRTC/DESKTOP SYSTEMS/2014/08</option>
+                                  <option value="1127">MSRTC/SERVER/2014/01</option>
+                                  <option value="1427">MSR/TPS/2015/07</option>
+                                  <option value="2182">MSRTC/Basic Infra SPDC /2016/29</option>
+                                  <option value="1107">MSRTC/CALLCENTRE/2014/18</option>
+                                  <option value="1307">MSR/TPS/2013/30</option>
+                                  <option value="966">MSRTC/Strategic-Alliance/2010</option>
+                                  <option value="1728">MSRTC/LI-UPS/2015/46</option>
+                                  <option value="1772">MSRTC/ FOR IMPLIMENTING E-MAIL POLICY/2015/31</option>
+                                  <option value="1787"> MSRTC/AMC OF BAS/2016/03</option>
+                                  <option value="1867">MSRTC/SOFTWARE ROLLOUT AND MAINTENANCE/e-VIDHAN/2015/29</option>
+                                  </select>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Empanellment No </label>
+                                <div class="col-sm-4">
+                                  <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">*Vendor Name   </label>
+                                <div class="col-sm-4">
+                                  <select id="P118_VENDOR_ID" name="p_t06" class="form-control input-sm">
+                                    <option value="">-Select-</option>
+                                    <option value="280126" selected="selected">A.D. Group &amp; Company</option>
+                                    <option value="16097">A.G. Enterprises</option>
+                                    <option value="200002">A.K. Batra &amp; Associates</option>
+                                    <option value="70002">A.K.Balani (Tour)</option>
+                                    <option value="219002">A.K.ELECTRICALS</option>
+                                    <option value="3006">AAA Technologies Pvt. Ltd.</option>
+                                    <option value="175002">Aanchal Computers Pvt.Ltd.</option>
+                                    <option value="257015">Aarco One</option>
+                                    <option value="18068">Aarti Judson</option>
+                                    <option value="99002">ABC</option>
+                                    <option value="126053">Abhinav Prints</option>
+                                    <option value="23237">Abhinav Tour &amp; Travels</option>
+                                  </select>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Vendor Site </label>
+                                <div class="col-sm-4">
+                                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Ahmedabad</option>
+                                    <option value="">Pune</option>
+                                    
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">OEM Flag   </label>
+                                <div class="col-sm-4">
+                                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="" selected="selected">No</option>
+                                    <option value="">Yes</option>
+                                  </select>
+                                </div>
+
+                                <label class="col-sm-2 control-label">OEM Name </label>
+                                <div class="col-sm-4">
+                                  <select id="P118_OEM_NAME" name="p_t09" class="form-control input-sm">
+                                  <option value="" selected="selected">--Select OEM--</option>
+                                  <option value="217005"> 6231 -  Ranjeet Singh Chauhan</option>
+                                  <option value="134002"> Mr. M. Subramaniam</option>
+                                  <option value="273081">"CPWD,Bangalore"</option>
+                                  <option value="17008">(N) Code Solutions -A Division of GNFC Ltd.</option>
+                                  <option value="177032">000-Mr.Mayank Kharbanda</option>
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Valid From   </label>
+                                <div class="col-sm-4">
+                                  <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Intial Valid To </label>
+                                <div class="col-sm-4">
+                                 <input type="text" class="form-control input-sm datepickers" value="07-Jan-2018" readonly="readonly" id='leavedate'>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Valid Upto   </label>
+                                <div class="col-sm-4">
+                                  <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                                </div>
+
+                                <label class="col-sm-2 control-label"> </label>
+                                <div class="col-sm-4">
+                                  
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Description   </label>
+                                <div class="col-sm-4">
+                                  <textarea class="form-control input-sm" rows="5" id="comment">Open tender for empanelment of agencies for hiring of support services.</textarea>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Category </label>
+                                <div class="col-sm-4">
+                                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Tier-1</option>
+                                    <option value="">Tier-2</option>
+                                    <option value="">Tier-3</option>
+                                    
+                                  </select>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Bank Guarantee No. </label>
+                                <div class="col-sm-4">
+                                  <input type="text" class="form-control input-sm" id='leavedate'>
+                                </div>
+
+                                <label class="col-sm-2 control-label">Bank Guarantee (BG) Date </label>
+                                <div class="col-sm-4">
+                                  <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <label class="col-sm-2 control-label">Enabled Flag   </label>
+                                <div class="col-sm-4">
+                                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                    <option>-- Select --</option>
+                                    <option value="">Yes</option>
+                                    <option value="">No</option>
+                                  </select>
+                                </div>
+                               
+                              </div>
+
+                            </div>
+                            
+                          </form>
+                        </div>
+                      </div> 
+    </div>
+    <!--end of form-->
+    
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+        <form class="form-inline pull-right mg-bt">
+            <a href="javascript:;" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn"> Save</a>
+            <a href="javascript:;" title="Clear" class="btn btn-primary whiteTxt guppercase filterbtn"> Clear</a>
+            <a ui-sref="rate-contract" title="Rate Contract Items" class="btn btn-primary whiteTxt guppercase filterbtn" > Rate Contract Items</a>
+        </form>
+        </div>
+      </div>
+
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

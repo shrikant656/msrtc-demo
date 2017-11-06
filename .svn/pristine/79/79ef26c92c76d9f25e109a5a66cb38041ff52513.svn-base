@@ -1,0 +1,214 @@
+<div>
+  <div class="payslip">
+    <div class="col-sm-12 col-xs-12 dma_application_filters">
+                        <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a ui-sref="create-leave" title="Print" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Printable Page" class="btn btn-primary whiteTxt guppercase filterbtn"> Printable Page</a>
+                            <a href="javascript:;" target="_blank" title="Download" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                            <a ui-sref="create-leave" title="Back" class="btn btn-primary whiteTxt guppercase filterbtn" > Back</a>
+                            <a  ng-click="leaveSubmit()" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                        </form>
+    </div>
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Create Absence: Review 
+                        <form class="form-inline pull-right">
+                            <a ui-sref="create-leave" title="Print" class="applybtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Printable Page" class="applybtn"> Printable Page</a>
+                            <a href="javascript:;" target="_blank" title="Download" class="applybtn" > Save For Later</a>
+                            <a ui-sref="create-leave" title="Back" class="applybtn" > Back</a>
+                            <a ui-sref="leave-notification" title="Submit" class="applybtn" > Submit</a>
+                        </form>
+            
+        </h5>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Employee Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Sangare, Rohit</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Employee Number</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>LC002</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Organization Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>MSRTC</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Grade</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>W5</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Designation</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Deputy Accountant</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Department</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Finance</strong></div>
+        </div>
+      </div>
+    </div>
+
+      <!--start of absence Details-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Absence Details</h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Details</th>
+                      <th>Proposed</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Absence Status</td>
+                      <td>Confirmed</td>
+                    </tr>
+                    <tr>
+                      <td>Absence Type</td>
+                      <td>Earned Leave(EL)</td>
+                    </tr>
+                    <tr>
+                      <td>Absence Reason</td>
+                      <td>Marriage in Family</td>
+                    </tr>
+                    <tr>
+                      <td>Start Date</td>
+                      <td>26-Oct-2017</td>
+                    </tr>
+                    <tr>
+                      <td>End Date</td>
+                      <td>27-Oct-2017</td>
+                    </tr>
+                    <tr>
+                      <td>Days</td>
+                      <td>2</td>
+                    </tr>
+                    <tr>
+                      <td>Comments</td>
+                      <td>Marriage in Family, Please approve this Leave.</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+     
+      <!--supporting documents-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+          <h5 class="sub_heads">Supporting Documents <span class="fr"><a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a></span></h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1 table-responsive">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Attachment Category</th>
+                      <th>Last Modified By</th>
+                      <th>Last Modified Date</th>
+                      <th>Repository</th>
+                      <th>Details</th>
+                      <th>Detach</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>No Data Exist</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!--end of supporting dcuments-->
+      <!--start of approvers-->
+      <!--supporting documents-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approvers <span class="fr"><a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></span></h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1 table-responsive">
+                  <thead>
+                    <tr>
+                      <th class="text-center">Details</th>
+                      <th>Line No</th>
+                      <th>Approver</th>
+                      <th>Approver Type</th>
+                      <th>Order No</th>
+                      <th>Category</th>
+                      <th>Status</th>
+                      <th class="text-center">Delete</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="text-center"><i class="fa fa-caret-right" aria-hidden="true"></i></td>
+                      <td>1</td>
+                      <td>Gavande, Umesh</td>
+                      <td>HR People</td>
+                      <td>1</td>
+                      <td>Approver</td>
+                      <td></td>
+                      <td class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <td class="text-center"><i class="fa fa-caret-right" aria-hidden="true"></i></td>
+                      <td>2</td>
+                      <td>Sarkar, Indranil</td>
+                      <td>HR People</td>
+                      <td>2</td>
+                      <td>Approver</td>
+                      <td></td>
+                      <td class="text-center"><i class="fa fa-trash" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      <!--end of approvers-->
+       <!--start of comments-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Comments for Next Approver</h5>
+        <div class="row">
+            <div class="col-md-12 gap">
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of comments-->
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                <form class="form-inline pull-right mg-bt">
+                            <a ui-sref="create-leave" title="Print" class="applybtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Printable Page" class="applybtn"> Printable Page</a>
+                            <a href="javascript:;" target="_blank" title="Download" class="applybtn" > Save For Later</a>
+                            <a ui-sref="create-leave" title="Back" class="applybtn" > Back</a>
+                            <a ui-sref="leave-notification" title="Submit" class="applybtn" > Submit</a>
+                </form>
+        </div>
+    </div>
+    <!--end of supporting documents-->
+    
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

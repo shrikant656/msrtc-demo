@@ -1,0 +1,371 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form Tender Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Tender Details
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+              <a href="javascript:;" title="Save" class="applybtn">Save</a>
+              <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+              <a href="javascript:;" title="Clear" class="applybtn">Go Back</a>
+              
+            </form>
+          </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Tender Type </label>
+                  <div class="col-sm-4">
+                    <select id="P118_TENDER_ID" name="p_t02" class="form-control input-sm">
+                    <option value=""></option>
+                    <option value="1027" selected="selected">MSRTC/DESKTOP SYSTEMS/2014/08</option>
+                    <option value="1127">MSRTC/SERVER/2014/01</option>
+                    <option value="1427">MSR/TPS/2015/07</option>
+                    <option value="2182">MSRTC/Basic Infra SPDC /2016/29</option>
+                    <option value="1107">MSRTC/CALLCENTRE/2014/18</option>
+                    <option value="1307">MSR/TPS/2013/30</option>
+                    <option value="966">MSRTC/Strategic-Alliance/2010</option>
+                    <option value="1728">MSRTC/LI-UPS/2015/46</option>
+                    <option value="1772">MSRTC/ FOR IMPLIMENTING E-MAIL POLICY/2015/31</option>
+                    <option value="1787"> MSRTC/AMC OF BAS/2016/03</option>
+                    <option value="1867">MSRTC/SOFTWARE ROLLOUT AND MAINTENANCE/e-VIDHAN/2015/29</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Tender No./Agreement No. </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm datepickers" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Empanelment No.   </label>
+                  <div class="col-sm-4">
+                    <select id="P118_VENDOR_ID" name="p_t06" class="form-control input-sm">
+                      <option value="">-Select-</option>
+                      <option value="280126" selected="selected">A.D. Group &amp; Company</option>
+                      <option value="16097">A.G. Enterprises</option>
+                      <option value="200002">A.K. Batra &amp; Associates</option>
+                      <option value="70002">A.K.Balani (Tour)</option>
+                      <option value="219002">A.K.ELECTRICALS</option>
+                      <option value="3006">AAA Technologies Pvt. Ltd.</option>
+                      <option value="175002">Aanchal Computers Pvt.Ltd.</option>
+                      <option value="257015">Aarco One</option>
+                      <option value="18068">Aarti Judson</option>
+                      <option value="99002">ABC</option>
+                      <option value="126053">Abhinav Prints</option>
+                      <option value="23237">Abhinav Tour &amp; Travels</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Empanelled Vendor /Channel Partner </label>
+                  <div class="col-sm-4">
+                    <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                      <option>-- Select --</option>
+                      <option value="">Ahmedabad</option>
+                      <option value="">Pune</option>
+                      
+                    </select>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Tender Details form -->
+
+
+      <!--start of form Item Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Item Details 
+           
+           </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Item Major Category </label>
+                  <div class="col-sm-4">
+                    <select id="" required="" class="form-control input-sm">
+                      <option value=""></option>
+                      <option value="26">CISCO Items</option>
+                      <option value="12">Consultancy Services</option>
+                      <option value="13">Data Centre Services</option>
+                      <option value="17">E-Office</option>
+                      <option value="20">GPS/ETS/Scanner</option>
+                      <option value="01">Hardware Items</option>
+                      <option value="02">Hardware Peripherals</option>
+                      <option value="27">Juniper Items</option>
+                      <option value="08" selected="selected">Manpower Services</option>
+                      <option value="99">Miscellaneous Services</option>
+                      <option value="03">Networking/LAN Equipments</option>
+                      <option value="04">Power/UPS Equipments</option>
+                      <option value="25">Rollout Services</option>
+                      <option value="16">Scanning &amp; Digitization</option>
+                      <option value="15">Security Audit Services</option>
+                      <option value="07">Security Items</option>
+                      <option value="05">Software Products</option>
+                      <option value="06">Video Conferencing</option>
+                      <option value="10">Website Development</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Item Sub Category </label>
+                  <div class="col-sm-4">
+                    <select id="" required="" class="form-control input-sm">
+                       <option value=""></option>
+                       <option value="003" null="">Accounts Related</option>
+                       <option value="020" null="">Cloud &amp; Data Service</option>
+                       <option value="004" null="">DEO/Technical Assistant</option>
+                       <option value="016" null="">Data Centre Support Services</option>
+                       <option value="019" null="">FCI Manpower Services</option>
+                       <option value="018" null="">GIS Manpower</option>
+                       <option value="012" null="">Mauritius Project</option>
+                       <option value="009" null="">Messenger/ Helper &amp; Driver</option>
+                       <option value="014" null="">MSR Manpower</option>
+                       <option value="015" null="">MSR Manpower Category -B</option>
+                       <option value="013" null="">Network FMS</option>
+                       <option value="002" null="">Office/Accounts Manpower</option>
+                       <option value="008" null="">Open Source Outsourcing</option>
+                       <option value="005" null="">Software Development Support</option>
+                       <option value="017" null="" selected="selected">Support Services</option>
+                       <option value="001" null="">Technical Manpower</option>
+                       <option value="006" null=""></option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Item Configuration  </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="DOMAIN-1  (Technical Support Services - REGION 1)" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Item Sub Configuration </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="Software Application Support - Level 1 for Region-1" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Item Model/Part No.  </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Item Make. </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" id='leavedate'>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Item Details form -->
+
+
+      <!--start of form Empanellment Rates-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Empanellment Rates</h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Vendor Billing From </label>
+                  <div class="col-sm-4">
+                    <select id="" required="" class="form-control input-sm">
+                      <option value=""></option>
+                      <option value="1" selected="selected">Delhi</option>
+                      <option value="2">Outside Delhi</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Vendor Type(L1 or Other) </label>
+                  <div class="col-sm-4">
+                    <select id="" required="" class="form-control input-sm">
+                       <option value="003" selected="selected">L1</option>
+                       <option value="020" null="">L2</option>
+                       <option value="004" null="">L3</option>
+                       <option value="006" null="">Other</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Empanelled Rate Type  </label>
+                  <div class="col-sm-4">
+                    <select id="" class="form-control input-sm">
+                    <option value=""></option>
+                    <option value="I" selected="selected">Price All Inclusive</option>
+                    <option value="E">Price All Exclusive</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">*Unit of Duration </label>
+                  <div class="col-sm-4">
+                    <select id="" class="form-control input-sm">
+                      <option value="">-Select-</option>
+                      <option value="Monthly" selected="selected">Monthly</option>
+                      <option value="Yearly">Yearly</option>
+                      <option value="Daily">Daily</option>
+                      <option value="Each">Each</option>
+                      </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Empanelled Unit Rate Of Item  </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="5000" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">SA Price USD </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="0" id='leavedate'>
+                  </div>
+                </div>
+
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Conversion Factor  </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm"  value="0" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">BCD </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">NICSI Discount    </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Other Discount </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" id='leavedate'>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Empanellment Rates form -->
+
+      <!--start of form Empanellment Rates-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Vendor Details</h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">*Per Unit Item Price(Excl.Tax) </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="5000" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">HSN/SAC CODE</label>
+                  <div class="col-sm-4">
+                    <select class="form-control input-sm">
+                      <option value="">&lt;--Select PER--&gt;</option>
+                      <option value="998320" selected="selected">998320</option>
+                      <option value="440060">440060</option>
+                      <option value="998321">998321</option>
+                      <option value="9874555">9874555</option>
+                      <option value="9874555100">9874555100</option>
+                      <option value="9874555101">9874555101</option>
+                      <option value="998319">998319</option>
+                      <option value="9918321">9918321</option>
+                      <option value="00440366">00440366</option>
+                      <option value="998421">998421</option>
+                      <option value="99832122">99832122</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Empanellment Rates form -->
+ 
+       <!--start of form Purchase Price-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">MSRTC Purchase Price / Tax Details</h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Item Unit Price(Excl. Tax) </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="5000" id='leavedate'>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Multiply Factor</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="" id='leavedate'>
+                  </div>
+                </div>
+              </div>
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Purchase Price form -->   
+    
+
+      <div class="row">
+        <div class="col-sm-12 col-xs-12">
+        <form class="form-inline pull-right mg-bt">
+            <a href="javascript:;" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn"> Save</a>
+            <a href="javascript:;" title="Clear" class="btn btn-primary whiteTxt guppercase filterbtn" > Clear</a>
+            <a href="javascript:;" title="Go Back" class="btn btn-primary whiteTxt guppercase filterbtn" > Go Back</a>
+        </form>
+        </div>
+    </div>
+
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

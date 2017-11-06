@@ -1,0 +1,122 @@
+
+<div class="container">
+
+  <div class="payslip" style="border:0px"> 
+  <div class="row">
+      <div class="col-sm-4">
+        <div class="payslip-card">
+        
+        <div class="row_wrap" style="margin:-10px;">
+        
+        <div  >
+     <a href="" class="btn btn-primary">File Correspondence</a>&nbsp;&nbsp;<a href="javascript:;" onclick="nextBatchOfWorkitems();" class="btn btn-primary">Initiate Correspondence </a></div>
+     <br/>
+          <form>
+		<input type="hidden" name="ToUsers" value="">
+		<input type="hidden" name="ToUsersIndex" value="">
+		<input type="hidden" name="ToUsersActivityDesk" value="">
+			<!-- Ayush Gupta: Changing css class as a part of Chrome enhancements -->
+			<table class="table table-bordered table-condensed"><tbody><tr width="100%"><td width="40%" colspan="2" align="middle" class="label-success2">Correspondence properties</td></tr></tbody></table><table class="table table-bordered table-condensed"><tbody><tr width="100%"><td width="40%" colspan="2" align="middle" class="label-success2">Correspondence properties</td></tr></tbody></table>
+			
+
+	<table border="0" cellspacing="10" cellpadding="2" width="100%" style="line-height: 3; border:0px;">
+<tbody><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">ReferenceNo</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" size="20" id="T7S4" value="DAK_2017-18_[Department]_001" onmouseover="GetTitle(this,'S')" maxlength="200" title="Please Insert STRING Values"></td><td width="5%" nowrap="" align="left">&nbsp;</td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">DocumentSubject</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" size="20" id="T8S4" value="Companies Reguations" onmouseover="GetTitle(this,'S')" maxlength="100" title="Please Insert STRING Values"></td><td width="5%" nowrap="" align="left">&nbsp;</td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">Department</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" size="20" id="T9S4" value="Department1" onmouseover="GetTitle(this,'S')" maxlength="50" title="Please Insert STRING Values"></td><td width="5%" nowrap="" align="left">&nbsp;</td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">DateOnDocument</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" value="23/10/2017" readonly="" name="T10D4" id="T10D4"></td><td width="5%" nowrap="" align="left"><a href="javascript:;"><img src="images/cal.gif" border="0"></a></td><td width="5%" nowrap="" align="left"></td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">ReceivingDate</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" value="24/10/2017" readonly="" name="T11D4" id="T11D4"></td><td width="5%" nowrap="" align="left"><a href="javascript:;"><img src="images/cal.gif" border="0"></a></td><td width="5%" nowrap="" align="left"></td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">DakCategory</td><td class="font3" width="29%" align="left" nowrap="">
+<select class="form-control" name="subcategory" id="subcategory">
+					
+		 <option>General</option>
+								
+		 <option>VIP</option>
+								
+		 <option>VVIP</option>
+								
+							</select></td><td width="5%" nowrap="" align="left">&nbsp;&nbsp;</td><td width="5%" nowrap="" align="left">&nbsp;</td></tr><tr><td></td><td></td><td></td></tr><tr><td width="1%" align="right">&nbsp;</td><td class="font3" width="30%" align="left">Section</td><td class="font3" width="29%" align="left" nowrap=""><input class="form-control" type="text" size="20" id="T36S4" value="" onmouseover="GetTitle(this,'S')" maxlength="50" title="Please Insert STRING Values"></td><td width="5%" nowrap="" align="left">&nbsp;</td></tr><tr><td></td><td></td><td></td></tr>
+		<tr><td></td><!--<td>
+		
+		
+		</td><td></td>-->
+		<td></td>
+		
+		</tr>
+	</tbody></table>
+	<br>
+	<table align="center">
+		<tbody><tr>
+			<td align="center"><input type="button" class="btn-group btn btn-success btn-sm" name="Save" value="Save" onclick="SaveDocumentDataclass();window.top.opener.itemSelected('ufDaks');"></td>
+		</tr>
+	</tbody></table>
+	</form>
+    
+    <p>&nbsp;</p>
+    <div align="center" id="mydiv">
+
+<table border="0" width="95%" cellpadding="0" cellspacing="0" style="border-right: 1px none rgb(0,130,191); border-top: 1px solid rgb(0,130,191); border-bottom: 1px none" bgcolor="#Fdf8e1">
+
+ 
+    </table><table class="table table-bordered table-condensed">
+    <tbody><tr>
+	
+       
+    <!-- Ayush Gupta: Changing css class as a part of Chrome enhancements -->     
+		 <td class="label-success2" width="97%" valign="bottom" align="left">Remarks</td>
+        
+		
+      
+	  </tr>
+	 
+	 </tbody></table>
+
+ 
+
+
+</div>
+
+<div align="center" style="border:none;">
+<table class="table-condensed" style="border:none; margin-left: -7px;">
+  <tbody><tr>
+	<td width="10%" align="left" valign="Top">
+	<a style="font: 8pt;" class="btn btn-primary ">Prev Page</a>
+	</td>
+	<td width="40%" align="center" valign="bottom">
+		<a style="font: 8pt;" class="btn btn-primary ">Prev</a>
+	</td>
+	<td width="40%" align="center" valign="bottom">
+		<a style="font: 8pt;" class="btn btn-primary ">Next</a>
+	</td>
+	<td width="10%" align="right" valign="top">
+		<a style="font: 8pt;" class="btn btn-primary ">Next Page</a>
+	</td>
+  </tr>
+  </tbody></table>
+  <table class="table table-bordered table-condensed">
+  <tbody><tr>
+
+	</tr>
+  </tbody></table>
+</div>
+                    
+      </div>
+      
+      
+    </div>
+    
+    
+    </div>
+
+ <div class="col-sm-8">
+        <div class="payslip-card">
+        <div class="row_wrap">
+          
+                   <img src="images/eg-cors.png" border="0">
+      </div>
+      
+      
+    </div>
+    
+    
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>

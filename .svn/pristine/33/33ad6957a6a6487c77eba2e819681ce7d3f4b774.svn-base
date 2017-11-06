@@ -1,0 +1,87 @@
+<div class="container">
+  <div class="payslip">
+          
+      <div class="payslip-card">
+        <div class="row_wrap">
+
+        <h5 class="sub_heads">Update Performa Invoice Status
+        <form class="form-inline pull-right hidden-xs hidden-sm">
+          <span class="fr">
+          
+          <a ui-sref="proforma-invoice-dashboard" title="Back" class="applybtn">Back</a>
+          </span>
+        </form>
+        </h5>
+
+              <div class="row">
+                  <div class="col-md-12">
+                    <table class="table tender-tba table-bordered table-condensed1">
+                    <thead>
+                      <tr>
+                        <th>Request Id</th>
+                        <th>PI Type</th>
+                        <th>PI Status</th>
+                        <th>PI Request Date</th>
+                        <th>Create</th>
+                        <th>Update</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>82056</td>
+                        <td>HW</td>
+                        <td>
+                         <a ui-sref="update-proforma-invoice-status2" class="hl"><u>Accept</u></a> /
+                         <a href="javascript:void(0)" class="hl"><u>Clarification required</u></a>
+                        </td>
+                        <td>25-Oct-2017</td>
+                        <td>-</td>
+                        <td>-</td>
+                      </tr>
+                    </tbody>
+                    </table>
+                  </div>
+              </div>
+     
+          </div>
+        </div>
+   
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+
+            <h5 class="sub_heads">Clarifications Conversation</h5>
+
+            <div class="row">
+                <div class="col-md-12">
+                  no data found
+                </div>
+            </div>
+   
+        </div>
+      </div>
+
+      <div class="payslip-card">
+      <div class="row_wrap">
+
+            <h5 class="sub_heads">List of Approved Proforma Invoice Signed by HOF</h5>
+
+            <div class="row">
+                <div class="col-md-12">
+                  no data found
+                </div>
+            </div>
+   
+        </div>
+      </div>
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

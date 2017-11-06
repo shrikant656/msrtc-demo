@@ -1,0 +1,549 @@
+<div class="md-dash">
+  <div class="main_wrap">
+  <div class="container">
+
+    <div class="breadcrumb">
+      <h1>MSRTC: <span class="clr-052">Parel</span></h1>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 ca_padd no-pad">
+        <div class="row full_grid">
+          <div class="card_blk">
+            <div class="col-xs-12 col-md-3 col-sm-6 text-center dash-index card_padd">
+              <h4>Overall Operation Index</h4>
+              <div class="stats">91<span>%</span></div>
+            </div>
+            <div class="col-xs-12 col-md-9 col-sm-6 text-center card_padd">
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                <span class="progress-left">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <div class="progress-value">93%
+                <span>Safety</span> <span>Index</span>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">96%  <span>Attendance</span></div>
+                   
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">90%  <span>Bus Health</span></div>
+                    
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                <span class="progress-left">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <span class="progress-right">
+                    <span class="cprogress-bar"></span>
+                </span>
+                <div class="progress-value">98%
+                <span>Revenue</span>
+                </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress red">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">50%  <span>Fuel Storage</span></div>
+                    
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-2 text-center">
+                <div class="cprogress blue">
+                    
+                        <span class="progress-left">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="cprogress-bar"></span>
+                        </span>
+                        <div class="progress-value">90%  <span>Inventory</span></div>
+                    </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      
+      <section class="fl box-full">
+        <section class="fl left-section customScrollbar">
+            <div class="cont-row box-full">
+                
+                <article class="fl col-ty-1 col-icon text-center">
+                  <a href="javascript:void(0)">
+                  <div class="a-icon">
+                    <svg enable-background="new 0 0 46 46" version="1.1" viewBox="0 0 46 46" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(-270 -1640)">
+    <path d="m313.25 1654h-2.252v-13.502h-35.996v13.502h-2.25c-1.242 0-2.25 1.004-2.25 2.246v4.502c0 1.244 1.004 2.248 2.25 2.248h2.25v18h2.25v2.25c0 1.242 1.006 2.248 2.25 2.248h2.25c1.242 0 2.248-1.006 2.248-2.248v-2.25h18.002v2.25c0 1.242 1.002 2.248 2.246 2.248h2.252c1.242 0 2.25-1.006 2.25-2.248v-2.25h2.252v-18h2.248c1.244 0 2.252-1.004 2.252-2.248v-4.502c-4e-3 -1.242-1.01-2.246-2.252-2.246zm-26.998-11.25h13.498v4.498h-13.498v-4.498zm-4.5 33.748h-4.5v-4.502h4.5v4.502zm-2.25-11.25c-1.244 0-2.25-1.004-2.25-2.252v-11.248c0-1.242 1.006-2.252 2.25-2.252h11.25v15.75h-11.25v2e-3zm20.248 11.25h-13.498v-2.252h13.498v2.252zm0-4.504h-13.498v-2.248h13.498v2.248zm8.996 4.504h-4.498v-4.502h4.498v4.502zm0-13.502c0 1.242-1.004 2.252-2.252 2.252h-11.248v-15.75h11.248c1.248 0 2.252 1.008 2.252 2.25v11.248z" fill="#183883"/>
+</g>
+</svg>
+                  </div>
+                  <h2>SERVICE INDEX</h2>
+                  </a>
+                </article>
+
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Punctuality Rate</h3>
+                  <div class="percent padT_25 clr-999">95%</div> 
+                  <div>Good</div>
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Average Delays</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-999">11</div><div>Peak hrs</div></li>
+                      <li class="list"><div class="percent clr-red">5</div><div>Off Peak hrs</div></li>
+                      <li class="list"><div class="percent clr-999">1</div><div>Holidays</div></li>
+                    </ul>
+
+                  </div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Utilization</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-red">65%</div><div>Shivneri<br></div></li>
+                      <li class="list"><div class="percent clr-999">85%</div><div>Ordinary<br></div></li>
+                      <li class="list"><div class="percent clr-999">98%</div><div>Semi Luxury</div></li>
+                    </ul>
+
+                  </div>
+
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+                <article class="fl col-ty-1 col-icon text-center">
+                <a href="javascript:void(0)">
+                  <div class="a-icon">
+                  <svg version="1.1"
+   id="Layer_1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:cc="http://creativecommons.org/ns#"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<g transform="translate(0,-952.36218)">
+  <path fill="#1F497D" d="M7.207,952.362c-0.89,0-1.607,0.381-1.607,0.854v0.575H4.35v1.786h5.714v-1.786H8.813v-0.575
+    C8.813,952.743,8.097,952.362,7.207,952.362z M2.028,954.862c-0.297,0-0.536,0.239-0.536,0.536v11.428
+    c0,0.296,0.239,0.536,0.536,0.536h10.357c0.297,0,0.534-0.24,0.534-0.536v-11.428c0-0.297-0.237-0.536-0.534-0.536h-1.607v1.071
+    c0,0.188-0.171,0.357-0.357,0.357H3.992c-0.187,0-0.356-0.17-0.356-0.357v-1.071H2.028z M4.171,958.433
+    c0.296,0,0.536,0.24,0.536,0.536c0,0.295-0.24,0.537-0.536,0.537c-0.295,0-0.535-0.241-0.535-0.537
+    C3.636,958.673,3.875,958.433,4.171,958.433z M6.28,958.612c0.011,0,0.023,0,0.033,0h4.107c0.198-0.002,0.359,0.155,0.361,0.352
+    c0.004,0.197-0.154,0.359-0.351,0.362c-0.005,0-0.007,0-0.011,0H6.313c-0.197,0.009-0.364-0.143-0.373-0.34
+    C5.931,958.789,6.083,958.621,6.28,958.612L6.28,958.612z M4.171,960.756c0.296,0,0.536,0.239,0.536,0.535
+    c0,0.295-0.24,0.535-0.536,0.535c-0.295,0-0.535-0.24-0.535-0.535C3.636,960.995,3.875,960.756,4.171,960.756z M6.28,960.933
+    c0.011,0,0.023,0,0.033,0h4.107c0.198-0.002,0.359,0.155,0.361,0.352c0.004,0.198-0.154,0.359-0.351,0.363
+    c-0.005,0-0.007,0-0.011,0H6.313c-0.197,0.009-0.364-0.143-0.373-0.341C5.931,961.11,6.083,960.943,6.28,960.933L6.28,960.933z
+     M4.171,963.076c0.296,0,0.536,0.24,0.536,0.535c0,0.297-0.24,0.537-0.536,0.537c-0.295,0-0.535-0.24-0.535-0.537
+    C3.636,963.316,3.875,963.076,4.171,963.076z M6.28,963.254c0.011,0,0.023,0,0.033,0h4.107c0.198-0.001,0.359,0.157,0.361,0.354
+    c0.004,0.196-0.154,0.358-0.351,0.361c-0.005,0-0.007,0-0.011,0H6.313c-0.197,0.009-0.364-0.143-0.373-0.34
+    C5.931,963.432,6.083,963.264,6.28,963.254L6.28,963.254z"/>
+</g>
+</svg>
+
+                  </div>
+                  <h2>INVENTORY</h2>
+                </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Total Index</h3>
+                  <div class="percent padT_25 clr-999">Good</div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Monthly Fuel Availability</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-999">4000 </div><div>Litres</div></li>
+                      <li class="list"><div class="percent clr-red">2</div><div>Tonne</div></li>
+                    </ul>
+
+                  </div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+
+                  <!-- <div class="o-b-wrap">
+                      <div class="dropdown">
+                        <button class="btn btn-flat dropdown-toggle ignorebtn" type="button" data-toggle="dropdown">
+                          <i class="fa fa-ellipsis-v"></i></button>
+                          <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="javascript:void(0)">Comments</a></li>                  
+                            <li><a href="javascript:void(0)">Annotate</a></li>
+                            <li><a href="javascript:void(0)">Help</a></li>
+                          </ul>
+                      </div>
+                    </div> -->
+
+                  <h3 class="mar_0 clr-052">Monthly Itemized Inventory</h3>
+                  <div class="pad_10">
+                  <div class="bars">
+                    <h4 class="text-left">clutch plate</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-a" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:89%">
+                        <span class="pbr">89<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Tyre</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-b" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                         <span class="pbr">70<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Gear Box</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-c" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+                        <span class="pbr">10<span>
+                      </div>
+                    </div>
+                    <h4 class="text-left">Chasis</h4>
+                    <div class="progress pb">
+                      <div class="progress-bar bc-d" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:2%">
+                        <span class="pbr">2<span>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+                <article class="fl col-ty-1 col-icon text-center">
+
+                <a href="javascript:void(0)">
+                  <div class="a-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<path fill="#1F497D" d="M12.959,9.36c-0.258-0.215-0.504-0.358-0.819-0.474c-0.251-1.177-0.118-1.047-1.276-1.047
+  c-0.418,0-0.418,0.405-0.556,1.047C10.012,8.994,9.734,9.154,9.489,9.36C8.346,8.991,8.522,8.942,7.945,9.943
+  c-0.213,0.368,0.157,0.578,0.627,1.004c-0.056,0.317-0.057,0.637,0,0.946c-0.892,0.805-0.847,0.623-0.266,1.628
+  c0.212,0.367,0.58,0.152,1.183-0.042c0.255,0.216,0.501,0.356,0.818,0.475c0.252,1.173,0.119,1.043,1.276,1.043
+  c0.419,0,0.419-0.403,0.554-1.043c0.299-0.108,0.576-0.269,0.82-0.475c0.623,0.199,0.974,0.402,1.184,0.042
+  c0.594-1.029,0.604-0.843-0.269-1.63c0.058-0.315,0.059-0.635,0.003-0.944c0.892-0.807,0.842-0.629,0.266-1.629
+  C13.929,8.951,13.56,9.166,12.959,9.36z M12.322,12.055c-0.351,0.606-1.126,0.815-1.734,0.465c-0.606-0.352-0.813-1.126-0.463-1.735
+  c0.35-0.606,1.127-0.813,1.732-0.465C12.464,10.67,12.673,11.447,12.322,12.055z"/>
+<path fill="#1F497D" d="M6.943,4.19c0,0.155-0.125,0.281-0.281,0.281c-0.154,0-0.28-0.125-0.28-0.281S6.508,3.91,6.663,3.91
+  C6.818,3.91,6.943,4.036,6.943,4.19z"/>
+<path fill="#1F497D" d="M7.007,9.477c0,0.154-0.126,0.28-0.281,0.28c-0.154,0-0.28-0.126-0.28-0.28c0-0.156,0.125-0.281,0.28-0.281
+  C6.881,9.195,7.007,9.32,7.007,9.477z"/>
+<path fill="#1F497D" d="M5.589,4.42c0.077,0.135,0.031,0.306-0.103,0.383C5.353,4.88,5.181,4.835,5.103,4.701
+  C5.025,4.566,5.071,4.395,5.206,4.317C5.34,4.24,5.512,4.286,5.589,4.42z"/>
+<path fill="#1F497D" d="M4.531,5.296c0.134,0.078,0.18,0.25,0.103,0.383C4.557,5.813,4.385,5.859,4.25,5.781
+  C4.116,5.705,4.07,5.533,4.148,5.398C4.225,5.264,4.397,5.218,4.531,5.296z"/>
+<path fill="#1F497D" d="M4.333,6.864c0,0.155-0.125,0.28-0.28,0.28c-0.156,0-0.281-0.125-0.281-0.28c0-0.155,0.125-0.28,0.281-0.28
+  C4.208,6.584,4.333,6.709,4.333,6.864z"/>
+<path fill="#1F497D" d="M9.616,6.801c0,0.155-0.124,0.28-0.28,0.28c-0.155,0-0.281-0.125-0.281-0.28c0-0.155,0.126-0.28,0.281-0.28
+  C9.492,6.521,9.616,6.646,9.616,6.801z"/>
+<path fill="#1F497D" d="M4.665,8.041c0.077,0.134,0.032,0.307-0.103,0.384C4.429,8.503,4.257,8.457,4.179,8.322
+  C4.102,8.187,4.148,8.016,4.282,7.938C4.417,7.859,4.588,7.906,4.665,8.041z"/>
+<path fill="#1F497D" d="M9.107,5.728C8.972,5.804,8.801,5.759,8.724,5.625C8.646,5.491,8.691,5.319,8.827,5.241
+  C8.96,5.164,9.132,5.209,9.209,5.344C9.287,5.479,9.241,5.65,9.107,5.728z"/>
+<path fill="#1F497D" d="M5.643,9.278C5.566,9.412,5.395,9.459,5.26,9.381C5.126,9.304,5.08,9.132,5.158,8.998
+  c0.077-0.135,0.249-0.181,0.383-0.103C5.675,8.973,5.721,9.144,5.643,9.278z"/>
+<path fill="#1F497D" d="M8.231,4.669c-0.078,0.134-0.25,0.18-0.384,0.103c-0.135-0.077-0.18-0.249-0.103-0.383
+  c0.077-0.134,0.249-0.18,0.384-0.103C8.262,4.363,8.308,4.536,8.231,4.669z"/>
+<path fill="#1F497D" d="M9.196,7.93L7.346,6.53C7.098,5.961,6.312,5.926,6.008,6.46C5.688,7.021,6.181,7.702,6.82,7.563l2.111,0.835
+  c0.117,0.029,0.246-0.02,0.31-0.13C9.306,8.154,9.282,8.018,9.196,7.93z M6.663,7.113c-0.154,0-0.28-0.125-0.28-0.281
+  c0-0.155,0.125-0.28,0.28-0.28c0.155,0,0.281,0.125,0.281,0.28C6.943,6.988,6.818,7.113,6.663,7.113z"/>
+<path fill="#1F497D" d="M11.819,7.113c-0.204-0.043-0.995-0.038-1.158-0.009c0.16-2.372-1.724-4.284-3.999-4.284
+  c-2.216,0-4.012,1.797-4.012,4.012c0,2.439,2.179,4.373,4.68,3.955c0.121,0.185,0.197,0.235,0.449,0.461
+  c-0.006,0.114-0.006,0.228-0.001,0.342c-0.266,0.242-0.277,0.244-0.369,0.354c-3.137,0.454-5.911-1.979-5.911-5.112
+  c0-1.348,0.517-2.574,1.361-3.494L2.589,3.016L2.259,3.294L2.036,3.028C1.7,2.628,1.752,2.032,2.152,1.697l0.236-0.198
+  C2.788,1.164,3.384,1.215,3.72,1.615l0.222,0.266L3.612,2.159l0.271,0.323c0.625-0.401,1.342-0.669,2.113-0.77V1.291
+  c-0.195,0-0.433,0.034-0.433-0.189V0.188c0-0.104,0.085-0.189,0.19-0.189h1.819c0.105,0,0.19,0.084,0.19,0.189v0.913
+  c0,0.224-0.235,0.189-0.433,0.189v0.421C8.1,1.813,8.816,2.081,9.442,2.481l0.271-0.323l-0.33-0.278l0.223-0.266
+  c0.335-0.4,0.933-0.452,1.331-0.116l0.235,0.198c0.399,0.335,0.452,0.931,0.116,1.332l-0.221,0.266l-0.333-0.278l-0.271,0.322
+  C11.393,4.349,11.896,5.692,11.819,7.113z"/>
+</svg>  </div>
+                  <h2>Efficiency Index</h2>
+                </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Overall Efficiency</h3>
+                  <div class="percent padT_25 clr-999">90%</div>
+                  <div>Good</div> 
+                  
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20 padL_10 padR_10">
+                  <h3 class="mar_0 clr-052">Route-Wise Revenue</h3>
+                  <table class="table tender-tba dash table-bordered table-condensed1 marT_10">
+                    <thead>
+                      <tr>
+                        <th>Route (A-B)</th>
+                        <th class="text-center">Revenue (in lacs.)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-left">Pune – Dadar</td>
+                        <td>79</td>
+                      </tr>
+                      <tr>
+                        <td class="text-left">Mumbai - Nasik</td>
+                        <td>39</td>
+                      </tr>
+                      <tr>
+                        <td class="text-left">Thane - Pune</td>
+                        <td>22</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+
+                  <!-- <div class="padT_25">Motilal Nagar, Goregaon - 34<br>
+                  Marol, Andheri - 14</div> -->
+                </article>
+                <article class="fl col-ty-2 col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Highest demand routes</h3>
+                   <table class="table tender-tba dash table-bordered table-condensed1 marT_10">
+                    <thead>
+                      <tr>
+                        <th>Route (A-B)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="text-left">Pune – Dadar</td>
+                      </tr>
+                      <tr>
+                        <td class="text-left">Mumbai - Nasik</td>
+                      </tr>
+                      <tr>
+                        <td class="text-left">Thane - Pune</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                  <!-- <div class="padT_25">Colaba, Mumbai - 34<br>
+                    Govandi, Shivaji Nagar, Mumbai  - 34</div> -->
+                </article>
+            </div>
+            
+            <div class="cont-row box-full">
+                 <article class="fl col-ty-1 col-icon text-center">
+                  <a href="javascript:void(0)">
+                  <div class="a-icon">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+<g>
+  <path fill="none" d="M2.61,8.198c0.56,0,1.021-0.618,1.079-1.411c0.008-0.053,0.012-0.104,0.012-0.157l-0.174,0.2
+    C3.624,6.619,3.28,6.075,3.28,6.075c-0.577,0.417-1.436,0-1.436,0C1.584,6.178,1.707,6.907,1.707,6.907
+    C1.642,6.861,1.583,6.838,1.535,6.826C1.605,7.602,2.061,8.198,2.61,8.198z"/>
+  <path fill="none" d="M3.593,8.208L3.593,8.208L3.593,8.208C3.591,8.235,3.584,8.265,3.573,8.291
+    C3.584,8.265,3.591,8.235,3.593,8.208z"/>
+  <path fill="#2E5F93" d="M1.382,6.781c0,0.012,0.001,0.024,0.003,0.036c0.078,0.887,0.597,1.57,1.226,1.57
+    c0.636,0,1.162-0.702,1.229-1.605C3.85,6.716,3.854,6.65,3.854,6.583c0-0.068-0.004-0.134-0.015-0.199
+    c-0.091-0.629-0.607-1.11-1.229-1.11c-0.622,0-1.138,0.482-1.229,1.111c-0.01,0.064-0.015,0.131-0.015,0.199
+    c0,0.027,0.001,0.054,0.003,0.081C1.372,6.703,1.375,6.742,1.382,6.781z M1.844,6.075c0,0,0.859,0.417,1.437,0
+    c0,0,0.343,0.543,0.247,0.756l0.174-0.2c0,0.053-0.003,0.104-0.012,0.157C3.631,7.581,3.17,8.198,2.61,8.198
+    c-0.55,0-1.005-0.597-1.075-1.372c0.048,0.012,0.106,0.035,0.171,0.081C1.707,6.907,1.584,6.178,1.844,6.075z"/>
+  <path fill="#2E5F93" d="M3.75,8.203C3.7,8.194,3.649,8.188,3.598,8.183l0,0l0,0c0,0.002-0.001,0.004-0.001,0.007
+    c0,0.007-0.001,0.01-0.003,0.019c0,0,0,0,0-0.001c0,0.001,0,0.001,0,0.001c-0.002,0.027-0.009,0.057-0.02,0.083
+    c0.011-0.026,0.018-0.056,0.02-0.083C3.589,8.243,3.57,8.296,3.542,8.355C3.399,8.654,3.008,9.182,2.768,9.498L2.722,8.843
+    C2.784,8.809,2.839,8.76,2.875,8.697c0.03-0.051,0.05-0.104,0.05-0.162c0,0-0.171,0.075-0.344,0.075
+    c-0.173,0-0.344-0.075-0.344-0.075c0,0.054,0.017,0.104,0.043,0.149c0.037,0.064,0.094,0.12,0.16,0.158L2.394,9.515
+    C2.167,9.19,1.78,8.62,1.661,8.319l0,0C1.645,8.276,1.632,8.24,1.628,8.211l0,0C1.627,8.202,1.626,8.197,1.625,8.189
+    c0,0,0,0,0-0.001c0-0.002,0-0.004,0-0.006l0,0C1.6,8.185,1.577,8.188,1.552,8.19c-0.001,0-0.003,0-0.004,0
+    C0.758,8.301,0.15,8.979,0.15,9.802c0,0.897,0.726,0.895,1.625,0.895h1.673c0.897,0,1.625,0.003,1.625-0.895
+    C5.072,9.007,4.503,8.344,3.75,8.203z"/>
+</g>
+<path fill="#2E5F93" d="M13.814,8.402c0.279,0.03,0.524,0.081,0.524,0.081c-0.557-0.306-0.543-1.405-0.543-1.405
+  c0.099-2.125-1.306-2.014-1.306-2.014l-0.002,0.003V5.064c0,0-1.402-0.111-1.308,2.014c0,0,0.014,1.099-0.54,1.405
+  c0,0,0.147-0.01,0.352-0.015c-0.568,0.251-0.964,0.822-0.964,1.484c0,0.896,0.726,0.738,1.623,0.738h1.675
+  c0.898,0,1.624,0.158,1.624-0.738C14.95,9.226,14.475,8.61,13.814,8.402z M12.866,8.828l-0.378,0.611l-0.376-0.611
+  c-0.271-0.061-0.481-0.188-0.566-0.345c0.219,0.019,0.407,0.059,0.455,0.139L11.793,8.16c0.197,0.197,0.438,0.313,0.697,0.313
+  c0.252,0,0.487-0.11,0.683-0.3l-0.144,0.3c0.047-0.081,0.229-0.102,0.442-0.097C13.439,8.584,13.198,8.754,12.866,8.828z
+   M13.567,6.872c-0.02,0.282-0.092,0.542-0.2,0.759c-0.196,0.396-0.516,0.653-0.879,0.653c-0.55,0-1.005-0.598-1.074-1.374
+  c0,0,0.435-0.071,0.694-0.174c0,0,0.471-0.157,1.045-0.569c0.002-0.003,0.004-0.004,0.006-0.007c0,0,0.012,0.015,0.025,0.04
+  c0.052,0.085,0.157,0.341-0.048,0.458l0.368,0.046h0.006l0.068,0.012C13.579,6.769,13.577,6.821,13.567,6.872z"/>
+<g>
+  <path fill="none" d="M7.549,7.811c0.819,0,1.493-0.903,1.579-2.065c0.012-0.074,0.018-0.152,0.02-0.229L8.891,5.809
+    c0.141-0.313-0.36-1.107-0.36-1.107c-0.845,0.612-2.103,0-2.103,0C6.048,4.853,6.228,5.918,6.228,5.918
+    C6.134,5.853,6.047,5.82,5.976,5.801C6.08,6.936,6.745,7.811,7.549,7.811z"/>
+  <path fill="none" d="M8.99,7.823c0-0.001,0-0.001,0-0.002C8.99,7.822,8.99,7.822,8.99,7.823C8.988,7.864,8.975,7.905,8.961,7.944
+    C8.975,7.905,8.988,7.864,8.99,7.823z"/>
+  <path fill="#1F497D" d="M5.751,5.735C5.753,5.752,5.754,5.77,5.755,5.787c0.115,1.298,0.875,2.3,1.794,2.3
+    c0.932,0,1.701-1.027,1.799-2.351c0.015-0.096,0.021-0.193,0.021-0.291c0-0.1-0.006-0.197-0.021-0.292
+    C9.216,4.234,8.462,3.529,7.549,3.529c-0.911,0-1.665,0.705-1.798,1.625C5.738,5.249,5.73,5.346,5.73,5.445
+    c0,0.04,0.002,0.08,0.003,0.119C5.739,5.622,5.744,5.68,5.751,5.735z M6.427,4.702c0,0,1.258,0.612,2.103,0
+    c0,0,0.501,0.794,0.36,1.107l0.257-0.293C9.146,5.593,9.14,5.671,9.128,5.745c-0.086,1.162-0.76,2.065-1.579,2.065
+    c-0.805,0-1.47-0.875-1.574-2.009c0.07,0.019,0.157,0.052,0.252,0.117C6.228,5.918,6.048,4.853,6.427,4.702z"/>
+  <path fill="#1F497D" d="M9.22,7.816C9.144,7.803,9.07,7.792,8.994,7.786l0,0l0,0c0,0.004-0.002,0.006-0.002,0.01
+    c0,0.008-0.002,0.017-0.002,0.027c0-0.001,0-0.001,0-0.002c0,0.001,0,0.001,0,0.002C8.984,7.864,8.975,7.905,8.961,7.944
+    C8.975,7.905,8.984,7.864,8.99,7.823C8.979,7.878,8.954,7.951,8.914,8.036C8.705,8.476,8.133,9.248,7.778,9.709l-0.066-0.96
+    c0.093-0.045,0.172-0.119,0.224-0.21c0.046-0.072,0.073-0.153,0.073-0.237c0,0-0.248,0.111-0.502,0.111
+    c-0.253,0-0.502-0.111-0.502-0.111c0,0.077,0.024,0.152,0.063,0.222C7.12,8.619,7.204,8.702,7.301,8.749L7.232,9.734
+    C6.9,9.259,6.334,8.428,6.16,7.987l0,0C6.136,7.925,6.118,7.87,6.11,7.826l0,0c-0.002-0.011-0.003-0.021-0.003-0.03l0,0
+    c0-0.004,0-0.007,0-0.01c0,0,0,0-0.001,0C6.07,7.79,6.035,7.794,6,7.798C5.998,7.799,5.997,7.799,5.993,7.799
+    C4.837,7.96,3.947,8.953,3.947,10.153c0,1.313,1.065,1.312,2.378,1.312h2.447c1.316,0,2.381,0.002,2.381-1.312
+    C11.153,8.993,10.319,8.024,9.22,7.816z"/>
+</g>
+</svg>
+
+                  </div>
+                  <h2>HR INDEX</h2>
+                 </a>
+                </article>
+                <article class="fl col-ty-1a col-txt text-center pad_20">
+                  <h3 class="mar_0 clr-052">Monthly Attendance</h3>
+                  <div class="percent padT_25 clr-999">98%</div> 
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20 padL_10 padR_10">
+                  <h3 class="mar_0 clr-052">Employee of Month</h3>
+                  <div class="padT_25">
+                    <div class="fl ppic marL_20"></div>
+                    <div class="fl text-left marL_20">
+                        <strong>Name:</strong> Tukaram Shinde<br>
+                        <strong>City:</strong> Mumbai<br>
+                        <strong>Mobile:</strong> +91 9887658859<br>
+                        <strong>Work Tenure:</strong> 10 yrs
+                    </div>
+                  </div>
+
+                  <!-- <div class="padT_25">ABC corporation LTD - 34<br>
+                    JNK PVT LTD  - 34</div> -->
+                </article>
+                <article class="fl col-ty-2 col-txt text-center padT_20">
+                  <h3 class="mar_0 clr-052">Monthly Performance</h3>
+                  <div class="padT_25">
+                    <ul>
+                      <li class="list"><div class="percent clr-999">97%</div><div>Top<br></div></li>
+                      <li class="list"><div class="percent clr-999">3%</div><div>Low<br></div></li>
+                    </ul>
+
+                  </div>
+
+                </article>
+            </div>
+        </section>
+        
+                
+        <section class="fl right-section">
+            <div class="fl right-row box-full right-hbox">
+               <div class="traf-lbl">Demand Index</div>
+               
+               
+              <div id="map" class="depot_map">
+                <!-- <img title="Affected Area" class="img-responsive aa2" alt="Affected Area" src="images/area2.png">
+                <img title="Affected Area" class="img-responsive aa3" alt="Affected Area" src="images/area3.png"> -->
+                
+              </div>
+               
+               
+               
+            </div>
+
+            <div class="fl right-row box-full right-hbox">
+                 
+                 <h3 class="fl clr-052 borB borClr-205">
+                  <div class="text-center">JB Nagar, Andheri</div>
+                </h3>
+                 <div class="fl cont-blocks"><div class="over_hide">
+                 <!-- <video width="100%" controls loop style="margin-top:5px;">
+  <source src="/msrtc-demo/media/bombay-traffic.mp4" type="video/mp4">
+  
+Your browser does not support the video tag.
+</video> -->
+
+<embed src="media/bombay-traffic.mp4" autostart="true"  width="338" height="180" />
+<!-- <iframe  width="425" height="344" src="https://www.youtube.com/embed/F9Bo89m2f6g" frameborder="0" allowfullscreen></iframe> -->
+</div></div>
+               
+              
+            </div>
+            
+            <!-- <div class="fl right-row box-full right-hbox">
+
+                  <h3 class="clr-052 borB borClr-205">SOCIAL MEDIA INDEX - 7 DAYS</h3>
+                  <div class="pad_10" ng-controller="DoughnutCtrla">
+                     <canvas id="doughnut" class="chart chart-doughnut" chart-data="data" chart-labels="labels" chart-colors="colors" chart-legend="true">
+                  </canvas> 
+                  </div>
+
+            </div> -->
+
+            <div class="fl right-row box-full right-hbox">
+              <h3 class="clr-052 borB borClr-205">LATEST UPDATES <a href="javascript:;" class="view-all">View All</a></h3>
+              
+              <div class="rn_sect borB borClr-205">
+                  <a href="javascript:void(0)"><p class="teamcnt-title ttl_40">Kolhapur - Mumbai Shivshahi AC Bus Service started.</p>
+                     <div class="time_slot"><span class="date">Just now</span></div>
+                  </a>
+              </div>
+              <div class="rn_sect borB borClr-205">
+                  <a href="javascript:void(0)"><p class="teamcnt-title ttl_40">New Helpdesk No. 022-23053992.</p>
+                     <div class="time_slot"><span class="date">1 hour ago</span></div>
+                  </a>
+              </div>
+              <div class="rn_sect borB borClr-205">
+                  <a href="javascript:void(0)"><p class="teamcnt-title ttl_40">Sangli to Pune station - AC Shivneri Bus Service started.</p>
+                     <div class="time_slot"><span class="date">3 hour ago</span></div>
+                  </a>
+              </div>                                          
+              <div class="rn_sect">
+                  <a href="javascript:void(0)"><p class="teamcnt-title ttl_40">MSRTC employees will lose only 4 days' salary not 36, says MTM.</p>
+                     <div class="time_slot"><span class="date">Yesterday</span></div>
+                  </a>
+              </div>                  
+            </div>
+            
+        </section>
+      
+      </section>
+      
+    </div>
+  </div>
+</div>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHTsSYaJtD3F6J8mA28ead473Wqidit5Y&callback=initMap"></script>
+<script>
+$(document).ready(function(){
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 19.1569494, lng: 72.8560272},
+      zoom: 13,
+      mapTypeControl: false
+    });
+    var trafficLayer = new google.maps.TrafficLayer();
+    trafficLayer.setMap(map);
+  }
+  initMap();
+});
+      
+</script>
+</div>

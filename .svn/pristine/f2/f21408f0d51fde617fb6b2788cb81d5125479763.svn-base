@@ -1,0 +1,292 @@
+
+<div class="container">
+
+  <div class="payslip" style="border:0px"> 
+  <div class="row">
+      <div class="col-sm-12">
+        <div class="payslip-card">
+        <div class="row_wrap" id="eg-table">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border:0px !important" >
+	   <tbody><tr align="center">
+        <td>&nbsp;</td>
+		
+        <td class="curve2">
+		<table width="149" border="0" cellspacing="0" cellpadding="0" style="border:0px !important">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/my-queue.png" ></td>
+            <td class="b_text1" width="89"><span id="workitemCount">11</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+            </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="" class="m_textn">
+<table width="144px"><tbody><tr><td>Workdesk</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a ui-sref="eg-user-inbox" >Inbox</a></li>
+
+            <li>
+	        <a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="sentitems">Sent Items</a>
+			</li>
+	
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table></td>
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60" ><img src="images/dak2.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89"><span id="DAKitemCount">6</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="143px;"><tbody><tr><td>Correspondence</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:161;">
+	
+			<!--<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('ufDaks')" id="ufDaks">Unfiled Correspondence</a></li>
+			<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('dakRegister')" id="dakRegister">Correspondence Register</a></li>-->
+			
+			<li><a ui-sref="eg-register" >Unfiled</a></li>
+			<li><a ui-sref="eg-register2">Register</a></li>
+			
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+	
+	</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+	</td>
+
+	
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve4">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/note2.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89"><span id="noteCount">0</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu4" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Office Note</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createnew&#39;);" id="createnew">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;drafts&#39;);" id="drafts">Draft(s)</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+	
+ <td class="curve">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/file2.png"></td>
+            <td class="b_text1" width="89"><span id="fileCount">3</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textnb">
+<table width="144px;"><tbody><tr><td >Files</td><td style="width:20px;"><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createfile&#39;);" id="createfile">Create File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;adminFiles&#39;);" id="adminFiles">Search File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;searchDoc&#39;);" id="searchDoc">Search Document</a></li>
+	
+			<li><a href="javascript:;" onclick="itemSelected(&#39;fileIndex&#39;);" id="fileIndex">File Register</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;specialFiles&#39;);" id="specialFiles">Special Files</a></li>
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+        
+		
+<td class="curve1">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/meeting2.png" style="margin-left:3px;"></td>
+            <td class="b_text1" width="89"><span id="commitemCount">0</span></td>
+          </tr>
+          <tr>
+    <!--        <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">Comm &amp; Meet</a></td> -->
+			<td class="m_text"></td>
+			
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu1" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Comm &amp; Meet</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<!--<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('cnmhome');" id="cnmhome">C&M workitems</a></li>-->
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createcomm&#39;);" id="createcomm">Create Committee</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmeet&#39;);" id="createmeet">Schedule Meetings</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmom&#39;);" id="createmom">Circulate Minutes</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+	
+	    
+ 	
+<td class="curve2">
+		  <table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/rti1.png" ></td>
+            <td class="b_text1" width="89"><span id="rtiitemCount">1</span></td>
+
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">RTI</a></td> -->
+			<td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textn">
+<table width="144px;"><tbody><tr><td >RTI</td><td style="width:20px;"><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;rticreate&#39;);" id="createrti">Create RTI</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;firstappeal&#39;);" id="firstappeal">First Appeal</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;secondappeal&#39;);" id="secondappeal">Second Appeal</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="rtiregister">Sent Items</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/parliamentry.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89"><span id="pqitemCount">1</span></td>
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">Parliamentry</a></td> -->
+			<td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="144px;"><tbody><tr><td>Polices</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;pqcreate&#39;);" id="pqcreate">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="pqregister">List</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+
+		</td> 
+		</tr>
+	</tbody></table>
+      </div>
+      
+      <div id="listItems" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><br><table class="table table-bordered table-condensed">
+      
+      <thead>
+      <tr> 
+      <th background="images/bck.gif" scope="col" align="left" class="EWTableHeaderBorder"><input type="checkbox" id="selectAll" name="selectAll" onclick="selectAll();"></th> 
+      <th background="images/bck.gif" scope="col" align="left" class="EWTableHeaderBorder">&nbsp;</th> 
+      <th id="h0" background="images/bck.gif" scope="col" nowrap="" align="left" class="EWTableHeaderBorder"><a id="1" href="javascript:;" class="ettilafont ettilacolor" onclick="sortHeader(this.id);"><img src="images/priority_medium.gif" align="right" border="0"></a></th>
+      <th id="h1" background="images/bck.gif" scope="col" nowrap="" class="EWTableHeaderBorder" align="center"><span class="ettiladisabledfont ettiladisabledcolor">Subject</span></th>
+      <th id="h2" background="images/bck.gif" scope="col" nowrap="" class="EWTableHeaderBorder" align="center"><span class="ettiladisabledfont ettiladisabledcolor">Viewed On</span></th>
+      <th id="h3" background="images/bck.gif" scope="col" nowrap="" class="EWTableHeaderBorder" align="center"><span class="ettiladisabledfont ettiladisabledcolor">From User</span></th>
+      <th id="h4" background="images/bck.gif" scope="col" nowrap="" class="EWTableHeaderBorder" align="center"><span class="ettiladisabledfont ettiladisabledcolor">From Department</span></th>
+      <th id="h5" background="images/green2.gif" nowrap="" scope="col" class="EWTableHeaderBorder" align="center"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span><a id="10" href="javascript:;" class="ettilafont ettilacolor" onclick="sortHeader(this.id);">Received On</a></th>
+      <th id="h6" background="images/bck.gif" scope="col" nowrap="" class="EWTableHeaderBorder" align="center"><a id="13" href="javascript:;" class="ettilafont ettilacolor" onclick="sortHeader(this.id);">Submitted On</a></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr bgcolor="#ffffff"><td><input id="c0" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/folder_normal.gif" alt="File"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="805#0" href="javascript:;" onclick="openFile(&quot;undefined&quot;,&quot;805&quot;,&quot;11111111&quot;,&quot;EGOVNew-0000000107-Process&quot;,&quot;1&quot;,&quot;2016-05-07%2016%3A37%3A32&quot;);"><span class="EWTableContentsGreenfont EWTableContentsGreencolor">FileNo :Department1/Section 2/No Designation Set/01:</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-11-10 10:21:54.015</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:37:32</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:37:16</span></td></tr><tr  ><td><input id="c1" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/folder_normal.gif" alt="File"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="803#1" href="javascript:;" onclick="openFile(&quot;undefined&quot;,&quot;803&quot;,&quot;11111111&quot;,&quot;EGOVNew-0000000106-Process&quot;,&quot;1&quot;,&quot;2016-05-07%2016%3A34%3A48&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">FileNo :Department1/Section 2/No Designation Set/01:</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:34:48</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:34:48</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:34:43</span></td></tr><tr  ><td><input id="c2" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/folder_normal.gif" alt="File"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="801#2" href="javascript:;" onclick="openFile(&quot;undefined&quot;,&quot;801&quot;,&quot;11111111&quot;,&quot;EGOVNew-0000000105-Process&quot;,&quot;1&quot;,&quot;2016-05-07%2016%3A30%3A13&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">FileNo :Department1/Section 1/No Designation Set/01:</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:30:13</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:30:13</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:30:05</span></td></tr><tr  ><td><input id="c3" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/Document_normal.gif" alt="DAK"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="421#3" href="javascript:;" onclick="openDAK(421,&quot;1&quot;,&quot;EGOVNew-0000000098-Process&quot;,&quot;2016-05-07%2014%3A59%3A04&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">Real Property Regulation</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 14:59:04</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 14:59:04</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 14:58:48</span></td></tr><tr  ><td><input id="c4" name="q" type="checkbox"></td><td><img height="16" src="images/pq.gif" alt="PQ"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="PQ-00000000045-Process#4" href="javascript:;" onclick="openPQ(&quot;PQ-00000000045-Process&quot;);renderInboxComponent();changecolor(&quot;PQ-00000000045-Process#4&quot;)"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">PQ_00012</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:05:42</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:05:42</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:05:22</span></td></tr><tr  ><td><input id="c5" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/rti.gif" alt="RTI"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="RTI-0000000095-Process#5" href="javascript:;" onclick="openRTI(&quot;RTI-0000000095-Process&quot;);renderInboxComponent();changecolor(&quot;RTI-0000000095-Process#5&quot;)"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">RTI_00030</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:01:03</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Assistant</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:01:03</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 09:00:50</span></td></tr><tr bgcolor="#ffffff"><td><input id="c6" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/Document_normal.gif" alt="DAK"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="423#6" href="javascript:;" onclick="openDAK(423,&quot;1&quot;,&quot;EGOVNew-0000000094-Process&quot;,&quot;2016-05-06%2012%3A04%3A59&quot;);"><span class="EWTableContentsGreenfont EWTableContentsGreencolor">झारखंड विधान मंडल के सचेतक(सुविधा और भत्ता) अधिनियम</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-07 16:12:13.633</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 12:04:59</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 12:04:40</span></td></tr><tr  ><td><input id="c7" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/Document_normal.gif" alt="DAK"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="280#7" href="javascript:;" onclick="openDAK(280,&quot;1&quot;,&quot;EGOVNew-0000000093-Process&quot;,&quot;2016-05-06%2011%3A59%3A24&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">Foreign Affairs Correspondence</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:59:24</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:59:24</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:59:18</span></td></tr><tr  ><td><input id="c8" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/Document_normal.gif" alt="DAK"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="415#8" href="javascript:;" onclick="openDAK(415,&quot;1&quot;,&quot;EGOVNew-0000000091-Process&quot;,&quot;2016-05-06%2011%3A59%3A04&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">Exchange Rate Policy</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:59:04</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:59:04</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:58:40</span></td></tr><tr  ><td><input id="c9" name="q" type="checkbox"></td><td>&nbsp;<img height="16" src="images/Document_normal.gif" alt="DAK"></td><td><img src="images/priority_low.gif" width="15" height="15"></td><td nowrap="" class="EWTableElements"><a id="417#9" href="javascript:;" onclick="openDAK(417,&quot;1&quot;,&quot;EGOVNew-0000000089-Process&quot;,&quot;2016-05-06%2011%3A58%3A39&quot;);renderInboxComponent();"><span class="EWTableContentsBoldFont EWTableContentsBoldColor">Correspondence- Food and Nutrition Policy</span></a></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:58:39</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:58:39</span></td><td nowrap="" class="EWTableElements"><span class="EWTableContentsTextGreen">2016-05-06 11:58:19</span></td></tr></tbody></table>
+     <div align="right">
+     <a href="" class="btn btn-primary">Prev</a>&nbsp;&nbsp;<a href="javascript:;" onclick="nextBatchOfWorkitems();" class="btn btn-primary">Next </a></div>
+      
+    </div>
+    </div>
+    
+    
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,306 @@
+
+<div class="container">
+
+  <div class="payslip" style="border:0px"> 
+  <div class="row">
+      <div class="col-sm-12">
+        <div class="payslip-card">
+        <div class="row_wrap" id="eg-table">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border:0px !important" >
+	   <tbody><tr align="center">
+        <td>&nbsp;</td>
+		
+        <td class="curve2">
+		<table width="149" border="0" cellspacing="0" cellpadding="0" style="border:0px !important">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/my-queue.png" width="50" height="53"></td>
+            <td class="b_text1" width="89"><span id="workitemCount">11</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"><a href="" class="m_text" onclick="setDefault();itemSelected(&#39;inbox&#39;);">Workdesk</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+            </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="" class="m_textn">
+<table width="144px"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="" onclick="setDefault();itemSelected(&#39;inbox&#39;);" id="inbox">Inbox</a></li>
+
+            <li>
+	        <a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="sentitems">Sent Items</a>
+			</li>
+	
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table></td>
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/dak2.png" width="50" height="53"></td>
+            <td class="b_text1" width="89"><span id="DAKitemCount">6</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"><a href="javascript:;" id="dakFilter" class="m_text" onclick="setDefault();itemSelected(&#39;dakFilter&#39;);">Correspondence</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="161px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:161;">
+	
+			<!--<li><a href="#" onClick="setDefault();itemSelected('ufDaks')" id="ufDaks">Unfiled Correspondence</a></li>
+			<li><a href="#" onClick="setDefault();itemSelected('dakRegister')" id="dakRegister">Correspondence Register</a></li>-->
+			
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;ufDaks&#39;)" id="ufDaks">Unfiled</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;dakRegister&#39;)" id="dakRegister">Register</a></li>
+			
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+	
+	</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+	</td>
+
+	
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve4">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/note2.png" width="50" height="53"></td>
+            <td class="b_text1" width="89"><span id="noteCount">0</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"><a href="javascript:;" id="noteFilter" class="m_text" onclick="setDefault();itemSelected(&#39;noteFilter&#39;);">Office Note</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu4" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createnew&#39;);" id="createnew">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;drafts&#39;);" id="drafts">Draft(s)</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+	
+ <td class="curve">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/file2.png" width="50" height="53"></td>
+            <td class="b_text1" width="89"><span id="fileCount">3</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"><a href="javascript:;" id="fileFilter" class="m_text" onclick="setDefault();itemSelected(&#39;fileFilter&#39;);">Files</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textnb">
+<table width="144px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createfile&#39;);" id="createfile">Create File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;adminFiles&#39;);" id="adminFiles">Search File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;searchDoc&#39;);" id="searchDoc">Search Document</a></li>
+	
+			<li><a href="javascript:;" onclick="itemSelected(&#39;fileIndex&#39;);" id="fileIndex">File Register</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;specialFiles&#39;);" id="specialFiles">Special Files</a></li>
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+        
+		
+<td class="curve1">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/meeting2.png" width="50" height="50"></td>
+            <td class="b_text1" width="89"><span id="commitemCount">0</span></td>
+          </tr>
+          <tr>
+    <!--        <td class="m_text"><a href="#" class="m_text" onClick="itemSelected('fileIndex');">Comm &amp; Meet</a></td> -->
+			<td class="m_text"><a href="javascript:;" id="cnmFilter" class="m_text" onclick="setDefault();itemSelected(&#39;cnmFilter&#39;);">Comm &amp; Meet</a></td>
+			
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu1" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<!--<li><a href="#" onClick="setDefault();itemSelected('cnmhome');" id="cnmhome">C&M workitems</a></li>-->
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createcomm&#39;);" id="createcomm">Create Committee</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmeet&#39;);" id="createmeet">Schedule Meetings</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmom&#39;);" id="createmom">Circulate Minutes</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+	
+	    
+ 	
+<td class="curve2">
+		  <table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/rti1.png" width="50" height="53"></td>
+            <td class="b_text1" width="89"><span id="rtiitemCount">1</span></td>
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="#" class="m_text" onClick="itemSelected('fileIndex');">RTI</a></td> -->
+			<td class="m_text"><a href="javascript:;" id="rtiFilter" class="m_text" onclick="setDefault();itemSelected(&#39;rtiFilter&#39;);">RTI</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textn">
+<table width="144px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;rticreate&#39;);" id="createrti">Create RTI</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;firstappeal&#39;);" id="firstappeal">First Appeal</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;secondappeal&#39;);" id="secondappeal">Second Appeal</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="rtiregister">Sent Items</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/parliamentry.png" width="50" height="44"></td>
+            <td class="b_text1" width="89"><span id="pqitemCount">1</span></td>
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="#" class="m_text" onClick="itemSelected('fileIndex');">Parliamentry</a></td> -->
+			<td class="m_text"><a href="javascript:;" id="pqFilter" class="m_text" onclick="setDefault();itemSelected(&#39;pqFilter&#39;);">Polices</a></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="144px;"><tbody><tr><td>Navigate To</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;pqcreate&#39;);" id="pqcreate">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="pqregister">List</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+
+		</td> 
+		</tr>
+	</tbody></table>
+      </div>
+      
+      
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main" id="mainBody">
+			<div class="row" style="padding-top: 10px;">					
+				<div align="left" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 EWMsg1" id="itemSelected">Register</div>
+							
+				<!--Added by Vaibhav on 20/01/2015 for calendar -->
+				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 EWMsg1" id="pageList"></div>
+				<!--Changes ended by Vaibhav -->
+							
+				<div align="right" class="col-xs-9 col-sm-9 col-md-9 col-lg-9 EWMsg1" id="itemlinks"><table width="100%"><tbody><tr><td align="right" class="Clickable"><a class="Clickable" onmouseover='this.className="highlight_EWMsg1"' onmouseout='this.className="Clickable"' onclick="dakSearchVisible();" href="#"><u>Search Correspondence</u></a></td></tr></tbody></table></div>
+							
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="listItems"><br><table class="table table-bordered table-condensed"><tbody><tr> <td align="center" class="EWTableHeaderBorder" background="images/white_u.gif" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Track DAK</span></td><td align="center" class="EWTableHeaderBorder" id="h0" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;ReferenceNo&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h1" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Document<br />
+				  Subject&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h2" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Department&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h3" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;DateOn<br />
+			      Document&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h4" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Receiving<br />
+		          Date&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h5" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Dak<br />
+	              Category&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h6" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Status&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h7" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;From User&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h8" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;To User&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h9" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Action Date&nbsp;</span></td><td align="center" class="EWTableHeaderBorder" id="h10" background="images/white_u.gif" nowrap="" style="background-repeat: repeat-x;" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">&nbsp;Action&nbsp;</span></td></tr><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#4" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(434,"DAK_2016-17_[Department]_001","Department1","2017-03-28__~__00:00:00.0","DAK1","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>5</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#4" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(434,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2016-17_[De...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">DAK1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-28</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-28 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">29/03/2017 <br />
+				  02:0...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#5" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(440,"312008","1","2017-03-30__~__00:00:00.0","GOI__~__Defence","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>6</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#5" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(440,"Department","","DAK%20Dataclass_2","2","A","")' href="#">312008</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">GOI Defence</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-30 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-28</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">30/03/2017 <br />
+			      12:3...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#6" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(445,"DAK_2016-17_Department1_002","Department1","2017-03-29__~__00:00:00.0","BJP__~__File","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>7</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#6" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(445,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2016-17_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">BJP File</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-29 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-03-30</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">30/03/2017 <br />
+		          02:5...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#7" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(447,"DAK_2017-18_Department1_001","Department1","2017-05-09__~__00:00:00.0","MOD__~__letter","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>8</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#7" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(447,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">MOD letter</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-09 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-18</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">InProgress</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+	              11:5...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#8" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(449,"DAK_2017-18_Department1_003","Department1","2017-05-16__~__00:00:00.0","MOD__~__Letter__~__New","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>9</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#8" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(449,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">MOD Letter New</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-16 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-16</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+                  12:0...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#9" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(455,"DAK_2017-18_Department1_007","Department1","2017-05-16__~__00:00:00.0","National__~__Office","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>10</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#9" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(455,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">National Office</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-16 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-16</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+                  01:4...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#10" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(459,"DAK_2017-18_Department1_009","Department1","2017-06-05__~__00:00:00.0","e__~__Market__~__Letter","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>11</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#10" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(459,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">e Market Letter</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-05  </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-06</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">06/06/2017 <br />
+                  12:1...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#11" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(461,"45633","Ministry__~__of__~__Defence","2017-06-06__~__00:00:00.0","-","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>12</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#11" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(461,"Department","","DAK%20Dataclass_2","2","A","")' href="#">45633</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Ministry of Def...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-06 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-06</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">06/06/2017 <br />
+                  12:3...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#12" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(464,"45633","Ministry__~__of__~__Defence","2017-06-06__~__00:00:00.0","-","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>13</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#12" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(464,"Department","","DAK%20Dataclass_2","2","A","")' href="#">45633</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Ministry of Def...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-06 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-06</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">06/06/2017 <br />
+                  01:0...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#13" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(469,"DAK_2017-18_Department1_010","Department1","2017-06-01__~__00:00:00.0","MoD_Letter","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>14</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#13" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(469,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">MoD_Letter</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-01 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-06-05  </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">06/06/2017 <br />
+                  03:3...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#18" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(453,"DAK_2017-18_Department1_005","Department1","2017-05-08__~__00:00:00.0","MD1","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>19</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#18" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(453,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">MD1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-08 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-08</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen"></span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">InProgress</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+                  12:5...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#19" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(454,"DAK_2017-18_Department1_006","Department1","2017-05-09__~__00:00:00.0","MD3","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>20</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#19" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(454,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">MD3</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-09</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-15</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">InProgress</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Anthony</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+                  01:3...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td><tr><td title="Click to track DAK" bgcolor="#f8f7f7">&nbsp;   <a class="EWTableContentsClickable" id="undefined#20" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openDakActivity(457,"DAK_2017-18_Department1_008","Department1","2017-05-16__~__00:00:00.0","National","2","A","")' href="#"> <!--<img src='images/animated_book.gif' height='15' width='25'>--> <u>21</u></a></td><td width="140" title="Click to open DAK" nowrap="" bgcolor="#f8f7f7">&nbsp;<a class="EWTableContentsClickable" id="undefined#20" onmouseover='this.className="highlight_text"' onmouseout='this.className="EWTableContentsClickable"' onclick='openActivityDesk1(457,"Department","","DAK%20Dataclass_2","2","A","")' href="#">DAK_2017-18_Dep...</a></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">National</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Department1</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-16 </span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">2017-05-19</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">General</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Complete</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Mark</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Nick</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">19/05/2017 <br />
+                  03:1...</span></td><td nowrap="">&nbsp;<span class="EWTableContentsTextGreen">Initiate</span></td></tr></tbody></table></div>
+				
+				
+				
+
+
+
+
+    </div>
+    
+    
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

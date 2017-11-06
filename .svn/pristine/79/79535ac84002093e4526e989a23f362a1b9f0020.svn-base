@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Maharashtra State Road Transport Corporation</title>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700' rel='stylesheet' type='text/css'>
+<link href="css/font-awesome.min.css" rel="stylesheet" />
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/rs_styles.css" rel="stylesheet" />
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href="css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="js/script.js"></script>
+<script src="js/jquery.mmenu.all.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+        <!--header section-->
+        
+    
+<div class="container-fluid" id="headerblk">
+  <header class="row header">
+    <div class="logo_header hidden-xs hidden-sm">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                    <a href="index.html" class="logo"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                   <img src="images/emblem.png" class="img-responsive emblem hidden-xs hidden-sm" alt="Emblem" title="Emblem" />
+                </div>
+              </div>
+            </div>
+    </div>
+    <div class="menu_header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hidden-xs hidden-sm" id="main_nav">             
+                      <a href="dashboard.html" title="Home" class="home_icon"> <img src="images/home_btn.png" class="img-responsive" alt="Home" title="Home"></a>
+                        <ul class="nav navbar-nav">
+                          <li><a href="user-profile.html" title="Personal Information">Personal Information</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard.html" title="Leave Management">Leave Management</a></li>
+                          <li><a href="javascript:;" title="TADA Management">TADA Management</a></li>                                       
+                                         
+                        </ul>
+                          <div class="dropdown no_bdr fR">
+                            <a href="login.html" class="login_btn" title="Login" data-toggle="dropdown">Welcome Vilas <i class="fa fa-user-circle" aria-hidden="true"></i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#" title="Profile">Change Password</a></li>
+                              <li><a href="index.html" title="Logout">Logout</a></li>
+                            </ul>
+                          </div>
+                        <div class="dropdown  fR">                           
+                            <a href="" class="notification" data-toggle="dropdown" title="notification"> <i class="fa fa-bell" aria-hidden="true"></i> <span class="bell_noti">3</span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#" title="Profile">Profile</a></li>
+                              <li><a href="index.html" title="Logout">Logout</a></li>
+                            </ul>
+                          </div>
+                      
+                    </div>
+
+                      <div class="pull-right visible-xs visible-sm" id="main_nav">
+                          <a href="index.html" class="mob_log"><img src="images/msrtc-logo.png" alt="Department of Industries - Government of Bihar" title="Department of Industries - Government of Bihar" class="img-responsive" /></a>
+                        <a href="#menu" class="mob_menu"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                      <nav id="menu">
+                        <ul class="nav navbar-nav">
+                          <li><a href="user-profile.html" title="Personal Information">Personal Information</a></li>
+                          <li><a href="payslip.html" title="Payslips">Payslips</a></li>
+                          <li><a href="leave-dashboard.html" title="Leave Management">Leave Management</a></li>
+                          <li><a href="javascript:;" title="TADA Management">TADA Management</a></li>                                       
+                                         
+                        </ul>
+                      </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </header>
+</div>
+<div class="container">
+  <div class="payslip">
+    <div class="col-sm-12 col-xs-12 dma_application_filters">
+                        <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" target="_blank" title="Print" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Download" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                            <a href="javascript:;" target="_blank" title="Download" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>
+                        </form>
+    </div>
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Create Absence: Enter Absence Details</h5>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Employee Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Sangare, Rohit</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Employee Number</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>LC002</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Organization Name</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>MSRTC</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Grade</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>W5</strong></div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-xs-5 gap">Designation</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Deputy Accountant</strong></div>
+          <div class="col-md-2 col-xs-5 gap">Department</div>
+          <div class="col-md-4 col-xs-7 gap"><strong>Finance</strong></div>
+        </div>
+      </div>
+    </div>
+      <!--start of form-->
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Leave Summary</h5>
+        <div class="row">
+          <div class="col-md-12 gap">
+            <p><strong>*Indicates required field</strong></p>
+            <p><i class="fa fa-check-square-o" aria-hidden="true"></i> <strong>TIP</strong> Earned Leave more than 10 days should be applied 30 Days in Advance.</p>
+          </div>
+        </div>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+             <div class="form-group">
+                <label class="col-sm-4 control-label">* Absence Status  </label>
+                <label class="col-sm-4 control-label"><strong>Confirmed</strong>  </label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Absence Type </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Casual Leave(CL)</option>
+                    <option value="">Child Adoption Leave</option>
+                    <option value="">Child Care Leave(CCL)</option>
+                    <option value="">Commuted Leave - Certificate</option>
+                    <option value="">Commuted Leave -No Certificate</option>
+                    <option value="">Earned Leave(EL)</option>
+                    <option value="">Extraordinary Leave(EOL)</option>
+                    <option value="">Half Day Casual Leave</option>
+                    <option value="">Half Pay Leave(HPL)</option>
+                    <option value="">Leave Not Due(LND)</option>
+                    <option value="">Maternity Leave-Abortion</option>
+                    <option value="">Maternity Leave-Miscarriage</option>
+                    <option value="">Maternity Leave-Pregnancy</option>
+                    <option value="">Paternity Leave</option>
+                    <option value="">Special Casual Leave</option>
+                    <option value="">Special Disability Leave</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-group">
+                <label class="col-sm-4 control-label">Absence Reason </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                            <option value="">Bereavement in family</option>
+                            <option value="">Ex-traordinary Leave taken in Previous Half Year</option>
+                            <option value="">Family - illness</option>
+                            <option value="">Family Occasion</option>
+                            <option value="">Going out of Town</option>
+                            <option value="">Marriage - Self</option>
+                            <option value="">Marriage in Family</option>
+                            <option value="">Self - illness</option>
+                  </select>
+                </div>
+              </div>
+                
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Duration  </label>
+                <div class="col-sm-4">
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Start Date </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">End Date </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>                    
+                </div>                
+              </div>
+                
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leave Duration</label>
+                <div class="col-sm-4">
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Days </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>
+                    <div class="row gap">
+                        <label class="col-sm-4 control-label">Hours </label>
+                        <div class="col-sm-8">
+                          <input type="text" class="form-control input-sm datepickers" />
+                        </div>
+                    </div>                    
+                    <div class="row gap">
+                        <div class="col-sm-offset-4 col-sm-8">
+                          <a href="javascript:;" class="btn btn-primary">Calculate</a>
+                        </div>
+                    </div>                    
+                </div>
+                  
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Charge Handed Over To </label>
+                <div class="col-sm-4">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Prefix From Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Prefix To Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Suffix From Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Suffix To Date  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Date of reporting back on duty  </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Whether LTC to be claimed for Home Town/All India	  </label>
+                <div class="col-sm-4">
+                  <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">All India</option>
+                    <option value="">Home Town</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Address during leave period </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Due Date(In case of Maternity Leave) </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Total Absence Days </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+            </div>            
+            <div class="col-sm-12 gap text-right">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <a href="javascript:;" class="btn btn-primary">Go</a>
+                    <a href="javascript:;" class="btn btn-default">Clear</a>
+                </div>              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of form-->
+      <!--start of comments-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Comments</h5>
+        <div class="row">
+            <div class="col-md-12 gap">
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of comments-->
+      <!--supporting documents-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Supporting Documents</h5>
+        <div class="row">
+          <div class="col-md-12 gap">Optionally, attach supporting documents that justify the absence. You can attach document or image file, or specify a URL.</div>
+          <div class="col-md-12 gap">Enter the date for which you wish to view Leave accruals.</div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 gap form-control-static">Add attachment </div>
+          <div class="col-md-2 gap">
+            <select name="approvalStat" id="approvalStat" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="">Approved</option>
+                    <option value="">Pending Approval</option>
+                    <option value="">Return For Correction</option>
+                    <option value="">Saved For Later</option>
+                    <option value="">Work in Progress</option>
+                  </select>
+          </div>
+          <div class="col-md-2 gap">
+            <button class="btn btn-primary btn-sm">Go</button>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Description</th>
+                      <th>Attachment Category</th>
+                      <th>Last Modified By</th>
+                      <th>Last Modified Date</th>
+                      <th>Repository</th>
+                      <th>Details</th>
+                      <th>Detach</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>No Data Exist</td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--end of supporting documents-->
+    
+  </div>
+</div>
+  <!--end of payslip--> 
+      <!--start of footer-->
+<div class="container-fluid">
+  <div class="row site_footer">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 text-center">
+              <span>Content owned by Maharashtra State Road Transport Corporation</span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Tender Define
+        <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Back" class="applybtn"> Back</a>
+                            <a href="javascript:;" title="Delete" class="applybtn" > Delete</a>
+                            <a href="javascript:;" title="Apply Changes" class="applybtn" > Apply Changes</a>
+                            <a href="javascript:;" title="Attachment" class="applybtn" > Attachment</a>
+            </form>
+        </h5>
+          <form class="form-horizontal">
+          <table id="" class="tender" summary="" role="presentation" border="0" style="width: 100%;">
+   <tbody>
+      <tr>
+         <td align="left"><label for="P106_TENDER_NO" tabindex="999"><span class="t20Req">*</span><span class="t20RequiredLabel">Tender No</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9001519565072544" class="form-control input-sm" type="hidden" autocomplete="off"><input id="P106_TENDER_NO" name="p_t04" class="form-control input-sm" value="MSRTC/LOCAL AREA NETWORK/2015/47" size="32" maxlength="120" type="text"></td>
+         <td align="right" style="padding-right: 5px;"><label for="P106_TENDER_OF" tabindex="999"><span class="t20Req">*Tender Of </label></td>
+         <td align="left">
+            <input name="p_arg_names" value="9002130415072546" type="hidden" autocomplete="off">
+            <select id="P106_TENDER_OF" name="p_t05" class="form-control input-sm" style="width:160px" size="1">
+               <option value="NIC Tender">MSRTC Tender</option>
+               <option value="MSRTC Tender" selected="selected">MSRTC Tender</option>
+            </select>
+         </td>
+         <td rowspan="9" align="right" valign="top">
+         <table id="table" class="tender-tb" summary="" role="presentation" border="0">
+           <tbody>
+             <tr>
+               <td align="left"><label for="P106_CATEGORY_CODES" tabindex="999"><span class="t20OptionalLabel"><b>Category Codes</b></span></label></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3838232748807850" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_HW" class="checkbox_group">
+                   <input id="P106_HW_0" name="p_v24" value="1" checked="checked" type="checkbox" />
+                   <label for="P106_HW_0">Tubes</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3838531441823571" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_SW" class="checkbox_group">
+                   <input id="P106_SW_0" name="p_v25" value="1" type="checkbox" />
+                   <label for="P106_SW_0">Tyres</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3839318705844660" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_MP" class="checkbox_group">
+                   <input id="P106_MP_0" name="p_v26" value="1" type="checkbox" />
+                   <label for="P106_MP_0">Lubricants</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3840126672856210" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_WDS" class="checkbox_group">
+                   <input id="P106_WDS_0" name="p_v27" value="1" type="checkbox" />
+                   <label for="P106_WDS_0">Batteries</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3840414583876962" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_DC" class="checkbox_group">
+                   <input id="P106_DC_0" name="p_v28" value="1" type="checkbox" />
+                   <label for="P106_DC_0">Brake Disc</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3841025785887038" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_NW" class="checkbox_group">
+                   <input id="P106_NW_0" name="p_v29" value="1" checked="checked" type="checkbox" />
+                   <label for="P106_NW_0">Seat Arm Rest</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3842610195970201" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_RO" class="checkbox_group">
+                   <input id="P106_RO_0" name="p_v30" value="1" type="checkbox" />
+                   <label for="P106_RO_0">Window Frame</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3842029629930774" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_WS" class="checkbox_group">
+                   <input id="P106_WS_0" name="p_v31" value="1" type="checkbox" />
+                   <label for="P106_WS_0">Gear Part</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3841331379899571" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_PEC" class="checkbox_group">
+                   <input id="P106_PEC_0" name="p_v32" value="1" type="checkbox" />
+                   <label for="P106_PEC_0">Cooling System</label>
+                 </fieldset></td>
+             </tr>
+             <tr>
+               <td valign="middle" align="left"><input name="p_arg_names2" value="3842327029947158" type="hidden" />
+                 <fieldset tabindex="-1" id="P106_MISC" class="checkbox_group">
+                   <input id="P106_MISC_0" name="p_v33" value="1" type="checkbox" />
+                   <label for="P106_MISC_0">Break System</label>
+                 </fieldset></td>
+             </tr>
+           </tbody>
+         </table></td>
+      </tr>
+      <tr>
+         <td align="left"><label for="P106_DESCRIPTION" tabindex="999"><span class="t20Req">*</span><span class="t20RequiredLabel">Description</span></label></td>
+         <td colspan="3"  align="left">       <input name="p_arg_names" value="9002321538072546" type="hidden" autocomplete="off">
+            <fieldset id="P106_DESCRIPTION_fieldset" class="textarea" tabindex="-1"><textarea name="p_t06" rows="3" cols="92" maxlength="2000" id="P106_DESCRIPTION" class="form-control input-sm" wrap="virtual">Open tender for “Empanelment of vendors for Supply, Installation and Commissioning of Local Area Network.”</textarea></fieldset>     
+         </td>
+          </tr>
+      <tr>
+         <td align="left"><label for="P106_VALID_FROM" tabindex="999"><span class="t20Req">*</span><span class="t20RequiredLabel">Valid From</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9001700912072545" type="hidden" autocomplete="off"><input class="form-control input-sm datepicker" id="P106_VALID_FROM" name="p_t07" maxlength="11" size="32" value="01-DEC-2016" autocomplete="off" type="text"><!-- <img class="ui-datepicker-trigger" src="Tender%20Define_files/asfdcldr.gif" alt="Popup Calendar: Valid From" title="Popup Calendar: Valid From"> --></td>
+         <td align="right" style="padding-right: 5px;"><label for="P106_VALID_TO" tabindex="999">*Initial Valid To</label></td>
+         <td align="left"><input name="p_arg_names" value="9002917520072548" type="hidden" autocomplete="off"><input class="form-control input-sm datepicker" onblur="javascript:validUpto()" ;="" id="P106_VALID_TO" name="p_t08" maxlength="11" size="28" value="30-NOV-2017" autocomplete="off" disabled="" type="text"><!-- <img class="ui-datepicker-trigger" src="Tender%20Define_files/asfdcldr.gif" alt="Popup Calendar: Initial Valid To" title="Popup Calendar: Initial Valid To" style="opacity: 0.5; cursor: default;"> --></td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_VALID_UPTO" tabindex="999"><span class="t20Req">*</span><span class="t20RequiredLabel">Valid Upto</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9001925309072545" type="hidden" autocomplete="off"><input class="form-control input-sm datepicker" id="P106_VALID_UPTO" name="p_t09" maxlength="11" size="32" value="30-NOV-2017" autocomplete="off" type="text"><!-- <img class="ui-datepicker-trigger" src="Tender%20Define_files/asfdcldr.gif" alt="Popup Calendar: Valid Upto" title="Popup Calendar: Valid Upto"> --></td>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_TENDER_TYPE" tabindex="999"><span class="t20Req">*</span><span class="t20RequiredLabel">Tender Type</span></label></td>
+         <td align="left">
+            <input name="p_arg_names" value="9003325571072550" type="hidden" autocomplete="off">
+            <select id="P106_TENDER_TYPE" name="p_t10" class="form-control input-sm" style="width:182px" size="1">
+               <option value="01" selected="selected">Open</option>
+               <option value="02">Limited</option>
+               <option value="03">Registered Users</option>
+               <option value="04">Agreement</option>
+            </select>
+            <input name="p_arg_names" value="4779125664738758" type="hidden" autocomplete="off"><input name="p_t11" id="P106_HIDDEN" value="" type="hidden" autocomplete="off">
+         </td>
+         <td align="left"><label for="P106_PROPOSAL_VALUE" tabindex="999" style="display: none;"><span class="t20OptionalLabel">Proposal Value</span></label></td>
+         <td valign="middle" align="left"><input name="p_arg_names" value="3687212571948942" type="hidden" autocomplete="off"><input id="P106_PROPOSAL_VALUE" name="p_t12" class="text_field" size="28" maxlength="4000" style="display: none;" type="text"><label for="P106_P_VALUE_INWORDS" tabindex="999"><span class="t20OptionalLabel"></span></label><span id="P106_P_VALUE_INWORDS" class="display_only"></span></td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_EXTENDABLE" tabindex="999"><span class="t20OptionalLabel">Extendable</span></label></td>
+         <td valign="middle" align="left">
+            <input name="p_arg_names" value="3688416619007907" type="hidden" autocomplete="off">
+            <fieldset tabindex="-1" id="P106_EXTENDABLE" class="checkbox_group">
+               
+               <input id="P106_EXTENDABLE_0" name="p_v13" value="1" checked="checked" type="checkbox">
+            </fieldset>
+         </td>
+         <td align="right" style="padding-right: 5px;"><label for="P106_YEAR" tabindex="999"><span class="t20OptionalLabel">Year-Month </span></label></td>
+         <td valign="middle" align="left">
+           <input name="p_arg_names" value="3690016520129492" type="hidden" autocomplete="off">
+           <select id="P106_YEAR" name="p_t14" class="form-control input-sm" style="width: 80.5px; float: left; margin-right: 10px;" size="1">
+             <option value="" selected="selected">-Year-</option>
+             <option value="0">0</option>
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+             <option value="10">10</option>
+             </select>
+           <label for="P106_MONTH" tabindex="999"><span class="t20OptionalLabel"></span></label><input name="p_arg_names" value="3690631351183367" type="hidden" autocomplete="off">
+           <select id="P106_MONTH" name="p_t15" class="form-control input-sm" style="width: 80.5px; float: left;" size="1">
+             <option value="" selected="selected">-Month-</option>
+             <option value="0">0</option>
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+             <option value="5">5</option>
+             <option value="6">6</option>
+             <option value="7">7</option>
+             <option value="8">8</option>
+             <option value="9">9</option>
+             <option value="10">10</option>
+             <option value="11">11</option>
+             <option value="12">12</option>
+             </select>
+         </td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_DOLLAR_PRICE_INR" tabindex="999"><span class="t20OptionalLabel">Dollar Price(INR)</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9003724455072551" type="hidden" autocomplete="off"><input id="P106_DOLLAR_PRICE_INR" name="p_t16" class="form-control input-sm" size="32" maxlength="15" style="text-align:right" type="text"></td>
+         <td align="right" style="padding-right: 5px;"><label for="P106_DATE_OF_DOLLAR_PRICE" tabindex="999"><span class="t20OptionalLabel">Date Of Dollar Price</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9003902635072551" type="hidden" autocomplete="off"><input class="form-control input-sm datepicker" id="P106_DATE_OF_DOLLAR_PRICE" name="p_t17" maxlength="11" size="28" autocomplete="off" type="text"><!-- <img class="ui-datepicker-trigger" src="Tender%20Define_files/asfdcldr.gif" alt="Popup Calendar: Date Of Dollar Price" title="Popup Calendar: Date Of Dollar Price"> --></td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_NO_OF_EXTENSION" tabindex="999"><span class="t20OptionalLabel">No  of Extensions</span></label></td>
+         <td valign="middle" align="left"><input name="p_arg_names" value="2662722569893689" type="hidden" autocomplete="off"><input id="P106_NO_OF_EXTENSION" name="p_t18" class="form-control input-sm" readonly="readonly" style="background-color:#EBEBE4" ;="" size="32" maxlength="4000" type="text"><input name="p_arg_names" value="9003106673072549" type="hidden" autocomplete="off"><input name="p_t19" id="P106_EXTENDED" value="" type="hidden" autocomplete="off"><input name="p_arg_checksums" value="9003106673072549_47C8728C3B956099F39DA2A157F04E48" type="hidden" autocomplete="off"><input name="p_arg_names" value="9003520049072550" type="hidden" autocomplete="off"><input name="p_t20" id="P106_ITEM_APPROVED_STATUS" value="" type="hidden" autocomplete="off"></td>
+         <td>&nbsp;</td>
+         <td>&nbsp;</td>
+         </tr>
+      <tr>
+         <td align="left"><label for="P106_CREATED_BY" tabindex="999"><span class="t20OptionalLabel">Created By</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9002521084072548" type="hidden" autocomplete="off"><input id="P106_CREATED_BY" name="p_t21" class="form-control input-sm" readonly="readonly" style="background-color:#EBEBE4" ;="" value="TENDER-MSRTC@NIC.IN" size="32" maxlength="60" type="text"></td>
+         <td align="right" style="padding-right: 5px;"><label for="P106_CREATED_ON" tabindex="999"><span class="t20OptionalLabel">Created On</span></label></td>
+         <td align="left"><input name="p_arg_names" value="9002708619072548" type="hidden" autocomplete="off"><input id="P106_CREATED_ON" name="p_t22" class="form-control input-sm" readonly="readonly" style="background-color:#EBEBE4" ;="" value="02-Dec-2016" size="28" maxlength="255" type="text"><input name="p_arg_names" value="3705713299969193" type="hidden" autocomplete="off"><input name="p_t23" id="P106_FLAG" value="U" type="hidden" autocomplete="off"></td>
+         </tr>
+   </tbody>
+</table>
+        </form>
+      </div>
+    </div>
+      
+      <!--end of form-->
+      
+      
+
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Back" class="btn btn-primary whiteTxt guppercase filterbtn"> Back</a>
+                                <a href="javascript:;" target="_blank" title="Delete" class="btn btn-primary whiteTxt guppercase filterbtn" > Delete</a>
+                                <a href="javascript:;" title="Apply Changes" class="btn btn-primary whiteTxt guppercase filterbtn" > Apply Changes</a>
+                                <a href="javascript:;" title="Attachment" class="applybtn" > Attachment</a>
+                            </form>
+        </div>
+    </div>
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

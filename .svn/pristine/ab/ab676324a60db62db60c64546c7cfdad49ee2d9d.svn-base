@@ -1,0 +1,123 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">          
+                            <h5 class="sub_heads">Fuel Dispense</h5>
+                            <div class="col-md-3 dash_card">
+                                <ul class="side_bar">
+                                    <li><a href="javascript:;" title="Bus 5346" class="active"><i class="fa fa-caret-right" aria-hidden="true"></i> Bus 5346</a></li>
+                                    <li><a href="javascript:;" title="Bus 5347" ><i class="fa fa-caret-right" aria-hidden="true"></i> Bus 5347</a></li>
+                                    <li><a href="javascript:;" title="Bus 5348" ><i class="fa fa-caret-right" aria-hidden="true"></i> Bus 5348</a></li>
+                                    <li><a href="javascript:;" title="Bus 5349" ><i class="fa fa-caret-right" aria-hidden="true"></i> Bus 5349</a></li>                                    
+                                </ul>
+                            </div>
+                            <div class="col-md-9 ">
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-5 gap">Select a Vehicle</div>
+                                            <div class="col-md-4 col-xs-7 gap"> 
+                                                <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                        <option>-- Select --</option>
+                                                            <option value="">Ordinary</option>
+                                                            <option value="">Parivartan</option>
+                                                            <option value="">Asiad</option>
+                                                            <option value="">Shivneri</option>
+                                                            <option value="">Sheetal</option>
+                                                            <option value="">City Bus</option>
+                                                  </select>
+                                            </div>
+                                        </div>                            
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-5 gap">Enter available fuel in liter in tank</div>
+                                            <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                        </div>                            
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-5 gap">Enter Fuel filled in liters</div>
+                                            <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                        </div>                            
+                                        <div class="row">
+                                            <div class="col-md-6 col-xs-5 gap">Enter current meter reading of vehicle in KM.</div>
+                                            <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                        </div>                            
+                                        <div class="row">
+                                            <div class="col-sm-12 col-xs-12">
+                                                                <form class="form-inline mg-bt">
+                                                                    <a href="javascript:;" title="Submit" class="btn btn-primary whiteTxt guppercase filterbtn" > Submit</a>
+                                                                </form>
+                                            </div>
+                                        </div>                                              
+                                <h5 class="sub_heads mg-tp">Details</h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <table class="table table-bordered table-condensed1">
+                                              <thead>
+                                                <tr>
+                                                  <th>Vehicle</th>
+                                                  <th>Available Fuel (ltr)</th>
+                                                  <th>Fuel Filled (ltr)</th>
+                                                  <th>Current Meter Reading (Kms)</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Ordinary</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Parivartan</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Asiad</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Shivneri</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Sheetal</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>City Bus</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Shivneri</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Sheetal</td>
+                                                  <td>10</td>
+                                                  <td>2</td>
+                                                  <td>12345</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                            
+
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

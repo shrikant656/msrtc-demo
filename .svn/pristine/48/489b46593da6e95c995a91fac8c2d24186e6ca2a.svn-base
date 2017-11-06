@@ -1,0 +1,200 @@
+<div class="main_wrap payslip">
+    <div class="row">
+      
+            
+      <section class="fl box-full">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 dash_card">
+
+              <article class="fl left-col left-hbox">
+                  <div class="plist card">
+                    <div class="p_lc">
+                      <a href="" class="ppic">
+                        <div class="pBg" title="Profile">
+                        
+                        </div>
+
+                      </a>
+                      <div class="fs-24 clr-006f97">Rohit Sangare</div>
+                      <div class="fs-12 clr-999">Bus Manager</div>
+                    </div>                  
+                    
+
+                    <h3 class="clr-052 borClr-205 borB">Contact Info</h3>
+                    <div class="info_list padT_10  fs-14 lh-24">
+                        
+                        <p><label>Address</label>  102/B Mangal CHS, Talavpali</p>
+                        <p><label>City</label>  Mumbai</p>
+                        <p><label>State</label>  Maharashtra</p>
+                        <p><label>Mobile No.</label>  +91 98876 54432</p>
+                        
+                    </div>
+
+                  </div>
+
+                 
+               </article>
+
+<article class="fl left-col left-hbox">
+                  <div class="plist card">
+                      <h5 class="sub_heads" style="margin-bottom: 10px;">Worklist <span class="fr"><a href="#" class="fa fa-arrows-alt" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-refresh" title=""></a>&nbsp;&nbsp; <a href="#" class="fa fa-cog" title=""></a>&nbsp;&nbsp;<a href="#" class="fa fa-caret-square-o-down" title=""></a></h5>
+                        <div class="p_rc_n fs-12">
+                            <table class="table table-hover dashboard_tab">
+                            <thead>
+                            <tr>
+                            <th>Subject</th>
+                            <th>Sent</th>
+                            </tr>
+                            </thead>
+                                <tbody>
+                                    <tr >                                        
+                                        <td>Leave of Absence has been forwarded for approval to Sarkar, Indranil</td>
+                                        <td>17-9-2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Leave of Absence for Sangare, Rohit has been approved.</td>
+                                         <td>17-9-2017</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Class enrollment has been forwarded for approval to Hasnale, Shalaka</td>
+                                        <td>17-9-2017</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Class enrollment has been forwarded for approval to Hasnale, Shalaka</td>
+                                        <td>17-9-2017</td>
+                                    </tr>
+                                    
+                                  
+                                    
+                                    
+                                </tbody>
+                            </table>                                                                           
+                        </div>
+                </div>
+
+                 
+              </article>
+               
+            </div>
+            <div class="col-sm-4 dash_card">
+
+
+              <article class="fl left-col left-hbox calenderblk">
+                 <div class="pad_10_clndr">
+
+                  <div class="plist card">
+                      <h5 class="sub_heads">Leave Calendar <span class="link fR" style="display:none;" ><i class="fa fa-square" aria-hidden="true"></i> Holiday for MSRTC</span></h5>
+                   <!-- <input type="text" id="dob" class="datepickers"  /> -->
+                   <div id="dob" class="datepickers" ></div>
+                  </div>
+                </div>
+              </article>
+
+              
+               <article class="fl left-col left-hbox">
+                   <div class="plist card">
+                        <h5 class="sub_heads">Leave Management <a ui-sref="leave-dashboard" class="applybtn fR" title="Apply">APPLY</a></h5>
+
+                        <div class="leaves_seg">
+                           <div class="fs-14 padB_10">Available Leaves </div>
+                           <div class="pad_10 bg_e9f8fd">
+                             <ul class="three-col">
+                               <li class="text-center"><div class="fs-30 clr-000">6</div><div>Casual Leaves</div></li>
+                               <li class="text-center"><div class="fs-30 clr-000">20</div><div>Earned Leaves</div></li>
+                               <li class="text-center"><div class="fs-30 clr-000">4</div><div>Sick Leaves</div></li>
+                             </ul>
+                           </div> 
+                        </div>
+
+                        <div class="leaves_seg">
+                             <div class="fs-14 padB_10">Applied Leaves </div>
+                             <table class="table table-striped dashboard_tab">
+                                <tbody>
+                                    <tr>
+                                        <td>Start date</td>
+                                        <td>End Date</td>
+                                        <td>Status</td>
+                                        <td>Details</td>
+                                    </tr>                                   
+                                    <tr>
+                                        <td>23-OCT-2017</td>
+                                        <td>23-OCT-2017</td>
+                                        <td>Pending</td>
+                                        <td><i class="fa fa-file-text-o" aria-hidden="true"></i></td>
+                                    </tr>                                   
+                                </tbody>
+                            </table> 
+                    </div>
+               </article>
+
+            </div>
+            <div class="col-sm-4 dash_card">
+              <article class="fl left-col left-hbox">
+                                    
+                  <div class="plist card">
+                      <h5 class="sub_heads">Payslips <a ui-sref="payslip" class="link fR" style="display:none;" title="Apply">More ></a></h5>
+                        <div class="p_rc_n fs-12">
+                            <table class="table table-hover dashboard_tab">
+                                <tbody>
+                                    <tr class="sept_payslip" ui-sref="payslip">                                        
+                                        <td>September 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>August 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>July 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>June 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>May 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>April 2017</td>
+                                        <td class="text-right"><a href="#" class="fa fa-print" style="color:#000 !important"></a>&nbsp;&nbsp;<a href="#" class="fa fa-download" style="color:#000 !important"></a></td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>                                                                           
+                        </div>
+                </div>
+                 <div class="bg_e9f8fd pf_no">
+                     <strong> PF No.: 13235487</strong>
+                 </div>
+               </article>
+               <article class="fl left-col left-hbox ht_350">            
+                  <div class="plist card">
+                    <h5 class="sub_heads">TADA Management <a ui-sref="tada-dashboard" class="applybtn fR" title="Apply">APPLY</a></h5>
+                    <div class="fs-14 padB_10">Monthly Travel Allowances </div>
+                      <div class="clearfix rsblk">Rs. 2000</div>
+                      <div class="utility">
+                          <span class="fL">Utilised <span class="ul_bl">Rs. 1500</span></span>
+                          <span class="fR">Unutilised <span class="ul_bl">Rs. 500</span></span>
+                      </div>
+                      <hr>
+                      <div class="fs-14 padB_10">Daily Allowances</div>
+                      <div class="clearfix rsblk">Rs. 500</div>
+                  </div> 
+               </article>
+            </div>
+          </div>
+        </div>
+
+
+            
+            
+        </section>
+      
+      
+    </div>
+  </div>
+  

@@ -1,0 +1,1242 @@
+<form action="http://mmrclprodappdb.mmrcl.go.in:8080/ords/wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" novalidate="" enctype="multipart/form-data">
+    <input type="hidden" name="p_flow_id" value="104" id="pFlowId">
+    <input type="hidden" name="p_flow_step_id" value="11" id="pFlowStepId">
+    <input type="hidden" name="p_instance" value="3626998043933" id="pInstance">
+    <input type="hidden" name="p_page_submission_id" value="1093407464138" id="pPageSubmissionId">
+    <input type="hidden" name="p_request" value="" id="pRequest">
+    <div id="t20PageHeader">
+
+        <div id="t20Tabs" class="tablight"></div>
+    </div>
+    <div class="container">
+    <div class="payslip" >
+                                            <div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Employee Details</span></h5>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap"><b>Designation</b>:</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><span class="display_only">Driver</span></div>
+                                                        <div class="col-md-2 col-xs-5 gap"><b>Date Of Joining:</b></div>
+                                                        <div class="col-md-4 col-xs-7 gap"><span class="display_only">30-OCT-15</span></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap"><b>Type Of Employment:</b></div>
+                                                        <div class="col-md-4 col-xs-7 gap"><span class="display_only">5 Year Contract (IDA)</span></div>
+                                                        <div class="col-md-2 col-xs-5 gap"><b>Classification:</b></div>
+                                                        <div class="col-md-4 col-xs-7 gap"><span class="display_only">Non-Executive</span></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                     
+<div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads"> Personal Information:</h5>
+       
+        
+          <form class="form-horizontal">
+           
+             <div class="form-group">
+      <label class="col-sm-4 control-label">First Name:	  </label>
+                <label class="col-sm-4 control-label"><strong>Rohit</strong>  </label>
+    </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Middle Name:	  </label>
+                <label class="col-sm-4 control-label"><strong></strong>  </label>
+            </div>
+                
+             
+              <div class="form-group">
+               <label class="col-sm-4 control-label">Last Name:	  </label>
+                <label class="col-sm-4 control-label"><strong>Sangare</strong>  </label>
+            </div>
+                 <div class="form-group">
+      <label class="col-sm-4 control-label">Date of Birth:	  </label>
+                <label class="col-sm-4 control-label"><strong>22-DEC-89</strong>  </label>
+    </div>
+    <div class="form-group">
+                <label class="col-sm-4 control-label">Home State: </label>
+                <div class="col-sm-4">
+                  <select id="P11_HOME_STATE" name="p_t40" class="form-control input-sm" >
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="AN">Andaman &amp; MSRTCobar</option>
+                                                                            <option value="AP">Andhra Pradesh</option>
+                                                                            <option value="AR">Arunachal Pradesh</option>
+                                                                            <option value="AS">Assam</option>
+                                                                            <option value="BR">Bihar</option>
+                                                                            <option value="CG">Chattisgarh</option>
+                                                                            <option value="CH">Chandigarh</option>
+                                                                            <option value="DD">Diu &amp; Daman</option>
+                                                                            <option value="DL">Delhi</option>
+                                                                            <option value="DN">Dadra &amp; Nagar Haveli</option>
+                                                                            <option value="GA">Goa</option>
+                                                                            <option value="GJ">Gujarat</option>
+                                                                            <option value="HP">Himachal Pradesh</option>
+                                                                            <option value="HR">Haryana</option>
+                                                                            <option value="JH">Jharkhand</option>
+                                                                            <option value="JK">Jammu &amp; Kashmir</option>
+                                                                            <option value="KA">Karnataka</option>
+                                                                            <option value="KL">Kerala</option>
+                                                                            <option value="LD">Lakshadweep</option>
+                                                                            <option value="MH">Maharashtra</option>
+                                                                            <option value="ML">Meghalaya</option>
+                                                                            <option value="MN">Manipur</option>
+                                                                            <option value="MP">Madhya Pradesh</option>
+                                                                            <option value="MZ">Mizoram</option>
+                                                                            <option value="NL">Nagaland</option>
+                                                                            <option value="OR">Odisha</option>
+                                                                            <option value="PB">Punjab</option>
+                                                                            <option value="PY">Pondicherry</option>
+                                                                            <option value="RJ">Rajasthan</option>
+                                                                            <option value="SK">Sikkim</option>
+                                                                            <option value="TG">Telangana</option>
+                                                                            <option value="TN">Tamil Nadu</option>
+                                                                            <option value="TR">Tripura</option>
+                                                                            <option value="UA">Uttarakhand</option>
+                                                                            <option value="UP">Uttar Pradesh</option>
+                                                                            <option value="WB">West Bengal</option>
+                  </select>
+                </div>
+            </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Blood Group: </label>
+                <div class="col-sm-4">
+                  <select id="P11_BLOOD_GROUP" name="p_t42" class="form-control input-sm">
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="A+">A Rhesus Positive</option>
+                                                                            <option value="A-">A Rhesus Negative</option>
+                                                                            <option value="AB+">AB Rhesus Positive</option>
+                                                                            <option value="AB-">AB Rhesus Negative</option>
+                                                                            <option value="B+">B Rhesus Positive</option>
+                                                                            <option value="B-">B Rhesus Negative</option>
+                                                                            <option value="O+">O Rhesus Positive</option>
+                                                                            <option value="O-">O Rhesus Negative</option>
+                                                                        </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Pan card No. (Submit Copy):	 </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Passport No. (Submit Copy) : </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Nationality: </label>
+                <div class="col-sm-4">
+                 <select id="P11_NATIONALITY" name="p_t48" class="form-control input-sm" >
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="IN">Indian</option>
+                                                                            <option value="KW">Kuwati</option>
+                                                                            <option value="PQH_AT">Austrian</option>
+                                                                            <option value="PQH_BE">Belgian</option>
+                                                                            <option value="PQH_DE">German</option>
+                                                                            <option value="PQH_DK">Danish</option>
+                                                                            <option value="PQH_ES">Spanish</option>
+                                                                            <option value="PQH_FI">Finnish</option>
+                                                                            <option value="PQH_FR">French</option>
+                                                                            <option value="PQH_GB">British</option>
+                                                                            <option value="PQH_GR">Greek</option>
+                                                                            <option value="PQH_IE">Irish</option>
+                                                                            <option value="PQH_IT">Italian</option>
+                                                                            <option value="PQH_LU">Luxembourg</option>
+                                                                            <option value="PQH_NL">Dutch</option>
+                                                                            <option value="PQH_NO">Norwegian</option>
+                                                                            <option value="PQH_PL">Polish</option>
+                                                                            <option value="PQH_PT">Portuguese</option>
+                                                                            <option value="PQH_SE">Swedish</option>
+                                                                            <option value="UAE">United Arab Emirates</option>
+                  </select>
+                </div>
+              </div>
+              
+    <div class="form-group">
+                <label class="col-sm-4 control-label">Father / Mother / Spouse’s Name:	 </label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm input-sm datepickers" />
+                </div>
+            </div>
+                <div class="form-group">
+                <label class="col-sm-4 control-label">Gender: </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm input-sm">
+                        	<option>-- Select --</option>
+                            <option value="">Female</option>
+                            <option value="">Male</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-group">
+                <label class="col-sm-4 control-label">Marital Status (Submit Marriage Certificate if Applicable): </label>
+                <div class="col-sm-4">
+                  
+                  <select id="P11_MARITAL_STATUS" name="p_t50" class="form-control input-sm input-sm" >
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="BE_LIV_TOG">Living Together</option>
+                                                                            <option value="BE_WID_PENS">Widowed With Surviving Pension</option>
+                                                                            <option value="D">Divorced</option>
+                                                                            <option value="DP">Domestic Partner</option>
+                                                                            <option value="L">Legally Separated</option>
+                                                                            <option value="M">Married</option>
+                                                                            <option value="S">Single</option>
+                                                                            <option value="UNM">UnMarried</option>
+                                                                            <option value="W">Widowed</option>
+                                                                        </select>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Identification Marks: 	 </label>
+                <div class="col-sm-4">
+                  <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="Mole on right hand" size="30" maxlength="4000">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Height (in cm): 	 </label>
+                <div class="col-sm-4">
+                  <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" size="30" maxlength="4000">
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Religion: </label>
+                <div class="col-sm-4">
+                  
+                  <select id="P11_RELIGION" name="p_t53" class="form-control input-sm">
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="BUDDHISM">BUDDHISM</option>
+                                                                            <option value="CHRISTIAN">CHRISTIAN</option>
+                                                                            <option value="HINDU">HINDU</option>
+                                                                            <option value="ISLAM">ISLAM</option>
+                                                                            <option value="JAIN">JAIN</option>
+                                                                            <option value="SIKH">SIKH</option>
+                                                                            <option value="OTHER">OTHER</option>
+                                                                        </select>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Category (Open/Ex-Service,/OBC/PWD/SC/ST):  </label>
+                <div class="col-sm-4">
+                  <select id="P11_CATEGORY" name="p_t55" class="form-control input-sm" >
+                                                                            <option value="" selected="selected">--Select--</option>
+                                                                            <option value="1">Open</option>
+                                                                            <option value="2">Ex-Service</option>
+                                                                            <option value="3">OBC</option>
+                                                                            <option value="4">PWD</option>
+                                                                            <option value="5">SC</option>
+                                                                            <option value="6">ST</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Caste (Submit Certificate
+if applicable):	 	 </label>
+                <div class="col-sm-4">
+                  <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" size="30" maxlength="4000">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Post for which category
+the employee is appointed:	 	 </label>
+                <div class="col-sm-4">
+                  <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" size="30" maxlength="4000">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Aadhar card No. (Submit copy): 	 </label>
+                <div class="col-sm-4">
+                  <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" size="30" maxlength="4000">
+                </div>
+              </div>
+              
+          </form>
+        </div>
+      </div>
+      
+      <div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Present Address: (Submit self-attested Address Proof)</span></h5>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Flat Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"> <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" ></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Building Name </div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Road/Street</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Area/Locality/Taluka</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Town/City/District</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_DISTRICT" name="p_t63" class="form-control input-sm" >
+                <option value="" selected="selected">--Select--</option>
+                <option value="AHM">Ahmednagar</option>
+                <option value="AM">Amravati</option>
+                <option value="BEL">Belgaum</option>
+                <option value="DEL">Delhi</option>
+                <option value="DH">Dhule</option>
+                <option value="GAN">Gandhi Nagar</option>
+                <option value="GUR">Gurgaon</option>
+                <option value="JAL">Jalna</option>
+                <option value="KANC">Kanchipuram</option>
+                <option value="KANG">Kangra</option>
+                <option value="KOL">Kolhapur</option>
+                <option value="KOLK">Kolkata</option>
+                <option value="KT">Kota</option>
+                <option value="LAT">Latur</option>
+                <option value="MT">Meerut</option>
+                <option value="MUM">Mumbai</option>
+                <option value="NAG">Nagpur</option>
+                <option value="NAS">Nashik</option>
+                <option value="N_MUM">Navi Mumbai</option>
+                <option value="OSM">Osmanabad</option>
+                <option value="PUN">Pune</option>
+                <option value="RAI">Raigad</option>
+                <option value="SABK">Sabarkantha</option>
+                <option value="SANG">Sangli</option>
+                <option value="SAT">Satara</option>
+                <option value="SIND">Sindhudurg</option>
+                <option value="SOL">Solapur</option>
+                <option value="TH">Thane</option>
+                <option value="VARA">Varanasi</option>
+                <option value="VISH">Vishakhapatnam</option>
+                <option value="WAR">Wardha</option>
+                <option value="YAT">Yavatamal</option>
+              </select></div>
+                                                        <div class="col-md-2 col-xs-5 gap">State</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_STATE" name="p_t64" class="form-control input-sm">
+                <option value="" selected="selected">--Select--</option>
+                <option value="AN">Andaman &amp; MSRTCobar</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CG">Chattisgarh</option>
+                <option value="CH">Chandigarh</option>
+                <option value="DD">Diu &amp; Daman</option>
+                <option value="DL">Delhi</option>
+                <option value="DN">Dadra &amp; Nagar Haveli</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="HR">Haryana</option>
+                <option value="JH">Jharkhand</option>
+                <option value="JK">Jammu &amp; Kashmir</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="MH">Maharashtra</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MN">Manipur</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Odisha</option>
+                <option value="PB">Punjab</option>
+                <option value="PY">Pondicherry</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TG">Telangana</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TR">Tripura</option>
+                <option value="UA">Uttarakhand</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="WB">West Bengal</option>
+              </select></div>
+                                                    </div>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Country</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_COUNTRY" name="p_t65" class="form-control input-sm" >
+                <option value="" selected="selected">--Select--</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Aland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AQ">Antarctica</option>
+                <option value="AG">Antigua and Barbuda</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia, Plurinational State of</option>
+                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BV">Bouvet Island</option>
+                <option value="BR">Brazil</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="BN">Brunei Darussalam</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="CV">Cabo Verde</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CD">Congo, The Democratic Republic of the</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CI">Cote d'Ivoire</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CW">Curacao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">DomiMSRTCa</option>
+                <option value="DO">DomiMSRTCan Republic</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FK">Falkland Islands (Malvinas)</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="TF">French Southern Territories</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="VA">Holy See (Vatican City State)</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran, Islamic Republic of</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KR">Korea, Republic of</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao</option>
+                <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia, Federated States of</option>
+                <option value="MD">Moldova, Republic of</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="ME">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">MSRTCaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NU">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau</option>
+                <option value="PS">Palestine, State of</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PN">Pitcairn</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="RE">Reunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russian Federation</option>
+                <option value="RW">Rwanda</option>
+                <option value="BL">Saint Barthelemy</option>
+                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                <option value="KN">Saint Kitts and Nevis</option>
+                <option value="LC">Saint Lucia</option>
+                <option value="MF">Saint Martin (French part)</option>
+                <option value="PM">Saint Pierre and Miquelon</option>
+                <option value="VC">Saint Vincent and the Grenadines</option>
+                <option value="WS">Samoa</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome and Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SX">Sint Maarten (Dutch part)</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="SO">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                <option value="SS">South Sudan</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SZ">Swaziland</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="SY">Syrian Arab Republic</option>
+                <option value="TW">Taiwan</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania, United Republic of</option>
+                <option value="TH">Thailand</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad and Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="TC">Turks and Caicos Islands</option>
+                <option value="TV">Tuvalu</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
+                <option value="UM">United States Minor Outlying Islands</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                <option value="VN">Viet Nam</option>
+                <option value="VG">Virgin Islands, British</option>
+                <option value="VI">Virgin Islands, U.S.</option>
+                <option value="WF">Wallis and Futuna</option>
+                <option value="EH">Western Sahara</option>
+                <option value="YE">Yemen</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
+              </select></div>
+                                                        <div class="col-md-2 col-xs-5 gap">PIN Code </div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Email Address</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Landline Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Mobile Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                        <div class="col-md-2 col-xs-5 gap"></div>
+                                                        <div class="col-md-4 col-xs-7 gap"></div>
+                                                    </div>
+                                                </div>
+</div>
+      
+      
+<div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Permanent Address: (Submit self-attested Address Proof)</span></h5>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Flat Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"> <input type="text" id="P11_ID_MARK" name="p_t51" class="form-control input-sm" value="" ></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Building Name </div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Road/Street</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Area/Locality/Taluka</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Town/City/District</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_DISTRICT" name="p_t63" class="form-control input-sm">
+                <option value="" selected="selected">--Select--</option>
+                <option value="AHM">Ahmednagar</option>
+                <option value="AM">Amravati</option>
+                <option value="BEL">Belgaum</option>
+                <option value="DEL">Delhi</option>
+                <option value="DH">Dhule</option>
+                <option value="GAN">Gandhi Nagar</option>
+                <option value="GUR">Gurgaon</option>
+                <option value="JAL">Jalna</option>
+                <option value="KANC">Kanchipuram</option>
+                <option value="KANG">Kangra</option>
+                <option value="KOL">Kolhapur</option>
+                <option value="KOLK">Kolkata</option>
+                <option value="KT">Kota</option>
+                <option value="LAT">Latur</option>
+                <option value="MT">Meerut</option>
+                <option value="MUM">Mumbai</option>
+                <option value="NAG">Nagpur</option>
+                <option value="NAS">Nashik</option>
+                <option value="N_MUM">Navi Mumbai</option>
+                <option value="OSM">Osmanabad</option>
+                <option value="PUN">Pune</option>
+                <option value="RAI">Raigad</option>
+                <option value="SABK">Sabarkantha</option>
+                <option value="SANG">Sangli</option>
+                <option value="SAT">Satara</option>
+                <option value="SIND">Sindhudurg</option>
+                <option value="SOL">Solapur</option>
+                <option value="TH">Thane</option>
+                <option value="VARA">Varanasi</option>
+                <option value="VISH">Vishakhapatnam</option>
+                <option value="WAR">Wardha</option>
+                <option value="YAT">Yavatamal</option>
+              </select></div>
+                                                        <div class="col-md-2 col-xs-5 gap">State</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_STATE" name="p_t64" class="form-control input-sm" >
+                <option value="" selected="selected">--Select--</option>
+                <option value="AN">Andaman &amp; MSRTCobar</option>
+                <option value="AP">Andhra Pradesh</option>
+                <option value="AR">Arunachal Pradesh</option>
+                <option value="AS">Assam</option>
+                <option value="BR">Bihar</option>
+                <option value="CG">Chattisgarh</option>
+                <option value="CH">Chandigarh</option>
+                <option value="DD">Diu &amp; Daman</option>
+                <option value="DL">Delhi</option>
+                <option value="DN">Dadra &amp; Nagar Haveli</option>
+                <option value="GA">Goa</option>
+                <option value="GJ">Gujarat</option>
+                <option value="HP">Himachal Pradesh</option>
+                <option value="HR">Haryana</option>
+                <option value="JH">Jharkhand</option>
+                <option value="JK">Jammu &amp; Kashmir</option>
+                <option value="KA">Karnataka</option>
+                <option value="KL">Kerala</option>
+                <option value="LD">Lakshadweep</option>
+                <option value="MH">Maharashtra</option>
+                <option value="ML">Meghalaya</option>
+                <option value="MN">Manipur</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="MZ">Mizoram</option>
+                <option value="NL">Nagaland</option>
+                <option value="OR">Odisha</option>
+                <option value="PB">Punjab</option>
+                <option value="PY">Pondicherry</option>
+                <option value="RJ">Rajasthan</option>
+                <option value="SK">Sikkim</option>
+                <option value="TG">Telangana</option>
+                <option value="TN">Tamil Nadu</option>
+                <option value="TR">Tripura</option>
+                <option value="UA">Uttarakhand</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="WB">West Bengal</option>
+              </select></div>
+                                                    </div>
+                                                    
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Country</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_COUNTRY" name="p_t65" class="form-control input-sm" >
+                <option value="" selected="selected">--Select--</option>
+                <option value="AF">Afghanistan</option>
+                <option value="AX">Aland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AI">Anguilla</option>
+                <option value="AQ">Antarctica</option>
+                <option value="AG">Antigua and Barbuda</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AW">Aruba</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="BS">Bahamas</option>
+                <option value="BH">Bahrain</option>
+                <option value="BD">Bangladesh</option>
+                <option value="BB">Barbados</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BZ">Belize</option>
+                <option value="BJ">Benin</option>
+                <option value="BM">Bermuda</option>
+                <option value="BT">Bhutan</option>
+                <option value="BO">Bolivia, Plurinational State of</option>
+                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BW">Botswana</option>
+                <option value="BV">Bouvet Island</option>
+                <option value="BR">Brazil</option>
+                <option value="IO">British Indian Ocean Territory</option>
+                <option value="BN">Brunei Darussalam</option>
+                <option value="BG">Bulgaria</option>
+                <option value="BF">Burkina Faso</option>
+                <option value="BI">Burundi</option>
+                <option value="CV">Cabo Verde</option>
+                <option value="KH">Cambodia</option>
+                <option value="CM">Cameroon</option>
+                <option value="CA">Canada</option>
+                <option value="KY">Cayman Islands</option>
+                <option value="CF">Central African Republic</option>
+                <option value="TD">Chad</option>
+                <option value="CL">Chile</option>
+                <option value="CN">China</option>
+                <option value="CX">Christmas Island</option>
+                <option value="CC">Cocos (Keeling) Islands</option>
+                <option value="CO">Colombia</option>
+                <option value="KM">Comoros</option>
+                <option value="CG">Congo</option>
+                <option value="CD">Congo, The Democratic Republic of the</option>
+                <option value="CK">Cook Islands</option>
+                <option value="CR">Costa Rica</option>
+                <option value="CI">Cote d'Ivoire</option>
+                <option value="HR">Croatia</option>
+                <option value="CU">Cuba</option>
+                <option value="CW">Curacao</option>
+                <option value="CY">Cyprus</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="DJ">Djibouti</option>
+                <option value="DM">DomiMSRTCa</option>
+                <option value="DO">DomiMSRTCan Republic</option>
+                <option value="EC">Ecuador</option>
+                <option value="EG">Egypt</option>
+                <option value="SV">El Salvador</option>
+                <option value="GQ">Equatorial Guinea</option>
+                <option value="ER">Eritrea</option>
+                <option value="EE">Estonia</option>
+                <option value="ET">Ethiopia</option>
+                <option value="FK">Falkland Islands (Malvinas)</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FJ">Fiji</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="GF">French Guiana</option>
+                <option value="PF">French Polynesia</option>
+                <option value="TF">French Southern Territories</option>
+                <option value="GA">Gabon</option>
+                <option value="GM">Gambia</option>
+                <option value="GE">Georgia</option>
+                <option value="DE">Germany</option>
+                <option value="GH">Ghana</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GL">Greenland</option>
+                <option value="GD">Grenada</option>
+                <option value="GP">Guadeloupe</option>
+                <option value="GU">Guam</option>
+                <option value="GT">Guatemala</option>
+                <option value="GG">Guernsey</option>
+                <option value="GN">Guinea</option>
+                <option value="GW">Guinea-Bissau</option>
+                <option value="GY">Guyana</option>
+                <option value="HT">Haiti</option>
+                <option value="HM">Heard Island and McDonald Islands</option>
+                <option value="VA">Holy See (Vatican City State)</option>
+                <option value="HN">Honduras</option>
+                <option value="HK">Hong Kong</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IN">India</option>
+                <option value="ID">Indonesia</option>
+                <option value="IR">Iran, Islamic Republic of</option>
+                <option value="IQ">Iraq</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IL">Israel</option>
+                <option value="IT">Italy</option>
+                <option value="JM">Jamaica</option>
+                <option value="JP">Japan</option>
+                <option value="JE">Jersey</option>
+                <option value="JO">Jordan</option>
+                <option value="KZ">Kazakhstan</option>
+                <option value="KE">Kenya</option>
+                <option value="KI">Kiribati</option>
+                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KR">Korea, Republic of</option>
+                <option value="KW">Kuwait</option>
+                <option value="KG">Kyrgyzstan</option>
+                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LV">Latvia</option>
+                <option value="LB">Lebanon</option>
+                <option value="LS">Lesotho</option>
+                <option value="LR">Liberia</option>
+                <option value="LY">Libya</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MO">Macao</option>
+                <option value="MK">Macedonia, The Former Yugoslav Republic of</option>
+                <option value="MG">Madagascar</option>
+                <option value="MW">Malawi</option>
+                <option value="MY">Malaysia</option>
+                <option value="MV">Maldives</option>
+                <option value="ML">Mali</option>
+                <option value="MT">Malta</option>
+                <option value="MH">Marshall Islands</option>
+                <option value="MQ">Martinique</option>
+                <option value="MR">Mauritania</option>
+                <option value="MU">Mauritius</option>
+                <option value="YT">Mayotte</option>
+                <option value="MX">Mexico</option>
+                <option value="FM">Micronesia, Federated States of</option>
+                <option value="MD">Moldova, Republic of</option>
+                <option value="MC">Monaco</option>
+                <option value="MN">Mongolia</option>
+                <option value="ME">Montenegro</option>
+                <option value="MS">Montserrat</option>
+                <option value="MA">Morocco</option>
+                <option value="MZ">Mozambique</option>
+                <option value="MM">Myanmar</option>
+                <option value="NA">Namibia</option>
+                <option value="NR">Nauru</option>
+                <option value="NP">Nepal</option>
+                <option value="NL">Netherlands</option>
+                <option value="NC">New Caledonia</option>
+                <option value="NZ">New Zealand</option>
+                <option value="NI">MSRTCaragua</option>
+                <option value="NE">Niger</option>
+                <option value="NG">Nigeria</option>
+                <option value="NU">Niue</option>
+                <option value="NF">Norfolk Island</option>
+                <option value="MP">Northern Mariana Islands</option>
+                <option value="NO">Norway</option>
+                <option value="OM">Oman</option>
+                <option value="PK">Pakistan</option>
+                <option value="PW">Palau</option>
+                <option value="PS">Palestine, State of</option>
+                <option value="PA">Panama</option>
+                <option value="PG">Papua New Guinea</option>
+                <option value="PY">Paraguay</option>
+                <option value="PE">Peru</option>
+                <option value="PH">Philippines</option>
+                <option value="PN">Pitcairn</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="PR">Puerto Rico</option>
+                <option value="QA">Qatar</option>
+                <option value="RE">Reunion</option>
+                <option value="RO">Romania</option>
+                <option value="RU">Russian Federation</option>
+                <option value="RW">Rwanda</option>
+                <option value="BL">Saint Barthelemy</option>
+                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                <option value="KN">Saint Kitts and Nevis</option>
+                <option value="LC">Saint Lucia</option>
+                <option value="MF">Saint Martin (French part)</option>
+                <option value="PM">Saint Pierre and Miquelon</option>
+                <option value="VC">Saint Vincent and the Grenadines</option>
+                <option value="WS">Samoa</option>
+                <option value="SM">San Marino</option>
+                <option value="ST">Sao Tome and Principe</option>
+                <option value="SA">Saudi Arabia</option>
+                <option value="SN">Senegal</option>
+                <option value="RS">Serbia</option>
+                <option value="SC">Seychelles</option>
+                <option value="SL">Sierra Leone</option>
+                <option value="SG">Singapore</option>
+                <option value="SX">Sint Maarten (Dutch part)</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="SB">Solomon Islands</option>
+                <option value="SO">Somalia</option>
+                <option value="ZA">South Africa</option>
+                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                <option value="SS">South Sudan</option>
+                <option value="ES">Spain</option>
+                <option value="LK">Sri Lanka</option>
+                <option value="SD">Sudan</option>
+                <option value="SR">Suriname</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SZ">Swaziland</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="SY">Syrian Arab Republic</option>
+                <option value="TW">Taiwan</option>
+                <option value="TJ">Tajikistan</option>
+                <option value="TZ">Tanzania, United Republic of</option>
+                <option value="TH">Thailand</option>
+                <option value="TL">Timor-Leste</option>
+                <option value="TG">Togo</option>
+                <option value="TK">Tokelau</option>
+                <option value="TO">Tonga</option>
+                <option value="TT">Trinidad and Tobago</option>
+                <option value="TN">Tunisia</option>
+                <option value="TR">Turkey</option>
+                <option value="TM">Turkmenistan</option>
+                <option value="TC">Turks and Caicos Islands</option>
+                <option value="TV">Tuvalu</option>
+                <option value="UG">Uganda</option>
+                <option value="UA">Ukraine</option>
+                <option value="AE">United Arab Emirates</option>
+                <option value="GB">United Kingdom</option>
+                <option value="US">United States</option>
+                <option value="UM">United States Minor Outlying Islands</option>
+                <option value="UY">Uruguay</option>
+                <option value="UZ">Uzbekistan</option>
+                <option value="VU">Vanuatu</option>
+                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                <option value="VN">Viet Nam</option>
+                <option value="VG">Virgin Islands, British</option>
+                <option value="VI">Virgin Islands, U.S.</option>
+                <option value="WF">Wallis and Futuna</option>
+                <option value="EH">Western Sahara</option>
+                <option value="YE">Yemen</option>
+                <option value="ZM">Zambia</option>
+                <option value="ZW">Zimbabwe</option>
+              </select></div>
+                                                        <div class="col-md-2 col-xs-5 gap">PIN Code </div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Email Address</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Landline Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm" value=""  maxlength="4000"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Mobile Number</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" id="P11_BUILDING_NAME" name="p_t60" class="form-control input-sm input-sm" value=""  maxlength="4000"></div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Family Declaration</span></h5>
+                                                    <div class="row">
+                                                    <div class="col-md-12">
+                                                        <table class="table table-bordered table-condensed1">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>Family Member Name</th>
+                                                                                        <th>Relationship with Family Member</th>
+                                                                                        <th>Date of Birth</th>
+                                                                                        <th>Dependent (Yes / No)</th>
+                                                                                        <th>Whether Employed (State / Centre / Unemployed / Private)</th>
+                                                                                        <th>Whether in same Department (Yes / No)</th>
+                                                                                        <th>Employee No. (If in the same Department)</th>
+                                                                                        <th>Name of Department (If other than same Department)</th>
+                                                                                        <th>Add</th>
+                                                                                    </tr>
+</thead>
+<tbody>
+<tr>
+                                                                                        <td>
+                                                                                            <input type="text" class="form-control input-sm input-sm" name="f01" maxlength="2000" value="">
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <select name="f02" class="form-control input-sm">
+                                                                                                <option value="%null%" selected="selected">%</option>          <option value="A">Adopted Child</option>
+          <option value="AUNT">Aunt</option>
+          <option value="BROTHER">Brother</option>
+           <option value="C">Child</option>
+           <option value="CIV_PART">Civil Partner</option>
+           <option value="D">Domestic Partner</option>
+           <option value="DC">Dependent Child</option>
+           <option value="EC">Employee's Children</option>
+           <option value="EMRG">Emergency</option>
+           <option value="ES">Employee's Husband/Wife</option>
+           <option value="F">Friend</option>
+           <option value="GP">Grandparent</option>
+           <option value="HU_CO_DEBTOR">Co-Debtor</option>
+           <option value="HU_HCB">Holiday Cheque Beneficiary</option>
+           <option value="IE_KIN">Next Of Kin</option>
+                                                                                                <option value="IN_D">Daughter</option>
+                                                                                                <option value="IN_DD">Daughter's Daughter</option>
+                                                                                                <option value="IN_DS">Daughter's Son</option>
+                                                                                                <option value="IN_FD">Family Doctor</option>
+                                                                                                <option value="IN_FL">Family Lawyer</option>
+                                                                                                <option value="IN_HF">Husband's Father</option>
+                                                                                                <option value="IN_HM">Husband's Mother</option>
+                                                                                                <option value="IN_LC">Legitimate Child</option>
+                                                                                                <option value="IN_LH">Legal heirs</option>
+                                                                                                <option value="IN_LR">Legal representative</option>
+                                                                                                <option value="IN_PD">Panel Doctor</option>
+                                                                                                <option value="IN_PGF">Paternal Grandfather</option>
+                                                                                                <option value="IN_PGM">Paternal Grandmother</option>
+                                                                                                <option value="IN_SIL">Sister in Law</option>
+                                                                                                <option value="IN_SON">Son</option>
+                                                                                                <option value="JP_D1">Eldest Daughter</option>
+                                                                                                <option value="JP_D2">Second Daughter</option>
+                                                                                                <option value="JP_D3">Third Daughter</option>
+                                                                                                <option value="JP_FT">Father</option>
+                                                                                                <option value="JP_GC">Grandchild</option>
+                                                                                                <option value="JP_MT">Mother</option>
+                                                                                                <option value="JP_OTHER">Other</option>
+                                                                                                <option value="JP_S1">Eldest Son</option>
+                                                                                                <option value="JP_S2">Second Son</option>
+                                                                                                <option value="JP_S3">Third Son</option>
+                                                                                                <option value="M">Contact</option>
+                                                                                                <option value="NEPHEW">Nephew</option>
+                                                                                                <option value="NIECE">Niece</option>
+                                                                                                <option value="O">Foster Child</option>
+                                                                                                <option value="OC">Own Child</option>
+                                                                                                <option value="OTH">Others</option>
+                                                                                                <option value="P">Parent</option>
+                                                                                                <option value="PR1">Parent 1</option>
+                                                                                                <option value="PR2">Parent 2</option>
+                                                                                                <option value="R">Domestic Partner Child</option>
+                                                                                                <option value="REG_PART">Registered Partner</option>
+                                                                                                <option value="RNC">Recognized Natural Child</option>
+                                                                                                <option value="S">Spouse</option>
+                                                                                                <option value="SISTER">Sister</option>
+                                                                                                <option value="T">Step Child</option>
+                                                                                                <option value="UNCLE">Uncle</option>
+                                                                                            </select>
+                                                                                        </td>
+                                                                                         <td align="center"><a href="javascript:;" class="fa fa-calendar datepickers"></a></td>
+                                                                                        <td>
+                                                                                            <select name="f04" class="form-control input-sm">
+                                                                                                <option value="Y">Yes</option>
+                                                                                                <option value="N">No</option>
+                                                                                                <option value="" selected="selected"></option>
+                                                                                            </select>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <select name="f05" class="form-control input-sm">
+                                                                                                <option value="State">State</option>
+                                                                                                <option value="Centre">Centre</option>
+                                                                                                <option value="Unemployed">Unemployed</option>
+                                                                                                <option value="Private">Private</option>
+                                                                                                <option value="" selected="selected"></option>
+                                                                                            </select>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <select name="f06" class="form-control input-sm">
+                                                                                                <option value="Yes">Yes</option>
+                                                                                                <option value="No">No</option>
+                                                                                                <option value="" selected="selected"></option>
+                                                                                            </select>
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <input type="text" name="f07" maxlength="2000" value="" class="form-control input-sm">
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <input type="text" name="f08" maxlength="2000" value="" class="form-control input-sm">
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="javascript:;" class="btn btn-primary">Add</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+    </div>
+
+    <div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Education (Submit self – attested photocopies of certificates)</span></h5>
+                                                    <div class="row">
+                                                    <div class="col-md-12">
+                                                        <table cellpadding="0" border="0" cellspacing="0" summary="" class="table table-bordered table-condensed1">
+                                                                <thead>
+                                                                                                                                                         <tr>
+                                                                                        <th>Sr. No.</th>
+                                                                                        <th>Education</th>
+                                                                                        <th>Name of Board / University</th>
+                                                                                        <th>Passing Year</th>
+                                                                                        <th>Stream</th>
+                                                                                        <th>Marks obtained (%)/ Grade</th>
+                                                                                        <th>Add</th>
+                                                                                    </tr>
+      </thead>
+      <tbody>                                                                              <tr>
+                                                                                        <td>1</td>
+                                                                                        <td>
+                                                                                            <input type="text" name="f09"  class="form-controlinput-sm" maxlength="2000" value="">
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <input type="text" name="f10" class="form-control input-sm" maxlength="2000" value="">
+                                                                                        </td>   <td align="center"><a href="javascript:;" class="fa fa-calendar datepickers"></a></td>  <td>
+                                                                                            <input type="text" name="f12" class="form-control input-sm" maxlength="2000" value="">
+                                                                                        </td>
+                                                                                      <td>
+                                                                                            <input type="text" name="f13" class="form-controlinput-sm" maxlength="2000" value="">
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            <a href="javascript:;" class="btn btn-primary">Add</a>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            
+    </div>
+<div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">
+List of Documents to be submitted with form (All self-attested photocopies):</span></h5>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Select document to be Uploaded</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><select id="P11_SELECT_DOCUMENT" name="p_t101" class="form-control input-sm" size="1">
+                                                            <option value="" selected="selected">--Select--</option>
+                                                            <option value="1">* Joining Letter</option>
+                                                            <option value="2">* Reliving letter/Service Certificate/Bank statement refelcting last pay</option>
+                                                            <option value="3">Caste Certificate(Caste Validity Certificate)</option>
+                                                            <option value="4">Passport(front and back page)</option>
+                                                            <option value="5">* Aadhar Card</option>
+                                                            <option value="6">* PAN Card</option>
+                                                            <option value="7">* Address Proof: Electricity Proof/Rent Agreement/Telephone bill/Passport</option>
+                                                            <option value="8">* Education Certificate: 10th Mark Sheet</option>
+                                                            <option value="9">* Education Certificate: 10th Passing Certificate</option>
+                                                            <option value="10">* Education Certificate: 12th/Diploma Mark sheet</option>
+                                                            <option value="11">* Education Certificate: 12th/Diploma Passing Certificate</option>
+                                                            <option value="12">* Education Certificate: Degree Mark sheet</option>
+                                                            <option value="13">* Education Certificate: Degree Passing Certificate</option>
+                                                            <option value="14">Education Certificate: Post-graduation Mark sheet</option>
+                                                            <option value="15">Education Certificate: Post-graduation Passing Certificate</option>
+                                                            <option value="16">Education Certificate: Other education certificates</option>
+                                                            <option value="17">Expericence certificates (Previous to last)</option>
+                                                            <option value="18">Training completion Certificates</option>
+                                                            <option value="19">* Latest Updated Resume</option>
+                                                            <option value="20">Last Pay Certificate/Service certificate(for retired Govt.employees)</option>
+                                                            <option value="21">Last Pay Certificate(deputationist/Govt. employee only)</option>
+                                                        </select></div>
+                                                        <div class="col-md-2 col-xs-5 gap">Select File:	</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="hidden" name="p_arg_names" value="4642715621845775">
+                                                        <input type="file" id="P11_UPLOAD_DOCUMENT" name="p_t102" class="file" size="30"></div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-2 col-xs-5 gap">Document Description:</div>
+                                                        <div class="col-md-4 col-xs-7 gap"><input type="text" name="f09"  class="form-controlinput-sm" maxlength="2000" value=""></div>
+                                                        <div class="col-md-2 col-xs-5 gap">&nbsp;</div>
+                                                        <div class="col-md-4 col-xs-7 gap">&nbsp;</div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12">Certified that, I have submitted all the self-attested photocopies of necessary documents as applicable along with this form. Its understood that form will be considered submitted only after verification of original documents by HR team. </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12" align="right">
+                                                        - Signed By -<br />
+
+Rohit Sangare </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+<div class="payslip-card">
+                                                <div class="row_wrap">
+                                                    <h5 class="sub_heads"><span class="t20RegionHeader">Comments:</span></h5>
+                                                    <div class="row">
+                                                        <div class="col-sm-12 gap"><textarea name="p_t104"  maxlength="4000" wrap="virtual" id="P11_COMMENTS" class="textarea" style="resize: both;"></textarea></div>
+                                                        
+                                                        
+                                                        
+                                                    </div>
+                                                    
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="row" align="right" style="margin-right:0px;">
+                                            <a ui-sref="dashboard" class="btn btn-primary">Save</a>&nbsp;<a ui-sref="dashboard" class="btn btn-primary">Submit</a>
+                                            </div>
+
+    
+    <br class="t20Break">
+    <input type="hidden" name="p_md5_checksum" value="">
+    <input type="hidden" name="p_page_checksum" value="E6901430638277D66574152C8F85864B" id="pPageChecksum">
+</form>

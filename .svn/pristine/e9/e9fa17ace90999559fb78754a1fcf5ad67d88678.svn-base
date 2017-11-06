@@ -1,0 +1,129 @@
+ <div class="container">
+      <div class="payslip">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="main_head">User Profile</h3>
+        <form class="form-horizontal">
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Basic Details</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee name :</label>
+                <div class="col-sm-8 form-control-static">
+                  Anil Sanap
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Date of Birth :</label>
+                <div class="col-sm-8 form-control-static">
+                  02-March-1969
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Marital Status :</label>
+                <div class="col-sm-8 form-control-static">
+                  Married
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Mobile Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  +91 98876 54432
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Blood Group :</label>
+                <div class="col-sm-8 form-control-static">
+                  A +ve
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">PAN Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  ASPBE13774
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Aadhar Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  3042 4091 6607
+                </div>
+              </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="payslip-card" style="height:424px;">
+              <h4 class="sub_heads">Address</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Current Address :</label>
+                <div class="col-sm-8 form-control-static">
+                  Room number 307,<br />Atmaram Niwas,<br />Maljipada lane,<br />Marol-Dondoshi Road, Andheri,<br />Mumbai, Maharashtra
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Main Address :</label>
+                <div class="col-sm-8 form-control-static">
+                  2/409, Sneh Sadan,<br />Gokhivare-Shirsad Phata,<br />Dhondoji Path, Satara,<br />Maharashtra
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Professional Details</h4>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee ID :</label>
+                <div class="col-sm-8 form-control-static">
+                  MS1006871
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Location :</label>
+                <div class="col-sm-8 form-control-static">
+                  Marol Aagar
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">License Number :</label>
+                <div class="col-sm-8 form-control-static">
+                  MH04 19920467981
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">License expiry date :</label>
+                <div class="col-sm-8 form-control-static">
+                  15-July-2022
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="payslip-card">
+              <h4 class="sub_heads">Emergency Contacts</h4>
+              <table class="table table-bordered table-condensed">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Relationship</th>
+                  <th>Contact Number</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Suman Sanap</td>
+                  <td>Spouse</td>
+                  <td>+91 88914 00724</td>
+                </tr>
+              </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>

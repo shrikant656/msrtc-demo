@@ -1,0 +1,81 @@
+ <div class="container">
+      <div class="payslip">
+          
+          
+           <div class="payslip-card">
+                                <div class="row_wrap mg-bt">
+                                    <h5 class="sub_heads">Basic Details <a ui-sref="user-profile" class="applybtn fR" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></h5>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Employee Name</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>Rohit Sangare</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">Blood Group</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>A +ve</strong></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Date of Birth</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>22-September-1989</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">PAN Number</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong> DATPS7366P</strong></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Marital Status</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>Married</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">Aadhar Number</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>3042 4091 6607</strong></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Mobile Number</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>+91 98876 54432</strong></div>                                        
+                                    </div>                                    
+                                </div>
+                                <div class="row_wrap mg-bt">
+                                    <h5 class="sub_heads">Address <a ui-sref="user-profile" class="applybtn fR" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></h5>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Current Address</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>Room number 307,<br/>Atmaram Niwas,<br/>Maljipada lane,<br/> Marol-Dindoshi Road,<br/> Andheri, Mumbai,<br/> Maharashtra</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">Main Address</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>2/409, Sneh Sadan,<br/>Gokhivare-Shirsad Phata,<br/>Dhondoji Path, <br/>Satara,Maharashtra</strong></div>
+                                    </div>                                                                       
+                                </div>
+                                <div class="row_wrap mg-bt">
+                                    <h5 class="sub_heads">Professional Details <a ui-sref="user-profile" class="applybtn fR" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></h5>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">Employee ID</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>LC002</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">Location</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>Dindoshi Aagar</strong></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-6 gap">License Number</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong>MH04 19920467981</strong></div>
+                                        <div class="col-md-2 col-xs-6 gap">License expiry date</div>
+                                        <div class="col-md-4 col-xs-6 gap"><strong> 15-July-2022</strong></div>
+                                    </div>                                    
+                                </div>
+                                <div class="row_wrap mg-bt">
+                                    <h5 class="sub_heads">Emergency Contacts <a ui-sref="user-profile" class="applybtn fR" title="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></h5>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                        <table class="table table-bordered table-condensed">
+                                        <thead>
+                                          <tr>
+                                            <th>Name</th>
+                                            <th>Relationship</th>
+                                            <th>Contact Number</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>Suman Sanap</td>
+                                            <td>Spouse</td>
+                                            <td>+91 88914 00724</td>
+                                          </tr>
+                                        </tbody>
+                                        </table>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                    </div>
+
+  </div>
+  </div>

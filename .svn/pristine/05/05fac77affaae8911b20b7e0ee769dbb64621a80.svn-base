@@ -1,0 +1,781 @@
+
+<div class="container">
+
+  <div class="payslip"> 
+  <div class="row">
+      <div class="col-sm-3">
+        <div class="payslip-card">
+        <div class="row_wrap">
+          
+
+<ul>
+<li class="widget widget-btn">
+<div class="profile" align="center">
+		
+			<div class="profile-sidebar">
+				<!-- SIDEBAR USERPIC -->
+				<div class="profile-userpic">
+					<!--<img src="imageview/generalImages/approver.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">-->
+					<img src="images/creator.jpg" style="height:70px;margin-top:-5%;width:70px;" class="img-responsive" alt="">
+				</div>
+				<!-- END SIDEBAR USERPIC -->
+				<!-- SIDEBAR USER TITLE -->
+				<div class="profile-usertitle">
+					<div class="profile-usertitle-name">
+						Approver
+					</div>
+					<div class="profile-usertitle-job" >
+						Head of Department
+					</div>
+				</div>
+				<!-- END SIDEBAR USER TITLE -->
+				<!-- SIDEBAR BUTTONS -->
+			
+				<div class="profile-userbuttons" style="margin-top: 5%;">
+					<a href="http://52.172.183.108:8080/km/firstlook/upload.jsp"><button type="button" class="btn btn-success btn-sm">Upload</button></a>
+					<a href="http://52.172.183.108:8080/km/repo.jsp"><button type="button" class="btn btn-danger btn-sm">Repository</button></a>
+				</div>
+				
+				
+			<!--	<div class="profile-userbuttons" style="margin-top: 0%;">
+					<a href="#" data-toggle="modal" data-target="#exampleModal1" data-whatever="@"><button type="button" class="btn btn-success btn-sm">Sign In</button></a>
+					<a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@"><button type="button" class="btn btn-danger btn-sm">Sign Up</button></a>
+				</div>
+				-->
+			</div>
+		
+	</div>
+</li> 
+</ul>
+<div class="panel-group" id="accordion" style="margin: 10px -21px 0 -21px;">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a href=""><span class="fa fa-folder">
+                            </span>&nbsp;Content</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">
+                            <table class="table" style="margin-bottom:0px;">
+                                <tbody><tr>
+                                    <td>
+                                        <span class="fa fa-envelope text-primary"></span><a href="http://52.172.183.108:8080/km/inbox.jsp">&nbsp;&nbsp;Inbox</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-briefcase text-success"></span><a href="http://52.172.183.108:8080/km/holdup.jsp">&nbsp;&nbsp;Hold Up Area</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-bell text-info"></span><a href="http://52.172.183.108:8080/km/docStatus.jsp">&nbsp;&nbsp;Submitted Item Status</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="fa fa-file-photo-o text-success"></span><a href="http://52.172.183.108:8080/km/imageview/gallery.jsp">&nbsp;&nbsp;Image Gallery</a>
+                                    </td>
+                                </tr>
+								<tr>
+                                    <td>
+                                        <span class="fa fa-search text-success"></span><a href="http://52.172.183.108:8080/km/searchForm.jsp">&nbsp;&nbsp;Advance Search</a>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default" style="margin-top: -1px; color: #333;">
+                 
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-tachometer text-primary" style="color: #333;"></span><a href=""><strong style="font-size: 16px;">&nbsp;&nbsp;Dashboard</strong></a>
+                           
+                        </h4>
+                    </div>
+                </div>
+				<div class="panel panel-default" style="margin-top: -1px; color: #333;">
+              
+                        <div class="panel-heading">
+                        <h4 class="panel-title">
+                            
+                                         <span class="fa fa-comments text-primary" style="color: #333;"></span><a href=""><strong style="font-size: 16px;">&nbsp;&nbsp;Discussion Forum</strong></a>
+                           </h4>
+                        </div>
+                    
+                </div>
+            </div>
+<div class="clearfix"></div>
+<div class="copyright" style="display:none;">
+©2016 <br>
+<a href="http://52.172.183.108:8080/km/dashboard.jsp#">Terms &amp; Privacy</a></div>
+
+
+      </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="payslip-card" style=" padding-bottom:0px;">
+        <div class="row_wrap">   
+        
+        <div class="row">
+         <div class="main-questions-list scrollbar" id="ex3" style="width:100%;font-size:13px;">
+ <div class="panel panel-primary" style="border:none;">
+
+    <div class="panel-body minimal">
+  
+
+	<section class="row clearfix">
+		<section class="col-md-12 column">
+          
+          <ol class="breadcrumb">
+  				<li><a href="http://52.172.183.108:8080/km/discussionPost.jsp?postID=4#">Forum</a></li>
+ 				 <li class="active">The Case for Modular Mini-Refineries</li>
+		</ol>
+		</section>
+	</section>
+	<section class="row clearfix">
+		<section class="col-md-12 column">
+          
+          <nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!-- <a class="navbar-brand" href="#">WooDesgin!</a>-->
+    </div>
+
+	<script>
+	var window1H = 480;
+var window1W = 640;
+var window1X = (window.screen.availHeight - window1H)/2-30;
+var window1Y = (window.screen.availWidth - window1W)/2;
+	function newPost(){
+	url="discussionNewPost.jsp";
+	
+var myWindow = window.open(url,'',"scrollbars=auto,resizable=no,toolbar=no,menubar=no,status=yes,location=no,top="+window1X+",left="+window1Y+",width="+window1W+",height=400");
+	
+	
+//alert(url);
+//var myWindow = window.open(url, "", "width=500,height=400");
+	
+	}
+	</script>
+	
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-left:-17px;">
+      <ul class="nav navbar-nav" style="margin-left:-17px;">
+        <li><a href="" onclick="newPost(); return false;"><i class="fa fa-comments"></i> New posts</a></li>
+		   <li><a href="" onclick="openWindow(&#39;reply&#39;,&#39;4&#39;);"><i class="fa fa-mail-reply "></i> Reply </a></li>
+   <!--     <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cog"></i> Tools <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="fa fa-send"></i> Email this page</a></li>
+            <li><a href="#"><i class="fa fa-print"></i> Print this page</a></li>
+            <li><a href="#"><i class="fa fa-download"></i> Download pdf of this page</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-smile-o"></i> Subscript me in this post</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-cogs"></i> Manage this post(for adminstrator)</a></li>
+          </ul>
+        </li> -->
+      </ul>
+    <!--  <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search in this post...">
+        </div>
+        <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+      </form> -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="http://52.172.183.108:8080/km/discussionPost.jsp?postID=4#"><i class="fa fa-heart"> </i>1  Likes</a></li>
+     <!--   <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-share"></i> Share It! <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#"><i class="fa fa-facebook"></i> facebook</a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i> twitter</a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i> google pluse</a></li>
+            <li class="divider"></li>
+            <li><a href="#"><i class="fa fa-cogs"></i> Manage topic(for adminstrator)</a></li>
+          </ul>
+        </li>-->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+          
+          <div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<section class="panel-title">
+                      <time class="pull-right">
+					  editor &nbsp;&nbsp;&nbsp;
+                      <i class="fa fa-calendar"></i> 2017-05-05
+                      </time>
+                      <section class="pull-left" id="id">
+                        <abbr title="count of posts in this topic">#1</abbr>&nbsp;&nbsp;&nbsp;
+						
+                      <i class="fa fa-edit "></i><a href="http://52.172.183.108:8080/km/discussionPost.jsp?postID=4#" onclick="openWindow(&#39;editMain&#39;,4);"> Edit Post </a>
+                      </section>
+					</section>
+				</div>
+				<section class="row panel-body">
+					<section class="col-md-12">
+                      <h4> <b>  The Case for Modular Mini-Refineries </b></h4>
+                      
+     Despite the generally poor returns from petroleum refinery investment, modular mini-refineries, from simple diesel production units to more sophisticated cracking refineries are increasingly becoming a flexible and cost-effective supply option for crude producers in remote regions. This is
+particularly where there is a need to adapt rapidly to meet local demand. Relatively low capital cost, speed and ease of construction are key advantages of a modular mini-refinery. Two 30,000 bpd1 units producing high octane unleaded gasoline, LPG, diesel, kerosene and fuel oil can be installed in
+an 18 month time window, with a budget of 200 million dollars. 
+                  </section>
+                  
+            <!--      <section id="user-description" class="col-md-3 ">
+                    	<section class="well">
+                    <div class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cricle"></i>MOHAMMAD SHARIFI<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#"><i class="fa fa-user"></i> See profile</a></li>
+                      <li><a href="#"><i class="fa fa-envelope"></i> Send PM</a></li>
+                      <li><a href="#"><i class="fa fa-code"></i>View all Articles</a></li>
+                      <li><a href="#"><i class="fa fa-th-list"></i>View all Posts</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#"><i class="fa fa-plus"></i>Add to contact List</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#"><i class="fa fa-cogs"></i> Manage User (for adminstrator)</a></li>
+                    </ul>
+       			 </div>
+                          <figure>
+                            <img class="img-rounded img-responsive" src="http://www.webdesignforums.net/img/wdf_avatar.jpg" alt="Mohammad Sharifi's avatar">
+                            <figcaption class="text-center">مدیر کل سایت <br><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half"></i> </figcaption>
+                          </figure>
+                          <dl class="dl-horizontal">
+                            <dt>joined date:</dt>
+                            <dd>15 September 2014</dd>
+                            <dt>Posts:</dt>
+                            <dd>785</dd>
+                            <dt>plus:</dt>
+                            <dd>+89</dd>
+                            <dt>like:</dt>
+                            <dd>150 like in 50 post</dd>
+						</dl>
+                    	</section>
+                  </section>-->
+                  
+				</section>
+			<!--	<div class="panel-footer">
+                  <div class="row">
+					<section class="col-md-9 ">
+                   <!--   <i class="fa fa-thumbs-up "></i><a href="#"> Thanks </a><1--| <i class="fa fa-warning "></i><a href="#"> Report </a>
+                    </section>
+
+                  	<section class="col-md-3">
+                     <!-- <span class="fa-stack">
+                          <i class="fa fa-quote-right fa-stack-1x"></i>
+                          <i class="fa fa-comment-o fa-lg fa-stack-1x"></i>
+					  </span><a href="#"> Reply With Quote </a> | 
+                      <i class="fa fa-mail-reply "></i><a href="#" onclick="openWindow('reply','4');"> Reply </a>|
+                      <i class="fa fa-edit "></i><a href="#" onclick="openWindow('editMain',4);"> Edit Post </a>
+                    </section>
+				</div>
+               </div>-->
+			</div>
+			
+			
+			
+			
+			<div class="row clearfix">
+		<div class="col-md-12 column">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<section class="panel-title">
+                      <section>
+					  
+					  </section>
+					  
+					  <time class="pull-right">
+					 editor &nbsp;&nbsp;&nbsp;
+                      <i class="fa fa-calendar"></i> 2017-05-05
+                      </time>
+                      <section class="pull-left" id="id">
+                        <abbr title="count of posts in this topic">#2 </abbr> &nbsp;&nbsp;&nbsp;
+					
+                      <i class="fa fa-edit "></i><a href="http://52.172.183.108:8080/km/discussionPost.jsp?postID=4#" onclick="openWindow(&#39;edit&#39;,&#39; 2&#39;);"> Edit Post </a>
+                      </section>
+					</section>
+				</div>
+				<section class="row panel-body">
+					<section class="col-md-12">
+                      
+                     
+                  Hi Bob,
+
+As a consequence of global economic trends, the majority of the new capacity is now
+coming on-stream in Asia and the Middle East, where demand growth is greatest. There are few viable green-field projects in Europe and North America, where demand is stagnant and the regulatory hurdles are numerous. In spite of this, changes in product slate combined with tighter specifications mean that many refineries in these regions are still required to invest in upgrading of their operations as a cost of staying in business.
+                  </section>
+                  
+           
+                  
+				</section>
+			<!--	<div class="panel-footer">
+                  <div class="row">
+					<section class="col-md-9 ">
+                  <!--    <i class="fa fa-thumbs-up "></i><a href="#"> Thanks </a>| <i class="fa fa-warning "></i><a href="#"> Report </a
+                    </section>
+
+                  	<section class="col-md-3">
+                   <!--   <span class="fa-stack">
+                          <i class="fa fa-quote-right fa-stack-1x"></i>
+                          <i class="fa fa-comment-o fa-lg fa-stack-1x"></i>
+					  </span><a href="#"> Reply With Quote </a> 
+                      <i class="fa fa-mail-reply "></i><a href="#" onclick="openWindow('reply','4');"> Reply </a>|
+                      <i class="fa fa-edit "></i><a href="#" onclick="openWindow('edit',' 2');"> Edit Post </a>
+                    </section>
+				</div>
+               </div> -->
+			</div>
+		</div>
+		
+		</div>
+		  
+		
+		
+		
+		
+	</div>
+          
+        
+          
+		</div></section>
+	</section>
+
+  
+  
+</div>
+</div>
+</div>
+        </div>
+       
+  
+                          
+                          
+        </div>
+    </div>
+    
+    
+    
+    </div>
+    <div class="col-sm-3 ">
+        <div class="payslip-card">
+        <div class="row_wrap">
+                    
+<!--<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>18</span>
+</p></li>
+<li class="members-count">
+<p>CONTRIBUTORS</p><p>
+<span>9</span>
+</p></li>
+</ul>
+</li> 
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">TOP CONTRIBUTORS</h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="#">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="#">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="#">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="#">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+
+<li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">NEW USERS </h3>
+<div class="hot-user-question">
+<ul>
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">Syed</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>975</span></span></li>
+<li><span class="number">2</span>
+<span class="username"><a href="#">Pushkar</a></span>
+<span class="points-count">
+<i class="fa fa-star"></i>
+<span>525</span>
+</span>
+</li>
+<li>
+<span class="number">3</span>
+<span class="username"><a href="#">Ravi</a></span>
+<span class="points-count"><i class="fa fa-star"></i><span>184</span></span></li>
+<li><span class="number">4</span>
+<span class="username"><a href="#">John</a></span><span class="points-count"><i class="fa fa-star"></i><span>156</span></span></li>
+<li><span class="number">5</span>
+<span class="username ">
+<a href="#">Smith </a></span><span class="points-count">
+<i class="fa fa-star"></i><span>46</span></span></li>
+</ul>
+</div>
+</li>
+</ul>-->
+	 
+
+
+<ul>
+<li class="widget widget-statistic">
+<ul>
+<li class="questions-count">
+<p>Knowledge Resources</p><p>
+<span>9</span>
+</p></li>
+<li class="members-count">
+<p>Contributors</p><p>
+  		
+<span>11</span>
+</p></li>
+</ul>
+</li> 
+<!--
+ <li class="widget user-widget" style="margin-top:-30px !important;">
+<h3 class="widgettitle">Top Contributors</h3>
+<div class="hot-user-question">
+
+<ul>
+  
+<li><span class="number">1</span>
+<span class="username ">
+<a href="#">content_developer</a></span>
+
+<span style="margin-left: -25%;">7</span></span></li>
+
+<li><span class="number">2</span>
+<span class="username ">
+<a href="#">Author</a></span>
+
+<span style="margin-left: -25%;">2</span></span></li>
+
+
+</ul>
+
+
+
+</div>
+</li>
+-->
+<li class="widget user-widget" >
+<h3 class="widgettitle">Categories</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker1" style="width: 130%; height: 120px; overflow: hidden;">
+  
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+<script src="./__ Knowledge Management ___files/jquery.js.download"></script>
+ <script src="./__ Knowledge Management ___files/jquery.newsTicker.js.download"></script>
+    <script>
+    	 var nt_example1 = $('#nticker1').newsTicker({
+                row_height: 60,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Rural Development</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Advisory Services</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Design</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Education</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Evaluation &amp; Assessment Studies</a></span>
+</li><li style="margin-top: 0px;"><span class="number">5</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Impact Studies</a></span>
+</li></ul>
+</div>
+</li>
+
+
+
+
+<li class="widget user-widget">
+<h3 class="widgettitle">Document Resources</h3>
+<div class="hot-user-question">
+		
+<ul id="nticker4" style="width: 130%; height: 180px; overflow: hidden;">
+  
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+    <script>
+    	 var nt_example1 = $('#nticker4').newsTicker({
+                row_height: 90,
+                max_rows: 2,
+                duration: 3000,
+                
+            });
+            
+        </script>
+
+
+
+<li style="margin-top: 0px;"><span class="number">7</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Diesel Refinery_</a></span>
+</li><li style="margin-top: 0px;"><span class="number">8</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Modular Refineries</a></span>
+</li><li style="margin-top: 0px;"><span class="number">9</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Administrative Structure</a></span>
+</li><li style="margin-top: 0px;"><span class="number">1</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Newgen-Solution-Brochure-BPM-ECM-CCM-Pharmaceutical</a></span>
+</li><li style="margin-top: 0px;"><span class="number">2</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Equipment Design and Cost Estimation</a></span>
+</li><li style="margin-top: 0px;"><span class="number">3</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">MOD Resolution Letter</a></span>
+</li><li style="margin-top: 0px;"><span class="number">4</span>
+<span class="username ">
+<a href="http://52.172.183.108:8080/km/#">Pollution</a></span>
+</li></ul>
+</div>
+</li>
+
+
+</ul>
+ 
+</div>
+        </div>
+    </div>
+    </div>
+
+ 
+      <!--end of 2nd form-->
+      <!--3nd form-->
+      
+      <!--end of 3nd form-->
+      <!--4nd form-->
+      
+      
+      <!--end of 4nd form-->
+  </div>
+</div>
+
+</body>
+</html>

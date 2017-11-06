@@ -1,0 +1,123 @@
+.payslip .payslip-card {background: #f7f7f7; margin: 20px 0 20px 0;padding: 20px 20px 20px 20px;border: 1px solid #cfcfcf;clear: both;}
+.payslip .sub_heads {font-size: 18px;margin-top: 0;border-bottom: 1px solid #e4e4e4;padding-bottom: 10px;color:#006e96;font-weight:600;margin: 0 0 20px;}
+.payslip .subtitle{margin: 10px 0;display: block;}
+.payslip .gap {margin-bottom: 10px;}
+.payslip table{font-size:14px;border:1px solid #e4e4e4;}
+.payslip .dma_application_filters {background: #f7f7f7;padding: 15px; border: 1px solid #cfcfcf;    margin: 20px 0 20px 0;}
+.payslip hr{margin:10px 0 10px 0;border-top:1px solid #cecece;}
+.search_icon {position: absolute;top: 10px;right: 20px;}
+
+.fL{float: left}
+.fR{float: right}
+table td a, table td a:hover {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+/***************Header Section*******************/
+
+.header {z-index: 12;    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);position: relative;}
+.top_bar {padding:6px 0 5px;}
+.clone .top_bar{border-bottom: none;}
+#top_nav, #top_nav_mobi { margin:0; padding:0; }
+#top_nav li, #top_nav_mobi li { float:left; list-style:none; border-left:1px solid #7fb133; border-right:1px solid #4c7e00; font-size:13px; }
+#top_nav li:first-child, #top_nav_mobi li:first-child { border-left:0; }
+#top_nav li:last-child, #top_nav_mobi li:last-child { border-right:0; }
+#top_nav li a, #top_nav_mobi li a { display:block; float:left; padding:4px 10px; color:#FFFFFF; text-decoration:none; text-shadow:1px 1px 0 #447100; }
+#top_nav li a:hover, #top_nav li a.active { color: #faf037; }
+.txt_call { display:block; float:left; padding:4px 10px 4px 0; color:#ffffff; }
+header.clone{position:fixed; top:-113px; left: 0; right: 0; z-index:999; transition:0.4s top cubic-bezier(.3,.73,.3,.74);}
+body.down header.clone { top:-34px;box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);}
+#top_rt_bar, #top_rt_bar_mobi { margin:0; padding:0; float:right; }
+
+.logo_bar {padding-top: 5px ;border-top: 1px solid #e5e5e5;}    
+.logo { float:left;}
+#main_nav { padding-right:0; }
+#main_nav ul { margin:0; padding: 0 0 0 46px; float:left;}
+#main_nav ul li { display:block; float:left;}
+#main_nav ul li a { display:block; padding:12px 14px; color:#ffffff; font-size:14px; text-decoration:none; background: none;    border-right: 1px solid #8f2400;}
+.nav li:first-child, .nav li:first-child {border-left: 0 !important;}
+#main_nav .ttz-dropdown {padding: 0;border-top: 3px solid #43cb83 !important;width: 770px;margin-top: 0;right: 0;height: 425px;overflow: hidden;left:initial;top: 42px !important;}
+#main_nav .dd-about {padding: 0;border-top: 3px solid #43cb83 !important;width: 770px;margin-top: 0;height: 155px;overflow: hidden;left:0;top: 42px !important;}
+.ttz-dropdownlst{float:left; width: 370px;margin:0 5px 0;}
+
+.ttz-dropdownblk{position:relative;}
+.login_btn{text-decoration: none !important;float: right;/*background: #ffd700 !important;*/color:#ffffff !important;margin: 8px 0 0 6px !important;padding: 3px 16px  !important;font-size: 14px;}
+.link_login { font-weight:bold; position: relative;}
+.link_login:after{float: left;content: "";background-position: -76px 0;width: 24px;height: 26px;position: absolute;right: 2px;top: 4px;}
+.associatelist:before{float: left;content: "";background-position: -136px -9px;width: 10px;height: 10px;position: absolute;left: -18px;top: 4px;}
+.nav>li>a:hover {background:none !important;color:#ffffff !important;transition: all 200ms;}
+.emblem{float: right;}
+.navbar-toggle { margin:7px 0 0 10px; padding:6px 5px; }
+.navbar-toggle .icon-bar { background-color:#888; }
+.navbar-toggle .icon-bar + .icon-bar { margin-top:5px; }
+.navbar-toggle:focus, .navbar-toggle:hover { background:#DDD; }
+#main_nav.navbar-collapse.collapse.in { float:none !important; padding:0; }
+#main_nav.navbar-collapse.collapse.in ul { float:none !important; clear:both; }
+#main_nav.navbar-collapse.collapse.in li { display:block; float:none; border-bottom:1px solid #e5e5e5; border-right:0 none; }
+
+.menu_header{background:#be3200;}
+.logo_header{background:#ffffff;padding: 20px;}
+.home_icon {
+    float: left;
+    position: absolute;
+    left:15px;
+    overflow: hidden;
+}
+.dropdown-menu{position:absolute;}
+.site_footer {
+    background: #0d2941;
+    padding: 15px;
+    font-size: 12px;
+    color: #868686;
+}
+
+
+
+#main_nav ul.dropdown-menu {
+    padding: 0;
+}
+#main_nav .dropdown-menu li {
+    color: #000;
+    list-style: none;
+    display: block;
+    float: none;
+    border: 0;
+}
+#main_nav .dropdown-menu li a {
+    color: #000;
+    border: 0;
+    border-bottom: 1px solid #8f2400;
+    text-align: center;
+    padding: 6px 0px;
+}
+.white_container{background-color:#fff; border:1px solid #ccc; padding-top:20px;}
+
+#dob .datepicker table tr th{border-radius:0 !important}
+.notification{    font-size: 14px;position:relative;text-decoration: none !important;float: right;color: #ffffff !important;margin: 8px 0 0 6px !important;padding: 3px 16px !important;border-radius: 3px;font-weight: 600;position: relative;}
+.bell_noti{color:#000000;background: #ffca23;height: 13px;width: 13px;display: block;text-align: center; border-radius: 8px;position: absolute;top: -3px;right: 10px;font-size: 10px;}
+.dropdown{height: 45px;    border-right: 1px solid #8f2400;}
+.no_bdr{border-right:none!important;}
+.mob_log{float:left; width:90%;}
+.mob_log img{margin: 10px 0;}
+.mob_menu{float:right}
+.mob_menu i{margin: 20px 0;color:#000000 !important; font-size:20px;}
+
+.dashboard_tab {font-size:14px !important;}
+.payslip .applybtn{text-decoration:none;color: #000;background: #ffca23;padding: 6px 16px;text-align: center;border-radius: 3px;font-weight: 400;margin: -5px 0;font-size: 14px;}
+.payslip .link{color:#be3200 !important;text-decoration:none;color: #000;padding: 6px 0;text-align: center;border-radius: 3px;font-weight: 400;margin: -5px 0;font-size: 14px;}
+.plist.card {margin: 25px;}
+#dob table{border:none !important;}
+.dash_card{padding:0 5px;}
+.pf_no{padding:8px 25px;}
+.leaves_seg{overflow:hidden; margin:0 0 15px 0;}
+.clr-000{font-size: 30px;color: #000;}
+.utility{overflow:hidden;margin: 15px 0;}
+.ul_bl{color:#4092b0;font-size: 16px;}
+.info_list p{margin:0 0 5px;}
+.info_list p label{width:120px;margin: 0 0 3px;}
+.ht_350{height:352px;}
+.sept_payslip{cursor:pointer;}
+
+@media (max-width:767px) {
+.menu_header {background: #ffffff;}
+}

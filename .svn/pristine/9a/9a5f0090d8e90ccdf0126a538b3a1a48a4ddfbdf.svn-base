@@ -1,0 +1,419 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--start of form Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Proforma Invoice (Hardware - Non DS/Storage, Software, Network - Non CJ)
+           <form class="form-inline pull-right hidden-xs hidden-sm">
+                <a href="javascript:;" title="Cancel" class="applybtn">Print Preview</a>
+                <a href="javascript:;" title="Save" class="applybtn">Save</a>
+                <a ng-click="fuSubmit()" title="Apply" class="applybtn">Apply</a>
+
+            </form>
+          </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request No </label>
+                  <label class="col-sm-4 control-label"><strong>82056</strong> </label>
+
+                  <label class="col-sm-2 control-label">Type </label>
+                  <label class="col-sm-4 control-label"><strong>Hardware</strong> </label>
+                    
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Number </label>
+                  <label class="col-sm-4 control-label"><strong>82056-70847-DRAFT-HW</strong> </label>
+
+                  <label class="col-sm-2 control-label">Status </label>
+                  <label class="col-sm-4 control-label"><strong>DRAFT</strong> </label>
+                    
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Coordinator </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Email </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Request Summary </label>
+                  <div class="col-sm-4">
+                    <textarea class="form-control input-sm"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Items Not Available </label>
+                  <div class="col-sm-4">
+                    <input type="checkbox" class="input-sm">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Items Unavailability Remarks </label>
+                  <div class="col-sm-4">
+                    <textarea class="form-control input-sm" readonly="readonly"></textarea>
+                  </div>
+
+                  <label class="col-sm-2 control-label">PI Validity Date </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Project Number </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Project Name </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Project Manager </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">PM Contact </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">MOU/FTS Reference Number </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Customer Site </label>
+                  <div class="col-sm-4">
+                    <textarea class="form-control input-sm" readonly="readonly">New Delhi, Delhi.</textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Dispatch Charges </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly">
+                  </div>
+
+                  <label class="col-sm-2 control-label"> </label>
+                  <div class="col-sm-4">
+                    
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Date </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" value="25-Oct-2017">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Request Date </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="25-Oct-2017">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Requester Name </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Request Email </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Requester Number </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Requester Address </label>
+                  <div class="col-sm-4">
+                    <textarea class="form-control input-sm" readonly="readonly">New Delhi</textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Alternate Contact Person </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+
+                  <label class="col-sm-2 control-label">Alternate Email </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" readonly="readonly" value="">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-sm-12 text-center">
+                  <form class="form-inline pull-right hidden-xs hidden-sm">
+                    <a href="javascript:;" title="Print Preview" class="btn btn-primary whiteTxt guppercase filterbtn">Print Preview</a>
+                  </form>
+                  </div>
+                </div>
+
+
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Details form -->
+   
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Item Configuration </h5>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Search Type</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value="1" selected="selected">Item Configuration</option>
+                        <option value="2">Proforma Invoice</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Item List</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value="01" selected="selected">Hardware Items</option>
+                        <option value="02">Hardware Peripherals</option>
+                        <option value="04">Power/UPS Equipments</option>
+                        <option value="20">GPS/ETS/Scanner</option>
+                    </select>
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Category List</div>
+                <div class="col-md-4 col-xs-7 gap">
+                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                        <option>-- Select --</option>
+                        <option value=""></option>
+                        <option value="001">Desktops/Clients</option>
+                        <option value="002">Laptops &amp; Mini/Ultra-Protable Note-books</option>
+                        <option value="003" selected="selected">Servers</option>
+                        <option value="004">Storage/SAN Items</option>
+                        <option value="005">Thin Clients</option>
+                        <option value="006">Tablets</option>
+                        <option value="007">High-end Rack/Blade Servers</option>
+                        <option value="008">Kiosks</option>
+                        <option value="009">Teaching Aid Equipments</option>
+                        <option value="010">Digital Signature</option>
+                        <option value="011">ATM Machines</option>
+                        <option value="012">Wi-Fi (Category A)</option>
+                        <option value="013">Wi-Fi (Category B)</option>
+                        <option value="014">Wi-Fi (Category C)</option>
+                        <option value="015">Wi-Fi (Category D)</option>
+                        <option value="050">Storage/SAN Items-NIC</option>
+                        <option value="097">Rack/KVM Switch</option>
+                        <option value="099">Miscellaneous Items</option>
+                        <option value="100">IRIS Devices</option>
+                    </select>
+                </div>
+                <div class="col-md-2 col-xs-5 gap">Sub-Category List</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" readonly value="(TECHNICAL (I): PEDESTAL SERVER-2P)" >
+                </div>
+        </div>
+        <div class="row">
+                <div class="col-md-2 col-xs-5 gap">Part Number</div>
+                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="7" ></div>
+                <div class="col-md-2 col-xs-5 gap">Search On Description</div>
+                <div class="col-md-4 col-xs-7 gap"> 
+                    <input type="text" class="form-control input-sm" value="" >
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-5 gap text-right mg-tp">
+                <a href="javascript:;" title="Cancel" class="applybtn"> Go</a>
+            </div>
+        </div>
+        <div class="form-inline gap mg-tp">
+                  <div class="form-group">
+                    <label>Search</label>
+                    <input type="text" class="form-control input-sm" value="" >
+                  </div>
+                  <div class="form-group">
+                    <label>Display</label>
+                    <select class="form-control input-sm">
+                      <option value="All Notifications">13</option>
+                    </select>
+                    <a href="javascript:;" class="applybtn">Go</a>
+                    <a href="javascript:;" class="applybtn">Reset</a>
+                  </div>
+                </div>
+      </div>
+    </div>
+      
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Item List  
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Add" class="applybtn"> Add Item</a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th><input type="checkbox" class="input-sm" value="0" /></th>
+                      <th>Item Description</th>
+                      <th>Price Type</th>
+                      <th>Item Code</th>
+                      <th>Unit Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><input type="checkbox" class="input-sm" value="0" /></td>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>01.003.00003.0001001.0000 </td>
+                      <td>24051</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" class="input-sm" value="0" /></td>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>01.003.00003.0001001.0000 </td>
+                      <td>24051</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" class="input-sm" value="0" /></td>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>01.003.00003.0001001.0000 </td>
+                      <td>24051</td>
+                    </tr>
+                    <tr>
+                      <td><input type="checkbox" class="input-sm" value="0" /></td>
+                      <td>SAS Hard Disk, 600GB, 10 K rpm</td>
+                      <td>Exclusive Tax</td>
+                      <td>01.003.00003.0001001.0000 </td>
+                      <td>24051</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Proforma Invoice Line Details  
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Recalculate" class="applybtn"> Recalculate</a>
+                            <a href="javascript:;" title="Delete" class="applybtn"> Delete</a>
+            </form>        
+        </h5>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table tender-tba table-bordered table-condensed1">
+                  <thead>
+                    <tr>
+                      <th>S No</th>
+                      <th>Item Description</th>
+                      <th>Quantity <br>A</th>
+                      <th>Unit Price  <br>(Incl.OM)B</th>
+                      <th>Total Price <br>C(A*B)</th>
+                      <th>Inst.Price<br>(Incl.OM)D</th>
+                      <th>Supp.Price<br>(Incl.OM)E</th>
+                      <th>SGST(%)Amount <br>F</th>
+                      <th>CGST(%) Amount <br>G</th>
+                      <th>IGST(%) Amount <br>H</th>
+                      <th>Total GST Tax</th>
+                      <th>Total</th>
+                      <th>Vendors</th>
+                      <th>Delete <input type="checkbox" class="input-sm" value="0" /></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="text-center">1</td>
+                      <td>4(TECHNICAL (I): PEDESTAL SERVER-2P)...</td>
+                      <td><input type="text" class="form-control input-sm" value="1" /></td>
+                      <td>2,60,201.53</td>
+                      <td>2,60,201.53</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>23418.14(9%)</td>
+                      <td>23418.14(9%)</td>
+                      <td>0(0%)</td>
+                      <td>46836.28</td>
+                      <td>3,07,037.81</td>
+                      <td>Dell India P Ltd...</td>
+                      <td><input type="checkbox" class="input-sm" value="0" /></td>
+                    </tr>
+                    <tr>
+                      <td class="text-center"><strong>Total</strong></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><strong>2,60,201.53</strong></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td><strong>46836.28</strong></td>
+                      <td><strong>3,07,037.81</strong></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+            </div>
+                <div class="col-md-12">
+                    <form class="form-inline pull-right hidden-xs hidden-sm">
+                            <a href="javascript:;" title="Recalculate" class="applybtn"> Recalculate</a>
+                            <a href="javascript:;" title="Delete" class="applybtn"> Delete</a>
+                    </form> 
+                </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--start of form-->      
+<!--    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Cancel" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>
+                                <a href="javascript:;" target="_blank" title="Save" class="btn btn-primary whiteTxt guppercase filterbtn" > Save For Later</a>
+                                <a ui-sref="leave-review" title="Next" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>
+                            </form>
+        </div>
+    </div>-->
+  </div>
+</div>
+</body>
+</html>

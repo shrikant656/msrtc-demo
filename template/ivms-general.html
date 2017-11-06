@@ -1,0 +1,959 @@
+<div class="container">
+  <div class="payslip">
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Vehicle Commisioning
+            <form class="form-inline pull-right hidden-xs hidden-sm" style="display:none;">
+                            <a href="javascript:;" title="Cancel" class="applybtn"> Cancel</a>
+                            <a href="javascript:;" target="_blank" title="Save" class="applybtn" > Save For Later</a>
+                            <a ui-sref="leave-review" title="Next" class="applybtn" > Next</a>
+            </form>
+        </h5>
+        <div class="row">
+            <form class="form-horizontal">
+            <div class="col-sm-12">                
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Vehicle Commisioning </label>
+                    <div class="col-sm-3">
+                      <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                            <option>-- Select --</option>
+                                <option value="">Ordinary</option>
+                                <option value="">Parivartan</option>
+                                <option value="">Asiad</option>
+                                <option value="">Shivneri</option>
+                                <option value="">Sheetal</option>
+                                <option value="">City Bus</option>
+                      </select>
+                    </div>
+                  </div>
+                
+            </div>
+            </form>
+        </div>
+      </div>
+    </div>
+      <!--start of form-->
+
+      <div class="payslip-card">
+      <div class="row_wrap">
+          
+          <div ng-controller="tabController as tabCntrl">
+            <div class="ent-tabs tab-2">             
+              <span ng-class="{active:tabCntrl.isSelected(1)}" ng-click="tabCntrl.selectedTab(1)">General</span>
+              <span ng-class="{active:tabCntrl.isSelected(2)}" ng-click="tabCntrl.selectedTab(2)">Statutory Compliance</span>
+              <span ng-class="{active:tabCntrl.isSelected(3)}" ng-click="tabCntrl.selectedTab(3)">Purchase</span>
+              <span ng-class="{active:tabCntrl.isSelected(4)}" ng-click="tabCntrl.selectedTab(4)">General Expenses</span>
+              <span ng-class="{active:tabCntrl.isSelected(5)}" ng-click="tabCntrl.selectedTab(5)">Tyre History</span>
+              <span ng-class="{active:tabCntrl.isSelected(6)}" ng-click="tabCntrl.selectedTab(6)">Loan Lease Details</span>
+              <span ng-class="{active:tabCntrl.isSelected(7)}" ng-click="tabCntrl.selectedTab(7)">Photo</span>
+              <span ng-class="{active:tabCntrl.isSelected(8)}" ng-click="tabCntrl.selectedTab(8)">Maintenence</span>
+              <span ng-class="{active:tabCntrl.isSelected(9)}" ng-click="tabCntrl.selectedTab(9)">Fuel Statistics</span>
+              <span ng-class="{active:tabCntrl.isSelected(10)}" ng-click="tabCntrl.selectedTab(10)">Incidents</span>
+              <span ng-class="{active:tabCntrl.isSelected(11)}" ng-click="tabCntrl.selectedTab(11)">Assignments</span>
+              <span ng-class="{active:tabCntrl.isSelected(12)}" ng-click="tabCntrl.selectedTab(12)">Notes</span>
+            </div>
+          
+          
+          
+          
+                <div class="ent-tab-content">
+                  <div ng-show="tabCntrl.isSelected(1)">
+                            <h5 class="sub_heads">Vehicle Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle No</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Engine No </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Category</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Low Floor</option>
+                                                    <option value="">Standard</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Chassis No </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Standard</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Base 1</option>
+                                                    <option value="">Base 2</option>
+                                                    <option value="">Base 3</option>
+                                                    <option value="">Base 4</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Odometer Reading </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Service Type</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">AC</option>
+                                                    <option value="">Non AC</option>
+                                                    <option value="">Volvo</option>
+                                                    <option value="">Cluster</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Accumulative KMs </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">OEM</div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Tata</option>
+                                                    <option value="">Mahindra</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Commencing Date </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Model</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Zone Name </div>
+                                <div class="col-md-4 col-xs-7 gap">                
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                <option>-- Select Zone --</option>
+                                                    <option value="">Bhatinda</option>
+                                                    <option value="">Ludhiana</option>
+                                                    <option value="">Patiala</option>
+                                                    <option value="">Sirsa</option>
+                                                    <option value="">Gurugram</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Year</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Fuel Type</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Petrol</option>
+                                                    <option value="">Diesel</option>
+                                                    <option value="">CNG</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Status </div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">Active</option>
+                                                    <option value="">Inactive</option>
+
+                                    </select>                
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Bus Information</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Seating Capacity</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Standing Capacity </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Laden Weight(kg)</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Unladen Weight(kg) </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                  </div><!--end of 1st tab-->
+                  <div ng-show="tabCntrl.isSelected(2)">
+                            <h5 class="sub_heads">Statutory Compliance</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Permit No</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Permit Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">National Permit No</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Permit Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">RC No</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">RC Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">PUCC No</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">PUCC Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Fitness Certificate</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Fitness Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">CNG Leakage Certificate</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">CNG Leakage Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Road Tax No</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Road Tax Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Inspection Certificate No</div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Inspection Certificate Valid Upto </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm datepickers" value="" ></div>
+                            </div>
+                            
+                            <h5 class="sub_heads mg-tp">Upload Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload Permit Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload Permit Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload RC</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload PUCC Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload Fitness Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload CNG Leakage Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload Road Tax Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Upload Inspection Certificate</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                
+                                </div>
+                            </div>
+                            
+                            
+                            
+                            
+                            <h5 class="sub_heads mg-tp">Insurance Details</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Insurance Company</div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                    <option value="">IDFC</option>
+                                                    <option value="">ICICI Lombard</option>
+                                                    <option value="">Bajaj Finance</option>
+                                                    <option value="">SBI General Insurance</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">Insurance Policy No </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Term Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Insurance Premium </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Depriciation</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Insurance Document </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                  </div><!--end of 2st tab-->
+                  <div ng-show="tabCntrl.isSelected(3)">
+                            <h5 class="sub_heads">Purchase</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Purchase Date</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm datepickers" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Dealer </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Total Cost</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Description </div>
+                                <div class="col-md-4 col-xs-7 gap"><input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Vehicle Purchase Description</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 3st tab--> 
+                  <div ng-show="tabCntrl.isSelected(4)">
+                            <h5 class="sub_heads">General Expenses</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Yearly Registration Fees</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Monthly Insurance Premium</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Yearly Taxes</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 4th tab--> 
+                  <div ng-show="tabCntrl.isSelected(5)">
+                            <h5 class="sub_heads">Tyre Information</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Front Left</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Front Right</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Rear Left Inner</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Rear Right Inner</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Rear Left Outer</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                                <div class="col-md-2 col-xs-5 gap">Rear Right Outer</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="JK12345678" ></div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Tyre History</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Tyre Number</th>
+                                          <th>Tyre Brand</th>
+                                          <th>Current Position</th>
+                                          <th>Operation Date</th>
+                                          <th>Operation</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>JK-RAD-6878</td>
+                                          <td>JK Tyre</td>
+                                          <td>Front Left</td>
+                                          <td>2017-04-10</td>
+                                          <td>ADD</td>
+                                        </tr>
+                                        <tr>
+                                          <td>JK-68-89768</td>
+                                          <td>JK Tyre</td>
+                                          <td>Front Right</td>
+                                          <td>2017-04-10</td>
+                                          <td>ADD</td>
+                                        </tr>
+                                        <tr>
+                                          <td>JK-RAD-6878</td>
+                                          <td>JK Tyre</td>
+                                          <td>Front Left Inner</td>
+                                          <td>2017-04-10</td>
+                                          <td>RESUFFLE</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 5th tab--> 
+                  <div ng-show="tabCntrl.isSelected(6)">
+                            <h5 class="sub_heads">Loan Information</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Total Loan</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Equated Monthly Installment (EMI)</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            
+                  </div><!--end of 6th tab-->
+                  <div ng-show="tabCntrl.isSelected(7)">
+                            <h5 class="sub_heads">Outside Images</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Front Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Right Side Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Left Side Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Black Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Internal Images</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Seating Capacity Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Driver Seat Image</div>
+                                <div class="col-md-6 col-xs-7 gap"> 
+                                    <div class="form-group">
+                                        <div class="filevalblk">
+                                            <div class="browseblk fL">
+                                                <label class="btn btn-filecolor btn-file btn-lightgreen" >
+                                                    <i class="fa fa-folder-open-o"></i>
+                                                    <input type="file" name="proReport" ng-model="proReport" valid-file class="inptfile" required id="fileIDProof" style="display: none;" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf">
+                                                </label>
+                                                <p class="filevalblk-wrapper"><span class="fileval truncate fL"></span><span class="removefileval fL">?</span></p>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen uploadbtn fL">
+                                                <i class="fa fa-upload"></i>
+                                            </div>
+                                            <div class="btn btn-filecolor btn-file uploadblk btn-lightgreen viewbtn fL" >
+                                                <i class="fa fa-eye"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 7th tab-->
+                  <div ng-show="tabCntrl.isSelected(8)">
+                            <h5 class="sub_heads">Add Maintenence Incident</h5>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">PM ID</div>
+                                <div class="col-md-4 col-xs-7 gap">
+                                    <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                           <option>-- Select --</option>
+                                            <option value="2050">Eng Oil & Filter</option>
+                                            <option value="2053">Battery</option>
+                                            <option value="2047">Chasis</option>
+                                            <option value="2051">Hinges & Latches</option>
+                                            <option value="2039" >CNG Laak</option>
+                                            <option value="2048">Tyre Quality</option>
+                                            <option value="2052">Brake Perform</option>
+                                            <option value="2040">Clutch Perform</option>
+                                            <option value="2041">Gear Box Perform</option>
+                                            <option value="2038">Anti Rust</option>
+                                            <option value="2042">PM 11</option>
+                                            <option value="2042">PM 12</option>
+                                            <option value="2042">PM 13</option>
+                                            <option value="2042">PM 14</option>
+                                            <option value="2042">PM 15</option>
+                                            <option value="2042">PM 24</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-2 col-xs-5 gap">PM Task</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">PM Mileage</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">PM Alert on Mileage</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">PM Days</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                                <div class="col-md-2 col-xs-5 gap">PM Alert on Days</div>
+                                <div class="col-md-4 col-xs-7 gap"> <input type="text" class="form-control input-sm" value="" ></div>
+                            </div>
+                            <h5 class="sub_heads mg-tp">Maintenence History</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>PM ID</th>
+                                          <th>PM Task</th>
+                                          <th>PM Mileage</th>
+                                          <th>PM Alert on Mileage</th>
+                                          <th>PM Days</th>
+                                          <th>PM Alert on Days</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>CNG Leak</td>
+                                          <td>CNG Leak Test</td>
+                                          <td>5000.00</td>
+                                          <td>90</td>
+                                          <td>4000.00</td>
+                                          <td>75</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Hinges & Latches</td>
+                                          <td>Lube Hinges & Latches</td>
+                                          <td>5000.00</td>
+                                          <td>90</td>
+                                          <td>4000.00</td>
+                                          <td>75</td>
+                                        </tr>
+                                        <tr>
+                                          <td>Break Perfromance</td>
+                                          <td>Break Perfromance Test</td>
+                                          <td>5000.00</td>
+                                          <td>90</td>
+                                          <td>4000.00</td>
+                                          <td>75</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 8th tab-->
+                  <div ng-show="tabCntrl.isSelected(9)">
+                            <h5 class="sub_heads">Fuel Statistics</h5>                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Fuel Fill Date</th>
+                                          <th>Vehicle Mileage</th>
+                                          <th>Last Fill Liters</th>
+                                          <th>Liters Consumed</th>
+                                          <th>Vehicle Average</th>
+                                          <th>No of Liters</th>
+                                          <th>Price Per Liters</th>
+                                          <th>Total Cost</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>2017-04-10</td>
+                                          <td>6789</td>
+                                          <td>56.00</td>
+                                          <td>700.00</td>
+                                          <td>13.00</td>
+                                          <td>45.00</td>
+                                          <td>500.00</td>
+                                          <td>22500.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2017-04-9</td>
+                                          <td>6789</td>
+                                          <td>56.00</td>
+                                          <td>700.00</td>
+                                          <td>13.00</td>
+                                          <td>100.00</td>
+                                          <td>60.00</td>
+                                          <td>6000.00</td>
+                                        </tr>
+                                        <tr>
+                                          <td>2017-04-8</td>
+                                          <td>6789</td>
+                                          <td>56.00</td>
+                                          <td>700.00</td>
+                                          <td>13.00</td>
+                                          <td>45.00</td>
+                                          <td>500.00</td>
+                                          <td>22500.00</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 9th tab-->
+                  <div ng-show="tabCntrl.isSelected(10)">
+                            <h5 class="sub_heads">Incidents</h5>                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Vehicle No</th>
+                                          <th>Incident Type</th>
+                                          <th>Incident Place</th>
+                                          <th>Incident Reason</th>
+                                          <th>Incident Date</th>
+                                          <th>Incident Time</th>
+                                          <th>Route Name</th>
+                                          <th>Driver Name</th>
+                                          <th>Parts Damage</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>PB32BN8769</td>
+                                          <td>Breakdown</td>
+                                          <td>Maharashtra</td>
+                                          <td>Flat Tyre</td>
+                                          <td>2017-07-03</td>
+                                          <td>12:12:12</td>
+                                          <td>Test </td>
+                                          <td>Rohit</td>
+                                          <td></td>
+                                        </tr>                                        
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 10th tab-->
+                  <div ng-show="tabCntrl.isSelected(11)">
+                            <h5 class="sub_heads">Assignments</h5>                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table class="table table-bordered table-condensed1">
+                                      <thead>
+                                        <tr>
+                                          <th>Vehicle No</th>
+                                          <th>Incident Type</th>
+                                          <th>Incident Place</th>
+                                          <th>Incident Reason</th>
+                                          <th>Incident Date</th>
+                                          <th>Incident Time</th>
+                                          <th>Route Name</th>
+                                          <th>Driver Name</th>
+                                          <th>Parts Damage</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td>PB32BN8769</td>
+                                          <td>Breakdown</td>
+                                          <td>Maharashtra</td>
+                                          <td>Flat Tyre</td>
+                                          <td>2017-07-03</td>
+                                          <td>12:12:12</td>
+                                          <td>Test </td>
+                                          <td>Rohit</td>
+                                          <td></td>
+                                        </tr>                                        
+                                      </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            
+                  </div><!--end of 11th tab-->
+                  <div ng-show="tabCntrl.isSelected(12)">
+                            <h5 class="sub_heads">Assignments</h5>                            
+                                <div class="row">
+                                    <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                    <div class="col-md-4 col-xs-7 gap"> 
+                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                    </div>                                
+                                </div>                            
+                  </div><!--end of 12th tab-->
+                </div><!--end of tabwrap-->
+          </div> <!--end of controller-->
+      </div>
+    </div>
+       <!--start of comments-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Comments</h5>
+                            <div class="row">
+                                <form class="form-horizontal">
+                                    <div class="col-sm-12">                
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Status </label>
+                                            <div class="col-sm-3">
+                                              <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                                                        <option value="">Approved</option>
+                                                        <option value="">Rejected</option>
+                                              </select>
+                                            </div>
+                                          </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2 col-xs-5 gap">Remarks</div>
+                                <div class="col-md-4 col-xs-7 gap"> 
+                                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                                </div>                                
+                            </div>
+      </div>
+    </div>
+      
+      <!--end of form-->
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right mg-bt">
+                                <!--<a href="javascript:;" title="Cancel" class="btn btn-primary whiteTxt guppercase filterbtn"> Cancel</a>-->
+                                <a ui-sref="inventory-management" title="Add" class="btn btn-primary whiteTxt guppercase filterbtn" > Add</a>
+                                <!--<a ui-sref="" title="Next" class="btn btn-primary whiteTxt guppercase filterbtn" > Next</a>-->
+                            </form>
+        </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

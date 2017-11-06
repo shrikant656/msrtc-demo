@@ -1,0 +1,122 @@
+<div class="container">
+  <div class="payslip">
+      <!--start of form-->
+      
+      <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Employee Resignation Form</h5>
+        <div class="row">
+          <form class="form-horizontal">
+            <div class="col-sm-12">
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Status  </label>
+                <label class="col-sm-4 control-label">Confirmed  </label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Leaving Reason </label>
+                <div class="col-sm-4">
+                  <select name="absenceTyp" id="absenceTyp" class="form-control input-sm">
+                    <option>-- Select --</option>
+                    <option value="Deputation">Deputation</option>
+                    <option value="Employee Transfer">Employee Transfer</option>
+                    <option value="Lien">Lien</option>
+                    <option value="Resignation">Resignation</option>
+                    <option value="Retirement">Retirement</option>
+                    <option value="Superannuation">Superannuation</option>
+                    <option value="Termination">Termination</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee Name  </label>
+                <label class="col-sm-4 control-label">Mr. Rohit Sangare</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Date of Resignation</label>
+                <label class="col-sm-4 control-label">24-OCT-17</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Emp No</label>
+                <label class="col-sm-4 control-label">LC002</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Expected Date of Relieving</label>
+                <label class="col-sm-4 control-label"></label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee Notice Period</label>
+                <label class="col-sm-4 control-label"></label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Grade</label>
+                <label class="col-sm-4 control-label">W5</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Employee Self Projected Date of Relieving</label>
+                <div class="col-sm-4">
+                  <input type="text" class="form-control input-sm datepickers" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Designation</label>
+                <label class="col-sm-4 control-label">Bus Manager</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">EL Balance</label>
+                <label class="col-sm-4 control-label">74</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">HPL Balance</label>
+                <label class="col-sm-4 control-label">4</label>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-4 control-label">Comment</label>
+                <div class="col-sm-4"><textarea class="form-control" rows="5" id="comment"></textarea></div>
+              </div>
+
+            </div>            
+            <div class="col-sm-12 gap text-right">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <a href="javascript:;" title="Submit" class="applybtn">Submit</a>
+                    <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+                </div>              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of form-->
+      <!--start of comments-->
+    <div class="payslip-card">
+      <div class="row_wrap">
+        <h5 class="sub_heads">Approval Comments</h5>
+        <div class="row">
+            <div class="col-md-12 gap">
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+        </div>
+      </div>
+    </div>
+      
+      <!--end of comments-->
+    <div class="row" style="display:none;">
+        <div class="col-sm-12 col-xs-12">
+                            <form class="form-inline pull-right mg-bt">
+                                <a href="javascript:;" title="Cancel" class="applybtn"> Cancel</a>
+                                <a href="javascript:;" target="_blank" title="Save" class="applybtn" > Save For Later</a>
+                                <a ui-sref="leave-review" title="Next" class="applybtn" > Next</a>
+                            </form>
+        </div>
+    </div>
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

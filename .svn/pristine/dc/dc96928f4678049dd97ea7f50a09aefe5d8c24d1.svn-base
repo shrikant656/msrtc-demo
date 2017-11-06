@@ -1,0 +1,158 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--3nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">Tenders 
+                                  <form class="form-inline pull-right">
+                                        <a ui-sref="tender" title="Add Tender" class="applybtn" > Add Tender</a>
+                                    </form>
+                              </h5>  
+                                <div class="col-sm-12 col-xs-12 dma_application_filters">
+                                <form class="form-inline pull-left">
+                                                      <div class="form-group dtpkr">
+                                                        <input type="text" class="form-control" id="dob" placeholder="Tender No">
+                                                        <span class="gail-sprite dob-img"></span>
+                                                      </div>
+                                                      <div class="form-group">
+                                                        <select class="form-control">
+                                                                <option value="" selected="" disabled="">Tender Type</option>
+                                                                <option>Open</option>
+                                                                <option>Limited</option>
+                                                                <option>Agreement</option>
+                                                        </select>
+                                                      </div>
+                                                      <a href="javascript:;" title="Filter" class="btn btn-primary whiteTxt guppercase filterbtn"><i class="fa fa-filter"></i></a>
+                                                </form>
+                                                <form class="form-inline pull-right">
+                                                    <div class="form-group adminsrchblk">
+                                                        <input name="searchKeyword" placeholder="search" id="searchKeyword" type="text" class="form-control"><i class="fa fa-search search_icon"></i>
+                                                    </div>
+                                                </form>
+                                </div>
+
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Tender No</th>
+                                            <th>Description</th>
+                                            <th>Valid From</th>
+                                            <th>Valid Upto</th>
+                                            <th>Tender Type</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/47</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Open</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/48</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Limted</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/49</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Agreement</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/47</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Open</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/48</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Limted</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/49</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Agreement</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/47</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Open</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/48</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Limted</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/49</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Agreement</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/47</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Open</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/48</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Limted</td>
+                                          </tr>
+                                          <tr>
+                                            <td>MSRTC/LOCAL AREA NETWORK/2015/49</td>
+                                            <td>Open tender for Empanelment of vendors for Supply.</td>
+                                            <td>2016-12-01</td>
+                                            <td>2018-11-30</td>
+                                            <td>Agreement</td>
+                                          </tr>
+                                          
+                                        </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+            <ul class="pagination pull-left">
+                                      <li class="active"><a href="javascript:void(0)">1</a></li>
+                                      <li ><a href="javascript:void(0)">2</a></li>
+                                      <li><a href="javascript:void(0)">3</a></li>
+                                      <li><a href="javascript:void(0)">4</a></li>
+                                      <li><a href="javascript:void(0)">5</a></li>
+                                    </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                <form class="form-inline pull-right mg-bt">
+                            <a ui-sref="tender" title="Add Tender" class="applybtn" > Add Tender</a>
+                </form>
+        </div>
+    </div>
+      <!--end of 3nd form-->
+  </div>
+</div>
+
+</body>
+</html>

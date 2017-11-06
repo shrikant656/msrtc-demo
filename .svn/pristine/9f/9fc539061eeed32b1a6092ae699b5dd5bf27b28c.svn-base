@@ -1,0 +1,177 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--start of form Tender Details-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+          <h5 class="sub_heads">Proforma Invoice Dashboard
+            <form class="form-inline pull-right hidden-xs hidden-sm">
+              <a href="javascript:;" title="Save" class="applybtn">Save</a>
+              <a href="javascript:;" title="Clear" class="applybtn">Clear</a>
+              <a href="javascript:;" title="Clear" class="applybtn">Go Back</a>
+              
+            </form>
+          </h5>
+          
+          <div class="row">
+            <form class="form-horizontal">
+              <div class="col-sm-12">
+                <div class="form-group">
+                <div class="control-label">
+                <div class="col-sm-4">
+                  <input id="P117_EMPANELLMENT_SEL_0" name="p_t02" value="1" checked="checked" type="radio">
+                  <label for="P117_EMPANELLMENT_SEL_0">Count</label>
+
+                  <input id="P117_EMPANELLMENT_SEL_1" name="p_t02" value="2" type="radio">
+                  <label for="P117_EMPANELLMENT_SEL_1">Details</label>
+
+                </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">Financial Year </label>
+                  <div class="col-sm-4">
+                    <select class="form-control input-sm">
+                    <option value="201718" selected="selected">2017-2018</option>
+                    <option value="201617">2016-2017</option>
+                    <option value="201415">2014-2015</option>
+                    <option value="201516">2015-2016</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Month </label>
+                  <div class="col-sm-4">
+                    <select class="form-control input-sm">
+                    <option value="">-Select-</option>
+                    <option value="4">APR-17</option>
+                    <option value="5">MAY-17</option>
+                    <option value="6">JUN-17</option>
+                    <option value="7">JUL-17</option>
+                    <option value="8">AUG-17</option>
+                    <option value="9">SEP-17</option>
+                    <option value="10" selected="selected">OCT-17</option>
+                    <option value="11">NOV-17</option>
+                    <option value="12">DEC-17</option>
+                    <option value="1">JAN-18</option>
+                    <option value="2">FEB-18</option>
+                    <option value="3">MAR-18</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label class="col-sm-2 control-label">PI Status   </label>
+                  <div class="col-sm-4">
+                    <select class="form-control input-sm">
+                    <option value="5">PI Request Drafted</option>
+                    <option value="1" selected="selected">SR_To_be_Accepted/Ask_for_Clarification</option>
+                    <option value="7">SR_Accepted</option>
+                    <option value="2">SR_Sent for Clarification</option>
+                    <option value="8">PI in Draft Mode</option>
+                    <option value="9">PI Submitted for Approval</option>
+                    <option value="12">PI is Cancelled</option>
+                    <option value="3.1">PI Submitted</option>
+                    <option value="3">PI Dispatch Pending</option>
+                    <option value="4">Dispatched to Customer</option>
+                    <option value="6">Not Send to Co-Ordinator</option>
+                    </select>
+                  </div>
+
+                  <label class="col-sm-2 control-label">Customer Name  </label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control input-sm" id='leavedate'>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                
+                <div class="col-sm-12 text-center">
+                  <a href="javascript:;" class="btn btn-primary">Search</a>
+                </div>
+              </div>
+
+
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div> 
+      </div>
+      <!--end of Tender Details form -->
+
+          
+      <div class="payslip-card">
+      <div class="row_wrap">
+
+      <h5 class="sub_heads">Proforma Invoice Dashboard List
+      <form class="form-inline pull-right hidden-xs hidden-sm">
+        <span class="fr">
+        <input type="text" class="form-control input-sm" id='leavedate'> &nbsp;&nbsp; 
+        <a href="javascript:;" title="Go" class="applybtn">Go</a>
+        <a href="javascript:;" title="Actions" class="applybtn">Actions</a>
+        </span>
+      </form>
+      </h5>
+
+            <div class="row">
+                          <div class="col-md-12">
+                            <table class="table tender-tba table-bordered table-condensed1">
+                            <thead>
+                              <tr>
+                                <th>S No.</th>
+                                <th>SR No.</th>
+                                <th>PI Type</th>
+                                <th>Request Date</th>
+                                <th>Customer Name</th>
+                                <th>SR Remarks</th>
+                                <th>Cancel Remarks</th>
+                                <th>Priority</th>
+                                <th>Requester Email</th>
+                                <th>Phone</th>
+                                <th>SR Uploaded</th>
+                                <th>PI Request</th>
+                                <th>Prepared PI Docs</th>
+                                <th>PI No.</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>82056</td>
+                                <td>Spare Part</td>
+                                <td>25-Oct-2017</td>
+                                <td>MSRTC, Ahmedabad, Gujarat 382445</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Normal</td>
+                                <td>asm-rtp@MSRTC.in</td>
+                                <td>-</td>
+                                <td>0</td>
+                                <td><a ui-sref="update-proforma-invoice-status" class="hl"><u>Show</u></td>
+                                <td>0</td>
+                                <td>-</td>
+                              </tr>
+                            </tbody>
+                            </table>
+                          </div>
+                        </div>
+   
+        </div>
+      </div>
+   
+      
+
+
+  </div>
+</div>
+<script>
+    jQuery('#leavedate').datepicker({
+              format: "dd/mm/yyyy",
+              autoclose: true
+            });
+</script>
+</body>
+</html>

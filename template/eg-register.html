@@ -1,0 +1,330 @@
+
+<div class="container">
+
+  <div class="payslip" style="border:0px"> 
+  <div class="row">
+      <div class="col-sm-12">
+        <div class="payslip-card">
+        <div class="row_wrap" id="eg-table">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="border:0px !important" >
+	   <tbody><tr align="center">
+        <td>&nbsp;</td>
+		
+        <td class="curve2">
+		<table width="149" border="0" cellspacing="0" cellpadding="0" style="border:0px !important">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/my-queue.png" ></td>
+            <td class="b_text1" width="89"><span id="workitemCount">11</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+            </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="" class="m_textn">
+<table width="144px"><tbody><tr><td>Workdesk</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a ui-sref="eg-user-inbox" >Inbox</a></li>
+
+            <li>
+	        <a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="sentitems">Sent Items</a>
+			</li>
+	
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table></td>
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60" ><img src="images/dak2.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89"><span id="DAKitemCount">5</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="143px;"><tbody><tr><td>Correspondence</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:161;">
+	
+			<!--<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('ufDaks')" id="ufDaks">Unfiled Correspondence</a></li>
+			<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('dakRegister')" id="dakRegister">Correspondence Register</a></li>-->
+			
+			<li><a ui-sref="eg-register" >Unfiled</a></li>
+			<li><a ui-sref="eg-register2">Register</a></li>
+			
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+	
+	</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+	</td>
+
+	
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve4">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/note2.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89"><span id="noteCount">45</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu4" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Office Note</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createnew&#39;);" id="createnew">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;drafts&#39;);" id="drafts">Draft(s)</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+	
+ <td class="curve">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/file2.png"></td>
+            <td class="b_text1" width="89"><span id="fileCount">6</span></td>
+          </tr>
+          <tr>
+            <td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textnb">
+<table width="144px;"><tbody><tr><td >Files</td><td style="width:20px;"><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;createfile&#39;);" id="createfile">Create File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;adminFiles&#39;);" id="adminFiles">Search File</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;searchDoc&#39;);" id="searchDoc">Search Document</a></li>
+	
+			<li><a href="javascript:;" onclick="itemSelected(&#39;fileIndex&#39;);" id="fileIndex">File Register</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;specialFiles&#39;);" id="specialFiles">Special Files</a></li>
+			<!-- Changes by Indra on 3-12-15 for Arabic version-->
+
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+        
+		
+<td class="curve1">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/meeting2.png" style="margin-left:3px;"></td>
+            <td class="b_text1" width="89"><span id="commitemCount">5</span></td>
+          </tr>
+          <tr>
+    <!--        <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">Comm &amp; Meet</a></td> -->
+			<td class="m_text"></td>
+			
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu1" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textb">
+<table width="144px;"><tbody><tr><td>Comm &amp; Meet</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<!--<li><a href="javascript:void(0)" onClick="setDefault();itemSelected('cnmhome');" id="cnmhome">C&M workitems</a></li>-->
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createcomm&#39;);" id="createcomm">Create Committee</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmeet&#39;);" id="createmeet">Schedule Meetings</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;createmom&#39;);" id="createmom">Circulate Minutes</a></li>
+			
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+	
+	    
+ 	
+<td class="curve2">
+		  <table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/rti1.png" ></td>
+            <td class="b_text1" width="89"><span id="rtiitemCount">2</span></td>
+
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">RTI</a></td> -->
+			<td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu2" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textn">
+<table width="144px;"><tbody><tr><td >RTI</td><td style="width:20px;"><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;rticreate&#39;);" id="createrti">Create RTI</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;firstappeal&#39;);" id="firstappeal">First Appeal</a></li>
+			<li><a href="javascript:;" onclick="itemSelected(&#39;secondappeal&#39;);" id="secondappeal">Second Appeal</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="rtiregister">Sent Items</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+		</td>
+
+		
+        <td>&nbsp;</td>
+		
+       
+
+ <td class="curve3">
+		<table width="149" border="0" cellspacing="0" cellpadding="0">
+          
+          <tbody><tr>
+            <td rowspan="2" width="60"><img src="images/parliamentry.png" style="margin-left:5px;"></td>
+            <td class="b_text1" width="89">15</td>
+          </tr>
+          <tr>
+        <!--    <td class="m_text"><a href="javascript:void(0)" class="m_text" onClick="itemSelected('fileIndex');">Parliamentry</a></td> -->
+			<td class="m_text"></td>
+          </tr>
+          <tr>
+            <td colspan="2" height="12"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><ul class="menu3" style="z-index:3;position:absolute;">	
+	<li><a href="javascript:;" class="m_textg">
+<table width="144px;"><tbody><tr><td>Polices</td><td><img src="images/arrow.png" width="16" height="14" border="0" style="vertical-align:sub;"></td></tr></tbody></table></a>
+    <ul style="width:149;">
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;pqcreate&#39;);" id="pqcreate">Create New</a></li>
+			<li><a href="javascript:;" onclick="setDefault();itemSelected(&#39;sentitems&#39;);" id="pqregister">List</a></li>
+		</ul></li>
+	
+</ul></td>
+            </tr>
+        </tbody></table>
+
+		</td> 
+		</tr>
+	</tbody></table>
+      </div>
+      
+      
+      <div class="sub_heads row" style="margin-top:15px;">
+                <div style="float:left" class="col-sm-3">Unfiled</div>
+                <div align="right" class="col-sm-9"><table border="0" cellspacing="0" cellpadding="0" style="border: none !important;"><tbody><tr><td align="top" style="margin-right:5px;"><select class="form-control" name="category" id="category"><option>Select</option>
+								<option>Polices</option>
+								<option>Forms</option>
+								<option>Acts and Regulations</option>	
+								<option>Circulars</option>
+                                <option>Guidelines</option>
+                                <option>Standards and Manuals</option></select></td><td align="top" style="padding-right:10px;"><select class="form-control" name="category" id="category"><option id="folderIndexValue" value="46##1" selected="">Department1</option></select></td><td align="top">&nbsp;|&nbsp;</td><td align="top"><a href="images/File Management - Register DAK.html" title="Click here to add DAKs from local hard drive" onclick="addHardDiskAttachment();" class="EWEnabledLinkfont EWEnabledLinkcolor">Register DAK </a></td><td align="top">&nbsp;|&nbsp;</td><td align="top"><a href="images/File Management - Register DAK.html" onmouseover="findPositionSearchFiles(this);dakOperationsInnerHtml();" id="folderops" class="EWEnabledLinkfont EWEnabledLinkcolor">Doc Operations </a><br></td></tr></tbody></table></div>
+                </div>
+      
+      <div id="listItems" class=""><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main" id="mainBody">
+			<div class="row">					
+				
+							
+				<!--Added by Vaibhav on 20/01/2015 for calendar -->
+				
+				<!--Changes ended by Vaibhav -->
+							
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="listItems"><br><table class="table table-bordered table-condensed"><thead><tr> 
+                <th align="left" class="EWTableHeaderBorder" background="images/bck.gif" scope="col"><input name="selectAll" id="selectAll" onclick="selectAll();" type="checkbox"> </th>
+                
+                <th align="left" class="EWTableHeaderBorder" background="images/bck.gif" scope="col">&nbsp;</th>
+                <th align="center" class="EWTableHeaderBorder" id="h0" background="images/bck.gif" nowrap="" scope="col"><a class="ettilafont ettilacolor" id="2" onclick="sortHeader(this.id);" href="javascript:void(0)">Name</a></th>
+                <th align="center" class="EWTableHeaderBorder" id="h1" background="images/green2.gif" nowrap="" scope="col"><span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span><a class="ettilafont ettilacolor" id="5" onclick="sortHeader(this.id);" href="javascript:void(0)">Modified Date</a></th>
+                <th align="center" class="EWTableHeaderBorder" id="h2" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">ReferenceNo</span></th>
+                <th align="center" class="EWTableHeaderBorder" id="h3" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">DocumentSubject</span></th>
+                <th align="center" class="EWTableHeaderBorder" id="h4" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">Department</span></th>
+                <th align="center" class="EWTableHeaderBorder" id="h5" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">DateOnDocument</span></th>
+                <th align="center" class="EWTableHeaderBorder" id="h6" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">ReceivingDate</span></th>
+                <th align="center" class="EWTableHeaderBorder" id="h7" background="images/bck.gif" nowrap="" scope="col"><span class="ettiladisabledfont ettiladisabledcolor">DakCategory</span></th></tr>
+                </thead>
+                <tbody>
+                <tr><td><input name="q" id="c0" onclick="singObjectSelected(this.id);" type="checkbox" value="481"><input id="data0" type="hidden" value="1111111111,481,46,MOD%%Resolution" dataclass_2="" (1),tif,1.0,n,,i,mark,382#1,1,dak="" letter=""></td><td class="EWTableElements"><img src="estyle/images/doccab/Document_normal.gif"></td><td class="EWTableElements"><a ui-sref="eg-correspondence2" >MOD Resolution Letter (1)</a></td><td class="EWTableElements" nowrap="" ><span class="EWTableContentsTextGreen">2017-10-31 11:02:16.73</span></td>
+				<td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">DAK_2017-18 <br />
+				  _Department1_011</span></td>
+				<td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">MOD</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">Department1</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-10-27 <br />
+				  00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-10-31 <br />
+				    00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">General</span></td><tr><td><input name="q" id="c1" onclick="singObjectSelected(this.id);" type="checkbox" value="463"><input id="data1" type="hidden" value="1111111111,463,46,New%%Document,TIF,1.0,N,,I,Mark,371#1,1,DAK" dataclass_2=""></td><td class="EWTableElements"><img src="estyle/images/doccab/Document_normal.gif"></td><td class="EWTableElements"><a id="463#1" onclick='openActivityDesk(463,"Department","","DAK%20Dataclass_2",46,1,"5","D","","440");' href="javascript:void(0)"><span class="EWTableContentsGreenfont EWTableContentsGreencolor">New Document</span></a></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-06-06 13:02:37.61</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">45633</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen"></span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">Ministry of Defence</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-06-06 <br />
+				    00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-06-06<br />
+00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">General</span></td><tr><td><input name="q" id="c2" onclick="singObjectSelected(this.id);" type="checkbox" value="439"><input id="data2" type="hidden" value="1111111111,439,46,BJP,jpg,1.0,N,,I,Mark,347#1,1,DAK%%Dataclass_2"></td><td class="EWTableElements"><img src="estyle/images/doccab/Document_normal.gif"></td><td class="EWTableElements"><a id="439#2" onclick='openActivityDesk(439,"Department","","DAK%20Dataclass_2",46,1,"5","D","","441");' href="javascript:void(0)"><span class="EWTableContentsGreenfont EWTableContentsGreencolor">BJP</span></a></td><td class="EWTableElements" nowrap="" bgcolor="#f8f7f7"><span class="EWTableContentsTextGreen">2017-03-29 15:28:14.693</span></td>
+				<td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">DAK_2016-17<br />
+_Department1_001</span></td>
+				<td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">Dak file</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">Department1</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-03-27 <br />
+				  00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">2017-03-29 <br />
+				    00:00:00.0</span></td><td class="EWTableElements" nowrap=""><span class="EWTableContentsTextGreen">General</span></td></tr></tbody></table></div>
+				
+				
+			</div>	
+		</div>
+     
+      
+    </div>
+      
+
+
+
+
+    </div>
+    
+    
+    </div>
+
+ 
+  </div>
+</div>
+
+</body>
+</html>

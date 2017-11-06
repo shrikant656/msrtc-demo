@@ -1,0 +1,141 @@
+<div class="container">
+  <div class="payslip">
+
+      <!--3nd form-->
+      <div class="payslip-card">
+        <div class="row_wrap">
+                              <h5 class="sub_heads">Legal Cases 
+                                  <form class="form-inline pull-right">
+                                        <a ui-sref="legal-case-details" title="Add Case" class="applybtn" > Add Case</a>
+                                    </form>
+                              </h5>                              
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <table class="table table-bordered table-condensed1">
+                                        <thead>
+                                          <tr>
+                                            <th>Case No</th>
+                                            <th>Applicant Name</th>
+                                            <th>Date of Filing</th>
+                                            <th>Case Type</th>
+                                            <th>Court</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>1234466</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234466</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234467</td>
+                                            <td>Mr. Rajeev Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Others</td>
+                                            <td>Supreme Court</td>
+                                          </tr>
+                                          <tr>
+                                            <td>1234468</td>
+                                            <td>Mr. Rohit Srivastave</td>
+                                            <td>2017-10-17</td>
+                                            <td>Legal</td>
+                                            <td>High Court</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                  </div>
+                              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-xs-12">
+                <form class="form-inline pull-right mg-bt">
+                            <a ui-sref="legal-case-details" title="Add Case" class="applybtn" > Add Case</a>
+                </form>
+        </div>
+    </div>
+      <!--end of 3nd form-->
+  </div>
+</div>
+
+</body>
+</html>

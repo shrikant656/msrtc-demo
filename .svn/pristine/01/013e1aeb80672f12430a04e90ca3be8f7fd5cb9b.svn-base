@@ -1,0 +1,57 @@
+<form action="http://mmrclprodappdb.mmrcl.go.in:8080/ords/wwv_flow.accept" method="post" name="wwv_flow" id="wwvFlowForm" novalidate="">
+
+
+<table border="0" cellpadding="0" cellspacing="0" summary="" id="t20PageBody" width="100%" height="70%">
+<tbody><tr><td width="100%" valign="top" id="t20ContentBody">
+<div id="t20Messages"></div>
+<div id="t20ContentMiddle"><table class="t20Region t20ReportsRegion100" id="R4761221233853507" border="0" cellpadding="0" cellspacing="0" summary="">
+<thead><tr><th class="t20RegionHeader" id="R4761221233853507_header"> </th></tr></thead>
+<tbody id="R4761221233853507_body">
+<tr><td class="t20ButtonHolder"></td></tr>
+<tr><td class="t20RegionBody"><table width="100%">
+ <tbody><tr>
+   <th style="font-size: 20px; font-family:arial;">
+     Employee Resignation Form
+     <hr>
+   </th>
+ </tr>
+</tbody></table>
+<table class="t20Region t20ReportsRegion100" id="R3583418877911950" border="0" cellpadding="0" cellspacing="0" summary="">
+<thead><tr><th class="t20RegionHeader" id="R3583418877911950_header"> </th></tr></thead>
+<tbody id="R3583418877911950_body">
+<tr><td class="t20ButtonHolder"></td></tr>
+<tr><td class="t20RegionBody"><input type="hidden" name="p_arg_names" value="3997400635838223"><input type="hidden" name="p_t01" id="P36_APPROVER_LEVEL" value=""><table id="apex_layout_3583418877911950" border="0" class="formlayout" summary="" role="presentation"><tbody><tr><td align="right"><label for="P36_STATUS" tabindex="999"><span class="t20OptionalLabel"><b>Status :</b></span></label></td><td align="left" valign="middle"><input type="hidden" name="p_arg_names" value="3718126425035329"><input type="hidden" name="p_t02" id="P36_STATUS" value=""><input type="hidden" name="p_arg_checksums" value="3718126425035329_EF757CC34036B7F84DE1C0196DAFC853"><span id="P36_STATUS_DISPLAY" class="display_only"></span></td></tr><tr><td align="right"><label for="P36_LEAVING_REASON" tabindex="999"><span class="t20OptionalLabel"><b>Leaving Reason :</b></span></label></td><td style="padding:10px 10px 10px 10px;" align="left" valign="middle"><input type="hidden" name="p_arg_names" value="3584121589926164"><select id="P36_LEAVING_REASON" name="p_t03" class="selectlist" size="1"><option value="Select">Select</option>
+<option value="Deputation">Deputation</option>
+<option value="Employee Transfer">Employee Transfer</option>
+<option value="Lien">Lien</option>
+<option value="Resignation">Resignation</option>
+<option value="Retirement">Retirement</option>
+<option value="Superannuation">Superannuation</option>
+<option value="Termination">Termination</option>
+</select></td><td align="right"><label for="P36_EMPLOYEE_NAME_EMP" tabindex="999"><span class="t20OptionalLabel"><b>Employee Name :</b></span></label></td><td align="left" valign="middle"><span id="P36_EMPLOYEE_NAME_EMP" class="display_only">Mr. Rohit Sangare</span></td></tr><tr><td align="right"><label for="P36_NOTIFIED_DATE" tabindex="999"><span class="t20OptionalLabel"><b>Date of Resignation :</b></span></label></td><td style="padding: 10px 10px 10px 10px;" align="left" valign="middle"><span id="P36_NOTIFIED_DATE" class="display_only">24-OCT-17</span></td><td align="right"><label for="P36_EMP_NO_EMP" tabindex="999"><span class="t20OptionalLabel"><b>Emp No :</b></span></label></td><td align="left" valign="middle"><span id="P36_EMP_NO_EMP" class="display_only">LC002</span></td></tr><tr><td align="right"><label for="P36_PROJECTED_DATE" tabindex="999"><span class="t20OptionalLabel"><b>Expected Date  of Relieving:</b></span></label></td><td style="padding: 10px 10px 10px 10px;" align="left" valign="middle"><span id="P36_PROJECTED_DATE" class="display_only"></span></td></tr><tr><td align="right"><label for="P36_EMP_NOTICE_PERIOD" tabindex="999"><span class="t20OptionalLabel"><b>Employee Notice Period :</b></span></label></td><td align="left" valign="middle"><span id="P36_EMP_NOTICE_PERIOD" class="display_only"> </span></td><td align="right"><label for="P36_GRADE_EMP" tabindex="999"><span class="t20OptionalLabel"><b>Grade :</b></span></label></td><td align="left" valign="middle"><span id="P36_GRADE_EMP" class="display_only">W5</span></td></tr><tr><td align="right"><label for="P36_SERVED_UPTO" tabindex="999"><span class="t20OptionalLabel"><b>Employee Self Projected Date of Relieving : </b></span></label></td><td style="padding: 10px 10px 10px 10px;" align="left" valign="middle"><input type="hidden" name="p_arg_names" value="3586527603953768"><input type="text" class="datepicker hasDatepicker" id="P36_SERVED_UPTO" name="p_t04" maxlength="4000" size="30" value="" autocomplete="off"><img class="ui-datepicker-trigger" src="./2Employee Resignation_files/asfdcldr.gif" alt="Popup Calendar: <b>Employee Self Projected Date of Relieving : </b>" title="Popup Calendar: <b>Employee Self Projected Date of Relieving : </b>"></td><td align="right"><label for="P36_DESIGNATION_EMP" tabindex="999"><span class="t20OptionalLabel"><b>Designation :</b></span></label></td><td align="left" valign="middle"><span id="P36_DESIGNATION_EMP" class="display_only">Deputy Accountant-2</span></td></tr><tr><td align="right"><b>EL Balance :</b></td><td align="left" valign="middle"><span id="P36_EL_BALANCE" class="display_only">74</span></td><td align="right"><label for="P36_HPL_BALANCE" tabindex="999"><span class="t20OptionalLabel"><b>HPL Balance :</b></span></label></td><td align="left" valign="middle"><span id="P36_HPL_BALANCE" class="display_only">4</span></td></tr><tr><td align="right"><label for="P36_COMMENT" tabindex="999"><span class="t20OptionalLabel"><b>Comment :</b></span></label></td><td style="padding: 10px 10px 10px 10px;" align="left" valign="middle"><input type="hidden" name="p_arg_names" value="3586718329958099"><fieldset id="P36_COMMENT_fieldset" class="textarea" tabindex="-1"><textarea name="p_t05" rows="5" cols="80" maxlength="4000" wrap="virtual" id="P36_COMMENT" class="textarea" style="resize: both;"></textarea></fieldset></td></tr></tbody></table><table id="apex_layout_3583418877911950" border="0" class="formlayout" summary="" role="presentation"><tbody><tr><td valign="top"><span class="apex-grid-nbsp">&nbsp;</span></td><td style="padding: 10px 10px 10px 10px;" align="left"><a href="javascript:apex.submit('P36_EMP_SUBMIT');" class="t20Button" id="P36_EMP_SUBMIT"><b>SUBMIT</b></a><input type="hidden" name="p_arg_names" value="3627613317413132"><input type="hidden" name="p_t06" id="P36_FORM_ID" value=""><input type="hidden" name="p_arg_checksums" value="3627613317413132_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="3628004475417207"><input type="hidden" name="p_t07" id="P36_IS_VIEW" value=""><input type="hidden" name="p_arg_checksums" value="3628004475417207_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="3628330989420066"><input type="hidden" name="p_t08" id="P36_USER" value=""><input type="hidden" name="p_arg_checksums" value="3628330989420066_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="3628524950422907"><input type="hidden" name="p_t09" id="P36_BUCKET_ID" value=""><input type="hidden" name="p_arg_checksums" value="3628524950422907_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="3628719990425165"><input type="hidden" name="p_t10" id="P36_PER_ID" value="61"><input type="hidden" name="p_arg_checksums" value="3628719990425165_09E4408120339397C712088C482F42F4"><input type="hidden" name="p_arg_names" value="3697115860976589"><input type="hidden" name="p_t11" id="P36_EMP_ID" value=""><input type="hidden" name="p_arg_checksums" value="3697115860976589_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="4569604524011595"><input type="hidden" name="p_t12" id="P36_CUR_USER" value=""><input type="hidden" name="p_arg_checksums" value="4569604524011595_EF757CC34036B7F84DE1C0196DAFC853"><input type="hidden" name="p_arg_names" value="4587802210532084"><input type="hidden" name="p_t13" id="P36_LVL" value=""><input type="hidden" name="p_arg_checksums" value="4587802210532084_EF757CC34036B7F84DE1C0196DAFC853"></td></tr></tbody></table></td></tr>
+</tbody>
+</table>
+
+<table class="t20Region t20ReportsRegion100" id="R4739229718849217" border="0" cellpadding="0" cellspacing="0" summary="" aria-live="polite">
+<thead><tr><th class="t20RegionHeader" id="R4739229718849217_header">Approval Comments</th></tr></thead>
+<tbody id="R4739229718849217_body">
+<tr><td class="t20ButtonHolder"></td></tr>
+<tr><td class="t20RegionBody"><div id="report_4739229718849217_catch"><span class="nodatafound">no data found</span>
+</div></td></tr>
+</tbody>
+</table>
+</td></tr>
+</tbody>
+</table></div>
+</td>
+<td valign="top" width="200" id="t20ContentRight"><br></td>
+</tr>
+</tbody></table><table border="0" cellpadding="0" cellspacing="0" summary="" id="t20PageFooter" width="100%">
+<tbody><tr>
+<td id="t20Left" valign="top"><span id="t20UserPrompt">ROHIT.SANGARE</span><br></td>
+<td id="t20Center" valign="top"></td>
+<td id="t20Right" valign="top"><span id="t20Customize"></span><br></td>
+</tr>
+</tbody></table>
+<br class="t20Break">
+<input type="hidden" name="p_md5_checksum" value=""><input type="hidden" name="p_page_checksum" value="C4FE92854D55D4CDF92E6A231629CDA3" id="pPageChecksum"></form>
